@@ -104,6 +104,7 @@ def main():
         holders = t.get("holder_count") or ""
         bot_rate = round(float(t.get("bot_degen_rate") or 0) * 100, 1)
         lp = t.get("launchpad_platform") or ""
+        chain_path = "solana" if CHAIN == "sol" else CHAIN
         msg = (
             f"<b>🔥 高频交易命中</b>  #{sym} {name}\n"
             f"链: {CHAIN} | 平台: {lp}\n"
@@ -112,6 +113,7 @@ def main():
             f"价格: ${price} | {INTERVAL} 涨跌: {chg}%\n"
             f"持有人: {holders} | 机器人占比: {bot_rate}%\n"
             f"GMGN: https://gmgn.ai/{CHAIN}/token/{addr}\n"
+            f"debot: https://debot.ai/token/{chain_path}/{addr}\n"
             f"<code>{addr}</code>"
         )
         try:
