@@ -12,6 +12,7 @@ import os
 import pathlib
 import subprocess
 import sys
+import time
 import urllib.request
 
 SEEN_FILE = os.environ.get("SEEN_FILE", "seen.json")
@@ -23,6 +24,9 @@ MIN_VOLUME = float(os.environ.get("MIN_VOLUME", "10000"))
 MAX_CREATED = os.environ.get("MAX_CREATED", "24h")
 PLATFORM = os.environ.get("PLATFORM", "").strip().lower()
 ADDR_SUFFIX = os.environ.get("ADDR_SUFFIX", "").strip().lower()
+# 单次 workflow run 内循环扫描次数与间隔（秒）——弥补 GitHub schedule 触发不稳定的空窗
+LOOP_TIMES = int(os.environ.get("LOOP_TIMES", "1"))
+LOOP_INTERVAL = int(os.environ.get("LOOP_INTERVAL", "290"))
 
 INTERVAL_MIN = {"1m": 1, "5m": 5, "1h": 60, "6h": 360, "24h": 1440}
 
@@ -60,6 +64,17 @@ def tg_send(text):
 
 def main():
     seen = load_seen()
+    for loop in range(LOOP_TIMES):
+        if loop > 0:
+            print(f"--- loop {loop + 1}/{LOOP_TIMES} 等待 {LOOP_INTERVAL}s ---")
+            time.sleep(LOOP_INTERVAL)
+        scan_once(seen)
+
+    print(f"total_seen={len(seen)}")
+    save_seen(seen)
+
+
+def scan_once(seen):
     args = ["gmgn-cli", "market", "trending", "--chain", CHAIN,
             "--interval", INTERVAL, "--order-by", "swaps", "--limit", "100", "--raw"]
     if MAX_CREATED:
