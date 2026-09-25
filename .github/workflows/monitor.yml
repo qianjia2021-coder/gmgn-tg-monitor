@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,8 +41,6 @@ jobs:
           MAX_CREATED: '24h'
           PLATFORM: ''
           ADDR_SUFFIX: ''
-          LOOP_TIMES: '6'
-          LOOP_INTERVAL: '290'
         run: python3 monitor.py
 
       - name: Commit seen state (if changed)
