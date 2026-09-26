@@ -43,6 +43,21 @@ jobs:
           ADDR_SUFFIX: ''
         run: python3 monitor.py
 
+      - name: Run SOL monitor scan
+        env:
+          GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          CHAIN: sol
+          INTERVAL: 5m
+          MIN_SWAPS: '1500'
+          MAX_SWAPS: '3000'
+          MIN_VOLUME: '10000'
+          MAX_CREATED: '24h'
+          PLATFORM: 'pump'
+          ADDR_SUFFIX: 'pump'
+        run: python3 monitor.py
+
       - name: Commit seen state (if changed)
         run: |
           git config user.name "gmgn-monitor-bot"
