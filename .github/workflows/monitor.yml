@@ -28,21 +28,6 @@ jobs:
       - name: Install gmgn-cli
         run: npm install -g gmgn-cli
 
-      - name: Run monitor scan
-        env:
-          GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-          CHAIN: bsc
-          INTERVAL: 5m
-          MIN_SWAPS: '120'
-          MAX_SWAPS: '999999999'
-          MIN_VOLUME: '10000'
-          MAX_CREATED: '24h'
-          PLATFORM: ''
-          ADDR_SUFFIX: ''
-        run: python3 monitor.py
-
       - name: Run SOL monitor scan (stonk)
         env:
           GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
