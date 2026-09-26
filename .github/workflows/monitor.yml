@@ -36,7 +36,7 @@ jobs:
           CHAIN: bsc
           INTERVAL: 5m
           MIN_SWAPS: '120'
-          MAX_SWAPS: '3000'
+          MAX_SWAPS: '999999999'
           MIN_VOLUME: '10000'
           MAX_CREATED: '24h'
           PLATFORM: ''
