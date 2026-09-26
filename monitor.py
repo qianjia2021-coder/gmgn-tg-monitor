@@ -93,7 +93,8 @@ def scan_once(seen):
             continue
         if PLATFORM:
             lp = (t.get("launchpad_platform") or "").lower()
-            if PLATFORM not in lp:
+            platforms = [p.strip() for p in PLATFORM.split("|") if p.strip()]
+            if not any(p in lp for p in platforms):
                 continue
         if ADDR_SUFFIX:
             addr = (t.get("address") or "").lower()
