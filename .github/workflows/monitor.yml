@@ -54,7 +54,7 @@ jobs:
           MAX_SWAPS: '999999999'
           MIN_VOLUME: '10000'
           MAX_CREATED: '24h'
-          PLATFORM: 'stonk'
+          PLATFORM: 'stonk|shturl'
           ADDR_SUFFIX: ''
         run: python3 monitor.py
 
