@@ -73,9 +73,15 @@ def fetch_cloud():
 
 
 def filter_chain(addrs, chain=None):
-    # 跨链保留：EVM 地址(0x) 与 SOL Pump 合约(pump 尾缀) 共存于同一 seen，
+    # 跨链保留：EVM 地址(0x) 与 SOL base58 地址（pump/stonk 等任意 launchpad 平台）
     # 避免单一链任务回写云端时把其它链的已发记录覆盖丢失
-    return sorted(a for a in addrs if a.startswith("0x") or a.endswith("pump"))
+    out = []
+    for a in addrs:
+        if a.startswith("0x"):
+            out.append(a)
+        elif 32 <= len(a) <= 45 and all(c.isalnum() for c in a):
+            out.append(a)  # SOL base58 合约地址
+    return sorted(out)
 
 
 def pull(local, chain):
