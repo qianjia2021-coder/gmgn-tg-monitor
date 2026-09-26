@@ -107,7 +107,11 @@ def main():
         for a in read_addrs(sys.argv[2]):
             print(a)
     elif cmd == "write":
-        addrs = [ln.strip() for ln in sys.stdin.read().splitlines() if ln.strip()]
+        if len(sys.argv) > 3:
+            # 直接参数传入（headless 环境下 PS->python 的 stdin 管道不可靠）
+            addrs = [a.strip() for a in sys.argv[3:] if a.strip()]
+        else:
+            addrs = [ln.strip() for ln in sys.stdin.read().splitlines() if ln.strip()]
         write_addrs(sys.argv[2], addrs)
     elif cmd == "pull":
         pull(sys.argv[2], sys.argv[3])
