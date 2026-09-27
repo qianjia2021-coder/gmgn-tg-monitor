@@ -20,6 +20,7 @@ LIMIT = 100
 MIN_SWAPS = 500
 MIN_VOLUME = 50000.0
 MIN_SMART = 5
+MIN_KOL = 4
 MAX_BUNDLER = 0.60
 MAX_BOT = 0.80
 MAX_RUG = 0.20
@@ -103,6 +104,8 @@ def pass_filters(t):
     if float(t.get("volume") or 0) < MIN_VOLUME:
         return False
     if int(t.get("smart_degen_count") or 0) < MIN_SMART:
+        return False
+    if int(t.get("renowned_count") or 0) < MIN_KOL:
         return False
     if float(t.get("bundler_rate") or 0) > MAX_BUNDLER:
         return False
