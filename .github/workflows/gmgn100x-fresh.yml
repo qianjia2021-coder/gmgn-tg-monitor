@@ -1,0 +1,25 @@
+name: gmgn100x-fresh-token
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Run scan
+        env:
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
+          GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
+          DST_INVITE_HASH: ${{ secrets.DST_INVITE_HASH }}
+        run: python cloud_monitor.py
