@@ -1,15 +1,21 @@
 """
 Cloud monitor for gmgn100x fresh-token alert.
-Runs once per GitHub Actions tick (every 5 min). No proxy needed.
+Runs once per GitHub Actions tick (every 5 min).
+
+Uses repo file cloud_cache.json to remember {addr: creation_ts} across runs,
+so we only call GMGN API for newly-seen addresses.
 
 Env:
   TG_API_ID, TG_API_HASH, TG_STRING_SESSION
   GMGN_API_KEY
+  GITHUB_TOKEN (auto-provided by Actions, used to read/write cache file)
   SRC_CHANNEL (default: gmgn100x)
   DST_INVITE_HASH
   MAX_AGE_SEC (default: 600)
 """
 import asyncio
+import base64
+import json
 import os
 import re
 import sys
@@ -27,6 +33,10 @@ API_ID = int(os.environ["TG_API_ID"])
 API_HASH = os.environ["TG_API_HASH"]
 STRING_SESSION = os.environ["TG_STRING_SESSION"]
 GMGN_KEY = os.environ["GMGN_API_KEY"]
+GH_TOKEN = os.environ["GITHUB_TOKEN"]
+
+REPO = "qianjia2021-coder/gmgn-tg-monitor"
+CACHE_PATH = "cloud_cache.json"
 
 SRC = os.environ.get("SRC_CHANNEL", "gmgn100x")
 DST_INVITE = os.environ["DST_INVITE_HASH"]
@@ -38,6 +48,7 @@ SYM_RE = re.compile(r"\[([^\[\]]{1,12})\]")
 BUY_RE = re.compile(r"Buy\s+([0-9.,]+)\s*(USDC|SOL|WSOL)\s+([0-9.,KMkMB]+)\s*\[")
 GMGN_INFO = "https://openapi.gmgn.ai/v1/token/info"
 GMGN_BASE = "https://gmgn.ai/sol/token/"
+GH_API = "https://api.github.com"
 
 
 def extract_token(msg):
@@ -67,6 +78,39 @@ def parse_msg(msg):
     return trader, sym, buy
 
 
+def gh_headers():
+    return {
+        "Authorization": f"token {GH_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "gmgn-monitor",
+    }
+
+
+def read_cache():
+    r = requests.get(f"{GH_API}/repos/{REPO}/contents/{CACHE_PATH}",
+                     headers=gh_headers(), timeout=20)
+    if r.status_code == 404:
+        return {}, None
+    r.raise_for_status()
+    j = r.json()
+    content = base64.b64decode(j["content"]).decode("utf-8")
+    return json.loads(content), j["sha"]
+
+
+def write_cache(cache, sha):
+    data = json.dumps(cache, indent=2).encode("utf-8")
+    body = {
+        "message": "update cloud_cache",
+        "content": base64.b64encode(data).decode(),
+        "branch": "main",
+    }
+    if sha:
+        body["sha"] = sha
+    r = requests.put(f"{GH_API}/repos/{REPO}/contents/{CACHE_PATH}",
+                     headers=gh_headers(), json=body, timeout=20)
+    r.raise_for_status()
+
+
 def gmgn_token_info(addr):
     q = {
         "chain": "sol", "address": addr,
@@ -74,16 +118,20 @@ def gmgn_token_info(addr):
     }
     headers = {"X-APIKEY": GMGN_KEY, "Content-Type": "application/json",
                "User-Agent": "gmgn-monitor/1.0"}
-    r = requests.get(GMGN_INFO, params=q, headers=headers, timeout=20)
-    r.raise_for_status()
-    return r.json().get("data") or r.json()
+    for attempt in range(3):
+        r = requests.get(GMGN_INFO, params=q, headers=headers, timeout=20)
+        if r.status_code == 429:
+            wait = int(r.headers.get("x-ratelimit-reset", 0)) - int(time.time())
+            time.sleep(max(5, wait + 1))
+            continue
+        r.raise_for_status()
+        d = r.json()
+        return d.get("data") or d
+    return None
 
 
 async def main():
-    proxy = None
-    if os.environ.get("LOCAL_PROXY") == "1":
-        proxy = ('socks5', '127.0.0.1', 7897, True)
-    client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH, proxy=proxy)
+    client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
     await client.connect()
     if not await client.is_user_authorized():
         print("FATAL: not authorized")
@@ -111,7 +159,7 @@ async def main():
                 rec["sym"] = sym
     print(f"source unique tokens: {len(tokens)}")
 
-    # 2) dedupe against already-sent in target (last 30 msgs)
+    # 2) dedupe against target group recent messages
     already = set()
     async for msg in client.iter_messages(dst, limit=30):
         if not msg.message:
@@ -120,36 +168,64 @@ async def main():
             already.add(m)
     print(f"already-sent in dst: {len(already)}")
 
+    # 3) load cache
+    cache, cache_sha = read_cache()
+    print(f"cache entries: {len(cache)}")
+
     now = int(time.time())
     pushed = 0
+    new_cache_entries = 0
     for addr, rec in tokens.items():
         if addr in already:
             continue
-        try:
+        cached = cache.get(addr)
+        if cached:
+            ct = int(cached.get("ct") or 0)
+            sym = cached.get("sym") or rec["sym"] or "?"
+            holders = cached.get("holders", 0)
+            lp = cached.get("lp", 0)
+            launchpad = cached.get("launchpad", "")
+        else:
             info = gmgn_token_info(addr)
-        except Exception as e:
-            print(f"  gmgn err {addr[:8]}: {e}")
-            continue
-        ct = int(info.get("creation_timestamp") or 0)
+            if not info:
+                print(f"  gmgn fail {addr[:8]}, skip")
+                continue
+            ct = int(info.get("creation_timestamp") or 0)
+            sym = info.get("symbol") or rec["sym"] or "?"
+            holders = info.get("holder_count", 0)
+            lp = info.get("liquidity", 0)
+            launchpad = info.get("launchpad", "")
+            cache[addr] = {"ct": ct, "sym": sym, "holders": holders,
+                           "lp": lp, "launchpad": launchpad}
+            new_cache_entries += 1
+            time.sleep(1.2)  # be gentle with free tier
+
         if ct <= 0:
             continue
         age = now - ct
-        print(f"  ${info.get('symbol','?'):<10} age={age}s  lp=${info.get('liquidity',0)}")
         if age > MAX_AGE:
             continue
         text = (
             f"🟢 <b>@gmgn100x · SOL · {age}s</b>\n"
-            f"代币: <b>${info.get('symbol') or rec['sym'] or '?'}</b>\n"
+            f"代币: <b>${sym}</b>\n"
             f"合约: <code>{addr}</code>\n"
-            f"流动性: ${float(info.get('liquidity',0)):.0f}  |  持仓地址: {info.get('holder_count',0)}\n"
-            f"Launchpad: {info.get('launchpad') or '-'}\n"
+            f"流动性: ${float(lp):.0f}  |  持仓地址: {holders}\n"
+            f"Launchpad: {launchpad or '-'}\n"
             f"源信号: {rec['buy']} by {rec['trader']}\n"
             f"Chart: {GMGN_BASE}{addr}"
         )
         await client.send_message(dst, text, parse_mode="html", link_preview=False)
         pushed += 1
-        print(f"  ✅ PUSHED {addr} age={age}s")
+        print(f"  ✅ PUSHED ${sym} age={age}s addr={addr}")
         await asyncio.sleep(1.5)
+
+    # 4) write cache back if new entries
+    if new_cache_entries:
+        try:
+            write_cache(cache, cache_sha)
+            print(f"cache written, +{new_cache_entries} entries")
+        except Exception as e:
+            print(f"cache write failed: {e}")
 
     await client.disconnect()
     print(f"done pushed={pushed}")
