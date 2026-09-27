@@ -474,5 +474,82 @@
     "holders": 5,
     "lp": "4552.944742336719",
     "launchpad": "pump"
+  },
+  "3zttDhV2JeBxCYk5BHUTPuX2WiZ9MoZrLEuEMpRsPtLu": {
+    "ct": 1790549331,
+    "sym": "MONEROCHAN",
+    "holders": 55,
+    "lp": "7215.138749719315",
+    "launchpad": "pump"
+  },
+  "3L2xqdrNGg7yUti7wxbVBX5hiux8NTxMx82QKZSkmADE": {
+    "ct": 1788970335,
+    "sym": "p(doom)",
+    "holders": 133,
+    "lp": "12730.193922171775",
+    "launchpad": "ray_launchpad"
+  },
+  "AjxqTiS6TnK75xG6pWAMJgNQuhkip3LzN36uy2wBbwmH": {
+    "ct": 1790548948,
+    "sym": "CLAUDECHAN",
+    "holders": 1211,
+    "lp": "60046.33513394201",
+    "launchpad": "ray_launchpad"
+  },
+  "CedSVzaBjbqniJ1GpUcTozB58S56yDX42nTXsz31zQUe": {
+    "ct": 1790542473,
+    "sym": "koinu",
+    "holders": 239,
+    "lp": "8024.13017692336",
+    "launchpad": "pump"
+  },
+  "GLvmsMPunzvWtcsM4dxNHMzmoXq2EMx35gozdMt4eKRb": {
+    "ct": 1790547676,
+    "sym": "SFM",
+    "holders": 97,
+    "lp": "10465.058434774119",
+    "launchpad": "ray_launchpad"
+  },
+  "3djE53YUWGMt3ra7X6Adg7BY2AbUoXYw72fJ9kMNNPtw": {
+    "ct": 1790547997,
+    "sym": "dick",
+    "holders": 1143,
+    "lp": "0.0002077908",
+    "launchpad": ""
+  },
+  "67wZm2AsV5qYrUas73nJNExzo5Ja2Myjnk5fXQ6ceBqG": {
+    "ct": 1790542951,
+    "sym": "GACHA",
+    "holders": 166,
+    "lp": "15135.20206088176",
+    "launchpad": "pump"
+  },
+  "GpX5pLbeMNDRdaQ9ap2EkSKYrMqgRXrWHjfcNWDwCnhi": {
+    "ct": 1790547281,
+    "sym": "moinu",
+    "holders": 2125,
+    "lp": "0.00042703584",
+    "launchpad": ""
+  },
+  "2xrw9WoHD5EWPT77rgYdubFGCxySPQxtbP69XWmU8eBM": {
+    "ct": 1790532080,
+    "sym": "BAGGED",
+    "holders": 496,
+    "lp": "38810.54559838304",
+    "launchpad": "pump"
+  },
+  "7W614movWMtcryZEsYiCZ8KVVKggqXm239c4uG5aGgYb": {
+    "ct": 1790547675,
+    "sym": "sender",
+    "holders": 11,
+    "lp": "7296.9224280792",
+    "launchpad": "pump"
+  },
+  "9RoC7GLgKZtdLNp52X5rZyu4epjrHb2WeGbavyvpT4Bc": {
+    "ct": 1790547534,
+    "sym": "DATE",
+    "holders": 20,
+    "lp": "7425.60024805728",
+    "launchpad": "pump"
   }
 }
