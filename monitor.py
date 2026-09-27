@@ -126,6 +126,7 @@ def scan_once(seen):
         chg = round(float(t.get("price_change_percent") or 0), 1)
         price = t.get("price") or ""
         holders = t.get("holder_count") or ""
+        kols = t.get("renowned_count") or ""
         bot_rate = round(float(t.get("bot_degen_rate") or 0) * 100, 1)
         lp = t.get("launchpad_platform") or ""
         chain_path = "solana" if CHAIN == "sol" else CHAIN
@@ -135,7 +136,7 @@ def scan_once(seen):
             f"窗口 {INTERVAL} · <b>{swaps}</b> swaps ≈ {freq_min} 次/分钟\n"
             f"成交额: ${vol:,} | 市值: ${mc:,} | 流动性: ${liq:,}\n"
             f"价格: ${price} | {INTERVAL} 涨跌: {chg}%\n"
-            f"持有人: {holders} | 机器人占比: {bot_rate}%\n"
+            f"持有人: {holders} | KOL: {kols} | 机器人占比: {bot_rate}%\n"
             f"GMGN: https://gmgn.ai/{CHAIN}/token/{addr}\n"
             f"debot: https://debot.ai/token/{chain_path}/{addr}\n"
             f"<code>{addr}</code>"
