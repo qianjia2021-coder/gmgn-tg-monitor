@@ -75,14 +75,27 @@ def main():
     save_seen(seen)
 
 
+def run_gmgn(args):
+    """执行 gmgn-cli；429 限频时等待 35s 重试一次（免费套餐并发易触发）"""
+    for attempt in (1, 2):
+        proc = subprocess.run(args, capture_output=True, text=True, timeout=180)
+        if proc.returncode == 0:
+            return proc.stdout
+        err = (proc.stderr or proc.stdout or "")
+        if "429" in err and attempt == 1:
+            print("429 rate limited, waiting 35s and retrying...")
+            time.sleep(35)
+            continue
+        raise RuntimeError(
+            "gmgn-cli failed rc={}: {}".format(proc.returncode, err[-500:]))
+
 def scan_once(seen):
     args = ["gmgn-cli", "market", "trending", "--chain", CHAIN,
             "--interval", INTERVAL, "--order-by", "swaps", "--limit", "100", "--raw"]
     if MAX_CREATED:
         args += ["--max-created", MAX_CREATED]
     print("cmd: " + " ".join(args))
-    out = subprocess.run(args, capture_output=True, text=True,
-                         timeout=180, check=True).stdout
+    out = run_gmgn(args)
     data = json.loads(out)
     rank = (data.get("data") or {}).get("rank") or []
 
