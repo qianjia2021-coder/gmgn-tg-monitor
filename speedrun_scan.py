@@ -75,19 +75,11 @@ def run_gmgn(args):
 
 
 def is_graduated(t):
-    """已毕业/已迁移判定（权威口径，依据 token info / trending 同源字段）
-    判据：launchpad_status 0/空=未开盘; 1=已开盘; 2=已迁移
-          exchange 'pump'=仍在绑定曲线; pump_amm/meteora_dlmm/ray_v4/ray_launchpad 等=已迁移AMM
+    """已开盘判定（launchpad_status 1/2 即算）
+    用户 09-28 指定：取消 pump 限制——绑定曲线上的活跃盘（exchange=pump）也纳入推送。
     """
     status = str(t.get("launchpad_status") or "0")
-    exchange = (t.get("exchange") or "").strip().lower()
-    if status not in ("1", "2"):
-        return False
-    if exchange == "pump":
-        return False
-    if not exchange:            # 已开盘但池字段缺失：保守按状态2才算毕业
-        return status == "2"
-    return True
+    return status in ("1", "2")
 
 
 def pass_filters(t):
@@ -136,9 +128,10 @@ def fmt_msg(t):
     chg1h = round(float(t.get("price_change_percent1h") or 0), 1)
     price = t.get("price") or 0
     lp = t.get("launchpad_platform") or ""
+    grad_txt = "曲线上" if (t.get("exchange") or "").lower() == "pump" else "已毕业"
     lines = [
         "<b>速通币命中</b>  #{} {}".format(sym, name),
-        "链: SOL | 平台: {} | 状态: 已毕业".format(lp),
+        "链: SOL | 平台: {} | 状态: {}".format(lp, grad_txt),
         "5m: <b>{}</b> swaps | 成交额 ${:,} | 5m涨跌 {}% | 1h涨跌 {}%".format(
             swaps, vol, chg5, chg1h),
         "市值 ${:,} | 流动性 ${:,} | 持有人 {:,}".format(mc, liq, int(holders)),
