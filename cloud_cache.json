@@ -1,0 +1,121 @@
+{
+  "8HnLRKJ6XkeGq1tpmKPqn3yB5ruqbSR5LR5nVCNAshop": {
+    "ct": 1790510599,
+    "sym": "REGULARS",
+    "holders": 677,
+    "lp": "22327.63226336708",
+    "launchpad": "pump"
+  },
+  "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm": {
+    "ct": 1747874523,
+    "sym": "KLED",
+    "holders": 12901,
+    "lp": "670325.5448462222",
+    "launchpad": "meteora_virtual_curve"
+  },
+  "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": {
+    "ct": 1710100402,
+    "sym": "TROLL",
+    "holders": 68908,
+    "lp": "3548951.521445031",
+    "launchpad": "pump"
+  },
+  "4gyKtG82gjMNFLEQ6H195UGKTNdGWjVhWRwQsoVML9Je": {
+    "ct": 1790508442,
+    "sym": "666",
+    "holders": 25,
+    "lp": "3665.6836943530366",
+    "launchpad": "ray_launchpad"
+  },
+  "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy": {
+    "ct": 1773469658,
+    "sym": "BP",
+    "holders": 26709,
+    "lp": "1103629.7945416686",
+    "launchpad": ""
+  },
+  "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu": {
+    "ct": 1749634431,
+    "sym": "COINx",
+    "holders": 9896,
+    "lp": "1855793.830964",
+    "launchpad": "xstocks"
+  },
+  "D7p9uqrR7qo4GE4Rh92Ueu8C2tN3v6bXRnDK9cfJUmE2": {
+    "ct": 1790507644,
+    "sym": "fric",
+    "holders": 168,
+    "lp": "9899.88347140286",
+    "launchpad": "pump"
+  },
+  "C8ogfWnqFspB8VjfEmq62TJwQWtty26sRsm3Bx9JUofP": {
+    "ct": 1790473997,
+    "sym": "ARBITER",
+    "holders": 161,
+    "lp": "15158.74199366088",
+    "launchpad": "pump"
+  },
+  "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk": {
+    "ct": 1675888109,
+    "sym": "GP",
+    "holders": 9267,
+    "lp": "558210.418874",
+    "launchpad": ""
+  },
+  "ATiRV6h86BY52CVBkASmKdQmUwo71ARTcmySZsrJbVBy": {
+    "ct": 1790507038,
+    "sym": "TIME",
+    "holders": 2,
+    "lp": "26.415435098316756",
+    "launchpad": "meteora_virtual_curve"
+  },
+  "ETg6eru92NRSronJt7d1oo83gxhJjJp2ygjUAB2bZK6B": {
+    "ct": 1790506589,
+    "sym": "Drainer",
+    "holders": 1,
+    "lp": "0.000008",
+    "launchpad": "pump"
+  },
+  "3SUde4RUnMvZcEL4WHqu13odXkTEDwozVwvZrWS6eCSR": {
+    "ct": 1790505370,
+    "sym": "Minto",
+    "holders": 2024,
+    "lp": "0.12028773608",
+    "launchpad": "meteora_virtual_curve"
+  },
+  "HxMCr429Y6U6ZkmDfKtBRo7UwAhuwkuZLUn2ZUHrVgpp": {
+    "ct": 1790504426,
+    "sym": "RELAY",
+    "holders": 2144,
+    "lp": "0.1040073984",
+    "launchpad": "meteora_virtual_curve"
+  },
+  "9LbKkVVhrFRqAKCRDnSVAeWHgoBgNgej25J1ZHEPeURe": {
+    "ct": 1790498883,
+    "sym": "\u22c8",
+    "holders": 242,
+    "lp": "7435.366680699141",
+    "launchpad": "ray_launchpad"
+  },
+  "FoRGERiW7odcCBGU1bztZi16osPBHjxharvDathL5eds": {
+    "ct": 1700769685,
+    "sym": "FORGE",
+    "holders": 6319,
+    "lp": "7810.3624697062",
+    "launchpad": ""
+  },
+  "BdTuVvJypsZPYNG91xWvZNqi9FT5puYfY3D4MDWvwf5K": {
+    "ct": 1790352546,
+    "sym": "j\u29c9nus",
+    "holders": 38,
+    "lp": "10242.99605257656",
+    "launchpad": "pump"
+  },
+  "3BFdSvN9V7B944SEm64xDmiQyrAKAHhJ1rq2t5gYoCBM": {
+    "ct": 1790502706,
+    "sym": "JAIL",
+    "holders": 40,
+    "lp": "0.82564097616",
+    "launchpad": "meteora_virtual_curve"
+  }
+}
