@@ -25,6 +25,7 @@ MAX_CREATED = os.environ.get("MAX_CREATED", "24h")
 PLATFORM = os.environ.get("PLATFORM", "").strip().lower()
 ADDR_SUFFIX = os.environ.get("ADDR_SUFFIX", "").strip().lower()
 EXCLUDE_ADDR_SUFFIX = os.environ.get("EXCLUDE_ADDR_SUFFIX", "").strip().lower()
+MIN_KOLS = int(os.environ.get("MIN_KOLS", "0") or "0")
 # 单次 workflow run 内循环扫描次数与间隔（秒）——弥补 GitHub schedule 触发不稳定的空窗
 LOOP_TIMES = int(os.environ.get("LOOP_TIMES", "1"))
 LOOP_INTERVAL = int(os.environ.get("LOOP_INTERVAL", "290"))
@@ -105,6 +106,8 @@ def scan_once(seen):
             addr = (t.get("address") or "").lower()
             if addr.endswith(EXCLUDE_ADDR_SUFFIX):
                 continue
+        if MIN_KOLS and (t.get("renowned_count") or 0) < MIN_KOLS:
+            continue
         hits.append(t)
     hits.sort(key=lambda x: (x.get("swaps") or 0), reverse=True)
 
