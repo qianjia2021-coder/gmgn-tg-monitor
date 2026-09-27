@@ -74,12 +74,18 @@ def run_gmgn(args):
 
 
 def is_graduated(t):
+    """已毕业/已迁移判定（权威口径，依据 token info / trending 同源字段）
+    判据：launchpad_status 0/空=未开盘; 1=已开盘; 2=已迁移
+          exchange 'pump'=仍在绑定曲线; pump_amm/meteora_dlmm/ray_v4/ray_launchpad 等=已迁移AMM
+    """
     status = str(t.get("launchpad_status") or "0")
-    exchange = (t.get("exchange") or "").lower()
+    exchange = (t.get("exchange") or "").strip().lower()
     if status not in ("1", "2"):
         return False
     if exchange == "pump":
         return False
+    if not exchange:            # 已开盘但池字段缺失：保守按状态2才算毕业
+        return status == "2"
     return True
 
 
