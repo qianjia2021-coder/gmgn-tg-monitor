@@ -24,4 +24,5 @@ jobs:
           TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
           GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
           DST_INVITE_HASH: ${{ secrets.DST_INVITE_HASH }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python cloud_monitor.py
