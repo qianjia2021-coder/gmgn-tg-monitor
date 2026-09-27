@@ -2,8 +2,6 @@ name: gmgn-tg-monitor
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
 
 permissions:
   contents: write
@@ -28,12 +26,21 @@ jobs:
       - name: Install gmgn-cli
         run: npm install -g gmgn-cli
 
-      - name: Run SOL speedrun scan
+      - name: Run SOL monitor scan (stonk)
         env:
           GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-        run: python3 speedrun_scan.py
+          CHAIN: sol
+          INTERVAL: 5m
+          MIN_SWAPS: '1000'
+          MAX_SWAPS: '999999999'
+          MIN_VOLUME: '10000'
+          MAX_CREATED: '24h'
+          PLATFORM: 'stonk|shturl|pump'
+          ADDR_SUFFIX: ''
+          EXCLUDE_ADDR_SUFFIX: ''
+        run: python3 monitor.py
 
       - name: Commit seen state (if changed)
         continue-on-error: true
