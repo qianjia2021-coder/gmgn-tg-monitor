@@ -27,5 +27,14 @@
   "order_id": "mulvlkl91qgicf",
   "ok": true,
   "attempts": 1
+ },
+ "3PjwCqfGMR8CXZbcPEbGTSPQGduizdoVz4N1RQmJd8Uv": {
+  "ts": "2026-09-29 07:29:21",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mulvq6c71qgmhd",
+  "ok": true,
+  "attempts": 1
  }
 }
