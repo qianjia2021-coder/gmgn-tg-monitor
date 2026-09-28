@@ -31,6 +31,7 @@ jobs:
           GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
           CHAIN: sol
           INTERVAL: 5m
           MIN_SWAPS: '2500'
