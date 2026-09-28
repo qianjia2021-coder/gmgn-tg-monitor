@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 GMGN 高频交易合约监控 -> Telegram 推送（云端版，GitHub Actions）
