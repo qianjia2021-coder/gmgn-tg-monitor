@@ -1,4 +1,4 @@
-name: gmgn-tg-monitor
+﻿name: gmgn-tg-monitor
 
 on:
   workflow_dispatch:
@@ -33,7 +33,7 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           CHAIN: sol
           INTERVAL: 5m
-          MIN_SWAPS: '1000'
+          MIN_SWAPS: '500'
           MAX_SWAPS: '999999999'
           MIN_VOLUME: '10000'
           MAX_CREATED: '24h'
@@ -43,17 +43,12 @@ jobs:
           MIN_KOLS: '4'
         run: python3 monitor.py
 
-      - name: Run dbotx simulator auto buy
-        env:
-          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
-        run: python3 dbotx_auto_buy.py
-
       - name: Commit seen state (if changed)
         continue-on-error: true
         run: |
           git config user.name "gmgn-monitor-bot"
           git config user.email "gmgn-monitor-bot@users.noreply.github.com"
-          git add seen.json dbotx_bought.json
+          git add seen.json
           git diff --cached --quiet || git commit -m "chore: update seen state [skip ci]"
           git pull --rebase origin main || true
           git push
