@@ -33,7 +33,7 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           CHAIN: sol
           INTERVAL: 5m
-          MIN_SWAPS: '500'
+          MIN_SWAPS: '2500'
           MAX_SWAPS: '999999999'
           MIN_VOLUME: '10000'
           MAX_CREATED: '24h'
