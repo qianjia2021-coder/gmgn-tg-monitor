@@ -18,5 +18,14 @@
   "ok": true,
   "attempts": 1,
   "err": ""
+ },
+ "EdYKmD6gwazdMQBeadHpSuSeTpjtnbxkpfXCax3Lpump": {
+  "ts": "2026-09-29 07:25:46",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mulvlkl91qgicf",
+  "ok": true,
+  "attempts": 1
  }
 }
