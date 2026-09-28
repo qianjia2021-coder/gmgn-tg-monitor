@@ -1,4 +1,4 @@
-﻿﻿name: gmgn-tg-monitor
+name: gmgn-tg-monitor
 
 on:
   workflow_dispatch:
