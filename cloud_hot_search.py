@@ -29,6 +29,7 @@ from telethon.tl.types import InputPeerChat
 
 REPO = "qianjia2021-coder/gmgn-tg-monitor"
 STATE_PATH = "cloud_hot_state.json"
+BOUGHT_PATH = "cloud_dbotx_hot_bought.json"
 GH_API = "https://api.github.com"
 CHAINS = ["sol", "bsc"]
 HOT_INTERVAL = "1h"
@@ -36,6 +37,17 @@ LIMIT = 20
 TARGET_CHAT = int(os.environ.get("TG_HOTSEARCH_CHAT_ID", "5499948080"))
 TARGET_NAME = "GMGN热搜"
 ADDR_RE = re.compile(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b|\b0x[a-fA-F0-9]{40}\b")
+
+# dbotx 模拟器自动买入（与本地一致）：SOL 0.1 / BSC 0.1，止盈 +50% 全卖
+DBOTX_SWAP_URL = "https://api-bot-v1.dbotx.com/simulator/sim_swap_order"
+DBOTX_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+DBOTX_CHAIN_AMOUNT = {
+    "sol": {"chain": "solana", "amount": 0.1},
+    "bsc": {"chain": "bsc", "amount": 0.1},
+}
+STOP_EARN = 0.5
+SLIPPAGE = 0.5
+MAX_BUY_RETRY = 5
 
 
 def gh_headers():
@@ -46,8 +58,8 @@ def gh_headers():
     }
 
 
-def read_state():
-    r = requests.get(f"{GH_API}/repos/{REPO}/contents/{STATE_PATH}",
+def read_json_file(path):
+    r = requests.get(f"{GH_API}/repos/{REPO}/contents/{path}",
                      headers=gh_headers(), timeout=20)
     if r.status_code == 404:
         return {}, None
@@ -57,18 +69,85 @@ def read_state():
     return json.loads(content), j["sha"]
 
 
-def write_state(state, sha):
-    data = json.dumps(state, ensure_ascii=False, indent=1).encode("utf-8")
+def write_json_file(path, data, sha, msg):
+    payload = json.dumps(data, ensure_ascii=False, indent=1).encode("utf-8")
     body = {
-        "message": "sync hot state from cloud [skip ci]",
-        "content": base64.b64encode(data).decode(),
+        "message": msg,
+        "content": base64.b64encode(payload).decode(),
         "branch": "main",
     }
     if sha:
         body["sha"] = sha
-    r = requests.put(f"{GH_API}/repos/{REPO}/contents/{STATE_PATH}",
+    r = requests.put(f"{GH_API}/repos/{REPO}/contents/{path}",
                      headers=gh_headers(), json=body, timeout=30)
     r.raise_for_status()
+
+
+def read_state():
+    return read_json_file(STATE_PATH)
+
+
+def write_state(state, sha):
+    write_json_file(STATE_PATH, state, sha, "sync hot state from cloud [skip ci]")
+
+
+def read_bought():
+    return read_json_file(BOUGHT_PATH)
+
+
+def write_bought(bought, sha):
+    write_json_file(BOUGHT_PATH, bought, sha, "sync dbotx hot bought from cloud [skip ci]")
+
+
+def api_buy(chain, addr):
+    """dbotx 模拟器买入（SOL 0.1 / BSC 0.1，止盈 +50% 全卖）。返回 (ok, id_or_err)"""
+    key = os.environ.get("DBOTX_API_KEY", "")
+    if not key:
+        return False, "no DBOTX_API_KEY"
+    cfg = DBOTX_CHAIN_AMOUNT.get(chain)
+    if not cfg:
+        return False, "chain unsupported: {}".format(chain)
+    body = {
+        "chain": cfg["chain"], "pair": addr, "walletId": "", "type": "buy",
+        "amountOrPercent": cfg["amount"], "stopEarnPercent": STOP_EARN,
+        "stopLossPercent": None, "priorityFee": "", "gasFeeDelta": 5,
+        "maxFeePerGas": 100, "slippage": SLIPPAGE,
+    }
+    r = requests.post(DBOTX_SWAP_URL, json=body,
+                      headers={"X-API-KEY": key,
+                               "Content-Type": "application/json",
+                               "accept": "application/json",
+                               "User-Agent": DBOTX_UA,
+                               "Origin": "https://dbotx.com",
+                               "Referer": "https://dbotx.com/"}, timeout=30)
+    try:
+        data = r.json()
+        if data.get("err") is False:
+            return True, data.get("res", {}).get("id", "")
+        return False, str(data)[:300]
+    except Exception as e:
+        return False, "HTTP {} {}".format(r.status_code, e)
+
+
+def retry_failed_buys(bought):
+    changed = False
+    for addr, rec in list(bought.items()):
+        if rec.get("ok"):
+            continue
+        if int(rec.get("attempts") or 0) >= MAX_BUY_RETRY:
+            continue
+        ok, info = api_buy(rec.get("chain") or "", addr)
+        rec["attempts"] = int(rec.get("attempts") or 0) + 1
+        if ok:
+            rec["ok"] = True
+            rec["order_id"] = info
+            rec.pop("err", None)
+            print("dbotx retry OK: {}".format(addr))
+        else:
+            print("dbotx retry fail({}/{}): {} | {}".format(
+                rec["attempts"], MAX_BUY_RETRY, addr, info))
+        changed = True
+    return bought, changed
 
 
 def run_gmgn(args):
@@ -125,7 +204,13 @@ def fmt_msg(t, chain):
 
 async def main():
     state, sha = read_state()
-    print("state entries: {} chains".format(len(state)))
+    bought, bought_sha = read_bought()
+    print("state entries: {} chains | bought: {}".format(len(state), len(bought)))
+    # 1) 重试历史买入失败的合约
+    try:
+        bought, _ = retry_failed_buys(bought)
+    except Exception as e:
+        print("buy retry error: {}".format(e))
     client = TelegramClient(StringSession(os.environ["TG_STRING_SESSION"]),
                             int(os.environ["TG_API_ID"]),
                             os.environ["TG_API_HASH"])
@@ -142,7 +227,8 @@ async def main():
                 already.add(m.lower())
     print("already in group (last 30): {}".format(len(already)))
     pushed = 0
-    changed = False
+    state_changed = False
+    bought_changed = False
     for chain in CHAINS:
         try:
             tokens = fetch_hot(chain)
@@ -175,16 +261,39 @@ async def main():
         rec["seen"] = sorted(seen)
         state[chain] = rec
         pushed += 1
-        changed = True
+        state_changed = True
+        # 2) 推送成功后：dbotx 模拟器自动买入（SOL 0.1 / BSC 0.1，止盈 +50% 全卖）
+        if addr not in bought:
+            ok, info = api_buy(chain, addr)
+            bought[addr] = {
+                "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                "chain": chain,
+                "amount": DBOTX_CHAIN_AMOUNT[chain]["amount"],
+                "stop_earn": STOP_EARN,
+                "order_id": info if ok else "",
+                "ok": ok,
+                "attempts": 1,
+            }
+            if not ok:
+                bought[addr]["err"] = str(info)[:200]
+            print("[{}] dbotx buy {}: {} | {}".format(
+                chain, "OK" if ok else "FAIL", sym, info))
+            bought_changed = True
         await asyncio.sleep(1.5)
     await client.disconnect()
-    if changed:
+    if state_changed:
         try:
             write_state(state, sha)
             print("state written")
         except Exception as e:
             print("state write failed: {}".format(e))
-    print("done pushed={}".format(pushed))
+    if bought_changed:
+        try:
+            write_bought(bought, bought_sha)
+            print("bought written")
+        except Exception as e:
+            print("bought write failed: {}".format(e))
+    print("done pushed={} bought={}".format(pushed, len(bought)))
 
 
 if __name__ == "__main__":
