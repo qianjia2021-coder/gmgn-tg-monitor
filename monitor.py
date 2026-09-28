@@ -26,6 +26,7 @@ PLATFORM = os.environ.get("PLATFORM", "").strip().lower()
 ADDR_SUFFIX = os.environ.get("ADDR_SUFFIX", "").strip().lower()
 EXCLUDE_ADDR_SUFFIX = os.environ.get("EXCLUDE_ADDR_SUFFIX", "").strip().lower()
 MIN_KOLS = int(os.environ.get("MIN_KOLS", "0") or "0")
+MAX_BOT_RATE = float(os.environ.get("MAX_BOT_RATE", "1.0") or "1.0")
 DBOTX_API_KEY = os.environ.get("DBOTX_API_KEY", "").strip()
 DBOTX_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 # 单次 workflow run 内循环扫描次数与间隔（秒）——弥补 GitHub schedule 触发不稳定的空窗
@@ -137,6 +138,8 @@ def scan_once(seen):
             if addr.endswith(EXCLUDE_ADDR_SUFFIX):
                 continue
         if MIN_KOLS and (t.get("renowned_count") or 0) < MIN_KOLS:
+            continue
+        if (t.get("bot_degen_rate") or 0) > MAX_BOT_RATE:
             continue
         hits.append(t)
     hits.sort(key=lambda x: (x.get("swaps") or 0), reverse=True)
