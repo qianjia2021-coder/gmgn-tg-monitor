@@ -12,6 +12,7 @@ dbotx 模拟器自动买入（云端版，GitHub Actions）
 import json
 import os
 import pathlib
+import re
 import time
 import urllib.error
 import urllib.request
@@ -23,6 +24,12 @@ API_URL = "https://api-bot-v1.dbotx.com/simulator/sim_swap_order"
 BUY_SOL = 1.0              # 每次买入 1 SOL
 STOP_EARN = 1.0            # 止盈 100%（翻倍卖出全部，单次模式）
 SLIPPAGE = 0.5             # 最大滑点
+SOL_NATIVE = "So11111111111111111111111111111111111111112"
+SOL_RE = re.compile(r"^[1-9A-HJ-NP-Za-km-z]{32,44}$")
+
+
+def is_sol_addr(a):
+    return bool(SOL_RE.match(a or "")) and a != SOL_NATIVE
 
 
 def load_json(f):
@@ -79,9 +86,10 @@ def api_buy(addr):
 def main():
     seen = load_seen()
     bought = load_json(BOUGHT_FILE)
-    new = sorted(seen - set(bought))
+    # 只处理 SOL 地址（seen 含历史 BSC 0x 记录）
+    new = sorted(a for a in (seen - set(bought)) if is_sol_addr(a))
     if not new:
-        print("dbotx: no new push, seen={} bought={}".format(len(seen), len(bought)))
+        print("dbotx: no new SOL push, seen={} bought={}".format(len(seen), len(bought)))
         return
     for addr in new:
         ok, info = api_buy(addr)
