@@ -17,6 +17,7 @@ import urllib.request
 
 SEEN_FILE = os.environ.get("SEEN_FILE", "seen_kol.json")
 BUY_WINDOW = int(os.environ.get("BUY_WINDOW", "360"))
+MIN_USD = int(os.environ.get("MIN_USD", "100"))
 CHAIN = os.environ.get("CHAIN", "sol")
 
 KOLS = [
@@ -106,6 +107,10 @@ def scan_once(seen):
         for row in rows:
             key = f"{kol['wallet'][:8]}:{row['addr']}"
             if key in seen:
+                continue
+            if row["usd"] < MIN_USD:
+                seen[key] = str(row["ts"])
+                print(f"kol skip <${MIN_USD}: {kol['name']} {row['sym']} ${row['usd']}")
                 continue
             hits.append((kol, row, key))
             seen[key] = str(row["ts"])
