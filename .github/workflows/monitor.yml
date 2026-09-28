@@ -42,6 +42,7 @@ jobs:
           ADDR_SUFFIX: ''
           EXCLUDE_ADDR_SUFFIX: ''
           MIN_KOLS: '4'
+          MAX_BOT_RATE: '0.8'
         run: python3 monitor.py
 
       - name: Commit seen state (if changed)
