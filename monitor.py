@@ -1,10 +1,12 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 GMGN 高频交易合约监控 -> Telegram 推送（云端版，GitHub Actions）
-复刻本机 PowerShell 版逻辑：BSC / 5m / swaps 120-3000 / 成交额>=1万 / 24h 新代币
-依赖：npm install -g gmgn-cli；环境变量 GMGN_API_KEY / TG_BOT_TOKEN / TG_CHAT_ID
+口径（用户 09-28 指定）：SOL / 1m swaps >= 500 / stonk|shturl|pump / KOL>=4 / bot<=80%
+依赖：npm install -g gmgn-cli；环境变量 GMGN_API_KEY / TG_BOT_TOKEN / TG_CHAT_ID / DBOTX_API_KEY
 去重：seen.json（仓库内，每次推送后立即写回；workflow 提交状态）
+自动买入：推送命中后 dbotx 模拟器买入 1 SOL，止盈 0.99（≈翻倍；1.0 不被 dbotx 接受）
+买入去重：dbotx_bought.json（仓库内，与本地 dbotx_auto_buy 共用，防止双端重复买）
 云端无 GUI：不打开浏览器，只推送 Telegram。
 """
 import json
@@ -16,17 +18,18 @@ import time
 import urllib.request
 
 SEEN_FILE = os.environ.get("SEEN_FILE", "seen.json")
-CHAIN = os.environ.get("CHAIN", "bsc")
-INTERVAL = os.environ.get("INTERVAL", "5m")
-MIN_SWAPS = int(os.environ.get("MIN_SWAPS", "120"))
+BOUGHT_FILE = os.environ.get("BOUGHT_FILE", "dbotx_bought.json")
+CHAIN = os.environ.get("CHAIN", "sol")
+INTERVAL = os.environ.get("INTERVAL", "1m")
+MIN_SWAPS = int(os.environ.get("MIN_SWAPS", "500"))
 MAX_SWAPS = int(os.environ.get("MAX_SWAPS", "3000"))
 MIN_VOLUME = float(os.environ.get("MIN_VOLUME", "10000"))
 MAX_CREATED = os.environ.get("MAX_CREATED", "24h")
 PLATFORM = os.environ.get("PLATFORM", "").strip().lower()
 ADDR_SUFFIX = os.environ.get("ADDR_SUFFIX", "").strip().lower()
 EXCLUDE_ADDR_SUFFIX = os.environ.get("EXCLUDE_ADDR_SUFFIX", "").strip().lower()
-MIN_KOLS = int(os.environ.get("MIN_KOLS", "0") or "0")
-MAX_BOT_RATE = float(os.environ.get("MAX_BOT_RATE", "1.0") or "1.0")
+MIN_KOLS = int(os.environ.get("MIN_KOLS", "4") or "4")
+MAX_BOT_RATE = float(os.environ.get("MAX_BOT_RATE", "0.8") or "0.8")
 DBOTX_API_KEY = os.environ.get("DBOTX_API_KEY", "").strip()
 DBOTX_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 # 单次 workflow run 内循环扫描次数与间隔（秒）——弥补 GitHub schedule 触发不稳定的空窗
@@ -36,14 +39,35 @@ LOOP_INTERVAL = int(os.environ.get("LOOP_INTERVAL", "290"))
 INTERVAL_MIN = {"1m": 1, "5m": 5, "1h": 60, "6h": 360, "24h": 1440}
 
 
+def load_bought():
+    p = pathlib.Path(BOUGHT_FILE)
+    if p.exists():
+        try:
+            data = json.loads(p.read_text(encoding="utf-8"))
+            if isinstance(data, dict):
+                return data
+        except Exception:
+            pass
+    return {}
+
+
+def save_bought(b):
+    pathlib.Path(BOUGHT_FILE).write_text(
+        json.dumps(b, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def dbotx_buy(addr):
-    """推送命中后，在 dbotx 模拟器买入 1 SOL，翻倍(100%)自动卖出全部。"""
+    """推送命中后，在 dbotx 模拟器买入 1 SOL，止盈 0.99（≈翻倍卖出全部）。"""
     if not DBOTX_API_KEY:
         print("dbotx: no api key, skip sim buy")
         return
+    bought = load_bought()
+    if addr in bought:
+        print(f"dbotx: already bought {addr}, skip")
+        return
     body = {
         "chain": "solana", "pair": addr, "walletId": "", "type": "buy",
-        "amountOrPercent": 1, "stopEarnPercent": 1.0, "stopLossPercent": None,
+        "amountOrPercent": 1, "stopEarnPercent": 0.99, "stopLossPercent": None,
         "stopEarnGroup": None, "stopLossGroup": None,
         "priorityFee": "", "gasFeeDelta": 5, "maxFeePerGas": 100, "slippage": 0.1,
     }
@@ -57,7 +81,14 @@ def dbotx_buy(addr):
         with urllib.request.urlopen(req, timeout=30) as r:
             d = json.loads(r.read().decode())
             if not d.get("err"):
-                print(f"dbotx sim buy ok: {addr} id={d.get('res', {}).get('id')}")
+                oid = (d.get("res") or {}).get("id") or ""
+                print(f"dbotx sim buy ok: {addr} id={oid}")
+                bought[addr] = {
+                    "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                    "order_id": oid, "sol": 1.0, "stop_earn": 0.99,
+                    "source": "cloud-monitor",
+                }
+                save_bought(bought)
             else:
                 print(f"dbotx sim buy fail: {addr} {d.get('res')}")
     except Exception as e:
@@ -195,3 +226,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"FATAL: {e}")
         sys.exit(1)
+
