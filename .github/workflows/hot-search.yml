@@ -32,5 +32,6 @@ jobs:
           TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
           GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
           TG_HOTSEARCH_CHAT_ID: '5499948080'
         run: python3 cloud_hot_search.py
