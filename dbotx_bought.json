@@ -2812,5 +2812,12 @@
   "sol": 1.0,
   "stop_earn": 0.99,
   "ok": false
+ },
+ "EQfxT91QExKEG7j1yEip15v9P1ybmWEAdqUn2Gqqpump": {
+  "ts": "2026-09-28 10:10:28",
+  "order_id": "mul36ueq1fdss0",
+  "sol": 1.0,
+  "stop_earn": 0.99,
+  "source": "cloud-monitor"
  }
 }
