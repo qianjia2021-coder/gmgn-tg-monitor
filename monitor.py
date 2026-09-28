@@ -26,11 +26,41 @@ PLATFORM = os.environ.get("PLATFORM", "").strip().lower()
 ADDR_SUFFIX = os.environ.get("ADDR_SUFFIX", "").strip().lower()
 EXCLUDE_ADDR_SUFFIX = os.environ.get("EXCLUDE_ADDR_SUFFIX", "").strip().lower()
 MIN_KOLS = int(os.environ.get("MIN_KOLS", "0") or "0")
+DBOTX_API_KEY = os.environ.get("DBOTX_API_KEY", "").strip()
+DBOTX_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 # 单次 workflow run 内循环扫描次数与间隔（秒）——弥补 GitHub schedule 触发不稳定的空窗
 LOOP_TIMES = int(os.environ.get("LOOP_TIMES", "1"))
 LOOP_INTERVAL = int(os.environ.get("LOOP_INTERVAL", "290"))
 
 INTERVAL_MIN = {"1m": 1, "5m": 5, "1h": 60, "6h": 360, "24h": 1440}
+
+
+def dbotx_buy(addr):
+    """推送命中后，在 dbotx 模拟器买入 1 SOL，翻倍(100%)自动卖出全部。"""
+    if not DBOTX_API_KEY:
+        print("dbotx: no api key, skip sim buy")
+        return
+    body = {
+        "chain": "solana", "pair": addr, "walletId": "", "type": "buy",
+        "amountOrPercent": 1, "stopEarnPercent": 1.0, "stopLossPercent": None,
+        "stopEarnGroup": None, "stopLossGroup": None,
+        "priorityFee": "", "gasFeeDelta": 5, "maxFeePerGas": 100, "slippage": 0.1,
+    }
+    req = urllib.request.Request(
+        "https://api-bot-v1.dbotx.com/simulator/sim_swap_order",
+        method="POST", data=json.dumps(body).encode(),
+        headers={"X-API-KEY": DBOTX_API_KEY, "Content-Type": "application/json",
+                 "accept": "application/json", "User-Agent": DBOTX_UA,
+                 "Origin": "https://dbotx.com", "Referer": "https://dbotx.com/"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            d = json.loads(r.read().decode())
+            if not d.get("err"):
+                print(f"dbotx sim buy ok: {addr} id={d.get('res', {}).get('id')}")
+            else:
+                print(f"dbotx sim buy fail: {addr} {d.get('res')}")
+    except Exception as e:
+        print(f"dbotx sim buy error: {addr} {e}")
 
 
 def load_seen():
@@ -143,6 +173,7 @@ def scan_once(seen):
         )
         try:
             tg_send(msg)
+            dbotx_buy(addr)
             seen.add(addr)
             save_seen(seen)   # 推送成功立即落盘，保证每个合约只发一次
             pushed += 1
