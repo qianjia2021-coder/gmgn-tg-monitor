@@ -22,7 +22,7 @@ BOUGHT_FILE = "dbotx_bought.json"
 API_URL = "https://api-bot-v1.dbotx.com/simulator/sim_swap_order"
 
 BUY_SOL = 1.0              # 每次买入 1 SOL
-STOP_EARN = 1.0            # 止盈 100%（翻倍卖出全部，单次模式）
+STOP_EARN = 0.99           # 止盈 99%（≈翻倍卖出全部；dbotx 不接受 100%，1.0 会静默失效）
 SLIPPAGE = 0.5             # 最大滑点
 SOL_NATIVE = "So11111111111111111111111111111111111111112"
 SOL_RE = re.compile(r"^[1-9A-HJ-NP-Za-km-z]{32,44}$")
