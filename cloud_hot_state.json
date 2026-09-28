@@ -1,14 +1,14 @@
 {
- "bsc": {
-  "last": "0x108876c3df3d893350e9b780563b3697aa3e7777",
-  "seen": [
-   "0x108876c3df3d893350e9b780563b3697aa3e7777"
-  ]
- },
  "sol": {
   "last": "BgwfQ2nezfeeCdSkuhJzVa1o4LontBRnhEuwiiskpump",
   "seen": [
    "BgwfQ2nezfeeCdSkuhJzVa1o4LontBRnhEuwiiskpump"
+  ]
+ },
+ "bsc": {
+  "last": "0x108876c3df3d893350e9b780563b3697aa3e7777",
+  "seen": [
+   "0x108876c3df3d893350e9b780563b3697aa3e7777"
   ]
  }
 }
