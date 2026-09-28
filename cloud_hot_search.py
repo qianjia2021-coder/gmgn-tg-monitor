@@ -25,6 +25,7 @@ import time
 import requests
 from telethon import TelegramClient
 from telethon.sessions import StringSession
+from telethon.tl.types import InputPeerChat
 
 REPO = "qianjia2021-coder/gmgn-tg-monitor"
 STATE_PATH = "cloud_hot_state.json"
@@ -132,9 +133,10 @@ async def main():
     if not await client.is_user_authorized():
         print("FATAL: not authorized")
         sys.exit(1)
+    peer = InputPeerChat(TARGET_CHAT)
     # 兜底去重：群内最近 30 条消息里已出现的合约
     already = set()
-    async for msg in client.iter_messages(TARGET_CHAT, limit=30):
+    async for msg in client.iter_messages(peer, limit=30):
         if msg.message:
             for m in ADDR_RE.findall(msg.message):
                 already.add(m.lower())
@@ -162,7 +164,7 @@ async def main():
             state[chain] = rec
             continue
         try:
-            await client.send_message(TARGET_CHAT, fmt_msg(t1, chain),
+            await client.send_message(peer, fmt_msg(t1, chain),
                                       parse_mode="html", link_preview=False)
             print("[{}] PUSHED hot #1: {} | {}".format(chain, sym, addr))
         except Exception as e:
