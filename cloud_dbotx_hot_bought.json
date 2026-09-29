@@ -274,5 +274,14 @@
   "order_id": "mumdtflq2448nl",
   "ok": true,
   "attempts": 1
+ },
+ "bLqK1dyt9VXGtXwTjoaVfvWrkDuqSA9p5AfNLdwpump": {
+  "ts": "2026-09-29 16:03:47",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mume3q3w25m92x",
+  "ok": true,
+  "attempts": 1
  }
 }
