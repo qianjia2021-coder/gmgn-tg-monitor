@@ -264,35 +264,36 @@ async def main():
         except Exception as e:
             print("[{}] fetch failed: {}".format(chain, e))
             continue
-        t1 = get_rank1(tokens)
-        if not t1:
+        top3 = tokens[:3]
+        if not top3:
             print("[{}] empty rank".format(chain))
             continue
-        addr = (t1.get("address") or "").strip()
-        sym = t1.get("symbol") or ""
-        print("[{}] hot #1: {} | {}".format(chain, sym, addr))
-        rec = state.get(chain) or {"last": "", "seen": []}
-        seen = set(rec.get("seen") or [])
-        if addr.lower() not in golden_addrs:
-            print("[{}] not in chengzi_golden, skip (precondition): {} | {}".format(chain, sym, addr))
-            continue
-        if addr in seen or addr.lower() in already:
-            print("[{}] already pushed, skip".format(chain))
+        for rank, tok in enumerate(top3, 1):
+            addr = (tok.get("address") or "").strip()
+            sym = tok.get("symbol") or ""
+            print("[{}] hot #{}: {} | {}".format(chain, rank, sym, addr))
+            rec = state.get(chain) or {"last": "", "seen": []}
+            seen = set(rec.get("seen") or [])
+            if addr.lower() not in golden_addrs:
+                print("[{}] not in chengzi_golden, skip (precondition): {} | {}".format(chain, sym, addr))
+                continue
+            if addr in seen or addr.lower() in already:
+                print("[{}] already pushed, skip".format(chain))
+                rec["last"] = addr
+                state[chain] = rec
+                continue
+            try:
+                await client.send_message(peer, fmt_msg(tok, chain),
+                                          parse_mode="html", link_preview=False)
+                print("[{}] PUSHED hot #{}: {} | {}".format(chain, rank, sym, addr))
+            except Exception as e:
+                print("[{}] push failed: {}".format(chain, e))
+                continue
+            seen.add(addr)
             rec["last"] = addr
+            rec["seen"] = sorted(seen)
             state[chain] = rec
-            continue
-        try:
-            await client.send_message(peer, fmt_msg(t1, chain),
-                                      parse_mode="html", link_preview=False)
-            print("[{}] PUSHED hot #1: {} | {}".format(chain, sym, addr))
-        except Exception as e:
-            print("[{}] push failed: {}".format(chain, e))
-            continue
-        seen.add(addr)
-        rec["last"] = addr
-        rec["seen"] = sorted(seen)
-        state[chain] = rec
-        pushed += 1
+            pushed += 1
         state_changed = True
         # 2) 推送成功后：dbotx 模拟器自动买入（SOL 0.1 / BSC 0.1，止盈 +50% 全卖）
         if addr not in bought:
