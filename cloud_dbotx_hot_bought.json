@@ -6,7 +6,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "SOL chain dbotx 500 Serv Error (server-side)"
  },
  "0x108876c3df3d893350e9b780563b3697aa3e7777": {
@@ -208,6 +208,15 @@
   "amount": 0.1,
   "stop_earn": 0.5,
   "order_id": "mumce55023ibpy",
+  "ok": true,
+  "attempts": 1
+ },
+ "EdfUDQxVihNgHf7KDjhxC3ZSdXtNr33tojuKq3rgUCfv": {
+  "ts": "2026-09-29 15:21:32",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumclefc23idvc",
   "ok": true,
   "attempts": 1
  }
