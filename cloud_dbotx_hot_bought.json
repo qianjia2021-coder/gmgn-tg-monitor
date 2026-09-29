@@ -199,7 +199,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 2,
+  "attempts": 3,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
