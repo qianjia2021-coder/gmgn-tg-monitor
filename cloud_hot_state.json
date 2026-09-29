@@ -1,13 +1,4 @@
 {
- "bsc": {
-  "last": "0x7b307ad0360499099291db190c5c0b111c147777",
-  "seen": [
-   "0x108876c3df3d893350e9b780563b3697aa3e7777",
-   "0x7b307ad0360499099291db190c5c0b111c147777",
-   "0xaebb8652f2cf648612f6225e9705afd9e3c07777",
-   "0xcb975f49924a2c8f8d7884b3b5adcef7e1fc7777"
-  ]
- },
  "sol": {
   "last": "FQwsXYgx1LpijkUyUukfbuk1Vpb5jLm36HJtPr6rpump",
   "seen": [
@@ -17,6 +8,15 @@
    "EdYKmD6gwazdMQBeadHpSuSeTpjtnbxkpfXCax3Lpump",
    "FQwsXYgx1LpijkUyUukfbuk1Vpb5jLm36HJtPr6rpump",
    "H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS"
+  ]
+ },
+ "bsc": {
+  "last": "0x108876c3df3d893350e9b780563b3697aa3e7777",
+  "seen": [
+   "0x108876c3df3d893350e9b780563b3697aa3e7777",
+   "0x7b307ad0360499099291db190c5c0b111c147777",
+   "0xaebb8652f2cf648612f6225e9705afd9e3c07777",
+   "0xcb975f49924a2c8f8d7884b3b5adcef7e1fc7777"
   ]
  }
 }
