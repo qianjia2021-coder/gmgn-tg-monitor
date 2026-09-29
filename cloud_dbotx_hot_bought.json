@@ -355,7 +355,7 @@
   "order_id": "",
   "ok": false,
   "attempts": 5,
-  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+  "err": "dbotx pair not found (permanent); 已放弃重试"
  },
  "0x6b3131b25b5230213cd084b0dae07ac0f44b7777": {
   "ts": "2026-09-29 18:08:54",
@@ -464,6 +464,6 @@
   "order_id": "",
   "ok": false,
   "attempts": 5,
-  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+  "err": "dbotx pair not found (permanent); 已放弃重试"
  }
 }
