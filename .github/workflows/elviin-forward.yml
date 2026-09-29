@@ -28,5 +28,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TG_SOURCE_GROUP: 'FindTheGoldenDoge'
           TG_TARGET_USER_ID: '6537207453'
-          TG_TARGET_CHAT_ID: '-1005327991953'
+          TG_TARGET_CHAT_TITLE: '转发群'
         run: python3 cloud_elviin_forward.py
