@@ -482,7 +482,16 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 2,
+  "attempts": 3,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "0xa21bb591caadb2004ec825b39ec8e95cadfd7777": {
+  "ts": "2026-09-29 21:47:40",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumqe0iw2a1uwl",
+  "ok": true,
+  "attempts": 1
  }
 }
