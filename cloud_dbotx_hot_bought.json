@@ -254,7 +254,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "{'err': True, 'res': 'Serv Error'}"
  },
  "0xe367f13c13c0877aa04edf6fdbfbd0e76fd77777": {
@@ -281,6 +281,15 @@
   "amount": 0.1,
   "stop_earn": 0.5,
   "order_id": "mume3q3w25m92x",
+  "ok": true,
+  "attempts": 1
+ },
+ "36RKUDQu5sJggjnRcWnAomH8dSmv1gq5zgVQ73DrBear": {
+  "ts": "2026-09-29 08:05:36",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mume647h1wd633",
   "ok": true,
   "attempts": 1
  }
