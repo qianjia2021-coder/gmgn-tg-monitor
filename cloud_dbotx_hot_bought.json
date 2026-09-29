@@ -254,7 +254,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "{'err': True, 'res': 'Serv Error'}"
  },
  "0xe367f13c13c0877aa04edf6fdbfbd0e76fd77777": {
@@ -317,6 +317,15 @@
   "amount": 0.1,
   "stop_earn": 0.5,
   "order_id": "mumgoal41xl42m",
+  "ok": true,
+  "attempts": 1
+ },
+ "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
+  "ts": "2026-09-29 09:25:39",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumh12jk1xm12m",
   "ok": true,
   "attempts": 1
  }
