@@ -264,11 +264,11 @@ async def main():
         except Exception as e:
             print("[{}] fetch failed: {}".format(chain, e))
             continue
-        top2 = tokens[:2]
-        if not top2:
+        top1 = tokens[:1]
+        if not top1:
             print("[{}] empty rank".format(chain))
             continue
-        for rank, tok in enumerate(top2, 1):
+        for rank, tok in enumerate(top1, 1):
             addr = (tok.get("address") or "").strip()
             sym = tok.get("symbol") or ""
             print("[{}] hot #{}: {} | {}".format(chain, rank, sym, addr))
