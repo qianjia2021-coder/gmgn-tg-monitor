@@ -7,7 +7,7 @@
   "order_id": "",
   "ok": false,
   "attempts": 5,
-  "err": "SOL chain dbotx 500 Serv Error (server-side)"
+  "err": "SOL chain dbotx 500 Serv Error (server-side); 已放弃重试"
  },
  "0x108876c3df3d893350e9b780563b3697aa3e7777": {
   "ts": "2026-09-29 07:10:09",
