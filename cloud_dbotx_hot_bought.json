@@ -63,5 +63,23 @@
   "order_id": "muly2bar1qlbn8",
   "ok": true,
   "attempts": 1
+ },
+ "FQwsXYgx1LpijkUyUukfbuk1Vpb5jLm36HJtPr6rpump": {
+  "ts": "2026-09-29 08:46:25",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mulyha8i1y7qio",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xcb975f49924a2c8f8d7884b3b5adcef7e1fc7777": {
+  "ts": "2026-09-29 08:46:29",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mulyhdim1qo34e",
+  "ok": true,
+  "attempts": 1
  }
 }
