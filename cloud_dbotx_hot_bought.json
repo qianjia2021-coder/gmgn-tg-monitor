@@ -237,5 +237,14 @@
   "order_id": "mumczm831w1467",
   "ok": true,
   "attempts": 1
+ },
+ "0x12594aeadfb86b46813dce5ee23678874e847777": {
+  "ts": "2026-09-29 15:34:08",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumd1lmn1w164i",
+  "ok": true,
+  "attempts": 1
  }
 }
