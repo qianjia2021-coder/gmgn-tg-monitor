@@ -99,7 +99,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  },
  "0x46e30a14464d518869c596805e89b0e531597777": {
