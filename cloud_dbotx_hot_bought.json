@@ -374,5 +374,14 @@
   "order_id": "mumiz74c27cldh",
   "ok": true,
   "attempts": 1
+ },
+ "EThAHDXisQrhvv9MPrv5DgZuRHkjUzNcTwnLzVjCpump": {
+  "ts": "2026-09-29 10:30:53",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumjcyvz27h06w",
+  "ok": true,
+  "attempts": 1
  }
 }
