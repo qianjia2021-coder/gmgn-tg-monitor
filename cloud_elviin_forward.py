@@ -30,7 +30,7 @@ GH_API = "https://api.github.com"
 
 SOURCE_GROUP = os.environ.get("TG_SOURCE_GROUP", "FindTheGoldenDoge")
 TARGET_USER_ID = int(os.environ.get("TG_TARGET_USER_ID", "6537207453"))
-TARGET_CHAT_ID = int(os.environ.get("TG_TARGET_CHAT_ID", "-1005327991953"))
+TARGET_CHAT_TITLE = os.environ.get("TG_TARGET_CHAT_TITLE", "转发群")
 BACKFILL_LIMIT = 50          # 每次拉源群最近 50 条
 TARGET_RECENT_LIMIT = 20     # 扫目标群最近 20 条做兜底去重
 
@@ -83,7 +83,17 @@ async def main():
         sys.exit(1)
 
     src = await client.get_entity(SOURCE_GROUP)
-    tgt = await client.get_entity(TARGET_CHAT_ID)
+
+    # 遍历对话列表找到目标群 entity（避免硬编码 id 导致 access_hash 缺失）
+    tgt = None
+    async for dialog in client.iter_dialogs():
+        if dialog.name and TARGET_CHAT_TITLE in dialog.name:
+            tgt = dialog.entity
+            print("target group found:", dialog.name, dialog.id)
+            break
+    if tgt is None:
+        print("FATAL: target group '{}' not found in dialogs".format(TARGET_CHAT_TITLE))
+        sys.exit(1)
 
     # 兜底去重：扫目标群最近 forward 消息，已转发过的源群消息 id
     already = set(seen)
