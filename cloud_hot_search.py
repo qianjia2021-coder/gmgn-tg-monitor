@@ -294,25 +294,25 @@ async def main():
             rec["seen"] = sorted(seen)
             state[chain] = rec
             pushed += 1
+            # 2) 推送成功后：dbotx 模拟器自动买入（SOL 0.1 / BSC 0.1，止盈 +50% 全卖）
+            if addr not in bought:
+                ok, info = api_buy(chain, addr)
+                bought[addr] = {
+                    "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                    "chain": chain,
+                    "amount": DBOTX_CHAIN_AMOUNT[chain]["amount"],
+                    "stop_earn": STOP_EARN,
+                    "order_id": info if ok else "",
+                    "ok": ok,
+                    "attempts": 1,
+                }
+                if not ok:
+                    bought[addr]["err"] = str(info)[:200]
+                print("[{}] dbotx buy {}: {} | {}".format(
+                    chain, "OK" if ok else "FAIL", sym, info))
+                bought_changed = True
+            await asyncio.sleep(1.5)
         state_changed = True
-        # 2) 推送成功后：dbotx 模拟器自动买入（SOL 0.1 / BSC 0.1，止盈 +50% 全卖）
-        if addr not in bought:
-            ok, info = api_buy(chain, addr)
-            bought[addr] = {
-                "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
-                "chain": chain,
-                "amount": DBOTX_CHAIN_AMOUNT[chain]["amount"],
-                "stop_earn": STOP_EARN,
-                "order_id": info if ok else "",
-                "ok": ok,
-                "attempts": 1,
-            }
-            if not ok:
-                bought[addr]["err"] = str(info)[:200]
-            print("[{}] dbotx buy {}: {} | {}".format(
-                chain, "OK" if ok else "FAIL", sym, info))
-            bought_changed = True
-        await asyncio.sleep(1.5)
     await client.disconnect()
     if state_changed:
         try:
