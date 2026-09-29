@@ -346,5 +346,15 @@
   "order_id": "mumhxb621xqn1m",
   "ok": true,
   "attempts": 1
+ },
+ "0x8213a842f3e5788aeecda03787d64cacdaa0009a": {
+  "ts": "2026-09-29 18:07:31",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
