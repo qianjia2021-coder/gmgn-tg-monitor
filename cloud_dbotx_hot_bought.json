@@ -474,5 +474,15 @@
   "order_id": "mumpq4of20sju1",
   "ok": true,
   "attempts": 1
+ },
+ "H4KUxsEgCp2yDpFvyDuGM5k6XevSKKrrKUxZ3Zr6nyJc": {
+  "ts": "2026-09-29 21:45:06",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
