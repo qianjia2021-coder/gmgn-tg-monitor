@@ -181,13 +181,28 @@ def get_rank1(tokens):
     return tokens[0] if tokens else None
 
 
+def _fmt_price(v):
+    """价格格式化：大额保留小数位，小额保留足够精度去尾零"""
+    try:
+        p = float(v or 0)
+    except (TypeError, ValueError):
+        return "0"
+    if p == 0:
+        return "0"
+    if p >= 1000:
+        return "{:,.2f}".format(p)
+    if p >= 1:
+        return "{:,.4f}".format(p)
+    s = "{:.12f}".format(p).rstrip("0").rstrip(".")
+    return s
+
+
 def fmt_msg(t, chain):
     sym = t.get("symbol") or ""
     name = t.get("name") or ""
     addr = t.get("address") or ""
     heat = t.get("visiting_count") or 0
     chg1h = round(float(t.get("price_change_percent1h") or 0), 1)
-    mc = round(float(t.get("market_cap") or 0))
     liq = round(float(t.get("liquidity") or 0))
     lp = t.get("launchpad_platform") or ""
     holders = int(t.get("holder_count") or 0)
@@ -195,7 +210,7 @@ def fmt_msg(t, chain):
     return "\n".join([
         "🔥 <b>GMGN 热搜第一</b>  #{} {}".format(sym, name),
         "链: {} | 平台: {} | 热搜热度: {}".format(chain.upper(), lp or "-", heat),
-        "1h涨跌: {}% | 市值 ${:,} | 流动性 ${:,}".format(chg1h, mc, liq),
+        "1h涨跌: {}% | 价格 ${} | 流动性 ${:,}".format(chg1h, _fmt_price(t.get("price")), liq),
         "持有人: {:,} | swaps: {:,}".format(holders, swaps),
         "GMGN: https://gmgn.ai/{}/token/{}".format(chain, addr),
         "<code>{}</code>".format(addr),
