@@ -419,5 +419,14 @@
   "order_id": "mumlxw5o1zcbug",
   "ok": true,
   "attempts": 1
+ },
+ "5mgqyi2ZsNNaL7itZN2tKjFEW1icoiVdyTRdN5E24SHU": {
+  "ts": "2026-09-29 19:47:14",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumm332x28m1h3",
+  "ok": true,
+  "attempts": 1
  }
 }
