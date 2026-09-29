@@ -6,7 +6,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 3,
+  "attempts": 2,
   "err": "SOL chain dbotx 500 Serv Error (server-side)"
  },
  "0x108876c3df3d893350e9b780563b3697aa3e7777": {
