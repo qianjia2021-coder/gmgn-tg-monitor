@@ -30,7 +30,7 @@ GH_API = "https://api.github.com"
 
 SOURCE_GROUP = os.environ.get("TG_SOURCE_GROUP", "FindTheGoldenDoge")
 TARGET_USER_ID = int(os.environ.get("TG_TARGET_USER_ID", "6537207453"))
-TARGET_CHAT_ID = int(os.environ.get("TG_TARGET_CHAT_ID", "5327991953"))
+TARGET_CHAT_ID = int(os.environ.get("TG_TARGET_CHAT_ID", "-1005327991953"))
 BACKFILL_LIMIT = 50          # 每次拉源群最近 50 条
 TARGET_RECENT_LIMIT = 20     # 扫目标群最近 20 条做兜底去重
 
