@@ -256,5 +256,14 @@
   "ok": false,
   "attempts": 1,
   "err": "{'err': True, 'res': 'Serv Error'}"
+ },
+ "0xe367f13c13c0877aa04edf6fdbfbd0e76fd77777": {
+  "ts": "2026-09-29 15:54:23",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumdrmwj1wcqrd",
+  "ok": true,
+  "attempts": 1
  }
 }
