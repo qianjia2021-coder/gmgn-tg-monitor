@@ -437,5 +437,14 @@
   "order_id": "mummdwbw1zopt3",
   "ok": true,
   "attempts": 1
+ },
+ "0xa1c4b2a130cb27d5b3265c8392393587b9ab7777": {
+  "ts": "2026-09-29 20:03:55",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mummoj8j1ztofo",
+  "ok": true,
+  "attempts": 1
  }
 }
