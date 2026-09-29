@@ -137,5 +137,14 @@
   "order_id": "mum33j8320gu11",
   "ok": true,
   "attempts": 1
+ },
+ "4aDtkCadyWomBewuynPi7Y8NR41dKXAmUMFYMLBxpump": {
+  "ts": "2026-09-29 03:05:37",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mum3gcaa20ht1z",
+  "ok": true,
+  "attempts": 1
  }
 }
