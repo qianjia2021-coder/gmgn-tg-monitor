@@ -446,5 +446,14 @@
   "order_id": "mummoj8j1ztofo",
   "ok": true,
   "attempts": 1
+ },
+ "EtV9vmJXhV4gTgxzgzn7xpbjRX2ne2Vb8T58mwabpump": {
+  "ts": "2026-09-29 12:05:43",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mummqwzm29205x",
+  "ok": true,
+  "attempts": 1
  }
 }
