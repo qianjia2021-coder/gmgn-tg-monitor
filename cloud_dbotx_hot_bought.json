@@ -328,5 +328,14 @@
   "order_id": "mumh12jk1xm12m",
   "ok": true,
   "attempts": 1
+ },
+ "0x1d80392d12caaaf9e333bb0bb7f021eacf297fe6": {
+  "ts": "2026-09-29 09:40:56",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mumhkq6w26u8na",
+  "ok": true,
+  "attempts": 1
  }
 }
