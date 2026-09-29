@@ -3,7 +3,7 @@
 """
 GMGN 热搜第一监控 -> Telegram「GMGN热搜」群组（云端版，GitHub Actions）
 =========================================================================
-与本地 hot_search_monitor.py 同一逻辑：SOL + BSC 1h 热搜榜，rank==1 换新合约即推送。
+只推 BSC 链 1h 热搜第一（SOL 暂停，2026-09-29 用户指定）。双端共享状态文件 cloud_hot_state.json 逻辑不变。
 双端共享状态文件 cloud_hot_state.json（存于仓库），本地/云端双向同步去重；
 推送前再扫群内最近 30 条消息兜底，防止本地/云端竞态重复。
 
@@ -31,7 +31,7 @@ REPO = "qianjia2021-coder/gmgn-tg-monitor"
 STATE_PATH = "cloud_hot_state.json"
 BOUGHT_PATH = "cloud_dbotx_hot_bought.json"
 GH_API = "https://api.github.com"
-CHAINS = ["sol", "bsc"]
+CHAINS = ["bsc"]
 HOT_INTERVAL = "1h"
 LIMIT = 20
 TARGET_CHAT = int(os.environ.get("TG_HOTSEARCH_CHAT_ID", "5499948080"))
