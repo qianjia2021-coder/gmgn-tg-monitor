@@ -547,5 +547,14 @@
   "order_id": "mun92zp72elgza",
   "ok": true,
   "attempts": 1
+ },
+ "DtFkKBC3Cmi9j3SxBGRUd8gvBLw7nAasrvUJFB69yubM": {
+  "ts": "2026-09-30 07:00:16",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muna4nw62epglr",
+  "ok": true,
+  "attempts": 1
  }
 }
