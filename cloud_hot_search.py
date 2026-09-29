@@ -243,18 +243,7 @@ async def main():
             for m in ADDR_RE.findall(msg.message):
                 already.add(m.lower())
     print("already in group (last 30): {}".format(len(already)))
-    # 前置条件（用户 09-29 指定）：合约必须曾在 chengzi_golden 群发送过才推送
-    golden_addrs = set()
-    try:
-        golden_peer = await client.get_entity(GOLDEN_GROUP)
-        async for msg in client.iter_messages(golden_peer, limit=GOLDEN_SCAN_LIMIT):
-            if msg.message:
-                for m in ADDR_RE.findall(msg.message):
-                    golden_addrs.add(m.lower())
-        print("chengzi_golden scan: {} addrs in last {}".format(
-            len(golden_addrs), GOLDEN_SCAN_LIMIT))
-    except Exception as e:
-        print("chengzi_golden scan failed: {}".format(e))
+    # (09-30 临时) 已去掉 chengzi_golden 前置限制：只要热搜第一就推
     pushed = 0
     state_changed = False
     bought_changed = False
@@ -274,9 +263,6 @@ async def main():
             print("[{}] hot #{}: {} | {}".format(chain, rank, sym, addr))
             rec = state.get(chain) or {"last": "", "seen": []}
             seen = set(rec.get("seen") or [])
-            if addr.lower() not in golden_addrs:
-                print("[{}] not in chengzi_golden, skip (precondition): {} | {}".format(chain, sym, addr))
-                continue
             if addr in seen or addr.lower() in already:
                 print("[{}] already pushed, skip".format(chain))
                 rec["last"] = addr
