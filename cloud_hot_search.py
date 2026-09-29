@@ -34,6 +34,8 @@ GH_API = "https://api.github.com"
 CHAINS = ["bsc"]
 HOT_INTERVAL = "1h"
 LIMIT = 20
+GOLDEN_GROUP = "chengzi_golden"          # 前置条件：合约须在该群发送过才推送
+GOLDEN_SCAN_LIMIT = 200                  # 扫该群最近 200 条消息
 TARGET_CHAT = int(os.environ.get("TG_HOTSEARCH_CHAT_ID", "5499948080"))
 TARGET_NAME = "GMGN热搜"
 ADDR_RE = re.compile(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b|\b0x[a-fA-F0-9]{40}\b")
@@ -241,6 +243,18 @@ async def main():
             for m in ADDR_RE.findall(msg.message):
                 already.add(m.lower())
     print("already in group (last 30): {}".format(len(already)))
+    # 前置条件（用户 09-29 指定）：合约必须曾在 chengzi_golden 群发送过才推送
+    golden_addrs = set()
+    try:
+        golden_peer = await client.get_entity(GOLDEN_GROUP)
+        async for msg in client.iter_messages(golden_peer, limit=GOLDEN_SCAN_LIMIT):
+            if msg.message:
+                for m in ADDR_RE.findall(msg.message):
+                    golden_addrs.add(m.lower())
+        print("chengzi_golden scan: {} addrs in last {}".format(
+            len(golden_addrs), GOLDEN_SCAN_LIMIT))
+    except Exception as e:
+        print("chengzi_golden scan failed: {}".format(e))
     pushed = 0
     state_changed = False
     bought_changed = False
@@ -259,6 +273,9 @@ async def main():
         print("[{}] hot #1: {} | {}".format(chain, sym, addr))
         rec = state.get(chain) or {"last": "", "seen": []}
         seen = set(rec.get("seen") or [])
+        if addr.lower() not in golden_addrs:
+            print("[{}] not in chengzi_golden, skip (precondition): {} | {}".format(chain, sym, addr))
+            continue
         if addr in seen or addr.lower() in already:
             print("[{}] already pushed, skip".format(chain))
             rec["last"] = addr
