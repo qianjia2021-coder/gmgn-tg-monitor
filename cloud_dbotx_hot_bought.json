@@ -90,7 +90,7 @@
   "order_id": "",
   "ok": false,
   "attempts": 5,
-  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+  "err": "SOL chain dbotx 500 Serv Error (server-side); 已放弃重试"
  },
  "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr": {
   "ts": "2026-09-29 09:15:31",
@@ -199,8 +199,8 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
-  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+  "attempts": 5,
+  "err": "SOL chain dbotx 500 Serv Error (server-side); 已放弃重试"
  },
  "JCqaX2xkY4MSWj2Fd3VQPLy2V9ZzTEoqTZ6VdQhyi1Go": {
   "ts": "2026-09-29 07:15:51",
