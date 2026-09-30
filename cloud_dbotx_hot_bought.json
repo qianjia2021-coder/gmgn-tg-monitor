@@ -728,7 +728,16 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": {
+  "ts": "2026-09-30 14:44:49",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munqq24x2ip44h",
+  "ok": true,
+  "attempts": 1
  }
 }
