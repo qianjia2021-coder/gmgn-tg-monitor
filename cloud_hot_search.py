@@ -189,7 +189,7 @@ def wallet_bought_token(chain, addr, wallet):
         data = json.loads(out)
     except Exception as e:
         print("黑名单检查失败 {}: {}".format(addr, e))
-        return True
+        return None
     for w in data.get("list") or []:
         if (w.get("address") or "") == wallet and float(w.get("buy_volume_cur") or 0) > 0:
             return True
@@ -273,11 +273,11 @@ async def main():
         except Exception as e:
             print("[{}] fetch failed: {}".format(chain, e))
             continue
-        top2 = tokens[:2]
-        if not top2:
+        top_all = tokens
+        if not top_all:
             print("[{}] empty rank".format(chain))
             continue
-        for rank, tok in enumerate(top2, 1):
+        for rank, tok in enumerate(top_all, 1):
             addr = (tok.get("address") or "").strip()
             sym = tok.get("symbol") or ""
             print("[{}] hot #{}: {} | {}".format(chain, rank, sym, addr))
@@ -290,16 +290,24 @@ async def main():
                 continue
             # ④ 黑名单钱包过滤：该钱包买入过的合约不推不买
             if BLACKLIST_WALLETS:
+                check_fail = False
                 blocked = False
                 for w in BLACKLIST_WALLETS:
                     try:
-                        if wallet_bought_token(chain, addr, w):
-                            blocked = True
-                            break
+                        r = wallet_bought_token(chain, addr, w)
                     except Exception as e:
-                        print("blacklist check error: {}".format(e))
+                        print("blacklist check error {}: {}".format(addr, e))
+                        check_fail = True
+                        break
+                    if r is True:
                         blocked = True
                         break
+                    if r is None:
+                        check_fail = True
+                        break
+                if check_fail:
+                    print("[{}] 黑名单检查失败，本轮跳过（下轮重试）: {}".format(chain, sym))
+                    continue
                 if blocked:
                     print("[{}] 黑名单拦截（不推不买）: {} | {}".format(chain, sym, addr))
                     seen.add(addr)
