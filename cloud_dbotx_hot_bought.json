@@ -775,5 +775,14 @@
   "order_id": "munrckon2d30z8",
   "ok": true,
   "attempts": 1
+ },
+ "4WPn1oGVE7rza6PjFJwYpEXZn6qtjwxEKkCV9EtAxhUU": {
+  "ts": "2026-09-30 15:03:39",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munre9w32ixfum",
+  "ok": true,
+  "attempts": 1
  }
 }
