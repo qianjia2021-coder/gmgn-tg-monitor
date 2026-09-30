@@ -230,7 +230,7 @@ def fmt_msg(t, chain):
     holders = int(t.get("holder_count") or 0)
     swaps = int(t.get("swaps") or 0)
     return "\n".join([
-        "🔥 <b>GMGN 热搜第一</b>  #{} {}".format(sym, name),
+        "🔥 <b>GMGN 热搜榜</b>  #{} {}".format(sym, name),
         "链: {} | 平台: {} | 热搜热度: {}".format(chain.upper(), lp or "-", heat),
         "1h涨跌: {}% | 价格 ${} | 流动性 ${:,}".format(chg1h, _fmt_price(t.get("price")), liq),
         "持有人: {:,} | swaps: {:,}".format(holders, swaps),
@@ -263,7 +263,7 @@ async def main():
             for m in ADDR_RE.findall(msg.message):
                 already.add(m.lower())
     print("already in group (last 30): {}".format(len(already)))
-    # (09-30 临时) 已去掉 chengzi_golden 前置限制：只要热搜第一就推
+    # (09-30 临时) 已去掉 chengzi_golden 前置限制：热搜前2都推
     pushed = 0
     state_changed = False
     bought_changed = False
@@ -273,11 +273,11 @@ async def main():
         except Exception as e:
             print("[{}] fetch failed: {}".format(chain, e))
             continue
-        top1 = tokens[:1]
+        top2 = tokens[:2]
         if not top1:
             print("[{}] empty rank".format(chain))
             continue
-        for rank, tok in enumerate(top1, 1):
+        for rank, tok in enumerate(top2, 1):
             addr = (tok.get("address") or "").strip()
             sym = tok.get("symbol") or ""
             print("[{}] hot #{}: {} | {}".format(chain, rank, sym, addr))
