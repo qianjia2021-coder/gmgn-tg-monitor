@@ -766,5 +766,14 @@
   "order_id": "munqs84l2ipato",
   "ok": true,
   "attempts": 1
+ },
+ "bsVFNjW9znB9LnWDXf7rQW9Bv7SXV1gqDRneZ2kpump": {
+  "ts": "2026-09-30 15:02:19",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munrckon2d30z8",
+  "ok": true,
+  "attempts": 1
  }
 }
