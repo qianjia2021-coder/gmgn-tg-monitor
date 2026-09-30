@@ -784,5 +784,15 @@
   "order_id": "munre9w32ixfum",
   "ok": true,
   "attempts": 1
+ },
+ "425XY7d5kNp7mSPKiPzTWFiVdso2ywnSNAAkT37RwUGu": {
+  "ts": "2026-09-30 15:18:46",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
