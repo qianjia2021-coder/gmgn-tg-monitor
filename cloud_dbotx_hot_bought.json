@@ -720,5 +720,15 @@
   "order_id": "munq1q2i2cxlo6",
   "ok": true,
   "attempts": 1
+ },
+ "3sL58KKh2QdNSfN9VRz8bHGGU5zStdfManVHCTkhpump": {
+  "ts": "2026-09-30 14:41:13",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
