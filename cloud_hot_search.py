@@ -274,7 +274,7 @@ async def main():
             print("[{}] fetch failed: {}".format(chain, e))
             continue
         top2 = tokens[:2]
-        if not top1:
+        if not top2:
             print("[{}] empty rank".format(chain))
             continue
         for rank, tok in enumerate(top2, 1):
