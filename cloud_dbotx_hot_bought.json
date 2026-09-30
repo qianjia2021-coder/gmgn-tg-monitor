@@ -574,5 +574,14 @@
   "order_id": "muncl8fp26epi2",
   "ok": true,
   "attempts": 1
+ },
+ "6e8LLHkqCTa4mzGuL1PoUxSfeHmDeceJ3DaJSSUNg937": {
+  "ts": "2026-09-30 08:19:13",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muncy79326f2hr",
+  "ok": true,
+  "attempts": 1
  }
 }
