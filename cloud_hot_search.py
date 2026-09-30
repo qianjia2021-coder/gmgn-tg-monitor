@@ -38,7 +38,8 @@ GOLDEN_GROUP = "chengzi_golden"          # 前置条件：合约须在该群发�
 GOLDEN_SCAN_LIMIT = 200                  # 扫该群最近 200 条消息
 TARGET_CHAT = int(os.environ.get("TG_HOTSEARCH_CHAT_ID", "5499948080"))
 TARGET_NAME = "GMGN热搜"
-PAUSED = True  # 用户 09-30：暂停热搜推送，待头像过滤规则确认后移除
+PAUSED = False  # 用户 09-30：已恢复（K线标记≥5 规则落地）
+KOL_MARK_MIN = 5  # K线标记阈值：top-100 traders 中带头像钱包数 ≥ 5 才推（09-30 定版）
 # ④ 黑名单钱包过滤（用户 09-30 指定）：该钱包买入过的合约一律不推不买
 BLACKLIST_WALLETS = [
     "suqh5sHtr8HyJ7q8scBimULPkPpA557prMG47xCHQfK",
@@ -197,6 +198,26 @@ def wallet_bought_token(chain, addr, wallet):
     return False
 
 
+def kline_mark_check(chain, addr):
+    """K线标记检查：一次 traders 查询同时完成
+      (a) K线标记数 = top-100 traders 中带头像钱包数（用户 09-30：>= KOL_MARK_MIN 个字母圆形头像才推）
+      (b) 黑名单检查：黑名单钱包是否买入过该合约
+    返回 (mark_count, blocked, ok)；ok=False 表示查询失败（限频/异常），本轮跳过不记 seen"""
+    args = ["gmgn-cli", "token", "traders", "--chain", chain, "--address", addr,
+            "--limit", "100", "--raw"]
+    try:
+        out = run_gmgn(args, timeout=60)
+        data = json.loads(out)
+    except Exception as e:
+        print("K线标记检查失败 {}: {}".format(addr, e))
+        return 0, False, False
+    lst = data.get("list") or []
+    marks = sum(1 for w in lst if (w.get("avatar") or "").strip())
+    blocked = any((w.get("address") or "") in BLACKLIST_WALLETS
+                  and float(w.get("buy_volume_cur") or 0) > 0 for w in lst)
+    return marks, blocked, True
+
+
 def get_rank1(tokens):
     for t in tokens:
         if int(t.get("rank") or 0) == 1:
@@ -241,9 +262,6 @@ def fmt_msg(t, chain):
 
 
 async def main():
-    if PAUSED:
-        print("paused by user (2026-09-30): hot search push suspended")
-        return
     state, sha = read_state()
     bought, bought_sha = read_bought()
     print("state entries: {} chains | bought: {}".format(len(state), len(bought)))
@@ -292,34 +310,27 @@ async def main():
                 rec["last"] = addr
                 state[chain] = rec
                 continue
-            # ④ 黑名单钱包过滤：该钱包买入过的合约不推不买
-            if BLACKLIST_WALLETS:
-                check_fail = False
-                blocked = False
-                for w in BLACKLIST_WALLETS:
-                    try:
-                        r = wallet_bought_token(chain, addr, w)
-                    except Exception as e:
-                        print("blacklist check error {}: {}".format(addr, e))
-                        check_fail = True
-                        break
-                    if r is True:
-                        blocked = True
-                        break
-                    if r is None:
-                        check_fail = True
-                        break
-                if check_fail:
-                    print("[{}] 黑名单检查失败，本轮跳过（下轮重试）: {}".format(chain, sym))
-                    continue
-                if blocked:
-                    print("[{}] 黑名单拦截（不推不买）: {} | {}".format(chain, sym, addr))
-                    seen.add(addr)
-                    rec["last"] = addr
-                    rec["seen"] = sorted(seen)
-                    state[chain] = rec
-                    state_changed = True
-                    continue
+            # ④⑤ K线标记(≥KOL_MARK_MIN) + 黑名单合并检查：一次 traders 查询（weight=5）
+            marks, blocked, ok = kline_mark_check(chain, addr)
+            if not ok:
+                print("[{}] 标记/黑名单检查失败，本轮跳过（下轮重试）: {}".format(chain, sym))
+                continue
+            if marks < KOL_MARK_MIN:
+                print("[{}] K线标记不足（{} < {}），跳过: {}".format(chain, marks, KOL_MARK_MIN, sym))
+                seen.add(addr)
+                rec["last"] = addr
+                rec["seen"] = sorted(seen)
+                state[chain] = rec
+                state_changed = True
+                continue
+            if blocked:
+                print("[{}] 黑名单拦截（不推不买）: {} | {}".format(chain, sym, addr))
+                seen.add(addr)
+                rec["last"] = addr
+                rec["seen"] = sorted(seen)
+                state[chain] = rec
+                state_changed = True
+                continue
 
             try:
                 await client.send_message(peer, fmt_msg(tok, chain),
