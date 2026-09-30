@@ -316,12 +316,7 @@ async def main():
                 print("[{}] 标记/黑名单检查失败，本轮跳过（下轮重试）: {}".format(chain, sym))
                 continue
             if marks < KOL_MARK_MIN:
-                print("[{}] K线标记不足（{} < {}），跳过: {}".format(chain, marks, KOL_MARK_MIN, sym))
-                seen.add(addr)
-                rec["last"] = addr
-                rec["seen"] = sorted(seen)
-                state[chain] = rec
-                state_changed = True
+                print("[{}] K线标记不足（{} < {}），标记达标后补推，下轮再查: {}".format(chain, marks, KOL_MARK_MIN, sym))
                 continue
             if blocked:
                 print("[{}] 黑名单拦截（不推不买）: {} | {}".format(chain, sym, addr))
