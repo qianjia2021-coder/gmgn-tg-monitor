@@ -60,6 +60,11 @@ SPIKE_RATIO = 0.25          # volume_5m / volume_1h >= 25%
 SPIKE_CHG_5M = 15.0         # 5m 涨幅 >= +15%
 MIN_VOL_1H = 5000.0         # 1h 成交 >= $5K
 
+# ④ 黑名单钱包过滤（用户 09-30 指定）：该钱包买入过的合约一律不推
+BLACKLIST_WALLETS = [
+    "suqh5sHtr8HyJ7q8scBimULPkPpA557prMG47xCHQfK",
+]
+
 
 def gh_headers():
     return {
@@ -193,6 +198,23 @@ def spike_pass(t, vol):
     return True, ""
 
 
+def wallet_bought_token(addr, wallet):
+    """黑名单检查：该钱包是否在合约 top-100 交易者中买入过（weight=5）。
+    检查失败时保守拦截（宁可漏，不可推可疑盘）。"""
+    args = ["gmgn-cli", "token", "traders", "--chain", "sol", "--address", addr,
+            "--limit", "100", "--raw"]
+    try:
+        out = run_gmgn(args, timeout=60)
+        data = json.loads(out)
+    except Exception as e:
+        print("黑名单检查失败 {}: {}".format(addr, e))
+        return True  # 保守拦截
+    for w in data.get("list") or []:
+        if (w.get("address") or "") == wallet and float(w.get("buy_volume_cur") or 0) > 0:
+            return True
+    return False
+
+
 def _fmt_price(v):
     try:
         p = float(v or 0)
@@ -280,6 +302,18 @@ async def main():
         ok, why = spike_pass(t, vol)
         if not ok:
             print("[sol] 精查未达: {} | {}".format(sym, why))
+            continue
+
+        # ④ 黑名单钱包过滤：该钱包买入过的合约一律不推
+        blocked = False
+        for w in BLACKLIST_WALLETS:
+            if wallet_bought_token(addr, w):
+                print("[sol] 黑名单拦截: {} | 钱包 {} 曾买入".format(sym, w))
+                blocked = True
+                break
+        if blocked:
+            seen.add(addr)  # 永久不推
+            changed = True
             continue
 
         msg = fmt_msg(t, vol)
