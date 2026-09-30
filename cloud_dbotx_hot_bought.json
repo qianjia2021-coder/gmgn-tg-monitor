@@ -601,5 +601,14 @@
   "order_id": "muneu7ow2f95pr",
   "ok": true,
   "attempts": 1
+ },
+ "JCM1oigEaGspKYrqjCsJbcYcWktCsohVE4u3ihhQpump": {
+  "ts": "2026-09-30 09:40:02",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munfu4pv2fdtbw",
+  "ok": true,
+  "attempts": 1
  }
 }
