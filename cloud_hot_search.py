@@ -212,7 +212,11 @@ def kline_mark_check(chain, addr):
         print("K线标记检查失败 {}: {}".format(addr, e))
         return 0, False, False
     lst = data.get("list") or []
-    marks = sum(1 for w in lst if (w.get("avatar") or "").strip())
+    # K线标记口径（用户 09-30）：有头像 OR 有名字 OR 有twitter 的条目都计入（含喊单标志/气泡类）
+    marks = sum(1 for w in lst
+                if (w.get("avatar") or "").strip()
+                or (w.get("name") or "").strip()
+                or (w.get("twitter_username") or "").strip())
     blocked = any((w.get("address") or "") in BLACKLIST_WALLETS
                   and float(w.get("buy_volume_cur") or 0) > 0 for w in lst)
     return marks, blocked, True
