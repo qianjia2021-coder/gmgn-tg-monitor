@@ -592,5 +592,14 @@
   "order_id": "mund5hhd2etun0",
   "ok": true,
   "attempts": 1
+ },
+ "CmkQiFLz5Rirwvw9MXvWJz74UiVvvHTnRifCwqb6pump": {
+  "ts": "2026-09-30 09:12:07",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muneu7ow2f95pr",
+  "ok": true,
+  "attempts": 1
  }
 }
