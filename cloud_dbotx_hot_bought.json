@@ -657,5 +657,14 @@
   "ok": false,
   "attempts": 1,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "ADh5bGPJ3vEL7Vds69sec8CzyxUPWguMfhmuH9Rmpump": {
+  "ts": "2026-09-30 10:20:30",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munha5sw2fhc40",
+  "ok": true,
+  "attempts": 1
  }
 }
