@@ -38,6 +38,7 @@ GOLDEN_GROUP = "chengzi_golden"          # 前置条件：合约须在该群发�
 GOLDEN_SCAN_LIMIT = 200                  # 扫该群最近 200 条消息
 TARGET_CHAT = int(os.environ.get("TG_HOTSEARCH_CHAT_ID", "5499948080"))
 TARGET_NAME = "GMGN热搜"
+PAUSED = True  # 用户 09-30：暂停热搜推送，待头像过滤规则确认后移除
 # ④ 黑名单钱包过滤（用户 09-30 指定）：该钱包买入过的合约一律不推不买
 BLACKLIST_WALLETS = [
     "suqh5sHtr8HyJ7q8scBimULPkPpA557prMG47xCHQfK",
@@ -240,6 +241,9 @@ def fmt_msg(t, chain):
 
 
 async def main():
+    if PAUSED:
+        print("paused by user (2026-09-30): hot search push suspended")
+        return
     state, sha = read_state()
     bought, bought_sha = read_bought()
     print("state entries: {} chains | bought: {}".format(len(state), len(bought)))
