@@ -627,7 +627,16 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "8MX428ydjsNgT7eiAd6Jm4z8SjrLRzFhYYB5Eyjmpump": {
+  "ts": "2026-09-30 09:58:48",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mungi90q2fexe4",
+  "ok": true,
+  "attempts": 1
  }
 }
