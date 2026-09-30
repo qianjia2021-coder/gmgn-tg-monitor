@@ -38,6 +38,10 @@ GOLDEN_GROUP = "chengzi_golden"          # 前置条件：合约须在该群发�
 GOLDEN_SCAN_LIMIT = 200                  # 扫该群最近 200 条消息
 TARGET_CHAT = int(os.environ.get("TG_HOTSEARCH_CHAT_ID", "5499948080"))
 TARGET_NAME = "GMGN热搜"
+# ④ 黑名单钱包过滤（用户 09-30 指定）：该钱包买入过的合约一律不推不买
+BLACKLIST_WALLETS = [
+    "suqh5sHtr8HyJ7q8scBimULPkPpA557prMG47xCHQfK",
+]
 ADDR_RE = re.compile(r"\b[1-9A-HJ-NP-Za-km-z]{32,44}\b|\b0x[a-fA-F0-9]{40}\b")
 
 # dbotx 模拟器自动买入（与本地一致）：SOL 0.1 / BSC 0.1，止盈 +50% 全卖
@@ -176,6 +180,22 @@ def fetch_hot(chain):
     return (data.get("data") or {}).get("rank") or []
 
 
+def wallet_bought_token(chain, addr, wallet):
+    """黑名单检查：该钱包是否在合约 top-100 交易者中买入过（weight=5）。检查失败保守拦截。"""
+    args = ["gmgn-cli", "token", "traders", "--chain", chain, "--address", addr,
+            "--limit", "100", "--raw"]
+    try:
+        out = run_gmgn(args, timeout=60)
+        data = json.loads(out)
+    except Exception as e:
+        print("黑名单检查失败 {}: {}".format(addr, e))
+        return True
+    for w in data.get("list") or []:
+        if (w.get("address") or "") == wallet and float(w.get("buy_volume_cur") or 0) > 0:
+            return True
+    return False
+
+
 def get_rank1(tokens):
     for t in tokens:
         if int(t.get("rank") or 0) == 1:
@@ -268,6 +288,27 @@ async def main():
                 rec["last"] = addr
                 state[chain] = rec
                 continue
+            # ④ 黑名单钱包过滤：该钱包买入过的合约不推不买
+            if BLACKLIST_WALLETS:
+                blocked = False
+                for w in BLACKLIST_WALLETS:
+                    try:
+                        if wallet_bought_token(chain, addr, w):
+                            blocked = True
+                            break
+                    except Exception as e:
+                        print("blacklist check error: {}".format(e))
+                        blocked = True
+                        break
+                if blocked:
+                    print("[{}] 黑名单拦截（不推不买）: {} | {}".format(chain, sym, addr))
+                    seen.add(addr)
+                    rec["last"] = addr
+                    rec["seen"] = sorted(seen)
+                    state[chain] = rec
+                    state_changed = True
+                    continue
+
             try:
                 await client.send_message(peer, fmt_msg(tok, chain),
                                           parse_mode="html", link_preview=False)
