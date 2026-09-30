@@ -804,5 +804,15 @@
   "ok": false,
   "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "E7Eb6WreLwessrefQ4ooXcqgwKQredJq3KBHbt8bYpYH": {
+  "ts": "2026-09-30 15:41:13",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
