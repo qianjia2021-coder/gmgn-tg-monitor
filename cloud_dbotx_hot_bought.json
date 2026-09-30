@@ -728,7 +728,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  },
  "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": {
@@ -737,6 +737,33 @@
   "amount": 0.1,
   "stop_earn": 0.5,
   "order_id": "munqq24x2ip44h",
+  "ok": true,
+  "attempts": 1
+ },
+ "9a2vQG6eQGmdJqvrVuAtXpvMQMokhLf7FHW1QJGHFvWi": {
+  "ts": "2026-09-30 14:46:18",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munqrytu2ip9gu",
+  "ok": true,
+  "attempts": 1
+ },
+ "HTmQz7My6MehV7bjhJ6jde8nDND1yvsz68d24LP7YgUQ": {
+  "ts": "2026-09-30 14:46:24",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munqs3f32cyxvw",
+  "ok": true,
+  "attempts": 1
+ },
+ "9aqmJjCnnMQv42TXLk921ceUkN35nea2QP969n1caqjj": {
+  "ts": "2026-09-30 14:46:30",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "munqs84l2ipato",
   "ok": true,
   "attempts": 1
  }
