@@ -824,5 +824,15 @@
   "ok": false,
   "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "BFwALUzQHL2PE54KaDFs4UMZG8ifLVMNcRnffK9gX6eH": {
+  "ts": "2026-09-30 16:40:14",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
