@@ -19,10 +19,11 @@ jobs:
       - name: 本机心跳检查（开机本地/关机云端，互斥接力）
         id: hb
         run: |
+          export GH_TOKEN="${{ secrets.GITHUB_TOKEN }}"
           HB=$(gh api "repos/${{ github.repository }}/commits?path=heartbeat.txt&per_page=1" --jq '.[0].commit.committer.date // ""' 2>/dev/null || echo "")
           if [ -z "$HB" ]; then
-            echo "无心跳文件，本机从未开机写入 → 云端接管"
-            echo "takeover=true" >> "$GITHUB_OUTPUT"
+            echo "::error:: 心跳查询失败（gh 未认证或仓库无 heartbeat.txt）→ 保守跳过本轮"
+            echo "takeover=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           HB_EPOCH=$(date -d "$HB" +%s 2>/dev/null || echo 0)
