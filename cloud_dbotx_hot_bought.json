@@ -1245,7 +1245,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  },
  "0x5e92cc3e184fb6d713eac2a542bca3b438d27777": {
@@ -1272,6 +1272,15 @@
   "amount": 0.1,
   "stop_earn": 0.5,
   "order_id": "muq65mz3384m4e",
+  "ok": true,
+  "attempts": 1
+ },
+ "AeQkfC7oca87YVHNdyMGHPWcief3NFqMYRGfYjWzpump": {
+  "ts": "2026-10-02 07:39:12",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muq6ef4w367ba9",
   "ok": true,
   "attempts": 1
  }
