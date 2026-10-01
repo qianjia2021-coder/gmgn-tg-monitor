@@ -1,6 +1,6 @@
 {
  "bsc": {
-  "last": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+  "last": "0x6ea3a560b61898abf9d43d00a3f881e1c3607777",
   "seen": [
    "0x00cc9b4f7996c68487800126c907dbc9a723ffff",
    "0x0313c04e0efb315ee7facd213e129393792e7777",
@@ -31,6 +31,7 @@
    "0x52ab98b7abc6e35d8b1ed42eb17fe3369c697777",
    "0x6b3131b25b5230213cd084b0dae07ac0f44b7777",
    "0x6b69746ac1ca1881bd88ddb50833adac1da07777",
+   "0x6ea3a560b61898abf9d43d00a3f881e1c3607777",
    "0x75a0ee358ea1ecdcb047e36e0da2be8acd507777",
    "0x79f69ea7dd4532955b835a561d2320f3985e7777",
    "0x7b307ad0360499099291db190c5c0b111c147777",
@@ -68,7 +69,7 @@
   ]
  },
  "sol": {
-  "last": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+  "last": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
   "seen": [
    "2K7ZLQDmwcLDxXcGfmu2ShDBqpQozphBUvMe7M5Zpump",
    "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr",
