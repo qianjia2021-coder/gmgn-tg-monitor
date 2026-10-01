@@ -8,6 +8,7 @@ permissions:
 concurrency:
   group: hotsearch
   cancel-in-progress: false
+jobs:
   scan:
     runs-on: ubuntu-latest
     timeout-minutes: 10
