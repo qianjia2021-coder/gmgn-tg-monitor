@@ -17,29 +17,39 @@ jobs:
         with:
           fetch-depth: 1
       - name: 本机心跳检查（开机本地/关机云端，互斥接力）
+        id: hb
         run: |
           HB=$(gh api "repos/${{ github.repository }}/commits?path=heartbeat.txt&per_page=1" --jq '.[0].commit.committer.date // ""' 2>/dev/null || echo "")
           if [ -z "$HB" ]; then
-            echo "::warning:: 无心跳文件，本机从未开机写入 → 云端接管"
+            echo "无心跳文件，本机从未开机写入 → 云端接管"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          AGE=$(( $(date +%s) - $(date -d "$HB" +%s) ))
+          HB_EPOCH=$(date -d "$HB" +%s 2>/dev/null || echo 0)
+          AGE=$(( $(date +%s) - HB_EPOCH ))
           echo "本机心跳距今 ${AGE}s"
           if [ "$AGE" -lt 240 ]; then
-            echo "::warning:: 本机在线，云端本轮跳过（双端互斥）"
-            exit 0
+            echo "本机在线，云端本轮跳过（双端互斥）"
+            echo "takeover=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "本机已关机（心跳过期>4min），云端接管扫描"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"
           fi
-          echo "本机已关机（心跳过期>4min），云端接管扫描"
       - uses: actions/setup-node@v4
+        if: steps.hb.outputs.takeover == 'true'
         with:
           node-version: '20'
       - name: Install gmgn-cli
+        if: steps.hb.outputs.takeover == 'true'
         run: npm install -g gmgn-cli
       - uses: actions/setup-python@v5
+        if: steps.hb.outputs.takeover == 'true'
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
+        if: steps.hb.outputs.takeover == 'true'
       - name: Run GMGN hot-search monitor (SOL+BSC, 云端接管模式)
+        if: steps.hb.outputs.takeover == 'true'
         env:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
