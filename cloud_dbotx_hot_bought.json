@@ -1107,7 +1107,16 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0xd895ce916e5d7eac07a16a50ef2f3ffae8227777": {
+  "ts": "2026-10-01 20:24:58",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupibdyz33qssd",
+  "ok": true,
+  "attempts": 1
  }
 }
