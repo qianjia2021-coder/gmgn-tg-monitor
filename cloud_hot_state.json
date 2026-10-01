@@ -1,6 +1,6 @@
 {
  "bsc": {
-  "last": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+  "last": "0x46ceefda28dd7207059ed19b0acdc026955bb15c",
   "seen": [
    "0x00cc9b4f7996c68487800126c907dbc9a723ffff",
    "0x0313c04e0efb315ee7facd213e129393792e7777",
@@ -21,6 +21,7 @@
    "0x3f2c6927b7e1c101fe52a23c037a8c7bf0de7777",
    "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
    "0x43ed6706e35a1fff03e542c6ff7e58a41da37777",
+   "0x46ceefda28dd7207059ed19b0acdc026955bb15c",
    "0x46e30a14464d518869c596805e89b0e531597777",
    "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
    "0x6b3131b25b5230213cd084b0dae07ac0f44b7777",
@@ -53,7 +54,7 @@
   ]
  },
  "sol": {
-  "last": "2K7ZLQDmwcLDxXcGfmu2ShDBqpQozphBUvMe7M5Zpump",
+  "last": "5ptkVdbpaPpEJPPVXE5CpJNCXEmAidyot5TQcDDawMzm",
   "seen": [
    "2K7ZLQDmwcLDxXcGfmu2ShDBqpQozphBUvMe7M5Zpump",
    "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr",
