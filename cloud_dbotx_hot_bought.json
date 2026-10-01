@@ -1099,5 +1099,15 @@
   "order_id": "muphsxf333ob6r",
   "ok": true,
   "attempts": 1
+ },
+ "3aSn7R27H7UpbExooCT3eCMjGF3d9FNVhZBRyBmsrUAw": {
+  "ts": "2026-10-01 20:17:32",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 2,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
