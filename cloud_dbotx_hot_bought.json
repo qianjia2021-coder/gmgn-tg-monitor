@@ -907,7 +907,79 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0x35985eb91a78bf5110d32af0db8f1256d19e7777": {
+  "ts": "2026-10-01 19:06:25",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfid742ydscr",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x183ffbed812202a4dea1ef8a86b52f3b09f6ffff": {
+  "ts": "2026-10-01 19:06:31",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfihjg31zkyr",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xc561dc47b9c1c036e77ecffdde66b8f451847777": {
+  "ts": "2026-10-01 19:06:37",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfimfu2yge6l",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x3ccb70ba4e3b28019c566c541a48ae82103b7777": {
+  "ts": "2026-10-01 19:06:44",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfirs62ykcjy",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xcaf66eb2c00d206d741a654face34768cf2a7777": {
+  "ts": "2026-10-01 19:06:50",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfiw8s327xfy",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xc442d2a44dbeaae902765d527839327489487777": {
+  "ts": "2026-10-01 19:06:57",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfj1ug328d4o",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xabffa443547b34ab6c3b3173d26e233900527777": {
+  "ts": "2026-10-01 19:07:03",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfj65r2ym1sx",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xfa6d9b504848606eb9aec04ccc161d169b3f2159": {
+  "ts": "2026-10-01 19:07:08",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupfjag7328fwg",
+  "ok": true,
+  "attempts": 1
  }
 }
