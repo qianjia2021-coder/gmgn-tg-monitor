@@ -872,5 +872,23 @@
   "ok": false,
   "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "F458Huat36hKjLPc7dmL4uEixBAgX7fUjxWwnUEkpump": {
+  "ts": "2026-10-01 18:45:10",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muper18f2y25i3",
+  "ok": true,
+  "attempts": 1
+ },
+ "Bd9thw3PAeyHeBGSi4R1ARBuptpG5rM4fhB8BRWJkq1e": {
+  "ts": "2026-10-01 18:45:32",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muperi4c2y281b",
+  "ok": true,
+  "attempts": 1
  }
 }
