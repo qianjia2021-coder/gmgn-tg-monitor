@@ -1163,5 +1163,14 @@
   "order_id": "mupkcbzn30mwbq",
   "ok": true,
   "attempts": 1
+ },
+ "9pJWJdpPebyANys45eetpemLJo8yTz4n5B9zbpYw9ZMr": {
+  "ts": "2026-10-01 21:23:43",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupkex7s30nw1u",
+  "ok": true,
+  "attempts": 1
  }
 }
