@@ -1035,5 +1035,60 @@
   "order_id": "mupgovli2zlo5n",
   "ok": true,
   "attempts": 1
+ },
+ "7r1v5rZcGnyzVs1jei7FeMEiZVf4GhQgLYXjZHmMUDGQ": {
+  "ts": "2026-10-01 19:55:49",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muph9w5a33iiks",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x79f69ea7dd4532955b835a561d2320f3985e7777": {
+  "ts": "2026-10-01 19:56:12",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muphadjq33ik8o",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xdcb27321adf03fffcb662e0aa94a0bc32d4231f0": {
+  "ts": "2026-10-01 19:56:19",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0x21caef8a43163eea865baee23b9c2e327696a3bf": {
+  "ts": "2026-10-01 19:56:32",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muphatog33ilxo",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x41333df9e7639188bbfca5522dc4844398af9f9e": {
+  "ts": "2026-10-01 19:56:50",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muphb78f33im5w",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xb994882a1b9bd98a71dd6ea5f61577c42848b0e8": {
+  "ts": "2026-10-01 19:57:00",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muphbexz33ioyz",
+  "ok": true,
+  "attempts": 1
  }
 }
