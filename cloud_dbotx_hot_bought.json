@@ -1107,7 +1107,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0xd895ce916e5d7eac07a16a50ef2f3ffae8227777": {
