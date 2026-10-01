@@ -32,6 +32,7 @@ STATE_PATH = "cloud_hot_state.json"
 BOUGHT_PATH = "cloud_dbotx_hot_bought.json"
 GH_API = "https://api.github.com"
 CHAINS = ["sol", "bsc"]   # (10-01) 恢复 BSC 推送，条件不变
+CHAIN_TOP_LIMIT = {"sol": 20, "bsc": 30}  # (10-01) BSC 前 30，SOL 前 20
 HOT_INTERVAL = "1h"
 LIMIT = 20
 GOLDEN_GROUP = "chengzi_golden"          # 前置条件：合约须在该群发送过才推送
@@ -173,7 +174,7 @@ def run_gmgn(args):
 
 def fetch_hot(chain):
     args = ["gmgn-cli", "market", "hot-searches", "--chain", chain,
-            "--interval", HOT_INTERVAL, "--limit", str(LIMIT), "--raw"]
+            "--interval", HOT_INTERVAL, "--limit", str(CHAIN_TOP_LIMIT.get(chain, LIMIT)), "--raw"]
     print("cmd: " + " ".join(args))
     out = run_gmgn(args)
     data = json.loads(out)
