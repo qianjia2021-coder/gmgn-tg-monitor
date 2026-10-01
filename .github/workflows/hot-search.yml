@@ -8,32 +8,6 @@ permissions:
 concurrency:
   group: hotsearch
   cancel-in-progress: false
-jobs:
-  vol-spike:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - name: Install gmgn-cli
-        run: npm install -g gmgn-cli
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install -r requirements.txt
-      - name: Run GMGN vol-spike monitor (SOL)
-        env:
-          TG_API_ID: ${{ secrets.TG_API_ID }}
-          TG_API_HASH: ${{ secrets.TG_API_HASH }}
-          TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
-          GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TG_HOTSEARCH_CHAT_ID: '5499948080'
-        run: python3 cloud_vol_spike.py
   scan:
     runs-on: ubuntu-latest
     timeout-minutes: 10
