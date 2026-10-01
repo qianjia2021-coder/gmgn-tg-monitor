@@ -1190,5 +1190,14 @@
   "order_id": "mupko0m230rpbk",
   "ok": true,
   "attempts": 1
+ },
+ "0xbce69d45b3420ef973d0fee1f08ae66eff227777": {
+  "ts": "2026-10-01 21:41:35",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupl1wgs318dgt",
+  "ok": true,
+  "attempts": 1
  }
 }
