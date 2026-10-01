@@ -1,7 +1,8 @@
 {
  "bsc": {
-  "last": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+  "last": "0x00cc9b4f7996c68487800126c907dbc9a723ffff",
   "seen": [
+   "0x00cc9b4f7996c68487800126c907dbc9a723ffff",
    "0x0313c04e0efb315ee7facd213e129393792e7777",
    "0x058cbf3d51761dbcb8f38247325df1ab19e47777",
    "0x108876c3df3d893350e9b780563b3697aa3e7777",
@@ -43,7 +44,7 @@
   ]
  },
  "sol": {
-  "last": "7ioeSgzfSKHMnpgfPpgRFsekMBGiu9oi6t6GeqYtNbbh",
+  "last": "5ptkVdbpaPpEJPPVXE5CpJNCXEmAidyot5TQcDDawMzm",
   "seen": [
    "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr",
    "2yu92oYzBWLAdVpu8BoaLzmM1oxPsHoboay2BXmeDDZr",
@@ -66,6 +67,7 @@
    "4p4bAN4P6pdPW4o5BcdDWWRuJGyvEWDY8uSsHX23czv7",
    "5mgqyi2ZsNNaL7itZN2tKjFEW1icoiVdyTRdN5E24SHU",
    "5nHVi7Mu8QkwvgYeLyMhgxmejB6U7odTDWjyxr8EWWSj",
+   "5ptkVdbpaPpEJPPVXE5CpJNCXEmAidyot5TQcDDawMzm",
    "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
    "5wW9mhbwq1HTFh341iimpmrqBB4mfxdXiYhdYBL7hUnp",
    "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
