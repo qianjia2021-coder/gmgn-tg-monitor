@@ -1216,7 +1216,16 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "AUHbg5JCPR6sfon92zD2YZ82tXvv3a792QY449KJ7hwj": {
+  "ts": "2026-10-01 22:10:38",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupm39on3597k9",
+  "ok": true,
+  "attempts": 1
  }
 }
