@@ -862,5 +862,15 @@
   "order_id": "mup346mq2vdrgq",
   "ok": true,
   "attempts": 1
+ },
+ "ANzrdoVonAtNJk3ZG28CXCjNjfPkc8qVWXW7MQe7vSqz": {
+  "ts": "2026-10-01 13:29:01",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
