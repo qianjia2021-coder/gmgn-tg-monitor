@@ -1172,5 +1172,23 @@
   "order_id": "mupkex7s30nw1u",
   "ok": true,
   "attempts": 1
+ },
+ "FEVYjz1uqrGxF5gUfbAb7hHUTGFv7hycLWywsanJtLhm": {
+  "ts": "2026-10-01 21:30:26",
+  "chain": "sol",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupknkln348nh4",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xf2ec508422174ee564de98187db9359d318afb6b": {
+  "ts": "2026-10-01 21:30:47",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupko0m230rpbk",
+  "ok": true,
+  "attempts": 1
  }
 }
