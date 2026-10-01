@@ -1118,5 +1118,14 @@
   "order_id": "mupibdyz33qssd",
   "ok": true,
   "attempts": 1
+ },
+ "0x1ba4589ac166dcd1c9df86067a7f1b0bf6a47777": {
+  "ts": "2026-10-01 20:28:51",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mupigdrr33rob8",
+  "ok": true,
+  "attempts": 1
  }
 }
