@@ -1,6 +1,6 @@
 {
  "bsc": {
-  "last": "0x21caef8a43163eea865baee23b9c2e327696a3bf",
+  "last": "0xf2ec508422174ee564de98187db9359d318afb6b",
   "seen": [
    "0x00cc9b4f7996c68487800126c907dbc9a723ffff",
    "0x0313c04e0efb315ee7facd213e129393792e7777",
@@ -58,6 +58,7 @@
    "0xdcb27321adf03fffcb662e0aa94a0bc32d4231f0",
    "0xe367f13c13c0877aa04edf6fdbfbd0e76fd77777",
    "0xea83509b0f8761ba87614ad6f1f0612802e37777",
+   "0xf2ec508422174ee564de98187db9359d318afb6b",
    "0xf6765d6537de08cb168cbeaadb0c2e78234b6666",
    "0xfa273b076feb8c0fb34e554ae341082323d016a3",
    "0xfa6d9b504848606eb9aec04ccc161d169b3f2159",
@@ -66,7 +67,7 @@
   ]
  },
  "sol": {
-  "last": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE",
+  "last": "FEVYjz1uqrGxF5gUfbAb7hHUTGFv7hycLWywsanJtLhm",
   "seen": [
    "2K7ZLQDmwcLDxXcGfmu2ShDBqpQozphBUvMe7M5Zpump",
    "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr",
@@ -155,6 +156,7 @@
    "EdYKmD6gwazdMQBeadHpSuSeTpjtnbxkpfXCax3Lpump",
    "EdfUDQxVihNgHf7KDjhxC3ZSdXtNr33tojuKq3rgUCfv",
    "F458Huat36hKjLPc7dmL4uEixBAgX7fUjxWwnUEkpump",
+   "FEVYjz1uqrGxF5gUfbAb7hHUTGFv7hycLWywsanJtLhm",
    "FKPdKiZBYMU2MwHXKjyhgV6ozSh2APzvvr3ZBwFCfSHo",
    "FQwsXYgx1LpijkUyUukfbuk1Vpb5jLm36HJtPr6rpump",
    "Fs4p664NY13ZXARqXPheBYVnopBjX3398Pz3tk5npump",
