@@ -1583,5 +1583,23 @@
   "order_id": "muqznnma3j9n40",
   "ok": true,
   "attempts": 1
+ },
+ "0x5b0a884d5965d9592859a197565c54406cf77777": {
+  "ts": "2026-10-02 21:19:53",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muqzpsvj3jk7u0",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x86782a321f666c125e40cd5e38129708f1e97777": {
+  "ts": "2026-10-02 21:20:07",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muqzq3mm3jk99c",
+  "ok": true,
+  "attempts": 1
  }
 }
