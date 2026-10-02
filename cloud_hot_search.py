@@ -248,7 +248,7 @@ def _fmt_price(v):
     return s
 
 
-def fmt_msg(t, chain):
+def fmt_msg(t, chain, rank=None):
     sym = t.get("symbol") or ""
     name = t.get("name") or ""
     addr = t.get("address") or ""
@@ -258,9 +258,10 @@ def fmt_msg(t, chain):
     lp = t.get("launchpad_platform") or ""
     holders = int(t.get("holder_count") or 0)
     swaps = int(t.get("swaps") or 0)
+    rank_txt = "热搜第{}名".format(rank) if rank else "热搜榜"
     return "\n".join([
         "🔥 <b>GMGN 热搜榜</b>  #{} {}".format(sym, name),
-        "链: {} | 平台: {} | 热搜热度: {}".format(chain.upper(), lp or "-", heat),
+        "排名: {} | 链: {} | 平台: {} | 热搜热度: {}".format(rank_txt, chain.upper(), lp or "-", heat),
         "1h涨跌: {}% | 价格 ${} | 流动性 ${:,}".format(chg1h, _fmt_price(t.get("price")), liq),
         "持有人: {:,} | swaps: {:,}".format(holders, swaps),
         "GMGN: https://gmgn.ai/{}/token/{}".format(chain, addr),
@@ -344,7 +345,7 @@ async def main():
                 continue
 
             try:
-                await client.send_message(peer, fmt_msg(tok, chain),
+                await client.send_message(peer, fmt_msg(tok, chain, rank),
                                           parse_mode="html", link_preview=False)
                 print("[{}] PUSHED hot #{}: {} | {}".format(chain, rank, sym, addr))
             except Exception as e:
