@@ -1628,7 +1628,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0x582eb531d608e0ef86a8178eb12ae0bd892bbf01": {
@@ -1638,7 +1638,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0x960c5667732b4f54b69f653f1ede44751de67777": {
