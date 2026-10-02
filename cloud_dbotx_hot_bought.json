@@ -1618,7 +1618,17 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0x7281ba9e0c8acbc5f46f92491bbb5448f3e4ba01": {
+  "ts": "2026-10-02 14:01:55",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
