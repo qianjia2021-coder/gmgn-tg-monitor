@@ -1,6 +1,6 @@
 {
  "bsc": {
-  "last": "0xeccbb861c0dda7efd964010085488b69317e4444",
+  "last": "0xfd44d9ac59fca66f78cc4fe298bdabdeb6237777",
   "seen": [
    "0x00cc9b4f7996c68487800126c907dbc9a723ffff",
    "0x013c9becfe24c754b9bd27922a52517b2e797777",
@@ -95,6 +95,7 @@
    "0xfa273b076feb8c0fb34e554ae341082323d016a3",
    "0xfa6d9b504848606eb9aec04ccc161d169b3f2159",
    "0xfd28ccc4a8114ed5ec511dd59f0be248766f7777",
+   "0xfd44d9ac59fca66f78cc4fe298bdabdeb6237777",
    "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777"
   ]
  },
