@@ -1393,5 +1393,15 @@
   "order_id": "muqi73c73asgbt",
   "ok": true,
   "attempts": 1
+ },
+ "0x6b06c6400630fefa862bf449f473cd49ba458d60": {
+  "ts": "2026-10-02 13:10:47",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
