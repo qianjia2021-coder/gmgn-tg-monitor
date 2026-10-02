@@ -41,6 +41,8 @@ TARGET_CHAT = int(os.environ.get("TG_HOTSEARCH_CHAT_ID", "5499948080"))
 TARGET_NAME = "GMGN热搜"
 PAUSED = False  # 用户 09-30：已恢复（K线标记≥5 规则落地）
 KOL_MARK_MIN = 3  # K线标记阈值：top-100 traders 中带头像钱包数 ≥ 3 才推（10-02 用户改为 3）
+NEW_TOKEN_HOURS = 12          # (10-02) 只推创建 12 小时内的新合约
+NEW_TOKEN_SECONDS = NEW_TOKEN_HOURS * 3600
 # ④ 黑名单钱包过滤（用户 09-30 指定）：该钱包买入过的合约一律不推不买
 BLACKLIST_WALLETS = [
     "suqh5sHtr8HyJ7q8scBimULPkPpA557prMG47xCHQfK",
@@ -315,6 +317,14 @@ async def main():
                 print("[{}] already pushed, skip".format(chain))
                 rec["last"] = addr
                 state[chain] = rec
+                continue
+            # (10-02) 只推创建 12 小时内的新合约（本地字段判断，零 API 调用）
+            try:
+                _ct = int(tok.get("creation_timestamp") or 0)
+            except (TypeError, ValueError):
+                _ct = 0
+            if not _ct or (time.time() - _ct) > NEW_TOKEN_SECONDS:
+                print("[{}] 创建超过{}h，跳过: {}".format(chain, NEW_TOKEN_HOURS, sym))
                 continue
             # ④⑤ K线标记(≥KOL_MARK_MIN) + 黑名单合并检查：一次 traders 查询（weight=5）
             marks, blocked, ok = kline_mark_check(chain, addr)
