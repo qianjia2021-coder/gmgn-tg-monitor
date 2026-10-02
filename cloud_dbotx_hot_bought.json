@@ -1638,7 +1638,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0x960c5667732b4f54b69f653f1ede44751de67777": {
@@ -1647,6 +1647,15 @@
   "amount": 0.1,
   "stop_earn": 0.5,
   "order_id": "mur1qi0e3lnemw",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xf0dbbb200a6e271efb980253d8347f3ff43f7777": {
+  "ts": "2026-10-02 14:26:20",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mur23ayk3nvzy7",
   "ok": true,
   "attempts": 1
  }
