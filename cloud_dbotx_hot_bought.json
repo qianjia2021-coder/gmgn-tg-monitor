@@ -1556,5 +1556,14 @@
   "order_id": "muqzaha03j10f3",
   "ok": true,
   "attempts": 1
+ },
+ "0xc308c3e7b6577fc6f961d9bd820aeac9b18e7777": {
+  "ts": "2026-10-02 21:10:47",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muqze3sp3j1vax",
+  "ok": true,
+  "attempts": 1
  }
 }
