@@ -1812,5 +1812,32 @@
   "order_id": "murhgjsx3tnnhd",
   "ok": true,
   "attempts": 1
+ },
+ "0x63b62e314074c739b1ba761fad4f7f7cc5937777": {
+  "ts": "2026-10-02 21:41:42",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "murhn6ph3tnua0",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x28ebefa295ebb6caa009e974c3660e49631b7777": {
+  "ts": "2026-10-02 21:41:55",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "murhngx63tnva7",
+  "ok": true,
+  "attempts": 1
+ },
+ "0xb00a786de07fe8c41dcc983e5d7b6150c66e7777": {
+  "ts": "2026-10-02 21:41:58",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "murhnj6o3tnwsz",
+  "ok": true,
+  "attempts": 1
  }
 }
