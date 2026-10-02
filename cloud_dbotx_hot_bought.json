@@ -1686,5 +1686,14 @@
   "order_id": "mur3cz8b3lzxuy",
   "ok": true,
   "attempts": 1
+ },
+ "0xd6d2ded2dd6d5285cd9861fa77abf74a0c377777": {
+  "ts": "2026-10-02 15:16:23",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mur3vohk3m21uj",
+  "ok": true,
+  "attempts": 1
  }
 }
