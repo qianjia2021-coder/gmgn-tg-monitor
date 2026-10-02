@@ -159,9 +159,9 @@ def retry_failed_buys(bought):
     return bought, changed
 
 
-def run_gmgn(args):
+def run_gmgn(args, timeout=180):
     for attempt in (1, 2):
-        proc = subprocess.run(args, capture_output=True, text=True, timeout=180)
+        proc = subprocess.run(args, capture_output=True, text=True, timeout=timeout)
         if proc.returncode == 0:
             return proc.stdout
         err = (proc.stderr or proc.stdout or "")
@@ -272,9 +272,10 @@ async def main():
     print("state entries: {} chains | bought: {}".format(len(state), len(bought)))
     # 1) 重试历史买入失败的合约
     try:
-        bought, _ = retry_failed_buys(bought)
+        bought, retry_changed = retry_failed_buys(bought)
     except Exception as e:
         print("buy retry error: {}".format(e))
+        retry_changed = False
     client = TelegramClient(StringSession(os.environ["TG_STRING_SESSION"]),
                             int(os.environ["TG_API_ID"]),
                             os.environ["TG_API_HASH"])
@@ -293,7 +294,7 @@ async def main():
     # (09-30 临时) 已去掉 chengzi_golden 前置限制：热搜前2都推
     pushed = 0
     state_changed = False
-    bought_changed = False
+    bought_changed = retry_changed
     for chain in CHAINS:
         try:
             tokens = fetch_hot(chain)
