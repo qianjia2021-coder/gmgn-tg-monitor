@@ -1704,5 +1704,23 @@
   "order_id": "mur4l91y3m8yiw",
   "ok": true,
   "attempts": 1
+ },
+ "0x898b7fd47a53fb517eea1af47cde52cdf9f87777": {
+  "ts": "2026-10-02 15:56:21",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mur5b2lo3o9n8i",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x8dd0d76cf5a63c5b328e64876eda6c46adf47777": {
+  "ts": "2026-10-02 15:56:24",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mur5b4pp3mbkfg",
+  "ok": true,
+  "attempts": 1
  }
 }
