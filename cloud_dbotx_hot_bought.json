@@ -1403,5 +1403,14 @@
   "ok": false,
   "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0x8a988b917fa3145e8a393ce86860fbaf02dd7777": {
+  "ts": "2026-10-02 13:43:41",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muqjf4bq3axyi3",
+  "ok": true,
+  "attempts": 1
  }
 }
