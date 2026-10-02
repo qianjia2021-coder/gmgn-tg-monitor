@@ -1675,7 +1675,16 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0x5c77a45fff03d44b90fff30901211e73fb2affff": {
+  "ts": "2026-10-02 15:01:51",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "mur3cz8b3lzxuy",
+  "ok": true,
+  "attempts": 1
  }
 }
