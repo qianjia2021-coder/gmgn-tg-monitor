@@ -2001,5 +2001,15 @@
   "order_id": "murrjrb53q7e5h",
   "ok": true,
   "attempts": 1
+ },
+ "0x3b4cbdb0a05d08638d6c11a79d0455fb9ffa65ff": {
+  "ts": "2026-10-03 11:17:44",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "",
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
