@@ -1992,5 +1992,14 @@
   "order_id": "murqze4l3q487s",
   "ok": true,
   "attempts": 1
+ },
+ "0xca750ef65f295bbecd685abf54e82caf297bdb61": {
+  "ts": "2026-10-03 10:18:58",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "murrjrb53q7e5h",
+  "ok": true,
+  "attempts": 1
  }
 }
