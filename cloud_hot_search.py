@@ -32,8 +32,9 @@ STATE_PATH = "cloud_hot_state.json"
 BOUGHT_PATH = "cloud_dbotx_hot_bought.json"
 GH_API = "https://api.github.com"
 CHAINS = ["bsc"]   # (10-02) 停止 SOL 推送，仅保留 BSC
-CHAIN_TOP_LIMIT = {"sol": 20, "bsc": 30}  # (10-01) BSC 前 30，SOL 前 20
+CHAIN_TOP_LIMIT = {"sol": 20, "bsc": 100}  # (10-03) BSC 全榜（limit 100，接口按实际榜内数量返回）
 HOT_INTERVAL = "1h"
+HOT_MAX = 100  # (10-03) 新规则：热度（visiting_count）≤ 100 才推；取消其它一切条件
 LIMIT = 20
 GOLDEN_GROUP = "chengzi_golden"          # 前置条件：合约须在该群发送过才推送
 GOLDEN_SCAN_LIMIT = 200                  # 扫该群最近 200 条消息
@@ -319,29 +320,13 @@ async def main():
                 rec["last"] = addr
                 state[chain] = rec
                 continue
-            # (10-02) 只推创建 12 小时内的新合约（本地字段判断，零 API 调用）
+            # (10-03) 新规则：只要上榜就推，热度（visiting_count）≤ HOT_MAX；取消其它一切条件
             try:
-                _ct = int(tok.get("creation_timestamp") or 0)
+                _heat = int(tok.get("visiting_count") or 0)
             except (TypeError, ValueError):
-                _ct = 0
-            if not _ct or (time.time() - _ct) > NEW_TOKEN_SECONDS:
-                print("[{}] 创建超过{}h，跳过: {}".format(chain, NEW_TOKEN_HOURS, sym))
-                continue
-            # ④⑤ K线标记(≥KOL_MARK_MIN) + 黑名单合并检查：一次 traders 查询（weight=5）
-            marks, blocked, ok = kline_mark_check(chain, addr)
-            if not ok:
-                print("[{}] 标记/黑名单检查失败，本轮跳过（下轮重试）: {}".format(chain, sym))
-                continue
-            if marks < KOL_MARK_MIN:
-                print("[{}] K线标记不足（{} < {}），标记达标后补推，下轮再查: {}".format(chain, marks, KOL_MARK_MIN, sym))
-                continue
-            if blocked:
-                print("[{}] 黑名单拦截（不推不买）: {} | {}".format(chain, sym, addr))
-                seen.add(addr)
-                rec["last"] = addr
-                rec["seen"] = sorted(seen)
-                state[chain] = rec
-                state_changed = True
+                _heat = 0
+            if _heat > HOT_MAX:
+                print("[{}] 热度{}>{}，跳过: {}".format(chain, _heat, HOT_MAX, sym))
                 continue
 
             try:
