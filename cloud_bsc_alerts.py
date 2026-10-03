@@ -153,6 +153,7 @@ async def main():
         try:
             async for msg in client.iter_messages(ent, limit=SCAN_LIMIT):
                 text = msg.message or ""
+                if msg.reply_to is not None: continue  # 跳过机器人回复
                 if not is_seed and not is_target_platform(text): continue
                 for c in extract_addrs(text):
                     old = st["count"].get(c, 0)
