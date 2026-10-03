@@ -80,13 +80,28 @@ def is_target_platform(text):
 def extract_name(text, contract):
     if not text: return ""
     lines = text.split("\n")
+    def clean(line):
+        line = line.strip()
+        line = re.sub(r"\s*\|\s*#\w+.*$", "", line).strip()
+        line = re.sub(r"^[#\s►▶\-•]+", "", line).strip()
+        line = re.sub(r"^(Name|名称|Token|币名)\s*[:：]\s*", "", line, flags=re.I).strip()
+        return line
     for i, line in enumerate(lines):
         if contract in line and ("CA" in line or "ca" in line.lower()):
             if i+1 < len(lines):
-                nl = lines[i+1].strip()
-                nl = re.sub(r"\s*\|\s*#\w+.*$", "", nl).strip()
-                nl = re.sub(r"^[#\s]+", "", nl)
-                if nl and len(nl) <= 60: return nl
+                n = clean(lines[i+1])
+                if n and len(n) <= 60 and not n.startswith("0x"): return n
+    for line in lines:
+        m = re.match(r"^\s*(?:Name|名称|Token|币名)\s*[:：]\s*(.+)$", line, re.I)
+        if m:
+            n = clean(m.group(1))
+            if n and len(n) <= 60 and not n.startswith("0x"): return n
+    for line in lines:
+        n = clean(line)
+        if not n: continue
+        if n.startswith("0x") or n.startswith("http") or n.startswith("@"): continue
+        if re.match(r"^[\W_]+$", n): continue
+        if len(n) <= 60: return n
     return ""
 
 def dbotx_buy(contract):
