@@ -156,14 +156,11 @@ async def main():
                 if msg.reply_to is not None: continue  # 跳过机器人回复
                 if not is_seed and not is_target_platform(text): continue
                 for c in extract_addrs(text):
-                    old = st["count"].get(c, 0)
-                    # 只处理比本地 state 更新的消息（用 msg.id 粗去重：如果 count 已经 >= 历史扫描值，跳过老消息）
-                    # 简化：云端每 5 分钟跑，只处理最近 30 分钟内的消息
                     if msg.date and (time.time() - msg.date.timestamp() > 1800): continue
-                    st["count"][c] = old + 1
                     st["sources"].setdefault(c, [])
-                    if title not in st["sources"][c]:
-                        st["sources"][c].append(title)
+                    if title in st["sources"][c]: continue  # 同群同合约只算一次
+                    st["count"][c] = st["count"].get(c, 0) + 1
+                    st["sources"][c].append(title)
                     has_seed = any(("一撇" in s) or ("橙子" in s) for s in st["sources"][c])
                     if st["count"][c] >= 2 and has_seed and not st["pushed"].get(c):
                         st["pushed"][c] = True
