@@ -1947,5 +1947,14 @@
   "order_id": "murnxjg43psps6",
   "ok": true,
   "attempts": 1
+ },
+ "0xc9882def23bc42d53895b8361d0b1edc7570bc6a": {
+  "ts": "2026-10-03 08:52:20",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "murogcae3u4fti",
+  "ok": true,
+  "attempts": 1
  }
 }
