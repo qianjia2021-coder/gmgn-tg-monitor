@@ -2009,7 +2009,7 @@
   "stop_earn": 0.5,
   "order_id": "",
   "ok": false,
-  "attempts": 4,
+  "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0x2c4a0ecb25cf51db87418bdcc3abb612707e4444": {
