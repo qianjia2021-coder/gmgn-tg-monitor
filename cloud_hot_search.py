@@ -34,7 +34,7 @@ GH_API = "https://api.github.com"
 CHAINS = ["bsc"]   # (10-02) 停止 SOL 推送，仅保留 BSC
 CHAIN_TOP_LIMIT = {"sol": 20, "bsc": 100}  # (10-03) BSC 全榜（limit 100，接口按实际榜内数量返回）
 HOT_INTERVAL = "1h"
-HOT_MAX = 100  # (10-03) 新规则：热度（visiting_count）≤ 100 才推；取消其它一切条件
+TOP_N = 3  # (10-03) 新规则：盯趋势榜（trending），第一次进入前 3 名才推+买入；不再看热搜榜/热度过滤
 LIMIT = 20
 GOLDEN_GROUP = "chengzi_golden"          # 前置条件：合约须在该群发送过才推送
 GOLDEN_SCAN_LIMIT = 200                  # 扫该群最近 200 条消息
@@ -176,7 +176,7 @@ def run_gmgn(args, timeout=180):
 
 
 def fetch_hot(chain):
-    args = ["gmgn-cli", "market", "hot-searches", "--chain", chain,
+    args = ["gmgn-cli", "market", "trending", "--chain", chain,
             "--interval", HOT_INTERVAL, "--limit", str(CHAIN_TOP_LIMIT.get(chain, LIMIT)), "--raw"]
     print("cmd: " + " ".join(args))
     out = run_gmgn(args)
@@ -259,10 +259,10 @@ def fmt_msg(t, chain, rank=None):
     lp = t.get("launchpad_platform") or ""
     holders = int(t.get("holder_count") or 0)
     swaps = int(t.get("swaps") or 0)
-    rank_txt = "热搜第{}名".format(rank) if rank else "热搜榜"
+    rank_txt = "趋势榜第{}名".format(rank) if rank else "趋势榜"
     return "\n".join([
-        "🔥 <b>GMGN 热搜榜</b>  #{} {}".format(sym, name),
-        "排名: {} | 链: {} | 平台: {} | 热搜热度: {}".format(rank_txt, chain.upper(), lp or "-", heat),
+        "🔥 <b>GMGN 趋势榜</b>  #{} {}".format(sym, name),
+        "排名: {} | 链: {} | 平台: {} | 热度: {}".format(rank_txt, chain.upper(), lp or "-", heat),
         "1h涨跌: {}% | 价格 ${} | 流动性 ${:,}".format(chg1h, _fmt_price(t.get("price")), liq),
         "持有人: {:,} | swaps: {:,}".format(holders, swaps),
         "GMGN: https://gmgn.ai/{}/token/{}".format(chain, addr),
@@ -320,13 +320,9 @@ async def main():
                 rec["last"] = addr
                 state[chain] = rec
                 continue
-            # (10-03) 新规则：只要上榜就推，热度（visiting_count）≤ HOT_MAX；取消其它一切条件
-            try:
-                _heat = int(tok.get("visiting_count") or 0)
-            except (TypeError, ValueError):
-                _heat = 0
-            if _heat > HOT_MAX:
-                print("[{}] 热度{}>{}，跳过: {}".format(chain, _heat, HOT_MAX, sym))
+            # (10-03) 新规则：盯趋势榜，第一次进入前 TOP_N 名才推+买入；其它条件不变
+            if rank > TOP_N:
+                print("[{}] 趋势第{}名，非前{}，跳过: {}".format(chain, rank, TOP_N, sym))
                 continue
 
             try:
