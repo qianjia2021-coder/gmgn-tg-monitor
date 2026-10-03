@@ -1956,5 +1956,23 @@
   "order_id": "murogcae3u4fti",
   "ok": true,
   "attempts": 1
+ },
+ "0x4ebf5fd25b02022afad96e2fa25da54a246fded0": {
+  "ts": "2026-10-03 09:05:55",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muroxthk3udelo",
+  "ok": true,
+  "attempts": 1
+ },
+ "0x4c067de26475e1cefee8b8d1f6e2266b33a2372e": {
+  "ts": "2026-10-03 09:05:59",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "muroxwaw3udfhk",
+  "ok": true,
+  "attempts": 1
  }
 }
