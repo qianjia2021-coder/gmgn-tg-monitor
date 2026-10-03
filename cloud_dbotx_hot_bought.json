@@ -2029,5 +2029,14 @@
   "order_id": "murvxfql3tknzk",
   "ok": true,
   "attempts": 1
+ },
+ "0xd4c37d610f4680e6a498554ef8b19a1f98707777": {
+  "ts": "2026-10-03 12:23:02",
+  "chain": "bsc",
+  "amount": 0.1,
+  "stop_earn": 0.5,
+  "order_id": "murvzar43tkspo",
+  "ok": true,
+  "attempts": 1
  }
 }
