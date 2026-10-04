@@ -154,7 +154,7 @@ async def main():
             async for msg in client.iter_messages(ent, limit=SCAN_LIMIT):
                 text = msg.message or ""
                 if msg.reply_to is not None: continue  # 跳过机器人回复
-                if not is_seed and not is_target_platform(text): continue
+                # 所有群都计数，不再过滤平台
                 for c in extract_addrs(text):
                     if msg.date and (time.time() - msg.date.timestamp() > 1800): continue
                     st["sources"].setdefault(c, [])
