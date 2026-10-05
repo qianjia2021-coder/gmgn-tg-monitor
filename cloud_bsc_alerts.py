@@ -20,7 +20,8 @@ API_HASH = os.environ.get("TG_API_HASH", "cd451ed24a3226f46bfd730ff4d8b5dd")
 STRING_SESSION = os.environ["TG_STRING_SESSION"]
 TARGET_CHAT_ID = int(os.environ.get("TG_TARGET_CHAT_ID", "-5194908956"))
 FOLDER_NAME = "BSC Alerts"
-SEED_GROUPS = ["FindTheGoldenDoge", "chengzi_golden"]
+SEED_GROUPS = ["FindTheGoldenDoge", "chengzi_golden", "gmgnx_bsc"]
+WATCHER_BOT_ID = 8182168738  # debot_watcher_14_bot，它发的合约全部拉黑
 SCAN_LIMIT = 50   # 每群扫最近 N 条
 
 REPO = "qianjia2021-coder/gmgn-tg-monitor"
@@ -149,16 +150,22 @@ async def main():
     triggered = []
     for ent in chats:
         title = getattr(ent, "title", "?")
-        is_seed = ("一撇" in title) or ("橙子" in title)
+        ent_id = getattr(ent, "id", 0)
         try:
             async for msg in client.iter_messages(ent, limit=SCAN_LIMIT):
                 text = msg.message or ""
-                if msg.reply_to is not None: continue  # 跳过机器人回复
-                # 所有群都计数，不再过滤平台
+                if msg.reply_to is not None: continue
+                # debot_watcher bot：所有提到的合约永久拉黑
+                if ent_id == WATCHER_BOT_ID:
+                    for c in extract_addrs(text):
+                        st.setdefault("contract_blacklist", {})[c] = True
+                    continue
+                # 永久拉黑的合约跳过
                 for c in extract_addrs(text):
+                    if c in st.get("contract_blacklist", {}): continue
                     if msg.date and (time.time() - msg.date.timestamp() > 1800): continue
                     st["sources"].setdefault(c, [])
-                    if title in st["sources"][c]: continue  # 同群同合约只算一次
+                    if title in st["sources"][c]: continue
                     st["count"][c] = st["count"].get(c, 0) + 1
                     st["sources"][c].append(title)
                     has_other = any(("一撇" not in s) and ("橙子" not in s) for s in st["sources"][c])
