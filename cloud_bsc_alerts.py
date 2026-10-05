@@ -161,9 +161,7 @@ async def main():
                     if title in st["sources"][c]: continue  # 同群同合约只算一次
                     st["count"][c] = st["count"].get(c, 0) + 1
                     st["sources"][c].append(title)
-                    has_seed = any(("一撇" in s) or ("橙子" in s) for s in st["sources"][c])
-                    has_other = any(("一撇" not in s) and ("橙子" not in s) for s in st["sources"][c])
-                    if st["count"][c] >= 2 and has_seed and has_other and not st["pushed"].get(c):
+                    if st["count"][c] >= 2 and not st["pushed"].get(c):
                         st["pushed"][c] = True
                         triggered.append((c, title, text))
         except Exception as e:
