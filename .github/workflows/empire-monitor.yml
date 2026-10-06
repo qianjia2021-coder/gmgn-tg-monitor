@@ -1,0 +1,33 @@
+name: Empire Smart Money Monitor
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # 每 5 分钟跑一次
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install telethon requests
+
+      - name: Run Empire Smart Money Monitor
+        env:
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
+          TG_PUSH_CHAT_ID: ${{ secrets.TG_PUSH_CHAT_ID }}
+          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python cloud_empire_monitor.py
