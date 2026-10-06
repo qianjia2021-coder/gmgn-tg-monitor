@@ -20,7 +20,7 @@ API_HASH = os.environ.get("TG_API_HASH", "cd451ed24a3226f46bfd730ff4d8b5dd")
 STRING_SESSION = os.environ["TG_STRING_SESSION"]
 TARGET_CHAT_ID = int(os.environ.get("TG_TARGET_CHAT_ID", "-5194908956"))
 FOLDER_NAME = "BSC Alerts"
-SEED_GROUPS = ["FindTheGoldenDoge", "chengzi_golden", "gmgnx_bsc"]
+SEED_GROUPS = ["FindTheGoldenDoge", "chengzi_golden", "gmgnx_bsc", "gmgnx_stable", "gmgnx_chat"]
 WATCHER_BOT_ID = 8182168738  # debot_watcher_14_bot，它发的合约全部拉黑
 SCAN_LIMIT = 50   # 每群扫最近 N 条
 
