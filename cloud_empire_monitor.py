@@ -20,8 +20,8 @@ STRING_SESSION = os.environ["TG_STRING_SESSION"]
 
 # 目标群组：Empire BSC 🧠 Smart Money Buys
 EMPIRE_GROUP = "empirebscsmartmoney"
-# debot_watcher_14_bot chat_id
-WATCHER_BOT_ID = 8182168738
+# debot_watcher_14_bot username（用 username 获取，避免云端 access_hash 问题）
+WATCHER_BOT_USERNAME = "debot_watcher_14_bot"
 # 推送群：BSC推送群
 PUSH_CHAT_ID = int(os.environ.get("TG_PUSH_CHAT_ID", "-5194908956"))
 
@@ -110,7 +110,7 @@ async def main():
 
     # 1) 先扫 debot_watcher_14_bot，更新黑名单
     try:
-        watcher = await client.get_entity(WATCHER_BOT_ID)
+        watcher = await client.get_entity(WATCHER_BOT_USERNAME)
         async for msg in client.iter_messages(watcher, limit=SCAN_LIMIT):
             text = msg.message or ""
             if not text: continue
