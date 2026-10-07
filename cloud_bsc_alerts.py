@@ -148,19 +148,25 @@ async def main():
         except Exception: pass
 
     triggered = []
-    for ent in chats:
+    # 第一遍：先扫 watcher bot，把所有合约加入黑名单，再扫其他群
+    watcher_ents = [e for e in chats if getattr(e, "id", 0) == WATCHER_BOT_ID]
+    other_ents = [e for e in chats if getattr(e, "id", 0) != WATCHER_BOT_ID]
+
+    for ent in watcher_ents:
+        try:
+            async for msg in client.iter_messages(ent, limit=SCAN_LIMIT):
+                text = msg.message or ""
+                for c in extract_addrs(text):
+                    st.setdefault("contract_blacklist", {})[c] = True
+        except Exception as e:
+            print(f"scan watcher err: {e}")
+
+    for ent in other_ents:
         title = getattr(ent, "title", "?")
-        ent_id = getattr(ent, "id", 0)
         try:
             async for msg in client.iter_messages(ent, limit=SCAN_LIMIT):
                 text = msg.message or ""
                 if msg.reply_to is not None: continue
-                # debot_watcher bot：所有提到的合约永久拉黑
-                if ent_id == WATCHER_BOT_ID:
-                    for c in extract_addrs(text):
-                        st.setdefault("contract_blacklist", {})[c] = True
-                    continue
-                # 永久拉黑的合约跳过
                 for c in extract_addrs(text):
                     if c in st.get("contract_blacklist", {}): continue
                     if msg.date and (time.time() - msg.date.timestamp() > 1800): continue
