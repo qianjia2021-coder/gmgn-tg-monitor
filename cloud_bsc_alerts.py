@@ -169,13 +169,14 @@ async def main():
                 if msg.reply_to is not None: continue
                 for c in extract_addrs(text):
                     if c in st.get("contract_blacklist", {}): continue
+                    if c.lower().endswith("4444"): continue  # 尾数 4444 不推
                     if msg.date and (time.time() - msg.date.timestamp() > 1800): continue
                     st["sources"].setdefault(c, [])
                     if title in st["sources"][c]: continue
                     st["count"][c] = st["count"].get(c, 0) + 1
                     st["sources"][c].append(title)
-                    has_other = any(("一撇" not in s) and ("橙子" not in s) for s in st["sources"][c])
-                    if st["count"][c] >= 2 and has_other and not st["pushed"].get(c):
+                    has_seed = any(("一撇" in s) or ("橙子" in s) for s in st["sources"][c])
+                    if st["count"][c] >= 2 and has_seed and not st["pushed"].get(c):
                         st["pushed"][c] = True
                         triggered.append((c, title, text))
         except Exception as e:
