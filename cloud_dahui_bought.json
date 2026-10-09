@@ -16,5 +16,25 @@
   "symbol": "SI",
   "mcap": "77.42K",
   "ok": true
+ },
+ "7dCkdo2stVFNkXeyvkdQ82UhNJatwyaWFNve56kA28hj": {
+  "ts": "2026-10-09 12:53:48",
+  "order_id": "mv0yv9k16eeg3y",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Cl*nker",
+  "kol": 8,
+  "ok": true,
+  "err": ""
+ },
+ "GKeUT73KRsvWVYNfQPdghxdHTKKGUAESf3t8BZmfXvih": {
+  "ts": "2026-10-09 12:55:02",
+  "order_id": "mv0ywugs6a2ch3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GROK",
+  "kol": 1,
+  "ok": true,
+  "err": ""
  }
 }
