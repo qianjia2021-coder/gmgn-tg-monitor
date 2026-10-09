@@ -28,11 +28,11 @@ jobs:
           fi
           AGE=$(( $(date +%s) - $(date -d "$HB" +%s) ))
           echo "本机心跳距今 ${AGE}s"
-          if [ "$AGE" -lt 240 ]; then
+          if [ "$AGE" -lt 120 ]; then
             echo "本机在线，云端本轮跳过"
             echo "takeover=false" >> "$GITHUB_OUTPUT"
           else
-            echo "本机已关机，云端接管"
+            echo "本机已关机/无响应，云端接管"
             echo "takeover=true" >> "$GITHUB_OUTPUT"
           fi
       - uses: actions/setup-node@v4
