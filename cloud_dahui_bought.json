@@ -1,0 +1,20 @@
+{
+ "BfFyJjCQikVMeG335GEHPrkYXvyv25EQhM7kUVnVWEzb": {
+  "ts": "2026-10-09 18:12:34",
+  "order_id": "mv0t3xba6cktmk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CONDOM",
+  "mcap": "96.26K",
+  "ok": true
+ },
+ "CVw57tgADzThKWFma4ZEt1vb1CAqt5YU3UQY59NHLtiB": {
+  "ts": "2026-10-09 18:16:21",
+  "order_id": "mv0t8s2f6clpak",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SI",
+  "mcap": "77.42K",
+  "ok": true
+ }
+}
