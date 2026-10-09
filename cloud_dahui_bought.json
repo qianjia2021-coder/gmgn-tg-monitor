@@ -156,5 +156,125 @@
   "kol": 2,
   "ok": false,
   "err": "{'err': True, 'res': 'Serv Error'}"
+ },
+ "69okNLgixyKsS6AhWeQTPMMqpAMeCYjgw97fET84McJW": {
+  "ts": "2026-10-09 21:39:48",
+  "order_id": "mv1hnpam6caubx",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Eve",
+  "kol": 4,
+  "ok": true,
+  "err": ""
+ },
+ "8F6B9qfAPmygkxzYAdQe57qoCrSjGuCsfgbVHCeRpump": {
+  "ts": "2026-10-09 21:40:26",
+  "order_id": "mv1hoiyi6iffe6",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Oscar",
+  "kol": 4,
+  "ok": true,
+  "err": ""
+ },
+ "5SWmziw11CUrBHgbRz4SFphhHvx8pqasgeuvhG82Mix": {
+  "ts": "2026-10-09 21:40:28",
+  "order_id": "mv1hokss6cavbz",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MIXUP",
+  "kol": 4,
+  "ok": true,
+  "err": ""
+ },
+ "HYmt8bu4rxfGjT7c38Qm5HuuDDVUeKgjTMaRJ5wFHQto": {
+  "ts": "2026-10-09 21:41:47",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BUTT",
+  "kol": 2,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "CCD4Dqbswi5nu2MQu7PD5pqjqNA8iCgJed5DyBJKC3ap": {
+  "ts": "2026-10-09 21:41:50",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Butt",
+  "kol": 2,
+  "ok": false,
+  "err": "{'err': True, 'res': 'Serv Error'}"
+ },
+ "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
+  "ts": "2026-10-09 21:41:52",
+  "order_id": "mv1hqd8p6caw8d",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CALI",
+  "kol": 1,
+  "ok": true,
+  "err": ""
+ },
+ "HKRWQKZFeE9GVTUZsM7RUexYfAzRgGHw7h2x5TMMpump": {
+  "ts": "2026-10-09 21:41:54",
+  "order_id": "mv1hqf196ifj8l",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Fi",
+  "kol": 2,
+  "ok": true,
+  "err": ""
+ },
+ "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump": {
+  "ts": "2026-10-09 21:41:57",
+  "order_id": "mv1hqgsd6caxad",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "UNITS",
+  "kol": 2,
+  "ok": true,
+  "err": ""
+ },
+ "6STei8PHerYMeqMHVMMNNgQ4mxZ2yweXaP74Qrmbpump": {
+  "ts": "2026-10-09 21:41:59",
+  "order_id": "mv1hqijn6ifkcl",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "tekcat",
+  "kol": 2,
+  "ok": true,
+  "err": ""
+ },
+ "2QHXWq5TK64JbMptwMBP1BsfhrxZRRv9JsLa17X7pump": {
+  "ts": "2026-10-09 21:42:01",
+  "order_id": "mv1hqkb56cay5x",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SAW",
+  "kol": 1,
+  "ok": true,
+  "err": ""
+ },
+ "Bi5h8p2hpcGFEq6CFsjrUFjXhVJHwAjcw3hVfprW9TeK": {
+  "ts": "2026-10-09 21:42:03",
+  "order_id": "mv1hqm2z6iflbl",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QUANTEK",
+  "kol": 3,
+  "ok": true,
+  "err": ""
+ },
+ "ripsRNKEFLPkf7E8pLYcbxWcxDdgtNBDQgqKkEDCvnG": {
+  "ts": "2026-10-09 21:42:06",
+  "order_id": "mv1hqnt46cazu7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "RIPS",
+  "kol": 2,
+  "ok": true,
+  "err": ""
  }
 }
