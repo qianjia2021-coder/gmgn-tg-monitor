@@ -36,5 +36,125 @@
   "kol": 1,
   "ok": true,
   "err": ""
+ },
+ "EcZndAERfzNhLirHwfsy44dAyPSZazjDU83pa6RApump": {
+  "ts": "2026-10-09 17:10:27",
+  "order_id": "mv181br46bmaxp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Circuit",
+  "kol": 4,
+  "ok": true,
+  "err": ""
+ },
+ "7veuJcgGJGbhSK1e1HwKtK6LotLqKJTAGH2E74fepump": {
+  "ts": "2026-10-09 17:10:30",
+  "order_id": "mv181dnl6hpu36",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Spiralism",
+  "kol": 2,
+  "ok": true,
+  "err": ""
+ },
+ "2x3kudsxqCWdWeZA1vSNr9uKkHUBQG81m5mBGRAPpump": {
+  "ts": "2026-10-09 17:10:32",
+  "order_id": "mv181fgi6hpvo8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PAWS",
+  "kol": 8,
+  "ok": true,
+  "err": ""
+ },
+ "9wk8xngMCkvraqg3nrPWrxxGKF33XMRz89MAV75epump": {
+  "ts": "2026-10-09 17:10:34",
+  "order_id": "mv181heh6hpw56",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HYBRID",
+  "kol": 4,
+  "ok": true,
+  "err": ""
+ },
+ "GMU9zu9jdgCWYet7uuwAyPyT5RyabXy2fPKUgGyJvmjg": {
+  "ts": "2026-10-09 17:10:37",
+  "order_id": "mv181jd86bmb8x",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MEMECOIN",
+  "kol": 5,
+  "ok": true,
+  "err": ""
+ },
+ "CPN8PxvymFkL9kxVHuCPTzMuFaCmANPD2rPRKE3v482x": {
+  "ts": "2026-10-09 17:11:15",
+  "order_id": "mv182cyj6bmc5s",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Sludge",
+  "kol": 1,
+  "ok": true,
+  "err": ""
+ },
+ "9vHPLDY6wa9ZkNBNZoWcv2AABdiNj97tpHc3u56npump": {
+  "ts": "2026-10-09 17:11:18",
+  "order_id": "mv182eqy6bmd96",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MEMECHAN",
+  "kol": 3,
+  "ok": true,
+  "err": ""
+ },
+ "JCsKWhELRJ8MhEZjUDdCL49mntw8fx27bKAgCMgSGhcQ": {
+  "ts": "2026-10-09 17:11:20",
+  "order_id": "mv182gkd6bme4c",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SAM",
+  "kol": 1,
+  "ok": true,
+  "err": ""
+ },
+ "6GH8KgotzU3Waqkw2FPoDw8R3qt7SVYwB71Wc6DchUXx": {
+  "ts": "2026-10-09 17:11:58",
+  "order_id": "mv183a5v6bmhuz",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QSB",
+  "kol": 2,
+  "ok": true,
+  "err": ""
+ },
+ "DiHNMd2GCsjc73jMphP7V5RPUBcW3sYJbCvoGhiD5Pm5": {
+  "ts": "2026-10-09 17:12:01",
+  "order_id": "mv183bxp6hpyld",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QSB",
+  "kol": 1,
+  "ok": true,
+  "err": ""
+ },
+ "8rQzYC7N1wpkxY37na1yK6mLAg7CTY1SXFdAqaYxkC6S": {
+  "ts": "2026-10-09 17:12:08",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QPC",
+  "kol": 3,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "zmvhp6GmmTgpkpL4v6sobHgAmuJkkZwUFDYLz5S1Bwz": {
+  "ts": "2026-10-09 17:12:46",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QBTC",
+  "kol": 2,
+  "ok": false,
+  "err": "{'err': True, 'res': 'Serv Error'}"
  }
 }
