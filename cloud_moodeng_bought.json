@@ -151,5 +151,14 @@
   "kol": 1,
   "rug_ratio": 0.96,
   "ok": true
+ },
+ "88jUcA4vvbiyXxhhnk6RHyxuGaHhR7NQnfVwd6hBpump": {
+  "ts": "2026-10-10 17:20:25",
+  "order_id": "mv26onjn6ici0j",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.82,
+  "ok": true
  }
 }
