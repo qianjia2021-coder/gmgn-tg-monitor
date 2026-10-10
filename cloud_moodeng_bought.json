@@ -250,5 +250,14 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "93tUKTLi1pA2QAcVmHJEBgAFvEsJJVi8jX6bSpsepump": {
+  "ts": "2026-10-10 18:21:16",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
