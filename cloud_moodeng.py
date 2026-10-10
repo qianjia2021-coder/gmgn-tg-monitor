@@ -25,7 +25,7 @@ BOUGHT_PATH = "cloud_moodeng_bought.json"
 GH_API = "https://api.github.com"
 
 # === CONFIG（与本地 moodeng_auto_buy.py 保持一致） ===
-TARGETS = ["MooDengPresidentCallers", "logandegen", "SolanaWhalesMarket", "lycagamble"]
+TARGETS = ["MooDengPresidentCallers", "beijngdontlie", "logandegen", "SolanaWhalesMarket", "lycagamble"]
 KOL_MIN = 1
 BUY_SOL = 1.0
 STOP_EARN = 0.5
