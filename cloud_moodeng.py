@@ -25,7 +25,7 @@ BOUGHT_PATH = "cloud_moodeng_bought.json"
 GH_API = "https://api.github.com"
 
 # === CONFIG（与本地 moodeng_auto_buy.py 保持一致） ===
-TARGET_USERNAME = "MooDengPresidentCallers"
+TARGETS = ["MooDengPresidentCallers", "beijngdontlie", "logandegen"]
 KOL_MIN = 1
 BUY_SOL = 1.0
 STOP_EARN = 0.5
@@ -161,45 +161,49 @@ async def main():
     await client.connect()
     if not await client.is_user_authorized():
         print("FATAL: not authorized"); sys.exit(1)
-    peer = await client.get_entity(TARGET_USERNAME)
 
     changed = False
-    async for m in client.iter_messages(peer, min_id=last_id, limit=200):
-        if m.id > last_id:
-            last_id = m.id
-        text = m.message or ""
-        addrs = extract_addrs(text)
-        for addr in addrs:
-            if addr in seen or addr in bought or addr in baseline_set:
-                continue
-            print("new #{}: {}".format(m.id, addr))
-            kol, ok = kol_count(addr)
-            if not ok:
-                print("  KOL 查询失败，本轮跳过")
-                continue
-            if kol < KOL_MIN:
+    for target in TARGETS:
+        try:
+            peer = await client.get_entity(target)
+        except Exception as e:
+            print("群 @{} 访问失败: {}".format(target, e))
+            continue
+        print("--- 扫描 @{} ---".format(target))
+        async for m in client.iter_messages(peer, limit=200):
+            text = m.message or ""
+            addrs = extract_addrs(text)
+            for addr in addrs:
+                if addr in seen or addr in bought or addr in baseline_set:
+                    continue
+                print("new [{}] #{}: {}".format(target, m.id, addr))
+                kol, ok = kol_count(addr)
+                if not ok:
+                    print("  KOL 查询失败，本轮跳过")
+                    continue
+                if kol < KOL_MIN:
+                    seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
+                    print("  KOL={}<{} 跳过".format(kol, KOL_MIN))
+                    changed = True
+                    continue
+                rr, rok = rug_ratio(addr)
+                if not rok:
+                    print("  rug 查询异常，跳过")
+                    continue
+                if rr is not None and rr >= 1.0:
+                    seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
+                    print("  rug={:.0%} 跳过".format(rr))
+                    changed = True
+                    continue
+                bok, info = api_buy(addr)
+                bought[addr] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                                "order_id": info if bok else "", "sol": BUY_SOL,
+                                "stop_earn": STOP_EARN, "kol": kol, "rug_ratio": rr,
+                                "ok": bok}
                 seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-                print("  KOL={}<{} 跳过".format(kol, KOL_MIN))
+                print("  KOL={} rug={} buy {}: {}".format(kol, rr, "OK" if bok else "FAIL", info))
                 changed = True
-                continue
-            rr, rok = rug_ratio(addr)
-            if not rok:
-                print("  rug 查询异常，跳过")
-                continue
-            if rr is not None and rr >= 1.0:
-                seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-                print("  rug={:.0%} 跳过".format(rr))
-                changed = True
-                continue
-            bok, info = api_buy(addr)
-            bought[addr] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"),
-                            "order_id": info if bok else "", "sol": BUY_SOL,
-                            "stop_earn": STOP_EARN, "kol": kol, "rug_ratio": rr,
-                            "ok": bok}
-            seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-            print("  KOL={} rug={} buy {}: {}".format(kol, rr, "OK" if bok else "FAIL", info))
-            changed = True
-            await asyncio.sleep(2)
+                await asyncio.sleep(2)
     await client.disconnect()
 
     state["last_id"] = last_id
