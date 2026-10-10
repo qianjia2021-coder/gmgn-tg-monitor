@@ -106,5 +106,14 @@
   "kol": 1,
   "rug_ratio": 0.08,
   "ok": true
+ },
+ "D4cYhYCPDM7trS62B7sKTTKeWtCDtG5ECjCtMSthpump": {
+  "ts": "2026-10-10 16:32:48",
+  "order_id": "mv24ze306gv2e1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.1111111111111111,
+  "ok": true
  }
 }
