@@ -70,5 +70,14 @@
   "kol": 1,
   "rug_ratio": 0.0,
   "ok": true
+ },
+ "CZRNXaxgLkvf5udSTxQa2zhHbQBNDQMi2WkESbGppump": {
+  "ts": "2026-10-10 15:58:11",
+  "order_id": "mv23qw866loxnr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true
  }
 }
