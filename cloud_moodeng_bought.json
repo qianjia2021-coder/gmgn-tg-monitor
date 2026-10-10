@@ -358,5 +358,14 @@
   "rug_ratio": null,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "FeSw6o71qsquFFJYBX6XgLXJ1tH5WMf75Qez32kgpump": {
+  "ts": "2026-10-10 20:28:21",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "rug_ratio": 0.86,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
