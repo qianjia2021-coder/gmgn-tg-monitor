@@ -79,5 +79,23 @@
   "kol": 1,
   "rug_ratio": 0.0,
   "ok": true
+ },
+ "3iy1YNY6AwYq1nNYGn7YnybJLGZPGzWLekHRyNHrpump": {
+  "ts": "2026-10-10 16:04:32",
+  "order_id": "mv23z2b76gsa84",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.06,
+  "ok": true
+ },
+ "7okwpeBcv4hrzMS7TtCJadHNceWsxDbdmP7XwZkfpump": {
+  "ts": "2026-10-10 16:06:18",
+  "order_id": "mv241c5j6gtkza",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.5,
+  "ok": true
  }
 }
