@@ -86,20 +86,47 @@ def run_gmgn(args, timeout=60):
 
 
 def kol_count(addr):
-    """返回 (kol_bought, ok)"""
+    """KOL 数 = wallet_tags_stat.renowned_wallets（知名/KOL 钱包）。"""
     try:
-        out = run_gmgn(["gmgn-cli", "token", "traders", "--chain", "sol",
-                        "--address", addr, "--limit", "100", "--raw"])
+        out = run_gmgn(["gmgn-cli", "token", "info", "--chain", "sol",
+                        "--address", addr], timeout=45)
         data = json.loads(out)
     except Exception as e:
-        print("traders fail {}: {}".format(addr, e))
+        print("info fail {}: {}".format(addr, e))
         return 0, False
-    lst = data.get("list") or []
-    kol = sum(1 for w in lst
-              if ((w.get("avatar") or "").strip() or (w.get("name") or "").strip()
-                   or (w.get("twitter_username") or "").strip())
-              and float(w.get("buy_volume_cur") or 0) > 0)
-    return kol, True
+    wts = data.get("wallet_tags_stat") or {}
+    return int(wts.get("renowned_wallets") or 0), True
+
+
+def rug_ratio(addr):
+    """查 GMGN 跑路概率（0-1）。trending+trenches 双查。
+    返回 (value, found)：found=False 表示 GMGN 无数据，应跳过。"""
+    target = addr.lower()
+    # trending
+    try:
+        out = run_gmgn(["gmgn-cli", "market", "trending", "--chain", "sol",
+                        "--interval", "24h", "--limit", "100", "--raw"], timeout=45)
+        d = json.loads(out)
+        for r in (d.get("data") or {}).get("rank") or []:
+            if (r.get("address") or "").lower() == target:
+                v = r.get("rug_ratio")
+                return (None if v is None else float(v)), v is not None
+    except Exception:
+        pass
+    # trenches
+    try:
+        out = run_gmgn(["gmgn-cli", "market", "trenches", "--chain", "sol", "--raw"], timeout=60)
+        d = json.loads(out)
+        for rows in d.values():
+            if not isinstance(rows, list):
+                continue
+            for r in rows:
+                if (r.get("address") or "").lower() == target:
+                    v = r.get("rug_ratio")
+                    return (None if v is None else float(v)), v is not None
+    except Exception:
+        pass
+    return None, False
 
 
 def api_buy(addr):
@@ -110,18 +137,22 @@ def api_buy(addr):
             "amountOrPercent": BUY_SOL, "stopEarnPercent": STOP_EARN,
             "stopLossPercent": None, "priorityFee": "", "gasFeeDelta": 5,
             "maxFeePerGas": 100, "slippage": SLIPPAGE}
-    r = requests.post(DBOTX_SWAP_URL, json=body,
-                      headers={"X-API-KEY": key, "Content-Type": "application/json",
-                               "accept": "application/json", "User-Agent": DBOTX_UA,
-                               "Origin": "https://dbotx.com", "Referer": "https://dbotx.com/"},
-                      timeout=30)
-    try:
-        d = r.json()
-        if d.get("err") is False:
-            return True, d.get("res", {}).get("id", "")
-        return False, str(d)[:300]
-    except Exception as e:
-        return False, "HTTP {} {}".format(r.status_code, e)
+    headers = {"X-API-KEY": key, "Content-Type": "application/json",
+               "accept": "application/json", "User-Agent": DBOTX_UA,
+               "Origin": "https://dbotx.com", "Referer": "https://dbotx.com/"}
+    for attempt in range(3):
+        try:
+            r = requests.post(DBOTX_SWAP_URL, json=body, headers=headers, timeout=30)
+            d = r.json()
+            if d.get("err") is False:
+                return True, d.get("res", {}).get("id", "")
+            if r.status_code >= 500 and attempt < 2:
+                time.sleep(2); continue
+            return False, str(d)[:300]
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(2); continue
+            return False, "HTTP {}".format(e)
 
 
 async def main():
@@ -151,22 +182,33 @@ async def main():
         print("new #{}: {} | {} | {}".format(m.id, name, mcap, addr))
         kol, ok = kol_count(addr)
         if not ok:
-            print("  traders 查询失败，本轮跳过下轮再查")
+            print("  info 查询失败，本轮跳过下轮再查")
             continue
         if kol < KOL_MIN:
             seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
             print("  KOL={}<{} 跳过".format(kol, KOL_MIN))
             changed = True
             continue
+        rr, found = rug_ratio(addr)
+        if not found:
+            seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
+            print("  GMGN 无跑路数据，跳过")
+            changed = True
+            continue
+        if rr >= 1.0:
+            seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
+            print("  跑路概率={:.0%}，跳过".format(rr))
+            changed = True
+            continue
         bok, info = api_buy(addr)
         bought[addr] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"),
                         "order_id": info if bok else "", "sol": BUY_SOL,
                         "stop_earn": STOP_EARN, "symbol": name, "kol": kol,
-                        "ok": bok, "err": "" if bok else str(info)[:200]}
+                        "rug_ratio": rr, "ok": bok, "err": "" if bok else str(info)[:200]}
         seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-        print("  KOL={} buy {}: {}".format(kol, "OK" if bok else "FAIL", info))
+        print("  KOL={} rug={:.0%} buy {}: {}".format(kol, rr, "OK" if bok else "FAIL", info))
         changed = True
-        await asyncio.sleep(1.5)
+        await asyncio.sleep(2)
     await client.disconnect()
 
     state["last_id"] = last_id
