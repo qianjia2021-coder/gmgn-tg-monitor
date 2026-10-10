@@ -332,13 +332,13 @@
   "rug_ratio": 0.2,
   "ok": true
  },
- "7SuHznck28nX6AgxQTZfW5bMstPDwHrcssahWYYWpump": {
-  "ts": "2026-10-10 20:16:33",
-  "order_id": "mv2cz5zr6qvmsm",
+ "Gaw14jF9Lpi4QWSQEec8fw74f1sPA6HYhELLdBakpump": {
+  "ts": "2026-10-10 20:16:47",
+  "order_id": "",
   "sol": 1.0,
-  "stop_earn": 0.5,
   "kol": 1,
-  "rug_ratio": 0.0,
-  "ok": true
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
