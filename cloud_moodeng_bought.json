@@ -394,5 +394,14 @@
   "kol": 2,
   "rug_ratio": 0.0,
   "ok": true
+ },
+ "3ACpP47VLHEnfkoymbT5af1uqm9QXEy4XS8uoS81pump": {
+  "ts": "2026-10-11 07:18:10",
+  "order_id": "mv30m2ir6s2qnh",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true
  }
 }
