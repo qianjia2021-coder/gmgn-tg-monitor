@@ -190,12 +190,7 @@ async def main():
             changed = True
             continue
         rr, found = rug_ratio(addr)
-        if not found:
-            seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-            print("  GMGN 无跑路数据，跳过")
-            changed = True
-            continue
-        if rr >= 1.0:
+        if found and rr >= 1.0:
             seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
             print("  跑路概率={:.0%}，跳过".format(rr))
             changed = True
