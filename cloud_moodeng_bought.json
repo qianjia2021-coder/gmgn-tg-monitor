@@ -97,5 +97,14 @@
   "kol": 1,
   "rug_ratio": 0.5,
   "ok": true
+ },
+ "CPaZjtrSr2zBbReLdpegER9PC1DfTsZ4zswWQFyxpump": {
+  "ts": "2026-10-10 16:23:54",
+  "order_id": "mv24nz906guoto",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.08,
+  "ok": true
  }
 }
