@@ -26,7 +26,7 @@ GH_API = "https://api.github.com"
 
 # === CONFIG（与本地 moodeng_auto_buy.py 保持一致） ===
 TARGETS = ["MooDengPresidentCallers", "beijngdontlie", "logandegen", "SolanaWhalesMarket", "lycagamble"]
-KOL_MIN = 1
+KOL_MIN = 2
 BUY_SOL = 1.0
 STOP_EARN = 0.5
 SLIPPAGE = 0.5
