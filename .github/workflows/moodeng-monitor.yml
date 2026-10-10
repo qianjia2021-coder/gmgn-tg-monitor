@@ -51,9 +51,9 @@ jobs:
       - name: Run moodeng monitor (cloud takeover)
         if: steps.hb.outputs.takeover == 'true'
         env:
-          MOODENG_TG_API_ID: ${{ secrets.MOODENG_TG_API_ID }}
-          MOODENG_TG_API_HASH: ${{ secrets.MOODENG_TG_API_HASH }}
-          MOODENG_TG_STRING_SESSION: ${{ secrets.MOODENG_TG_STRING_SESSION }}
+          MOODENG_TG_API_ID: ${{ secrets.DAHUI_TG_API_ID }}
+          MOODENG_TG_API_HASH: ${{ secrets.DAHUI_TG_API_HASH }}
+          MOODENG_TG_STRING_SESSION: ${{ secrets.DAHUI_TG_STRING_SESSION }}
           DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 cloud_moodeng.py
