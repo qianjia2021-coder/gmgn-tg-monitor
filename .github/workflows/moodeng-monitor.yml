@@ -1,0 +1,59 @@
+name: moodeng-monitor
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: moodeng
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: 本机心跳检查（开机本地/关机云端，互斥接力）
+        id: hb
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          HB=$(curl -s -H "Authorization: Bearer $GH_TOKEN" -H "User-Agent: gh-runner" "https://api.github.com/repos/${{ github.repository }}/commits?path=heartbeat_moodeng.txt&per_page=1" | python3 -c "import sys,json;d=json.load(sys.stdin);print(d[0]['commit']['committer']['date'] if d else '')" 2>/dev/null || echo "")
+          if [ -z "$HB" ]; then
+            echo "无心跳文件 → 云端接管"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          AGE=$(( $(date +%s) - $(date -d "$HB" +%s) ))
+          echo "本机心跳距今 ${AGE}s"
+          if [ "$AGE" -lt 120 ]; then
+            echo "本机在线，云端本轮跳过"
+            echo "takeover=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "本机已关机/无响应，云端接管"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.hb.outputs.takeover == 'true'
+        with:
+          node-version: '20'
+      - name: Install gmgn-cli
+        if: steps.hb.outputs.takeover == 'true'
+        run: npm install -g gmgn-cli
+      - uses: actions/setup-python@v5
+        if: steps.hb.outputs.takeover == 'true'
+        with:
+          python-version: '3.11'
+      - run: pip install telethon requests
+        if: steps.hb.outputs.takeover == 'true'
+      - name: Run moodeng monitor (cloud takeover)
+        if: steps.hb.outputs.takeover == 'true'
+        env:
+          MOODENG_TG_API_ID: ${{ secrets.MOODENG_TG_API_ID }}
+          MOODENG_TG_API_HASH: ${{ secrets.MOODENG_TG_API_HASH }}
+          MOODENG_TG_STRING_SESSION: ${{ secrets.MOODENG_TG_STRING_SESSION }}
+          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 cloud_moodeng.py
