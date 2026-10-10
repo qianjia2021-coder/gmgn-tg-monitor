@@ -268,5 +268,14 @@
   "kol": 1,
   "rug_ratio": null,
   "ok": true
+ },
+ "gc54c4rFnJFE754J3inUv3Mi3EBxz9gn4KM74sSpump": {
+  "ts": "2026-10-10 18:34:51",
+  "order_id": "mv29cdnq6ocmil",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.34,
+  "ok": true
  }
 }
