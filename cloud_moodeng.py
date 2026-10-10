@@ -26,6 +26,7 @@ GH_API = "https://api.github.com"
 
 # === CONFIG（与本地 moodeng_auto_buy.py 保持一致） ===
 TARGETS = ["MooDengPresidentCallers", "beijngdontlie", "logandegen", "SolanaWhalesMarket", "lycagamble"]
+BLOCKED_SOURCES = ["debot_watcher_14_bot"]
 KOL_MIN = 1
 BUY_SOL = 1.0
 STOP_EARN = 0.5
@@ -206,6 +207,22 @@ async def main():
                 print("  KOL={} rug={} buy {}: {}".format(kol, rr, "OK" if bok else "FAIL", info))
                 changed = True
                 await asyncio.sleep(2)
+    # 黑名单来源：只记基线不买
+    for blk in BLOCKED_SOURCES:
+        try:
+            peer = await client.get_entity(blk)
+        except Exception as e:
+            print("黑名单 @{} 访问失败: {}".format(blk, e))
+            continue
+        print("--- 屏蔽源 @{} ---".format(blk))
+        async for m in client.iter_messages(peer, limit=100):
+            text = m.message or ""
+            for addr in extract_addrs(text):
+                if addr not in baseline_set:
+                    baseline_set.add(addr)
+                    baseline.append(addr)
+                    print("屏蔽合约: {}".format(addr))
+                    changed = True
     await client.disconnect()
 
     state["last_id"] = last_id
