@@ -376,5 +376,14 @@
   "kol": 1,
   "rug_ratio": 0.92,
   "ok": true
+ },
+ "EcHXARvDG7BAejtSScuFoFvufLvSytfpsK9uch23BAGS": {
+  "ts": "2026-10-10 21:07:39",
+  "order_id": "mv2esv8p6nxd9i",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true
  }
 }
