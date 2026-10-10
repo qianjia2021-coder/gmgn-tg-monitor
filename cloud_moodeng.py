@@ -171,6 +171,8 @@ async def main():
             continue
         print("--- 扫描 @{} ---".format(target))
         async for m in client.iter_messages(peer, limit=200):
+            if m.reply_to_msg_id:
+                continue
             text = m.message or ""
             addrs = extract_addrs(text)
             for addr in addrs:
