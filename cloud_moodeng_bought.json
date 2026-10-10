@@ -61,5 +61,14 @@
   "kol": 1,
   "rug_ratio": 0.125,
   "ok": true
+ },
+ "2YU64BoGL6ZmdTuvRFYJVHxMroqTAhxRW9xi7GVspump": {
+  "ts": "2026-10-10 15:52:52",
+  "order_id": "mv23k26l6grudo",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true
  }
 }
