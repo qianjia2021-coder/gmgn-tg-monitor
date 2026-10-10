@@ -16,5 +16,14 @@
   "kol": 1,
   "rug_ratio": null,
   "ok": true
+ },
+ "5F9zzoKPNeDRxshZo35LYVDN2XrBQ9VbjGE1Uuqkpump": {
+  "ts": "2026-10-10 14:47:16",
+  "order_id": "mv217p2b6lbjt0",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.02,
+  "ok": true
  }
 }
