@@ -349,5 +349,14 @@
   "kol": 1,
   "rug_ratio": 0.0,
   "ok": true
+ },
+ "HNHkQkiku8h1sWoWPtq7QC8paEFZYs2J3RpZkGKHSViz": {
+  "ts": "2026-10-10 20:27:11",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
