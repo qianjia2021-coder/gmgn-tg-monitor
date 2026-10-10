@@ -205,5 +205,14 @@
   "kol": 1,
   "rug_ratio": 0.0,
   "ok": true
+ },
+ "8ZjzMTSAxawcNgQFzLzKFXTcV2qXWVTeDLCNhH17pump": {
+  "ts": "2026-10-10 17:57:49",
+  "order_id": "mv280r4g6jpahi",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.02,
+  "ok": true
  }
 }
