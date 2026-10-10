@@ -160,5 +160,14 @@
   "kol": 1,
   "rug_ratio": 0.82,
   "ok": true
+ },
+ "EssC1Dsu51twmpfimTaDxWs87Q4swFdT7jD7tMuipump": {
+  "ts": "2026-10-10 17:33:21",
+  "order_id": "mv275a2j6nqc0z",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": 0.2,
+  "ok": true
  }
 }
