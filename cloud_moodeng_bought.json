@@ -124,5 +124,14 @@
   "kol": 1,
   "rug_ratio": 0.5,
   "ok": true
+ },
+ "DX1SnAPCfV9ZDGmYguUXCAtSQ8pL3B7N4ak4cqjtpump": {
+  "ts": "2026-10-10 16:50:38",
+  "order_id": "mv25mcp46ne338",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true
  }
 }
