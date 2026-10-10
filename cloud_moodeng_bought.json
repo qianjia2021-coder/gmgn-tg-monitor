@@ -7,5 +7,14 @@
   "kol": 2,
   "rug_ratio": null,
   "ok": true
+ },
+ "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68": {
+  "ts": "2026-10-10 14:46:19",
+  "order_id": "mv216hew6gomsj",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true
  }
 }
