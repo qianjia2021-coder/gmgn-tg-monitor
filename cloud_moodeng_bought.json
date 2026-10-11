@@ -628,5 +628,14 @@
   "kol": 1,
   "rug_ratio": 0.16,
   "ok": true
+ },
+ "DJheRcLnd5onMQtodKzM5npi5h1T5MNwWAiLv7Eppump": {
+  "ts": "2026-10-11 19:02:50",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
