@@ -700,5 +700,14 @@
   "kol": 2,
   "rug_ratio": 0.0,
   "ok": true
+ },
+ "3znqTGtkKitTh4WzDRnvzd3ycMCbCXgi41tD5ZYDpump": {
+  "ts": "2026-10-11 21:06:01",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
