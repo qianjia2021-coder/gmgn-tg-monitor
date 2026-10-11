@@ -876,5 +876,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Cellular Automata"
+ },
+ "h7GoNUSjmdxa3tcGwonK2hyV25EriugrKAquJGepump": {
+  "ts": "2026-10-12 07:57:27",
+  "order_id": "mv4hgdre73oi7k",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sapio"
  }
 }
