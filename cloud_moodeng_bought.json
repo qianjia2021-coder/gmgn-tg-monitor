@@ -574,5 +574,14 @@
   "rug_ratio": 0.08,
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "9QJ3gaMubEV7QjKLkkNWsTpgFrN9nSRRCxmGHYYVpump": {
+  "ts": "2026-10-11 17:55:21",
+  "order_id": "mv3ndh66743082",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 9,
+  "rug_ratio": 0.26,
+  "ok": true
  }
 }
