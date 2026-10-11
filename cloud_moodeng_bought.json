@@ -866,5 +866,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "farm"
+ },
+ "DBLzc5p4AM4yYpRPp8PSem4wN8xEFRLAKwLVadFNpump": {
+  "ts": "2026-10-12 07:57:22",
+  "order_id": "mv4hg9qp79ql4u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Cellular Automata"
  }
 }
