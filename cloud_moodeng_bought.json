@@ -430,5 +430,23 @@
   "kol": 2,
   "rug_ratio": null,
   "ok": true
+ },
+ "EXiQMqzNRBMwdC68e42ErHjWoQSQzXTwjYWDMXvTpump": {
+  "ts": "2026-10-11 10:51:12",
+  "order_id": "mv3880b06u0wgf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true
+ },
+ "2Fad8taWxbaso6u1Cb91oV14p6m4PR52Gwc7TJRPpump": {
+  "ts": "2026-10-11 10:51:12",
+  "order_id": "mv3880cm6zrt7r",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true
  }
 }
