@@ -856,5 +856,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "ROME Shoggoth"
+ },
+ "hKyXZVKmrBDPhKKhdSaaGf1qrFwUkwjqrdzRc63farm": {
+  "ts": "2026-10-12 07:53:55",
+  "order_id": "mv4hbu8573o5nm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "farm"
  }
 }
