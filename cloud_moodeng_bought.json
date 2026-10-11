@@ -808,5 +808,14 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "YAPReD7AF1d69e9efJm5ME96CQXdRs9EJDfKQWvUdeh": {
+  "ts": "2026-10-12 07:29:26",
+  "order_id": "mv4ggd7w73n1nd",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true
  }
 }
