@@ -682,5 +682,14 @@
   "rug_ratio": null,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "AByd79m4DZQBFTcRLguzu4usK8hvyaCbDtwZNJfYpump": {
+  "ts": "2026-10-11 20:41:18",
+  "order_id": "mv3tavla75iyqs",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 7,
+  "rug_ratio": null,
+  "ok": true
  }
 }
