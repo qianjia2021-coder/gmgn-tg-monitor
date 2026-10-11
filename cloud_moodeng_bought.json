@@ -836,5 +836,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "ROME Shoggoth"
+ },
+ "4mAfoKXGs67RToPwJaWqsUThjoTknwqgNUK871M5pump": {
+  "ts": "2026-10-12 07:39:25",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "a1lon9bot"
  }
 }
