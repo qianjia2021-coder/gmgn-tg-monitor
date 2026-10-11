@@ -826,5 +826,15 @@
   "kol": 1,
   "rug_ratio": null,
   "ok": true
+ },
+ "9gHG1b9rxY7on3rhQb6ipFRzeq4VECLUvve4943Bpump": {
+  "ts": "2026-10-12 07:37:21",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "ROME Shoggoth"
  }
 }
