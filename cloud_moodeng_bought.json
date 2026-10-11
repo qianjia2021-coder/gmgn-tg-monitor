@@ -790,5 +790,14 @@
   "kol": 2,
   "rug_ratio": 0.52,
   "ok": true
+ },
+ "ryyNwL83YJka5do85jka16gA2aBuVLE4cSU7z1QRbWQ": {
+  "ts": "2026-10-12 07:25:08",
+  "order_id": "mv4gatta79pn4t",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true
  }
 }
