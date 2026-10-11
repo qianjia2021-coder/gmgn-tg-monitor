@@ -403,5 +403,14 @@
   "kol": 3,
   "rug_ratio": null,
   "ok": true
+ },
+ "7vm6ReUqmy6uZVb6Tg9QuRykEau8v52RyYR2EUGmpump": {
+  "ts": "2026-10-11 08:14:10",
+  "order_id": "mv32m2wj6wibi1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true
  }
 }
