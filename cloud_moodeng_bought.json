@@ -2486,5 +2486,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Hyperlev"
+ },
+ "5y5kMCswFPAqYqf2PoY7VQeLdvWKZGXkEDAEbY8Tpump": {
+  "ts": "2026-10-12 21:14:07",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "ㅤ"
  }
 }
