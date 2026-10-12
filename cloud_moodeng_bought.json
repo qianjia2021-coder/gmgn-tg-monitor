@@ -2826,5 +2826,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Lords"
+ },
+ "5yXBmuCm1dv93drrp9V3Fbaa4bg3ZdE9t35ZwYaRpump": {
+  "ts": "2026-10-12 22:06:06",
+  "order_id": "mv5brqc10bth6a",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Mysterious Trump"
  }
 }
