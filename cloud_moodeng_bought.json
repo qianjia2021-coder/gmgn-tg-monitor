@@ -2886,5 +2886,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "PUMPOWEEN"
+ },
+ "3aYwRCTDaMMi8d5UHSCqxMa3HzyUmFAQPxoULAiRpump": {
+  "ts": "2026-10-12 22:20:51",
+  "order_id": "mv5cap490bw5bs",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "ilhen omur"
  }
 }
