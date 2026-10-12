@@ -1306,5 +1306,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Humanist Premium"
+ },
+ "hvi6gMk7ubYtUQYPSGdUsDyxujEryNPnLj89vftguFA": {
+  "ts": "2026-10-12 12:38:28",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "Wrapped Inu"
  }
 }
