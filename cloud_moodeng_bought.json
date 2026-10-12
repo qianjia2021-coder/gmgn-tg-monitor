@@ -1426,5 +1426,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Solana & Pets 500"
+ },
+ "CkPfBPPoQxPTdMHZqUn9F4Ko4dhYqTjJsgHDtKNypump": {
+  "ts": "2026-10-12 13:24:17",
+  "order_id": "mv4t4os10238m2",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "No Fucking AI"
  }
 }
