@@ -2806,5 +2806,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Social Liquid"
+ },
+ "ChNWBtmN9bJHyQzGFDkD5nWVGxywuZKgnNTyfpiMpump": {
+  "ts": "2026-10-12 22:05:14",
+  "order_id": "mv5bqm2m0btb4k",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Im Now Unmasked"
  }
 }
