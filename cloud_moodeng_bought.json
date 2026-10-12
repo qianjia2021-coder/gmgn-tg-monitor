@@ -1656,5 +1656,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "QuantumMeow"
+ },
+ "zbvUQHUf5xo57ShW8qbVL2hhwxA7TAERfbUDTZwpump": {
+  "ts": "2026-10-12 15:39:16",
+  "order_id": "mv4xy9rd05yfy1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Plague Vaccines"
  }
 }
