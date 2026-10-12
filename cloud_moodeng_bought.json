@@ -2666,5 +2666,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Hire Agents"
+ },
+ "2sssZ1CQ5iq8myiKJcezCstPfEz9g2qypTYPe7rJpump": {
+  "ts": "2026-10-12 21:39:47",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Tardigrade"
  }
 }
