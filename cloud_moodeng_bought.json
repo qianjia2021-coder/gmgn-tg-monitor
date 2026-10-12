@@ -2756,5 +2756,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Privacy VS Everyone"
+ },
+ "HZWQXfpaxpjwKgKhJjyuTrrv9Qxv6Pi4gvR6Mdh9pump": {
+  "ts": "2026-10-12 22:02:14",
+  "order_id": "mv5bmrwq0ema4r",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Mysterious Trump"
  }
 }
