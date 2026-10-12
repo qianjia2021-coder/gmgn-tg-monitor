@@ -1566,5 +1566,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Apollo Coin"
+ },
+ "CmUnBkYu7MK6dMbufsnyzZ2GzznwE1GEPfdwnmUvpump": {
+  "ts": "2026-10-12 14:47:18",
+  "order_id": "mv4w3fr704oxxy",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "shrimpulator "
  }
 }
