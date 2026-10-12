@@ -1476,5 +1476,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Altcoin"
+ },
+ "3vmWs4baGRVJKk3WM95HWcdvxyf4vzJM85M2CmjKpump": {
+  "ts": "2026-10-12 13:51:33",
+  "order_id": "mv4u3rab03yfem",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 8,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "MirageLSD by Decart AI"
  }
 }
