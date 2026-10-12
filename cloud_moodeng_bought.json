@@ -2046,5 +2046,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Proof Of History"
+ },
+ "DaQy99JNhYCZ5ttMJgwqBdp1N9bw6tRDa3Zxrsxtpump": {
+  "ts": "2026-10-12 20:19:26",
+  "order_id": "mv57ykj60e7ojf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "pend"
  }
 }
