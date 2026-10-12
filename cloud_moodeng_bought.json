@@ -1906,5 +1906,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Pelung"
+ },
+ "HatkcEJGmtrZ8NfWDLFTkHDawNq5S2PLXGVoa6Ktpump": {
+  "ts": "2026-10-12 19:59:40",
+  "order_id": "mv57955d0e57hu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Immortal AI Pet"
  }
 }
