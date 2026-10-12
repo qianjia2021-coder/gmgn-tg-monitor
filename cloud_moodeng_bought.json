@@ -896,5 +896,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "apelink"
+ },
+ "HbXn9Lcug7KrXxLr6TrKFe1pymCmqbVb3kbP9N1Kpump": {
+  "ts": "2026-10-12 08:05:45",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "The Pumpatar"
  }
 }
