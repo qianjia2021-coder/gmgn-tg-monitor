@@ -1456,5 +1456,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Squeeze"
+ },
+ "HLgzFvR95u58tDBkYaJZq8SrzJViQAya3zjEoQj5pump": {
+  "ts": "2026-10-12 13:46:09",
+  "order_id": "mv4twt1x03b0mo",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Touch Grass"
  }
 }
