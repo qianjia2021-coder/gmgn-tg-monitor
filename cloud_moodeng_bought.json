@@ -1536,5 +1536,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "bichi"
+ },
+ "8awpAugLx2M2wbXdh7NVLAJdT6AD63Ee6t5brMC8pump": {
+  "ts": "2026-10-12 14:14:36",
+  "order_id": "mv4uxems03ugga",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Slop Caesar"
  }
 }
