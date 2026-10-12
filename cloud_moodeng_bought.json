@@ -1886,5 +1886,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "StartupSI Cat"
+ },
+ "DvwNeZJMLmuFLRwWHLvK9SUXLWthnU9cigvSD2hLpump": {
+  "ts": "2026-10-12 19:39:45",
+  "order_id": "mv56jj9k0e37kp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "bet"
  }
 }
