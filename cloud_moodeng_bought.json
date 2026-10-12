@@ -1646,5 +1646,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Bino Bowski"
+ },
+ "4xYrnBTdACYetkJEAP4gj4bLFfKw9YYv1nvSWyS1pump": {
+  "ts": "2026-10-12 15:33:54",
+  "order_id": "mv4xrd8u06bw7q",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 25,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "QuantumMeow"
  }
 }
