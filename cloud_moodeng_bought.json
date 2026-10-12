@@ -2206,5 +2206,25 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Oolay "
+ },
+ "B6QMWA2FsMCx12cSyht55VEXgKutPCRhMgFGnMnipump": {
+  "ts": "2026-10-12 20:48:15",
+  "order_id": "mv58zmb20eeaay",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sybil Solutions"
+ },
+ "Hi3qDsFZdHNC1sSjrhPhKuz9z3Cifw7wxHqPY1eppump": {
+  "ts": "2026-10-12 20:48:17",
+  "order_id": "mv58zni70eebxg",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "TRENCHDOPE"
  }
 }
