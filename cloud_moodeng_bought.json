@@ -1666,5 +1666,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Plague Vaccines"
+ },
+ "BEpXJWJZzCPbQneXt31Kvqf9ryotrA6v5xXrVvNYpump": {
+  "ts": "2026-10-12 15:42:17",
+  "order_id": "mv4y25ub05yxmv",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Plague Vaccines"
  }
 }
