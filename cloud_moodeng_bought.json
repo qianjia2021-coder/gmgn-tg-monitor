@@ -2276,5 +2276,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "PrinetSI"
+ },
+ "3KGZw3UzeH8KcEQ6k2WVxEJ9yqsBABf52bKFmwrdpump": {
+  "ts": "2026-10-12 21:00:22",
+  "order_id": "mv59f7gy0eg9d1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Fomo Sapiens"
  }
 }
