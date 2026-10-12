@@ -2266,5 +2266,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Evodia Agents"
+ },
+ "4T3kkiXmoQGM8h6MejD5CvkfUh4jpFGJQEpeRRfDpump": {
+  "ts": "2026-10-12 21:00:00",
+  "order_id": "mv59eq2n0bls5t",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "PrinetSI"
  }
 }
