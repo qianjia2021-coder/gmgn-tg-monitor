@@ -1586,5 +1586,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Lion Cat"
+ },
+ "HYsAoZKk8uALR7jTex2i2Ey4JMnB3Twmm9LDxvz2pump": {
+  "ts": "2026-10-12 14:56:19",
+  "order_id": "mv4wf1wf054ixh",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Tawny Frogmouth"
  }
 }
