@@ -976,5 +976,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "An idiot in motion"
+ },
+ "Ahq9tDzxsp1ZAWwJPuBYypsctCtTr5VZi6xo35JXX1Gc": {
+  "ts": "2026-10-12 08:50:38",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "bitdog"
  }
 }
