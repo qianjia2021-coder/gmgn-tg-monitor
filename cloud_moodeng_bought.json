@@ -2856,5 +2856,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Ant Colony"
+ },
+ "FKvBk5kBa76ZEuwWoGaqcYEvRyxGTruN6NHzPrvHCqiv": {
+  "ts": "2026-10-12 22:15:07",
+  "order_id": "mv5c3caz0bv094",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Doxxed Inu"
  }
 }
