@@ -966,5 +966,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "MEV"
+ },
+ "4jEt4S1GkT3jdUkJtXbDN8QgEjyUMi9pmscnQzg3pump": {
+  "ts": "2026-10-12 08:41:22",
+  "order_id": "mv4j0vaf79u0sf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "An idiot in motion"
  }
 }
