@@ -1386,5 +1386,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "DOGCOIN"
+ },
+ "AUdQvyiXWZsBTpKN5qfjrskaNmWjiDBnWy89CbMupump": {
+  "ts": "2026-10-12 13:12:17",
+  "order_id": "mv4sp90s01tebb",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Coge Coin"
  }
 }
