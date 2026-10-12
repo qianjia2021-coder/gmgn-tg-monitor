@@ -956,5 +956,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "MOON"
+ },
+ "cpg5bHvZJTCXzrgVA2o9k9fRpbJXruTjubrKfospump": {
+  "ts": "2026-10-12 08:33:09",
+  "order_id": "mv4iqafb73re1u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "MEV"
  }
 }
