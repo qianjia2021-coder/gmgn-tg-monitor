@@ -1166,5 +1166,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Cockroach Janta Party"
+ },
+ "MYegNKvVmW6ezsu6C1L7g71mwrewZM2Si4yKgZGpump": {
+  "ts": "2026-10-12 11:08:25",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "PUMPKIN"
  }
 }
