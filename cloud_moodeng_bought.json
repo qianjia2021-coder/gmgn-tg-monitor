@@ -2506,5 +2506,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Fibonacci"
+ },
+ "94NwQ1sHVZfLAFeSSZe1qFvLb2v7mS4ir8ZfebbZpump": {
+  "ts": "2026-10-12 21:17:15",
+  "order_id": "mv5a0x0l0bnr0n",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Plants vs. Zombies"
  }
 }
