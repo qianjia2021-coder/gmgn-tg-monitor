@@ -2476,5 +2476,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Ztrash"
+ },
+ "6PTXh4Ux8R1ZAZmrwq8VUbNPY8b54KhU74fYsQrfpump": {
+  "ts": "2026-10-12 21:13:31",
+  "order_id": "mv59w4jp0bnkjk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Hyperlev"
  }
 }
