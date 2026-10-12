@@ -2526,5 +2526,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "ㅤ"
+ },
+ "4X7AdCPEcHiSBzWCLZaMrE1kkAHieUhmKBVwcgTApump": {
+  "ts": "2026-10-12 21:18:19",
+  "order_id": "mv5a2an30bnwpx",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Plínio"
  }
 }
