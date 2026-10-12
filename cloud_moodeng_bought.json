@@ -2096,5 +2096,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Baton Launchpad "
+ },
+ "GAnAVuGmLn7N3umZC8brYuUxryQ39qNGSAYuiQwqpump": {
+  "ts": "2026-10-12 20:28:38",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "ChaosBuck"
  }
 }
