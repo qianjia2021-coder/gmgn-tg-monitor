@@ -2336,5 +2336,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Infected"
+ },
+ "DFwtrY9pNRHoYF4RKt8ueQ4WBa96Stw8VuaGNnZLSTNK": {
+  "ts": "2026-10-12 21:04:25",
+  "order_id": "mv59keou0egq6o",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "    "
  }
 }
