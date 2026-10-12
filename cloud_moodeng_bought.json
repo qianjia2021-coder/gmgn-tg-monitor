@@ -2116,5 +2116,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Landlords "
+ },
+ "GNWDgX9w3uPcc1RbEwzxJjZFfQDPse2sEY3DLsxypump": {
+  "ts": "2026-10-12 20:34:45",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Remilio 4982"
  }
 }
