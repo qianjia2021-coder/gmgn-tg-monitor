@@ -886,5 +886,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sapio"
+ },
+ "2ikMciSZ1nK1X9E8X7U5trw3Tc9jW1Ud7FjrhAxPpump": {
+  "ts": "2026-10-12 08:05:34",
+  "order_id": "mv4hqtj979qydu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "apelink"
  }
 }
