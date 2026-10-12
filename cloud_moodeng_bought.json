@@ -1446,5 +1446,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Solami Coin"
+ },
+ "4E3oweEKHCybH2999cbpM1X6WgY7fqv3rW2aAsMppump": {
+  "ts": "2026-10-12 13:45:47",
+  "order_id": "mv4twby703ajhw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Squeeze"
  }
 }
