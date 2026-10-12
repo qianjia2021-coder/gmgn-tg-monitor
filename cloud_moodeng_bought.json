@@ -2256,5 +2256,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Quackbit"
+ },
+ "H6mj55CTjKwM1nuUniuHLtkFFZTAuK12fqWbPhBxpump": {
+  "ts": "2026-10-12 20:56:47",
+  "order_id": "mv59alvh0bl2oo",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Evodia Agents"
  }
 }
