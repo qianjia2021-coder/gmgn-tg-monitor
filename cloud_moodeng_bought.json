@@ -1976,5 +1976,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Immortal AI Pet"
+ },
+ "4FMSyEXUnXPJq7wKBVScRrCaYWPdDUNcqeuJuhC7pump": {
+  "ts": "2026-10-12 20:10:17",
+  "order_id": "mv57msc50e6gx3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Wired Protocol"
  }
 }
