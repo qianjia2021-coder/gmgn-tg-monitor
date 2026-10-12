@@ -1986,5 +1986,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Wired Protocol"
+ },
+ "5YFT3FCUnYNrobDsAKqV2W5hUS9W6hRu5qGD6TvCpump": {
+  "ts": "2026-10-12 20:10:40",
+  "order_id": "mv57nah80bg1tf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Meats"
  }
 }
