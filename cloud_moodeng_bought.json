@@ -1626,5 +1626,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Peptide Inu"
+ },
+ "4nio6Ykbfi7FqLMJ8Xgcz1hjqu1xAw8w5RMdi9AUpump": {
+  "ts": "2026-10-12 15:21:10",
+  "order_id": "mv4xaznu069ad5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Token"
  }
 }
