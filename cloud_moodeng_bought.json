@@ -2676,5 +2676,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Tardigrade"
+ },
+ "4gCsKiZGSypYR9ykfeG1CV6CkpwYJ5sZ9oCq2XWopump": {
+  "ts": "2026-10-12 21:41:17",
+  "order_id": "mv5avtb80ek416",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "p-Ponzi"
  }
 }
