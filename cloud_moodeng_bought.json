@@ -2866,5 +2866,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Doxxed Inu"
+ },
+ "DMcMzgvpaTixVSGW55pfBt7eVGGvefBnft81t2Tppump": {
+  "ts": "2026-10-12 22:16:12",
+  "order_id": "mv5c4qfu0eovnw",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "PONPOKOCOIN"
  }
 }
