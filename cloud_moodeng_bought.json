@@ -1366,5 +1366,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Miora "
+ },
+ "6Vp6RyyFm9yASyzkmHQHsrBpvkpinWG1QbyDCBMwpump": {
+  "ts": "2026-10-12 13:07:35",
+  "order_id": "mv4sj7fj01yvuw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "suscat"
  }
 }
