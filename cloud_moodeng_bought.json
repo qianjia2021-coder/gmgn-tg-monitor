@@ -1716,5 +1716,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "CHADA"
+ },
+ "A3CrRC2CWis9F9BwiiSKkLxgwdq4kUHxDKtNYmjkpump": {
+  "ts": "2026-10-12 16:45:04",
+  "order_id": "mv50aw6i07hb4y",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "snowball v2"
  }
 }
