@@ -1186,5 +1186,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "plot"
+ },
+ "EmT4thNMrQ4aJviLjcTdPhs4nsjuNAQ5jb6jwYUKpump": {
+  "ts": "2026-10-12 11:25:57",
+  "order_id": "mv4owixv77utnv",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "S&P 67"
  }
 }
