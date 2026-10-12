@@ -1936,5 +1936,25 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Spire"
+ },
+ "4mfD25Mmzt1w7AoLG268Ztt7M48uGwBfrfPgvQsJpump": {
+  "ts": "2026-10-12 20:07:08",
+  "order_id": "mv57iqua0e62qk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Justice for Felix"
+ },
+ "9xjuo5uQQKEvGeqKMFL6hqjEytHC5JchKtHad1cDpump": {
+  "ts": "2026-10-12 20:07:08",
+  "order_id": "mv57ir8c0bfkr8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Degen A Wish"
  }
 }
