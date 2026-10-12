@@ -1776,5 +1776,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Memecoiner"
+ },
+ "76SH91s5odki7cBqPyMfxVyz8BA3vKuTq15gBub3pump": {
+  "ts": "2026-10-12 17:35:32",
+  "order_id": "mv523sv309g6yb",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Loki"
  }
 }
