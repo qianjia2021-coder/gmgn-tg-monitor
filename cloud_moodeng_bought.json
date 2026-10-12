@@ -1956,5 +1956,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Degen A Wish"
+ },
+ "84DHrfGs7zv2R2uPD4cJCv49hNN93ohDY98Wtpropump": {
+  "ts": "2026-10-12 20:07:49",
+  "order_id": "mv57jmh20bfoj4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sisu"
  }
 }
