@@ -1026,5 +1026,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "CLAUDIA'S Boyfriend "
+ },
+ "A2guYUigXr3ctuUqo7ssUVZqSHVCzeqgUd3TNz7pump": {
+  "ts": "2026-10-12 09:27:53",
+  "order_id": "mv4kooou73vbbh",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "CT Olympics"
  }
 }
