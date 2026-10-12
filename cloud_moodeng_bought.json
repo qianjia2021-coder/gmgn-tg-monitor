@@ -2286,5 +2286,25 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Fomo Sapiens"
+ },
+ "2WvvNt9P7RYJzSPE7q2mV1ySrm97ddbf5YjfkAX5pump": {
+  "ts": "2026-10-12 21:01:45",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Mysterious Inu"
+ },
+ "G8aqAiyCXhWSvEA11GCizTVjk9QdxWAwHWWeLFFmpump": {
+  "ts": "2026-10-12 21:01:45",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Doxxed Cat"
  }
 }
