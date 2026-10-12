@@ -2626,5 +2626,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Monero Chan "
+ },
+ "42i6hBA5CvRD4EFYEZPTjAKpj4Tx41pNLJRiLqnipump": {
+  "ts": "2026-10-12 21:36:26",
+  "order_id": "mv5apkrw0ejrav",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Silicon exch"
  }
 }
