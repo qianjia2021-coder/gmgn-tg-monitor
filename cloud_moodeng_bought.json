@@ -2086,5 +2086,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Jeetscan"
+ },
+ "9d2HSFUTt2WXiQFiSd6XDMcN69JbPWi8DGcNEPRipump": {
+  "ts": "2026-10-12 20:28:11",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Baton Launchpad "
  }
 }
