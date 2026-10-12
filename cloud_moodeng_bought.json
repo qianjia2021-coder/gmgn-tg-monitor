@@ -1156,5 +1156,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Ethena Prosper"
+ },
+ "4tR7PbUjuB45RSb1TkXGpCKVTSEm6PRpTVdj6bYtpump": {
+  "ts": "2026-10-12 11:00:46",
+  "order_id": "mv4o04g47cprnb",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 5,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Cockroach Janta Party"
  }
 }
