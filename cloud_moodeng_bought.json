@@ -1356,5 +1356,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sludge Inu"
+ },
+ "2XngJthjPPtQwg7A3MgdfqzXmzQbbxxahrof4Pe3pump": {
+  "ts": "2026-10-12 13:02:51",
+  "order_id": "mv4sd4ex01yoti",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Miora "
  }
 }
