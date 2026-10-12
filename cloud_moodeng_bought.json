@@ -2786,5 +2786,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Mysterious Trump"
+ },
+ "E4fHTXuWFCiXxXWJ8QxYLVXm3TsANEeajCoQvRs8pump": {
+  "ts": "2026-10-12 22:04:28",
+  "order_id": "mv5bpmns0bt9jx",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "파랭이"
  }
 }
