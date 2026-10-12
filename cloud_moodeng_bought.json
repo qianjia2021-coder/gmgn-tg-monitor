@@ -1056,5 +1056,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Crime Dawgs"
+ },
+ "DbDn3LAiwMzQevDmnQksVvb8sD2g1uZWXcdaHfA8bonk": {
+  "ts": "2026-10-12 09:56:40",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "The Bat"
  }
 }
