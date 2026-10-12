@@ -1556,5 +1556,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Slop Caesar"
+ },
+ "J4DVhQYv191hqDE2QiepgTQc9kF6BaNy2HaNPXE3pump": {
+  "ts": "2026-10-12 14:31:13",
+  "order_id": "mv4virkm03vswj",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Apollo Coin"
  }
 }
