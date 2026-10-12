@@ -2006,5 +2006,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Crawler"
+ },
+ "832QjbRvJjMJpNccBmvsFjdrVbW8fSt38ZjbxPQTpump": {
+  "ts": "2026-10-12 20:12:17",
+  "order_id": "mv57pddg0bgamm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "TOILETJAK"
  }
 }
