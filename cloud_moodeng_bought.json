@@ -2466,5 +2466,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Bumblecoin"
+ },
+ "CvbkFXitLDzP5S9XQEyztY2hrthe4XZbhPQQD2BApump": {
+  "ts": "2026-10-12 21:13:10",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Ztrash"
  }
 }
