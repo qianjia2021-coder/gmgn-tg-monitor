@@ -2066,5 +2066,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "ChaosBuck"
+ },
+ "933Y2juKDcYwi9C9BPtyrcuNgnUeczgYA3AuGwuupump": {
+  "ts": "2026-10-12 20:25:09",
+  "order_id": "mv585wir0ebpz3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Retikl"
  }
 }
