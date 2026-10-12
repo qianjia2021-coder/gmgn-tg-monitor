@@ -2316,5 +2316,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Hitler Coin"
+ },
+ "2kHaecsMAp7a6pSw7HSy23kTmLL5B1dZvWdmiGjGpump": {
+  "ts": "2026-10-12 21:03:26",
+  "order_id": "mv59j55w0egj15",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Aggie"
  }
 }
