@@ -2356,5 +2356,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Doxxed Cat"
+ },
+ "CeDEqTPNLjds2XZrgvY3EiZKcfgQRVQpgMkSEAaMpump": {
+  "ts": "2026-10-12 21:06:31",
+  "order_id": "mv59n47y0bmqsf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Dank"
  }
 }
