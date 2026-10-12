@@ -1616,5 +1616,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Buy to make bread"
+ },
+ "45bMYcj4JZWLGZxaJzucBQFm85MjqCZM1cggDeA5pump": {
+  "ts": "2026-10-12 15:16:42",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Peptide Inu"
  }
 }
