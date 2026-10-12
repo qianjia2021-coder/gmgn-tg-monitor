@@ -1346,5 +1346,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sludge Inu"
+ },
+ "4yMEDVPZdMZa7Kc1HQMHdgYcTowMwdWJhhAbyt49pump": {
+  "ts": "2026-10-12 12:57:18",
+  "order_id": "mv4s5zu201y1g9",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sludge Inu"
  }
 }
