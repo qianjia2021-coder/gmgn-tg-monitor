@@ -1396,5 +1396,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Coge Coin"
+ },
+ "7mzMM6q5k9WJgMTNHVCQaNJFRpj5HD5n2V5kSs9spump": {
+  "ts": "2026-10-12 13:16:54",
+  "order_id": "mv4sv72t01wbz5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "CATCOIN"
  }
 }
