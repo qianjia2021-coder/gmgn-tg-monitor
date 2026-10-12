@@ -1926,5 +1926,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Immortal AI Pet"
+ },
+ "2kTqwpJm1jW5qWaoMfJqSm6PeVpffFSdSgh1MZUTpump": {
+  "ts": "2026-10-12 20:04:13",
+  "order_id": "mv57ezqf0e5u6v",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Spire"
  }
 }
