@@ -1826,5 +1826,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Tom Pearl"
+ },
+ "FgJReZeYfmKZeWrCaGYL8gLnUixwBhjdHuRknC6ypump": {
+  "ts": "2026-10-12 18:40:08",
+  "order_id": "mv54ev9k0cbzsd",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 16,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Dancing Dog"
  }
 }
