@@ -2546,5 +2546,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "anonymouse"
+ },
+ "5vN9gWXXFCciJk6CQ2uSGnQ3zUq2VYvDVAKX6Px8pump": {
+  "ts": "2026-10-12 21:27:09",
+  "order_id": "mv5admjv0bor7i",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "CLAUTON"
  }
 }
