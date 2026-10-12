@@ -2846,5 +2846,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "wurmhole.app"
+ },
+ "Edo7cxgKy7iPZZWjVS5kGcKtxpvViV2ViEPepgzXpump": {
+  "ts": "2026-10-12 22:13:39",
+  "order_id": "mv5c1g380eo75h",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Ant Colony"
  }
 }
