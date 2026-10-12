@@ -1336,5 +1336,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sludgecoin"
+ },
+ "9jG5YFvp6f2xNWrcjyKY1DFJLdR6kiN2Sv8yXmjnpump": {
+  "ts": "2026-10-12 12:55:17",
+  "order_id": "mv4s3dx901qh6t",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sludge Inu"
  }
 }
