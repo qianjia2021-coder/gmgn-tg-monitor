@@ -2366,5 +2366,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Dank"
+ },
+ "3bE7ra84nKoSrVJcXkmgMU6BYSompHR1JbmjtJ88pump": {
+  "ts": "2026-10-12 21:08:24",
+  "order_id": "mv59pj0i0bmz2e",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Clautchua"
  }
 }
