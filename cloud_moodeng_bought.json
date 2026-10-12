@@ -2456,5 +2456,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Zero Effort Coin"
+ },
+ "3xiUKbtDDCPpa75RPp1723CFYPE39f1kbWQbucVtpump": {
+  "ts": "2026-10-12 21:12:06",
+  "order_id": "mv59uajm0ehl9p",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Bumblecoin"
  }
 }
