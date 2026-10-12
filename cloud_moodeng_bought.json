@@ -2056,5 +2056,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "pend"
+ },
+ "A5WR25nLkB9PPLtQss9QwW6w92Q2s8quicwKZWyVfxJh": {
+  "ts": "2026-10-12 20:21:57",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "ChaosBuck"
  }
 }
