@@ -2836,5 +2836,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Mysterious Trump"
+ },
+ "EEmmf6uZiyMyF69nZ8BgWSuUoK1MoTNuviJjkPurpump": {
+  "ts": "2026-10-12 22:06:40",
+  "order_id": "mv5bsh4k0btj6p",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "wurmhole.app"
  }
 }
