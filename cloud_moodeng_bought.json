@@ -1486,5 +1486,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "MirageLSD by Decart AI"
+ },
+ "EH4cP8K1qDYZZH5ezVJFCnTQmsXXPjhF6Tbx8w6Kpump": {
+  "ts": "2026-10-12 13:57:59",
+  "order_id": "mv4uc0m203yuxh",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Dogcoin"
  }
 }
