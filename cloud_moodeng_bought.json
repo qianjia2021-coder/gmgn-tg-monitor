@@ -1576,5 +1576,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "shrimpulator "
+ },
+ "qoNHCyTTCpMwUB8ACgSqzaJYd8W6G69RPKy8Qtipump": {
+  "ts": "2026-10-12 14:50:47",
+  "order_id": "mv4w7x7c04mcop",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Lion Cat"
  }
 }
