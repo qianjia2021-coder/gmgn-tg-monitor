@@ -1726,5 +1726,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "snowball v2"
+ },
+ "cnNgFYRS26pKHstKvfzQXEDQuvuMfUNzTB2AMZypump": {
+  "ts": "2026-10-12 16:51:18",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Playground Pad"
  }
 }
