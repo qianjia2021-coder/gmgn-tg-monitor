@@ -2816,5 +2816,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Im Now Unmasked"
+ },
+ "3WF8uN5ZSKPayk1T8FBy9VSB3GJEWqxUjwpTi9BVpump": {
+  "ts": "2026-10-12 22:05:39",
+  "order_id": "mv5br60x0btdks",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Lords"
  }
 }
