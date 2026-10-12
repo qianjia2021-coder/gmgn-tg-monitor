@@ -1706,5 +1706,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Attention Cat"
+ },
+ "F1aRKnmftENFhrPvRFB2cKM6MvstZbt8YsFuWmU2pump": {
+  "ts": "2026-10-12 16:37:33",
+  "order_id": "mv5017uy079bu4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "CHADA"
  }
 }
