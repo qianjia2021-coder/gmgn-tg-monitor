@@ -2406,5 +2406,25 @@
   "rug_ratio": null,
   "ok": true,
   "name": "LandLords"
+ },
+ "4buBoQf462MPF2ixrs8nN5CQnbZvV86VCgKZswCPpump": {
+  "ts": "2026-10-12 21:09:04",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Fedora Cat"
+ },
+ "a23Ezw7LcyDDz6dujd2xzqNTNgQrxR8dd2QLm7dpump": {
+  "ts": "2026-10-12 21:09:35",
+  "order_id": "mv59r1sp0ehco1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Yoke"
  }
 }
