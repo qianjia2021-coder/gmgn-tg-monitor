@@ -2876,5 +2876,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "PONPOKOCOIN"
+ },
+ "icgvvPx9b76BoJ5CscGzYL8zzAHZNXzgY2NpqnUuhdG": {
+  "ts": "2026-10-12 22:16:40",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "PUMPOWEEN"
  }
 }
