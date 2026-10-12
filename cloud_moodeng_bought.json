@@ -2426,5 +2426,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Yoke"
+ },
+ "EMfPZndupU56AimQhnvPoKSXX8fHDgHi6psL6xfNpump": {
+  "ts": "2026-10-12 21:10:04",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Pull Terminal "
  }
 }
