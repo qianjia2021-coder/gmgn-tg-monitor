@@ -2706,5 +2706,25 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Shadow Inu"
+ },
+ "AiebX96tRewr6y9fyuTPUjrxRSzzx9aTKbWTwfLBpump": {
+  "ts": "2026-10-12 21:48:02",
+  "order_id": "mv5b4gp40bqz1u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "ustin Sun Wall-nut"
+ },
+ "8Jgv23TY2iXW5GQGAaScwyxhG3s87akdARHPkLWHUNgZ": {
+  "ts": "2026-10-12 21:49:22",
+  "order_id": "mv5b67yj0ektqf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "NEW"
  }
 }
