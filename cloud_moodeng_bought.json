@@ -926,5 +926,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Agent Roulette"
+ },
+ "2xjjBdFbdF4CsvHiCT9kagqxjhwiqhiGgaWmHnMxpump": {
+  "ts": "2026-10-12 08:08:19",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "pumpwithfriens.fun"
  }
 }
