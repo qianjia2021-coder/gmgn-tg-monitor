@@ -2146,5 +2146,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "PHISH"
+ },
+ "DrW1Dy31MZ3utYeWLHtJ2ab1TTACPSnykpjF3uqWpump": {
+  "ts": "2026-10-12 20:40:13",
+  "order_id": "mv58paas0bj642",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Doge Guy"
  }
 }
