@@ -2726,5 +2726,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "NEW"
+ },
+ "CAbYard8FUMMqMaMQreErVoskFpCdg54mxFs6gJrGwQ1": {
+  "ts": "2026-10-12 21:55:03",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "Shadow Wolf"
  }
 }
