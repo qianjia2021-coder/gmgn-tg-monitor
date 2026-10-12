@@ -986,5 +986,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "bitdog"
+ },
+ "CDZmGrPQFZzuDRbFvNR6rcPGUNJpSM7upjo26w3tpump": {
+  "ts": "2026-10-12 08:56:17",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "bitdog"
  }
 }
