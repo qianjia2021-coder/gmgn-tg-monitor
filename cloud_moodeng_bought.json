@@ -1866,5 +1866,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Solwaifu"
+ },
+ "61i3GyTb1dpPBPWVMzdni1wLDr8R4hfkKqLQc5EctEBz": {
+  "ts": "2026-10-12 19:27:58",
+  "order_id": "mv564dkd0dylob",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 7,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "+"
  }
 }
