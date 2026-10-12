@@ -1896,5 +1896,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "bet"
+ },
+ "EbRysSwSJXDDyxRauU9cCs4AZSCs7oQjV54RYmsFpump": {
+  "ts": "2026-10-12 19:47:13",
+  "order_id": "mv56t4kb0e3ukt",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Pelung"
  }
 }
