@@ -2556,5 +2556,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "CLAUTON"
+ },
+ "5jiLWsdfDn5mC4smy7fLLamk9nBeqmAcvdgcPMQJpump": {
+  "ts": "2026-10-12 21:27:21",
+  "order_id": "mv5adwmg0bota5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "CodeLock"
  }
 }
