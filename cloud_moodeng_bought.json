@@ -1296,5 +1296,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "White People When"
+ },
+ "mx2DvQ5TfbmM66BbhTymVAJhby332wRhhnHzf4ypump": {
+  "ts": "2026-10-12 12:30:24",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Humanist Premium"
  }
 }
