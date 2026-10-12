@@ -2656,5 +2656,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Nun Cat"
+ },
+ "98AG3zJUawbvDnpgbDhmxpMKva43vtgPLLPSXqo1pump": {
+  "ts": "2026-10-12 21:39:32",
+  "order_id": "mv5atkkm0bq2jb",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Hire Agents"
  }
 }
