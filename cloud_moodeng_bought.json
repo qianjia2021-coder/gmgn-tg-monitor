@@ -2736,5 +2736,15 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": "Shadow Wolf"
+ },
+ "7cEMq8uRd43dFnaj6xf73QLxKMfLf5Es8FjiszMqpump": {
+  "ts": "2026-10-12 21:57:59",
+  "order_id": "mv5bhb1t0brx97",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "i love pumpfun"
  }
 }
