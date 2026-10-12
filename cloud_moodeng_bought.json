@@ -2376,5 +2376,25 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Clautchua"
+ },
+ "5qu4j8yikPCV6c1dUBzhdDTjqRPhq1Eov9S2mvvNpump": {
+  "ts": "2026-10-12 21:08:24",
+  "order_id": "mv59piy40eh7hy",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Koji The Macaque"
+ },
+ "87sezD3dkRJfmVtJfFivMKTjd4afSDahTjq664Yapump": {
+  "ts": "2026-10-12 21:08:53",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Monero-Chan"
  }
 }
