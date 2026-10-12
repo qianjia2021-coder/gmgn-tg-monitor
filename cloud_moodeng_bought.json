@@ -2686,5 +2686,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "p-Ponzi"
+ },
+ "Hoo6zdHyXiUznmGWyf4EG99gKTHGdyczac5QSsEhzGT6": {
+  "ts": "2026-10-12 21:44:22",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "Monero Cat"
  }
 }
