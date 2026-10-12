@@ -2746,5 +2746,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "i love pumpfun"
+ },
+ "EJijiLYVmwzdKbavCAU2ejtkqdjFeMDmfxkKct7npump": {
+  "ts": "2026-10-12 21:59:26",
+  "order_id": "mv5bj5mw0elvpo",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Privacy VS Everyone"
  }
 }
