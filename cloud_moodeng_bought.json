@@ -2036,5 +2036,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Claudia Bull"
+ },
+ "BoDxYCeLDSUyCfrMW3XW9tnTyEWQyUBSLHLZnWUBpump": {
+  "ts": "2026-10-12 20:16:39",
+  "order_id": "mv57uzpc0e7731",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Proof Of History"
  }
 }
