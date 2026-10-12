@@ -2596,5 +2596,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Mysterious Cat"
+ },
+ "5sVx6nbASHBJMVkRqLc2tcq1Rr5mtZZC3Qt1PJxKpump": {
+  "ts": "2026-10-12 21:30:36",
+  "order_id": "mv5ai2h80ejenx",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "justadubduck"
  }
 }
