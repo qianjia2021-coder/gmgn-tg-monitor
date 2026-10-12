@@ -1126,5 +1126,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Crocoverse"
+ },
+ "8WoCxL7JvSkuE16vmT2QGdjnERRtG989yBW9h8uwpump": {
+  "ts": "2026-10-12 10:42:11",
+  "order_id": "mv4nc8po76u12a",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Vampire Groyper"
  }
 }
