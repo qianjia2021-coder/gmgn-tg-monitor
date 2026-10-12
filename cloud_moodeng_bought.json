@@ -1686,5 +1686,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "RONNIE THE GHOST"
+ },
+ "2uq4YtqSndm4oCLB7P2bQqo3q4Z8212UeV2NwfEVpump": {
+  "ts": "2026-10-12 16:13:57",
+  "order_id": "mv4z6v3207643u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Human Language Model"
  }
 }
