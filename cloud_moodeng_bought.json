@@ -2306,5 +2306,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Doxxed Cat"
+ },
+ "HitLERYp7Z5m1RLNnqCJGQv8JGJrxonvmcWEr5ccMLaM": {
+  "ts": "2026-10-12 21:02:56",
+  "order_id": "mv59iifq0bm6qi",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Hitler Coin"
  }
 }
