@@ -1216,5 +1216,15 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": "WORMHOLE"
+ },
+ "91XaLRuxgaL5byn3cCgf6RTUGyLbnFjd6i1bMvveJkHK": {
+  "ts": "2026-10-12 11:26:56",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "Wormhole Wassie"
  }
 }
