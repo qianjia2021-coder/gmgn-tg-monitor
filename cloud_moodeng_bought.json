@@ -1416,5 +1416,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Solamians"
+ },
+ "9VgPsK5N4fud7Vq1DLJJZzgGbjWgeAupmSdHHam5pump": {
+  "ts": "2026-10-12 13:20:41",
+  "order_id": "mv4t02bk02gf3k",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Solana & Pets 500"
  }
 }
