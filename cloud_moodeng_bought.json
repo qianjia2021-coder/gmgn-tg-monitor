@@ -2436,5 +2436,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Pull Terminal "
+ },
+ "2Xdcbp37G65iYFmjk23UHYRHEdcsgd3uwTeBSPXZpump": {
+  "ts": "2026-10-12 21:11:25",
+  "order_id": "mv59tewz0ehkvs",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "altcoin"
  }
 }
