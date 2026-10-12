@@ -2166,5 +2166,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Science Inu"
+ },
+ "EuesDXRX4bkav2emZgBvmMxfxa1SXy6XQSLfcqobpump": {
+  "ts": "2026-10-12 20:44:46",
+  "order_id": "mv58v4tx0edvpw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Pumpfluencer "
  }
 }
