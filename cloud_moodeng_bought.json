@@ -2766,5 +2766,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Mysterious Trump"
+ },
+ "2nYrFzn3psun8uuomxUnhUvmjZ6Vweg1LC5N7994pump": {
+  "ts": "2026-10-12 22:03:19",
+  "order_id": "mv5bo61s0emi0c",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Mysterious Inu"
  }
 }
