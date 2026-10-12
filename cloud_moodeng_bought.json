@@ -1496,5 +1496,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Dogcoin"
+ },
+ "FiyQMrWeHcFshUPcPWuczVUJehnaJAKJaVVkuFxVpump": {
+  "ts": "2026-10-12 13:58:40",
+  "order_id": "mv4ucwz303mrhn",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "smol owl"
  }
 }
