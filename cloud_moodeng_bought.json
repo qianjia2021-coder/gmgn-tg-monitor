@@ -2156,5 +2156,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Doge Guy"
+ },
+ "F91hbUrME3bTnMXGye4gwbg4CgfbokfKtjz3YYLXpump": {
+  "ts": "2026-10-12 20:42:40",
+  "order_id": "mv58sg2j0bjf33",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Science Inu"
  }
 }
