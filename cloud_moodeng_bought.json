@@ -2196,5 +2196,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Starlink Beaver"
+ },
+ "8wRGoLcENNeMadQJbte836VVrrSiDeZMD152ssfZpump": {
+  "ts": "2026-10-12 20:47:56",
+  "order_id": "mv58z79x0ee8ic",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Oolay "
  }
 }
