@@ -2796,5 +2796,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "파랭이"
+ },
+ "B4GbDpyWLAEsCzsdpL7eyAcX1NybXFocVnKLxV21pump": {
+  "ts": "2026-10-12 22:04:57",
+  "order_id": "mv5bq8zj0emtfx",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Social Liquid"
  }
 }
