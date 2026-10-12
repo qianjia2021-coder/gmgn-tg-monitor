@@ -1696,5 +1696,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Human Language Model"
+ },
+ "GUqmYS3pCear42oRXGU3TpRv1etDc9TT7ZFWNFcPpump": {
+  "ts": "2026-10-12 16:24:49",
+  "order_id": "mv4zkucr077din",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Attention Cat"
  }
 }
