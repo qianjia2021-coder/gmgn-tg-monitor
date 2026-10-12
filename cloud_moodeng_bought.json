@@ -946,5 +946,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "friens"
+ },
+ "9pMAvNnjxpCc9r2JGxS6bHxPigSQUZwutvRrK5i5pump": {
+  "ts": "2026-10-12 08:26:21",
+  "order_id": "mv4ihkal79s31j",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "MOON"
  }
 }
