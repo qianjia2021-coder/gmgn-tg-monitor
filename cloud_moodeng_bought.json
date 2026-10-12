@@ -2516,5 +2516,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Plants vs. Zombies"
+ },
+ "7ovZz8RZ9PrSdV6ECuHC9DfhTQNKBAQXyHjAyCAKpump": {
+  "ts": "2026-10-12 21:17:24",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "ㅤ"
  }
 }
