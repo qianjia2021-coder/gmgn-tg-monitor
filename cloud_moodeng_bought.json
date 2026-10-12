@@ -1046,5 +1046,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "CT Olympics"
+ },
+ "7FVo3mJiudCwsm6k76N3ANmJ5gK2AESuP4kwnHy7pump": {
+  "ts": "2026-10-12 09:41:11",
+  "order_id": "mv4l5s897ayvle",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Crime Dawgs"
  }
 }
