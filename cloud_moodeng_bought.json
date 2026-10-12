@@ -1206,5 +1206,15 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": "WORMHOLE"
+ },
+ "FoUD7ydKGsDzF4jT1uPtFUzvWsYDQRnj3WQHCmhs3tYm": {
+  "ts": "2026-10-12 11:26:53",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "WORMHOLE"
  }
 }
