@@ -1966,5 +1966,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sisu"
+ },
+ "2cv4zwJ2UdTGUeZwQfrwssQZPojuj2Qc3yr127ALpump": {
+  "ts": "2026-10-12 20:09:54",
+  "order_id": "mv57mazf0bfywp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Immortal AI Pet"
  }
 }
