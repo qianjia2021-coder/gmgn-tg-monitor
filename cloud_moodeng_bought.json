@@ -2646,5 +2646,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Monero Means Money"
+ },
+ "6VoxmtxKr74qrtiAWzsgUNCzrXeECKHd3knymDTRpump": {
+  "ts": "2026-10-12 21:38:03",
+  "order_id": "mv5arnqo0ejyrp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Nun Cat"
  }
 }
