@@ -1266,5 +1266,35 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Forg"
+ },
+ "FqspvyuY7KJ2gKCWt4Kihc1yGKKki3GrURwEMnTKexg6": {
+  "ts": "2026-10-12 12:17:39",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "Vigilant-Giggle"
+ },
+ "8WwbC1kjNw2DzRneBNi9y6CMWYP8mmx9u9hNBpPMpump": {
+  "ts": "2026-10-12 12:29:33",
+  "order_id": "mv4r6b1i01o7h9",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "memepaper"
+ },
+ "2MkgPjYtTkp2YZPpK1CpZJ6iG8Giqn1gfXEufMnapump": {
+  "ts": "2026-10-12 12:29:33",
+  "order_id": "mv4r6b6m01o94n",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "White People When"
  }
 }
