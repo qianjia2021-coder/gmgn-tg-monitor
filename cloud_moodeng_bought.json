@@ -1146,5 +1146,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Vampire Pepe"
+ },
+ "4uj8dVAWowVo2uT78koPyn5ab7q1GGTJ4ui4Vcb9pump": {
+  "ts": "2026-10-12 10:52:55",
+  "order_id": "mv4nq13k76uevh",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Ethena Prosper"
  }
 }
