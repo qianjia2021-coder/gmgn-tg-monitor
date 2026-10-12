@@ -2106,5 +2106,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "ChaosBuck"
+ },
+ "4Ny24YwaUFdKKrLWk9PkGqMYt6SwgNMtGJyQpy1qpump": {
+  "ts": "2026-10-12 20:32:13",
+  "order_id": "mv58ezx80biksd",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Landlords "
  }
 }
