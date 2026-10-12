@@ -1116,5 +1116,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sola"
+ },
+ "47KEymX4xfmPLKVNWmkCV4DFg8sBosLYzA5z14MSpump": {
+  "ts": "2026-10-12 10:17:25",
+  "order_id": "mv4mgdoj76faj8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Crocoverse"
  }
 }
