@@ -1176,5 +1176,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "PUMPKIN"
+ },
+ "BgCgrVfEFZ1TmRQn5G3BVkwPheadwK3kk2xrCHK1pump": {
+  "ts": "2026-10-12 11:20:05",
+  "order_id": "mv4ooz2l7di8ud",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "plot"
  }
 }
