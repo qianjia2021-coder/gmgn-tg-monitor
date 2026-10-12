@@ -2236,5 +2236,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Reverse Engineer Tech"
+ },
+ "8KGai7WPbF2BZGHJKN539Y6MZRUsJbLSmdwAbjKZpump": {
+  "ts": "2026-10-12 20:54:22",
+  "order_id": "mv597hxs0ef212",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "APE"
  }
 }
