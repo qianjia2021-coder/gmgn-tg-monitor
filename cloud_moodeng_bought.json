@@ -2226,5 +2226,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "TRENCHDOPE"
+ },
+ "Bjabvm5CjYrUtESwDxGUgYeHotYEMbeNHCDBC14Ppump": {
+  "ts": "2026-10-12 20:51:22",
+  "order_id": "mv593n0s0eevke",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Reverse Engineer Tech"
  }
 }
