@@ -2446,5 +2446,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "altcoin"
+ },
+ "3FKDi8w6vEKGARmmJYHaYXKZfaSjot4ooxknkEdU7yKG": {
+  "ts": "2026-10-12 21:11:58",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Zero Effort Coin"
  }
 }
