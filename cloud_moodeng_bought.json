@@ -1436,5 +1436,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "No Fucking AI"
+ },
+ "6w5xddFSx75KD2MVJ5YAhKDMf8crYa5qMkxZmtPxpump": {
+  "ts": "2026-10-12 13:25:40",
+  "order_id": "mv4t6gtd02h2bc",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Solami Coin"
  }
 }
