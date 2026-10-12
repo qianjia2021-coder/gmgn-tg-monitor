@@ -2496,5 +2496,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "ㅤ"
+ },
+ "CjYfYxtxJesV2m5i35fWJExrgbx1awNpCviEVn8Cpump": {
+  "ts": "2026-10-12 21:16:53",
+  "order_id": "mv5a0fu90bnqzn",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Fibonacci"
  }
 }
