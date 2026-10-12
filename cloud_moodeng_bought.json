@@ -916,5 +916,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "X money glitch"
+ },
+ "qwnTdPiELhUXczG3GP7K3NcSud6r1q55tEaNz8upump": {
+  "ts": "2026-10-12 08:07:48",
+  "order_id": "mv4htpi773plh4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Agent Roulette"
  }
 }
