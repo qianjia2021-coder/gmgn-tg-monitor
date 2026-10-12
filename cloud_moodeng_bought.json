@@ -936,5 +936,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "pumpwithfriens.fun"
+ },
+ "AqNgNs2G1ojd1K2YMEbp2ZXs8QgUTWpWZSf8ihDLpump": {
+  "ts": "2026-10-12 08:10:20",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "friens"
  }
 }
