@@ -1246,5 +1246,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "7chan"
+ },
+ "LKMGLXniA9pSapQYCUqRVN5xv4bs7tYd7d2toqxpump": {
+  "ts": "2026-10-12 11:48:11",
+  "order_id": "mv4pp42c784l1s",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "grim reaper"
  }
 }
