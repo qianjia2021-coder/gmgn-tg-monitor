@@ -2176,5 +2176,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Pumpfluencer "
+ },
+ "T9VCWuCqff9U16aVQyQ3UzvUDFErSR68kdByC3wZHfi": {
+  "ts": "2026-10-12 20:46:13",
+  "order_id": "mv58wzzm0edz6e",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Tagged Pad"
  }
 }
