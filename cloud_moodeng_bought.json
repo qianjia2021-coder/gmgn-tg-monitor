@@ -1376,5 +1376,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "suscat"
+ },
+ "GmDjFweCHd1FaDUV6TiUreVZa24KMeQMCBA18d5opump": {
+  "ts": "2026-10-12 13:10:29",
+  "order_id": "mv4smy39026tuz",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "DOGCOIN"
  }
 }
