@@ -1606,5 +1606,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "파랭이"
+ },
+ "26oyyjum5mD519tDtfZP8s3VoggXFHwfWVz2S4nnpump": {
+  "ts": "2026-10-12 15:13:28",
+  "order_id": "mv4x136c05u7m5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Buy to make bread"
  }
 }
