@@ -2576,5 +2576,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Trench"
+ },
+ "2XFGaryhk6LouBgMW22jRQP9NxMoLTK3JErBQZsBGQhs": {
+  "ts": "2026-10-12 21:29:52",
+  "order_id": "mv5ah4xi0ej8zg",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "YOLK SAMURAI"
  }
 }
