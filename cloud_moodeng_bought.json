@@ -2346,5 +2346,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "    "
+ },
+ "HP3jtHyGnZbDuyiRzRc6T9bZgQdbLWvcZT1hkVW9pump": {
+  "ts": "2026-10-12 21:04:50",
+  "order_id": "mv59kyda0egs6e",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Doxxed Cat"
  }
 }
