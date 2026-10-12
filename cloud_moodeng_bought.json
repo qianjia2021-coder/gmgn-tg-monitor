@@ -2536,5 +2536,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Plínio"
+ },
+ "C2JNrHxXn6LfyhMRdUiAvuHEARPT6GnbFLKzk8yfpump": {
+  "ts": "2026-10-12 21:24:51",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "anonymouse"
  }
 }
