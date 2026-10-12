@@ -1096,5 +1096,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "S&P 67"
+ },
+ "DtFVrjgS8BLm56e1AkMQXgNDdKU4hCHy5V7kUvusPqne": {
+  "ts": "2026-10-12 10:10:22",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "Sola"
  }
 }
