@@ -1106,5 +1106,15 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": "Sola"
+ },
+ "45JP4nL7N9BpQcQzrQHRMXUWxBNgDSef6dCeRhPAfXrN": {
+  "ts": "2026-10-12 10:11:46",
+  "order_id": "mv4m94gy7buu3a",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sola"
  }
 }
