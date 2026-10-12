@@ -1876,5 +1876,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "+"
+ },
+ "Ga2xwPQx2EovfM1NyuzTr9zC36LoGibSdQP3n3nsqusL": {
+  "ts": "2026-10-12 19:29:32",
+  "order_id": "mv566e2u0e1abu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "StartupSI Cat"
  }
 }
