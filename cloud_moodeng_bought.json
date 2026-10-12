@@ -1506,5 +1506,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "smol owl"
+ },
+ "7jj7ZeDAjroZkh4YcFN1kXqZp78af3cya3vUKQwCpump": {
+  "ts": "2026-10-12 14:04:26",
+  "order_id": "mv4ukbwl03tktm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "junjun & ranran"
  }
 }
