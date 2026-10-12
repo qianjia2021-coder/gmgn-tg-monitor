@@ -2076,5 +2076,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Retikl"
+ },
+ "HArUcNYTd3YxTF1c7CBM2bRtNG18rrYPKubRF8mepump": {
+  "ts": "2026-10-12 20:27:36",
+  "order_id": "mv5892qk0bhyds",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Jeetscan"
  }
 }
