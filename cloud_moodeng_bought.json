@@ -1256,5 +1256,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "grim reaper"
+ },
+ "DbMG5oAqhaSC6wg3LnA64Vcgb8bWEbARpa4aZ7Mjpump": {
+  "ts": "2026-10-12 12:17:36",
+  "order_id": "mv4qqxh200wmes",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Forg"
  }
 }
