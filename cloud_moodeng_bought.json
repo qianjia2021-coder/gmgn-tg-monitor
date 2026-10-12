@@ -2616,5 +2616,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "zoosol.fun"
+ },
+ "8uRk8eJzpcGrQK3aYicJq58RywkoCQXSJfF4dFB8pump": {
+  "ts": "2026-10-12 21:34:25",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Monero Chan "
  }
 }
