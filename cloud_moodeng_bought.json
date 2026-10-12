@@ -1406,5 +1406,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "CATCOIN"
+ },
+ "3snFGFdGmPPZoXMYSGCcFLrGkKo3q8Vfqp3i1TcLpump": {
+  "ts": "2026-10-12 13:20:36",
+  "order_id": "mv4szy3o0230to",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Solamians"
  }
 }
