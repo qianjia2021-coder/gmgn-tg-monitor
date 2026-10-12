@@ -2326,5 +2326,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Aggie"
+ },
+ "bzmNDwXTiSJwaTMeRVJ9LmWQUL6w9wP8ze4bZFmpump": {
+  "ts": "2026-10-12 21:04:07",
+  "order_id": "mv59k0vi0bmac3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Infected"
  }
 }
