@@ -2696,5 +2696,15 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": "Monero Cat"
+ },
+ "6F1gFjE56Q792Mu7jdwoxKpuyhNWUp241eTgWeHwe4u1": {
+  "ts": "2026-10-12 21:48:01",
+  "order_id": "mv5b4h4i0br00u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Shadow Inu"
  }
 }
