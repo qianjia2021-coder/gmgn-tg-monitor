@@ -1526,5 +1526,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "number go hmm"
+ },
+ "GCUtja67zWxhu2ijHswdKQwhy54Wwdq3CfyojBMFpump": {
+  "ts": "2026-10-12 14:12:37",
+  "order_id": "mv4uuu5103udib",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "bichi"
  }
 }
