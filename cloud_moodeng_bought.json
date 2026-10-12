@@ -1836,5 +1836,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Dancing Dog"
+ },
+ "HVSKdNMRAv7r4z3RThQPX4xZNWLkG36zz6p5uVhHpump": {
+  "ts": "2026-10-12 18:54:41",
+  "order_id": "mv54xkxp0cmcah",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Memester"
  }
 }
