@@ -2246,5 +2246,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "APE"
+ },
+ "AckM6e2USwPSYyvo9BwCAZXcVhccweqEnAzHypVBpump": {
+  "ts": "2026-10-12 20:54:28",
+  "order_id": "mv597mc90ef3n2",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Quackbit"
  }
 }
