@@ -1196,5 +1196,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "S&P 67"
+ },
+ "FejKGAYokkTGmNrceQgYzZjEZ4ujb3mLi4MMwuELZBCK": {
+  "ts": "2026-10-12 11:26:07",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": "WORMHOLE"
  }
 }
