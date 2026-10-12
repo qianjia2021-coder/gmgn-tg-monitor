@@ -2126,5 +2126,25 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Remilio 4982"
+ },
+ "AFVARRYzg5YJ5FmABaPjygnATAzD7QJ2XMQgyUgqpump": {
+  "ts": "2026-10-12 20:38:30",
+  "order_id": "mv58n3b50ed4p9",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Unspent"
+ },
+ "3rLbP63g74ugwqpwqTpwsELmRkQR9wnR2fv5mhtGHNZi": {
+  "ts": "2026-10-12 20:38:32",
+  "order_id": "mv58n3k50biy1z",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "PHISH"
  }
 }
