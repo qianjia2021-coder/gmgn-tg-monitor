@@ -1316,5 +1316,15 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": "Wrapped Inu"
+ },
+ "Ct3L6mVYBMq6Lth7jEDuobkL9DLtqKBaygeeVErJpump": {
+  "ts": "2026-10-12 12:51:21",
+  "order_id": "mv4ryc1g01q24i",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sludgecoin"
  }
 }
