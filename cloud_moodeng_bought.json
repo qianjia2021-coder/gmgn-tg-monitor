@@ -2566,5 +2566,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "CodeLock"
+ },
+ "GW7qvBpQH29nogREKcsU72PDPMRnbFspo45xXLeLpump": {
+  "ts": "2026-10-12 21:28:03",
+  "order_id": "mv5aesqu0bouzj",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Trench"
  }
 }
