@@ -1066,5 +1066,15 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": "The Bat"
+ },
+ "5VGJGV7UGfB2AsDqiUpME79oJFT5CGkSpFedWDSbpump": {
+  "ts": "2026-10-12 09:57:14",
+  "order_id": "mv4lqfqn7azqgk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "TRENCHES97"
  }
 }
