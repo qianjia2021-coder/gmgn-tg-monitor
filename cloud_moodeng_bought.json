@@ -1466,5 +1466,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Touch Grass"
+ },
+ "3He1dqysq91ad1SrMmF9xgCattzNtwAwdHiKifEkkeYV": {
+  "ts": "2026-10-12 13:50:38",
+  "order_id": "mv4u2l2o03m24t",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Altcoin"
  }
 }
