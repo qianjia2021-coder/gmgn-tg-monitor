@@ -1846,5 +1846,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Memester"
+ },
+ "HBKmnamsDdyjpYEPpuWt6y7PheNvhUAnmFCYQr8epump": {
+  "ts": "2026-10-12 19:05:04",
+  "order_id": "mv55axtp09x924",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "RainsRevenge"
  }
 }
