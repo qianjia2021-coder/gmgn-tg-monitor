@@ -1076,5 +1076,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "TRENCHES97"
+ },
+ "2ph34kJwe77P6A7n5DPu7iKx31BdGEXUrJU7wshKpump": {
+  "ts": "2026-10-12 09:58:05",
+  "order_id": "mv4lrij474vl6h",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Dembow Final Boss"
  }
 }
