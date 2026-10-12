@@ -1806,5 +1806,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "uptober"
+ },
+ "87NDqiUriexTofPQMkvmqgZWKK6VbCy6UxUoGPi5pump": {
+  "ts": "2026-10-12 18:06:35",
+  "order_id": "mv537q7y09voao",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Overdrive"
  }
 }
