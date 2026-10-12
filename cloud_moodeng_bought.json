@@ -2606,5 +2606,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "justadubduck"
+ },
+ "pAA2VXv5W6AkyeiUqZiuScnoFqebxQKTeSSmMDdpump": {
+  "ts": "2026-10-12 21:33:55",
+  "order_id": "mv5amcpt0bpjty",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "zoosol.fun"
  }
 }
