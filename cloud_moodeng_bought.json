@@ -1786,5 +1786,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Loki"
+ },
+ "Fo2zTpwJxQaZcoggM4yVqcgnqDZtQ1x31aPivDjMftH8": {
+  "ts": "2026-10-12 17:43:38",
+  "order_id": "mv52e7m908ic8o",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 7,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "DogCoin"
  }
 }
