@@ -2396,5 +2396,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Monero-Chan"
+ },
+ "9RZMDZ2tXgFAx7VB9D93AcsBk8nkeHVxrzYHSHDgpump": {
+  "ts": "2026-10-12 21:09:02",
+  "order_id": "mv59qcpy0bn5hw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "LandLords"
  }
 }
