@@ -1796,5 +1796,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "DogCoin"
+ },
+ "BidnjQLnyxWNwqTJWEAiyhgZhMHVHG4ibM4iuGVqpump": {
+  "ts": "2026-10-12 17:46:16",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "uptober"
  }
 }
