@@ -1006,5 +1006,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "ᅠ"
+ },
+ "2jcg4PK3WQRsGudeXo7BhwhS94rgfbrjr3KeA5Y26Q7e": {
+  "ts": "2026-10-12 09:09:18",
+  "order_id": "mv4k0rzt73t1fj",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "who the fuck are you?"
  }
 }
