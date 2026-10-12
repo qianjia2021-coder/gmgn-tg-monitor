@@ -1816,5 +1816,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Overdrive"
+ },
+ "DvUiQ5kmXrYSoT8Ck9CKubGkwy3hdUing6hQNfFYpump": {
+  "ts": "2026-10-12 18:28:45",
+  "order_id": "mv5408i00adudk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Tom Pearl"
  }
 }
