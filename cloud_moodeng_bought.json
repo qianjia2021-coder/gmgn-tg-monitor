@@ -1736,5 +1736,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Playground Pad"
+ },
+ "DKatqeV4EYRdvE24rGg738i3r6o9yfYfchAhKQovpump": {
+  "ts": "2026-10-12 17:04:50",
+  "order_id": "mv510b6b08wt2u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Nola"
  }
 }
