@@ -1766,5 +1766,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "wcat"
+ },
+ "8ZTfmFB8cAi2Uhxtyvfeo2JCSc6PZ7x97VAZWgJdpump": {
+  "ts": "2026-10-12 17:18:44",
+  "order_id": "mv51i6fk09a3pt",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Memecoiner"
  }
 }
