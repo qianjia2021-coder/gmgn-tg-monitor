@@ -1326,5 +1326,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sludgecoin"
+ },
+ "xY5STFRkjSzbHMFC6ZrXyeYVg6aAWh8hDUVmgaTpump": {
+  "ts": "2026-10-12 12:52:20",
+  "order_id": "mv4rzln601x8kj",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sludgecoin"
  }
 }
