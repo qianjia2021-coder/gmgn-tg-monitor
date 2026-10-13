@@ -3216,5 +3216,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Ugly Stupid Duck Coin"
+ },
+ "EPH3fykJyHB2MWi7bVuHVxfLEzN5seRADxoXXJUJp5GP": {
+  "ts": "2026-10-13 15:10:20",
+  "order_id": "mv6cczad0lqpux",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "LIGHT"
  }
 }
