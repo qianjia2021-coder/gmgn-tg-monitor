@@ -3346,5 +3346,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Talonian Wolf"
+ },
+ "CZN9Ysi89cAvnkuR2cNCM5t32BNHNdnXTJ5HPd4Npump": {
+  "ts": "2026-10-13 16:50:58",
+  "order_id": "mv6fydzp0tjoqy",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "SOL402"
  }
 }
