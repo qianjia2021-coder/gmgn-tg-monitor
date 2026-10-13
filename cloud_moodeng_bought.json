@@ -3516,5 +3516,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Scientists reveal the Hi"
+ },
+ "5ZZi4US42u7C8UYfAoAWLFgajqFbNW24ZEFpVweSpump": {
+  "ts": "2026-10-13 19:21:23",
+  "order_id": "mv6lbtco0vlbrc",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Artcraft"
  }
 }
