@@ -3006,5 +3006,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "The Cure"
+ },
+ "8BSbq7AxBNNGUoYRETHg1bqCDxVmxx5duDhewwuppump": {
+  "ts": "2026-10-13 12:58:29",
+  "order_id": "mv67nezu0k6ihq",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Spinning Rat"
  }
 }
