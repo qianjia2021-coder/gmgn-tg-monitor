@@ -3726,5 +3726,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Bobo Fund"
+ },
+ "DZiBeZfgef1v24LdBsZCfRhvzZ18iNEj3ho3JK5wpump": {
+  "ts": "2026-10-13 21:28:06",
+  "order_id": "mv6purfu0xq73g",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "typing cat wif wizard hat"
  }
 }
