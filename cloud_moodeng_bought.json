@@ -3056,5 +3056,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Nietzschean Penguin"
+ },
+ "7MfpYSupfApSGwJH4qfXpkh7FvKaKd69EfRqSWhVpump": {
+  "ts": "2026-10-13 13:23:09",
+  "order_id": "mv68j4k60qfr4k",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "XGENCY"
  }
 }
