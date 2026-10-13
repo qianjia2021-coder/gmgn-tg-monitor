@@ -3696,5 +3696,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "fleuri"
+ },
+ "aAG9TgFto8PyxFZbTtAoFAVDyHzRS8VyEtKpH7Ypump": {
+  "ts": "2026-10-13 21:12:52",
+  "order_id": "mv6pb6rm0xo9nh",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "_____"
  }
 }
