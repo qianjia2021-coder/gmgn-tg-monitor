@@ -3316,5 +3316,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Fritzfrog"
+ },
+ "29HFuLcPjDXaHnYXrcemEw2x6zd4vtJjphERU67Lpump": {
+  "ts": "2026-10-13 16:26:30",
+  "order_id": "mv6f2xa80m0qh7",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Fritzfrog"
  }
 }
