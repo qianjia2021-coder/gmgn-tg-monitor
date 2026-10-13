@@ -2956,5 +2956,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Claudechud"
+ },
+ "J8cysDDrTEUwNfccbPqhvWHded5a8cyipVMu5CcGpump": {
+  "ts": "2026-10-13 12:26:20",
+  "order_id": "mv66hz970hnyu3",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Masters Of Gaming"
  }
 }
