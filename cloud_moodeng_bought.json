@@ -3356,5 +3356,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "SOL402"
+ },
+ "G3hU17QnrqRciQL5R8nNAkmwRKG9dt7ea6cxwrx2XuTj": {
+  "ts": "2026-10-13 16:52:26",
+  "order_id": "mv6g09nf0mnjnl",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Solana 95"
  }
 }
