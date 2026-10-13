@@ -3536,5 +3536,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Soltopia"
+ },
+ "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb": {
+  "ts": "2026-10-13 19:27:04",
+  "order_id": "mv6lj4af0ovwuv",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 147,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "SpaceX - Backpack Securities"
  }
 }
