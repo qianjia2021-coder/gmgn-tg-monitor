@@ -2926,5 +2926,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sink"
+ },
+ "7rNGKu45pNxu8mDnRc8ESLcCzSDcdioxYUzYN5Zspump": {
+  "ts": "2026-10-13 12:18:08",
+  "order_id": "mv667bcw0llclb",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Official Numan"
  }
 }
