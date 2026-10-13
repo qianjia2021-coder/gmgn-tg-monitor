@@ -3146,5 +3146,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "AnyApp"
+ },
+ "48nDB47zdHdSe2BPX7eVrvDN9ESPEJcrie1Ba4Fepump": {
+  "ts": "2026-10-13 14:08:19",
+  "order_id": "mv6a58690lgn6h",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Desktop Trade Heroes"
  }
 }
