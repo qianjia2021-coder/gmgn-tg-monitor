@@ -3736,5 +3736,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "typing cat wif wizard hat"
+ },
+ "6N23Z2uTiYwQrF1JUC2SgZENd6Rbun3szBxD1U3Mpump": {
+  "ts": "2026-10-13 21:28:16",
+  "order_id": "mv6puzge0xq8yk",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Router Pad"
  }
 }
