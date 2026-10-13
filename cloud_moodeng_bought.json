@@ -3076,5 +3076,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "sanctuary"
+ },
+ "HWPtLtJvoW1gHna3gyRFEuraAwY511RFc3xWozjgpump": {
+  "ts": "2026-10-13 13:39:56",
+  "order_id": "mv694pnl0lfl5s",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Alien Mind"
  }
 }
