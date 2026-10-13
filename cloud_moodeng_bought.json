@@ -3156,5 +3156,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Desktop Trade Heroes"
+ },
+ "2kLygSs19JXGYkBepJPBYBJZpWXPWY657eqXs4oCpump": {
+  "ts": "2026-10-13 14:19:42",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Rain Protocol"
  }
 }
