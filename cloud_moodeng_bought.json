@@ -3186,5 +3186,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Hitler House"
+ },
+ "4wfLC8LJHYD8swjPeqq4aNGGuD1UiPCH3PkZ8PJjpump": {
+  "ts": "2026-10-13 14:40:34",
+  "order_id": "mv6bap9y0qvnuz",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Retard In Motion"
  }
 }
