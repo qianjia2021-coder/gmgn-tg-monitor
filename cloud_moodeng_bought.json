@@ -3506,5 +3506,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Hitler House"
+ },
+ "4nMTfs9FR9ijL1MeAveU8s8M2g2awfPKJQKDeVtCCqve": {
+  "ts": "2026-10-13 19:04:33",
+  "order_id": "mv6kq6a80ve88w",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Scientists reveal the Hi"
  }
 }
