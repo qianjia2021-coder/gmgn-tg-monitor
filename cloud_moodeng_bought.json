@@ -3656,5 +3656,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Bruno"
+ },
+ "9kv6MSdX64PaFHPh6vzGBYfXoBUNwF2qekrUiq62pump": {
+  "ts": "2026-10-13 20:42:29",
+  "order_id": "mv6o83o20xeagl",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Socks & Pussy 500"
  }
 }
