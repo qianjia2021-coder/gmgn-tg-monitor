@@ -3666,5 +3666,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Socks & Pussy 500"
+ },
+ "4mX2CMvaBXXy4ZANRvnp4gwuNcKjUtcVNycrBeV1pump": {
+  "ts": "2026-10-13 20:49:26",
+  "order_id": "mv6oh1ik0xml9f",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Self-Amplifying Momentum Machine"
  }
 }
