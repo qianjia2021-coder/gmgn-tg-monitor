@@ -3086,5 +3086,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Alien Mind"
+ },
+ "FTDBpeeS4ZF4UhA5XV63Qr896tXMjvrP5NZdER4ypump": {
+  "ts": "2026-10-13 13:40:54",
+  "order_id": "mv695ysd0qjinv",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Pentagi"
  }
 }
