@@ -30,6 +30,9 @@ REQUIRED_DEX = "Pancakeclamm"
 REPO = "qianjia2021-coder/gmgn-tg-monitor"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
+DBOTX_API_KEY = "crxzqlhl60iybwilnugutg6s2oabsb12"
+DBOTX_BUY_URL = "https://servapi.dbotx.com/simulator/sim_swap_order"
+
 
 def log(msg):
     print(f"[{datetime.now().isoformat()}] {msg}", flush=True)
@@ -77,6 +80,30 @@ def bot_send(text: str) -> bool:
     except Exception as e:
         log(f"bot_send error: {e}")
         return False
+
+
+def dbotx_buy(contract: str):
+    payload = {
+        "pair": contract,
+        "slippage": 0.1,
+        "chain": "bsc",
+        "amountOrPercent": "1",
+        "type": "buy",
+        "stopEarnPercent": 0.5,
+        "stopLossPercent": "",
+        "stopEarnGroup": None,
+        "stopLossGroup": None,
+    }
+    headers = {"X-API-Key": DBOTX_API_KEY, "Content-Type": "application/json"}
+    try:
+        r = requests.post(DBOTX_BUY_URL, json=payload, headers=headers, timeout=30)
+        data = r.json()
+        if not data.get("err", True):
+            log(f"dbotx BUY OK: {contract} order={data.get('res',{}).get('id','?')}")
+        else:
+            log(f"dbotx BUY FAIL: {contract} resp={r.text[:200]}")
+    except Exception as e:
+        log(f"dbotx BUY error: {e}")
 
 
 def parse_open_message(text: str) -> dict | None:
@@ -136,6 +163,7 @@ async def main():
             f"流动性: {info['liq']}"
         )
         bot_send(msg_text)
+        dbotx_buy(info["contract"])
 
     log(f"done, {hits} hits")
     await client.disconnect()
@@ -143,3 +171,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
