@@ -3136,5 +3136,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Jamie Downey Jr "
+ },
+ "mPhYQJoR89mm79FuSpNaZtY31K3nMjRCvQw4pkUpump": {
+  "ts": "2026-10-13 14:03:03",
+  "order_id": "mv69yfxy0qq3s2",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "AnyApp"
  }
 }
