@@ -3246,5 +3246,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "SICraft"
+ },
+ "3QZtYjTfEM4axoEYHffU34VehUk7ehKcUm1zW4yUpump": {
+  "ts": "2026-10-13 15:38:26",
+  "order_id": "mv6dd44z0lswbp",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Free The Nipple"
  }
 }
