@@ -3546,5 +3546,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "SpaceX - Backpack Securities"
+ },
+ "9kXG537MZvtTBUieRvrye9KG93FbA25QAk7zf5oYpump": {
+  "ts": "2026-10-13 19:31:36",
+  "order_id": "mv6loys80vnn9y",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "French Riots"
  }
 }
