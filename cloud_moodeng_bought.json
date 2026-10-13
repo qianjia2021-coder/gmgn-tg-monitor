@@ -3366,5 +3366,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Solana 95"
+ },
+ "HTEpDDSkCkFp3gJG2jsc8jHc8sDGV9UNR9foqHNEpump": {
+  "ts": "2026-10-13 16:53:19",
+  "order_id": "mv6g1ets0tjsfl",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "justice for realist"
  }
 }
