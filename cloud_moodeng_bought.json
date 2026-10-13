@@ -3206,5 +3206,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Unfund"
+ },
+ "7FkAyyB3oYrJW3CspYH8KRv5CWSKDqLDuFWN3uJhpump": {
+  "ts": "2026-10-13 14:55:08",
+  "order_id": "mv6btfjv0lpzuk",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Ugly Stupid Duck Coin"
  }
 }
