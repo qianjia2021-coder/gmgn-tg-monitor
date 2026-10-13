@@ -3616,5 +3616,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Sock & Pussy 500"
+ },
+ "ExPwFQCJEd8tqno6CeReti71nLRjaD6L8vtAtPrfpump": {
+  "ts": "2026-10-13 20:25:56",
+  "order_id": "mv6nmu0u0wx0o6",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Financial Software on Solana"
  }
 }
