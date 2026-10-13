@@ -3566,5 +3566,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Larp Island"
+ },
+ "EvCMw9YCr681QTnW71oaJv8oFK8qgALjCZjsUsrZpump": {
+  "ts": "2026-10-13 19:46:06",
+  "order_id": "mv6m7m150p0eng",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Mr Stretchy"
  }
 }
