@@ -2906,5 +2906,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Generational Bounce"
+ },
+ "H6JjfjdR1X4ANrmMEVoXJ5LecWcVtETbY1ncYQn4pump": {
+  "ts": "2026-10-13 12:10:18",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 6,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ".fun"
  }
 }
