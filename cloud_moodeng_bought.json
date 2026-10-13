@@ -3176,5 +3176,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Dog Whistle"
+ },
+ "H15S4bJfaAmQuFRCWJZQPvDNX66vKjvTUqYuo61upump": {
+  "ts": "2026-10-13 14:35:55",
+  "order_id": "mv6b4pop0qsj6s",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Hitler House"
  }
 }
