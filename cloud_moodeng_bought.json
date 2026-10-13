@@ -3436,5 +3436,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Obsidian Pool"
+ },
+ "3sKaoPryg4KrXubLWtoqF7MznLT7QNqKRxMMkkxTpump": {
+  "ts": "2026-10-13 17:50:11",
+  "order_id": "mv6i2j2n0n7w8a",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Save The Seals"
  }
 }
