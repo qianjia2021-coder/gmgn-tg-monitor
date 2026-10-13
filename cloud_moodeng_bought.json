@@ -3446,5 +3446,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Save The Seals"
+ },
+ "CEEVkVHHo6kcMRUfUP17rqpHDPSCTq4KzAeD61Tqpump": {
+  "ts": "2026-10-13 18:07:23",
+  "order_id": "mv6ione30ug24h",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Speed Inu"
  }
 }
