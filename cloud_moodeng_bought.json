@@ -3466,5 +3466,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Officer Whiskers"
+ },
+ "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R": {
+  "ts": "2026-10-13 18:10:20",
+  "order_id": "mv6isg3e0ugiw0",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 420,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Raydium"
  }
 }
