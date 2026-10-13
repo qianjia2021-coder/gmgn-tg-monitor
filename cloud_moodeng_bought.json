@@ -3706,5 +3706,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "_____"
+ },
+ "HSxPcqB3jFtkL3dejKm23GQgXm1PPYyZfAi5e31Hpump": {
+  "ts": "2026-10-13 21:15:23",
+  "order_id": "mv6peewn0qrjxj",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Rags to Riches"
  }
 }
