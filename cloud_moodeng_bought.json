@@ -3116,5 +3116,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "buy and forget"
+ },
+ "WJr2PHs872ZY5rw7YdydnGEtFbrixefBQEUJZpQpump": {
+  "ts": "2026-10-13 13:54:35",
+  "order_id": "mv69nk5j0qpngi",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "SPC"
  }
 }
