@@ -3066,5 +3066,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "XGENCY"
+ },
+ "7hDr2fvmp62yVqqeUQRFsjcvJeHUG6eWR6xsiMdcpump": {
+  "ts": "2026-10-13 13:33:45",
+  "order_id": "mv68wrmo0qi7jn",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "sanctuary"
  }
 }
