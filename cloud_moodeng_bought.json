@@ -3406,5 +3406,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Revolut Files"
+ },
+ "GQdEL4MhL4v8bsmMvyBvjh6BdbWqasgkDnJGfaAHpump": {
+  "ts": "2026-10-13 17:39:11",
+  "order_id": "mv6hodvi0n21rz",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "units"
  }
 }
