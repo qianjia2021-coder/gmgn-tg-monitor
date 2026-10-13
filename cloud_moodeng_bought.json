@@ -2896,5 +2896,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "ilhen omur"
+ },
+ "2Q9KVtp6JSBhGcxwkovBxm25zue1bPDxTGC7cHfnpump": {
+  "ts": "2026-10-13 12:09:51",
+  "order_id": "mv65wrzd0gc95c",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Generational Bounce"
  }
 }
