@@ -3586,5 +3586,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Recursive Self Inu"
+ },
+ "fd6mM4wryfji2Yg6Hnq1ZbqMSKbaBVbZjxF7uCApump": {
+  "ts": "2026-10-13 20:09:55",
+  "order_id": "mv6n285c0q0z9m",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Grimpoteuthiscoin"
  }
 }
