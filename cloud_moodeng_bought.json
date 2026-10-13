@@ -3526,5 +3526,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Artcraft"
+ },
+ "6fCKtWzEzS8iC7tWbw5jHrkFYSufhk4xnGbjjdzupump": {
+  "ts": "2026-10-13 19:26:52",
+  "order_id": "mv6liv2u0vlyqo",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Soltopia"
  }
 }
