@@ -3036,5 +3036,25 @@
   "rug_ratio": null,
   "ok": true,
   "name": "XGENCY"
+ },
+ "gz5pMFSpRpbSzGGRdeLRAFfefpJAtcGTakqaudCpump": {
+  "ts": "2026-10-13 13:13:41",
+  "order_id": "mv686yg70pkt7j",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "SUBSLOT PRO"
+ },
+ "EHz8yQyb1eqQq8EgNcP4j5f7h3Sz5Wg48Sr46mJwpump": {
+  "ts": "2026-10-13 13:20:20",
+  "order_id": "mv68fi2q0q5xf1",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Nietzschean Penguin"
  }
 }
