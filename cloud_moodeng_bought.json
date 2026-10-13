@@ -3476,5 +3476,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Raydium"
+ },
+ "ACfj29FkvtkpAuzWhcV3xWbVCaF1n625qYssYWxopump": {
+  "ts": "2026-10-13 18:28:24",
+  "order_id": "mv6jfopb0us8n5",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Jamie Downey Jr"
  }
 }
