@@ -3126,5 +3126,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "SPC"
+ },
+ "G2LEG75hdfxjAGe4pNS6Sv1W8G8Tg9gMpopCrzhFpump": {
+  "ts": "2026-10-13 14:01:13",
+  "order_id": "mv69w32r0qpx4k",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Jamie Downey Jr "
  }
 }
