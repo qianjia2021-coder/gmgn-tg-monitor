@@ -3716,5 +3716,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Rags to Riches"
+ },
+ "8w9LbTCCKooMfrBrok9yiUjoTkPCtiCpRLfW2afapump": {
+  "ts": "2026-10-13 21:17:25",
+  "order_id": "mv6ph1740xonws",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Bobo Fund"
  }
 }
