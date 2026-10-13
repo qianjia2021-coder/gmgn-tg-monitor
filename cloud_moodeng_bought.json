@@ -2936,5 +2936,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Official Numan"
+ },
+ "J6TLSCY2c1dmahHTiJS4HCFRCP5d1C2YThupwLvcpump": {
+  "ts": "2026-10-13 12:18:20",
+  "order_id": "mv667f9w0lldsl",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Hamster Wif Shotgun"
  }
 }
