@@ -3106,5 +3106,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Immortal Inu"
+ },
+ "CTWrbCGDBR5j5U9EyT8TQ3Xz5zpiB55EKWJGw5RDpump": {
+  "ts": "2026-10-13 13:49:04",
+  "order_id": "mv69gh0t0qpa3z",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "buy and forget"
  }
 }
