@@ -3416,5 +3416,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "units"
+ },
+ "E2i5TfDvnuQE1y9DdQAPHRB4TNBvmjXCccuAsVjSpump": {
+  "ts": "2026-10-13 17:39:39",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "p-Ponzi"
  }
 }
