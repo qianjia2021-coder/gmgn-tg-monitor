@@ -3576,5 +3576,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Mr Stretchy"
+ },
+ "DYGVA5qwt9fHbJb6Ve4Vsn1F3BhKPP99GcPRP7ZKpump": {
+  "ts": "2026-10-13 19:47:59",
+  "order_id": "mv6ma0jg0p4cwc",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Recursive Self Inu"
  }
 }
