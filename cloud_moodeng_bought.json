@@ -2916,5 +2916,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ".fun"
+ },
+ "EPXaVnovPvuxZKAUKgVqAfTtKgLmoFWvSJFpvVVHpump": {
+  "ts": "2026-10-13 12:15:01",
+  "order_id": "mv663f770gkftk",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Sink"
  }
 }
