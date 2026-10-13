@@ -3296,5 +3296,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Chada"
+ },
+ "BW4oQngRVLWSwfA76Xhm28boPE3rbqomTGMV34Bnpump": {
+  "ts": "2026-10-13 16:21:49",
+  "order_id": "mv6eww8s0szvla",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Cartoon Network Leaks"
  }
 }
