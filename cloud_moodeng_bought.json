@@ -3676,5 +3676,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Self-Amplifying Momentum Machine"
+ },
+ "2CDXfH7JTJmDRjbgPABerQmUJXMw298AZMjsPaVHpump": {
+  "ts": "2026-10-13 21:09:40",
+  "order_id": "mv6p72d30qr8kx",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "TXGYM"
  }
 }
