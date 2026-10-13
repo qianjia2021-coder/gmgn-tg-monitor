@@ -3226,5 +3226,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "LIGHT"
+ },
+ "J6bPxECqbbDQroWzjdGxzUY5PnxhxUBTS82PTGd2paid": {
+  "ts": "2026-10-13 15:25:36",
+  "order_id": "mv6cwlmo0suttd",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Agent Use Cases"
  }
 }
