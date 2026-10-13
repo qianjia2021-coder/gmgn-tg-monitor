@@ -2966,5 +2966,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Masters Of Gaming"
+ },
+ "Gs7kJBNMDNYLtLESH1jjtC9rQkvTQQE3MLtFhaFvpump": {
+  "ts": "2026-10-13 12:30:24",
+  "order_id": "mv66n6ve0hv22w",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "SAXQUITO"
  }
 }
