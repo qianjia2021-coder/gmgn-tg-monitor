@@ -3596,5 +3596,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Grimpoteuthiscoin"
+ },
+ "9cHteTeeomxooTBLB1QS965bif7HbRcpuBspCJyhpump": {
+  "ts": "2026-10-13 20:13:51",
+  "order_id": "mv6n7a310q1his",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "The Lion"
  }
 }
