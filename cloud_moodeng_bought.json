@@ -3606,5 +3606,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Lion"
+ },
+ "9wV6LeSoMqiUaGUwnE6Rc9U9PAZxp1Yy5P7aPg69pump": {
+  "ts": "2026-10-13 20:17:46",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "Sock & Pussy 500"
  }
 }
