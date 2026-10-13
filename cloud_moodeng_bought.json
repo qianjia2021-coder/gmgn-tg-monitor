@@ -3686,5 +3686,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "TXGYM"
+ },
+ "25bk5SwR8hyreMuD7pnjZwJUFKR1o869PaDA9fhuAuri": {
+  "ts": "2026-10-13 21:10:20",
+  "order_id": "mv6p7x5o0xo494",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "fleuri"
  }
 }
