@@ -2976,5 +2976,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "SAXQUITO"
+ },
+ "eYPUJqVPzCU3Rr6VVrSvbG9mvM2dawmwQK3HZrDpump": {
+  "ts": "2026-10-13 12:35:53",
+  "order_id": "mv66u91t0nfykr",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Bomboclat Wallahi"
  }
 }
