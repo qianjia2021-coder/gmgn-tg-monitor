@@ -2986,5 +2986,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Bomboclat Wallahi"
+ },
+ "2zR3E8824DgoGavk995g4DRrDeXqrjf5u5EQipPopump": {
+  "ts": "2026-10-13 12:35:58",
+  "order_id": "mv66uczb0ijynd",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Lofo"
  }
 }
