@@ -3496,5 +3496,15 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": "Achicoin"
+ },
+ "2wKwy6CqFE3u5XFg4UcEyQjaqZPrZcySn7XF98cupump": {
+  "ts": "2026-10-13 18:59:09",
+  "order_id": "mv6kj83w0oguji",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Hitler House"
  }
 }
