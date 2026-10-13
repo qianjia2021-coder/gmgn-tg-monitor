@@ -2946,5 +2946,15 @@
   "ok": false,
   "err": "The read operation timed out",
   "name": "Hamster Wif Shotgun"
+ },
+ "22Qz3BzEG1FAwNsCSDBDUrXPw3pmB2XzmDqvj8Fypump": {
+  "ts": "2026-10-13 12:22:28",
+  "order_id": "mv66cztb0mhg5e",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Claudechud"
  }
 }
