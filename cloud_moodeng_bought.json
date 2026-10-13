@@ -3236,5 +3236,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Agent Use Cases"
+ },
+ "CqFb8ehS2g3KEpoJvjtEGi7XjUiak5C79A3a2r5Bpump": {
+  "ts": "2026-10-13 15:30:57",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": "SICraft"
  }
 }
