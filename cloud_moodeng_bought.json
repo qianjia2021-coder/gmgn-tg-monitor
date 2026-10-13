@@ -3306,5 +3306,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "The Cartoon Network Leaks"
+ },
+ "8RGgZEQ2Yz82Qw1jCWnZ8NCgM584pFuCynP4rjMhpump": {
+  "ts": "2026-10-13 16:23:41",
+  "order_id": "mv6ezalr0m0nlc",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Fritzfrog"
  }
 }
