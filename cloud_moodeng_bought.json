@@ -3646,5 +3646,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Bruno"
+ },
+ "FXDqsgmerueS8dXXYWJVB5UPw512sfbmyUwWMXSzpump": {
+  "ts": "2026-10-13 20:40:21",
+  "order_id": "mv6o5d2n0qg4wo",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Bruno"
  }
 }
