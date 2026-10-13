@@ -3286,5 +3286,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Qrypt Protocol"
+ },
+ "Cs8bPDCFzGHWi1aw5ziHqvqGANQ9KNaVPDdsH2a6pump": {
+  "ts": "2026-10-13 16:06:55",
+  "order_id": "mv6edqtf0lz08s",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Chada"
  }
 }
