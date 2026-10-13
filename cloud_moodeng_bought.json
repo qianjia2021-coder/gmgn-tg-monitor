@@ -3556,5 +3556,15 @@
   "rug_ratio": null,
   "ok": true,
   "name": "French Riots"
+ },
+ "3boGxEvsyc6MrRvsNVhkNU7YbEfxcHaCGBPpXyyfpump": {
+  "ts": "2026-10-13 19:42:47",
+  "order_id": "mv6m3c4y0vpovr",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "name": "Larp Island"
  }
 }
