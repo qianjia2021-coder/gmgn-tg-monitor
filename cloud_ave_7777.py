@@ -25,7 +25,6 @@ BOT_TOKEN = "8830221408:AAERiig973Vi8YK5pebxO_S3iKsapX91PTc"
 TARGET_CHAT_ID = -5194908956
 SOURCE = "AveBSCTokenScanner_cn"
 SUFFIX = "7777"
-REQUIRED_DEX = "Pancakeclamm"
 
 REPO = "qianjia2021-coder/gmgn-tg-monitor"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -106,6 +105,22 @@ def dbotx_buy(contract: str):
         log(f"dbotx BUY error: {e}")
 
 
+def gmgn_has_safety_unknown(contract: str) -> bool:
+    """open_timestamp=0 即为安全未知。"""
+    try:
+        r = requests.post(
+            "https://gmgn.ai/api/v1/mutil_window_token_info?chain=bsc",
+            headers={"User-Agent": "Mozilla/5.0", "Content-Type": "application/json", "Referer": "https://gmgn.ai/"},
+            json={"chain": "bsc", "type": "token_address", "addresses": [contract]},
+            timeout=15,
+        )
+        token = r.json().get("data", [{}])[0]
+        return token.get("open_timestamp", 1) == 0
+    except Exception as e:
+        log(f"gmgn check error: {e}, assume safe")
+        return False
+
+
 def parse_open_message(text: str) -> dict | None:
     if "新币开盘" not in text:
         return None
@@ -151,7 +166,13 @@ async def main():
             continue
         if not info["contract"].lower().endswith(SUFFIX):
             continue
-        if REQUIRED_DEX.lower() not in info["dex"].lower():
+        dex_lower = info["dex"].lower()
+        is_clamm = "clamm" in dex_lower
+        is_cake_v2 = "cake" in dex_lower and not is_clamm
+        if not (is_clamm or is_cake_v2):
+            continue
+        if is_cake_v2 and gmgn_has_safety_unknown(info["contract"]):
+            log(f"SKIP: {info['contract']} has GMGN safety unknown")
             continue
         hits += 1
         log(f"HIT: {info['contract']} {info['name']} {info['dex']} {info['liq']}")
