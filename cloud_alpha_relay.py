@@ -153,11 +153,16 @@ async def run():
             if not new_addrs:
                 continue
             # 转发
-            out = "\n".join([
-                "📡 <b>OnChain Alpha Trench</b> 新合约（云端补推）",
-                "",
-                text,
-            ])
+            # 把原文本里的合约地址删掉，剩下的作为头部信息
+            header = ADDR_RE.sub("", text)
+            header = re.sub(r"\n{3,}", "\n\n", header).strip()
+            lines = ["📡 <b>OnChain Alpha Trench 新合约</b>", ""]
+            if header:
+                lines.append(header)
+                lines.append("")
+            for a in sorted(addrs):
+                lines.append(f"<code>{a}</code>")
+            out = "\n".join(lines)
             try:
                 await client.send_message(TARGET_PEER, out, parse_mode="html",
                                           link_preview=False)
