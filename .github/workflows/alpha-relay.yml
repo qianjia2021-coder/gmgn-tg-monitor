@@ -2,8 +2,8 @@ name: alpha-relay-cloud
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # 每 5 分钟一次
-  workflow_dispatch:          # 手动触发
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
   relay:
@@ -15,11 +15,12 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install deps
-        run: pip install telethon requests
+        run: pip install telethon requests pynacl
       - name: Run cloud relay
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
+          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
         run: python cloud_alpha_relay.py
