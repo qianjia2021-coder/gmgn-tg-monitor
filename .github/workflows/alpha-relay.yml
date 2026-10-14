@@ -1,0 +1,25 @@
+name: alpha-relay-cloud
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # 每 5 分钟一次
+  workflow_dispatch:          # 手动触发
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install telethon requests
+      - name: Run cloud relay
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_STRING_SESSION: ${{ secrets.TG_STRING_SESSION }}
+        run: python cloud_alpha_relay.py
