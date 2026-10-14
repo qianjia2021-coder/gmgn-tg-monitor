@@ -52,5 +52,14 @@
   "ok": false,
   "attempts": 3,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "0xd4d318f2110bae5f5084c89f63af4689f89a7777": {
+  "ts": "2026-10-14 19:56:27",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mv820re90zd7ij"
  }
 }
