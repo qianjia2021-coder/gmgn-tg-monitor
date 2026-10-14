@@ -115,5 +115,14 @@
   "ok": false,
   "attempts": 5,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0x36f18703a4b9dd53877964693a66bd500ced7777": {
+  "ts": "2026-10-15 07:50:44",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mv8rjaff1cjtxg"
  }
 }
