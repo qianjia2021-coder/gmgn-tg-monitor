@@ -81,12 +81,12 @@
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0xfd2381277fb70d485f4e090a312ab17dbc24ef66": {
-  "ts": "2026-10-14 20:40:43",
+  "ts": "2026-10-14 20:42:10",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 1,
+  "attempts": 3,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
