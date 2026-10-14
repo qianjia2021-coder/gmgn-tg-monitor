@@ -117,8 +117,8 @@ def gmgn_has_safety_unknown(contract: str) -> bool:
         token = r.json().get("data", [{}])[0]
         return token.get("open_timestamp", 1) == 0
     except Exception as e:
-        log(f"gmgn check error: {e}, assume safe")
-        return False
+        log(f"gmgn check error: {e}, assume unsafe (skip)")
+        return True
 
 
 def parse_open_message(text: str) -> dict | None:
