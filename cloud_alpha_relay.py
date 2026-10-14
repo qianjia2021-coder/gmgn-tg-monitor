@@ -132,6 +132,8 @@ def detect_chain(addr, msg_text=""):
     t = (msg_text or "").upper()
     if "ROBINHOOD" in t or "ROB" in t.split() or "RH" in t.split():
         return "robinhood"
+    if "ETH" in t.split() or "ETHEREUM" in t:
+        return "eth"
     if "BSC" in t or "BNB" in t.split():
         return "bsc"
     if "SOL" in t or "SOLANA" in t:
@@ -221,6 +223,12 @@ async def run():
             new_addrs = addrs - seen
             if not new_addrs:
                 continue
+            # ETH 链直接跳过，不推送不买入
+            t_up = text.upper()
+            if "ETH" in t_up.split() or "ETHEREUM" in t_up:
+                log(f"ETH 链合约，跳过: {sorted(addrs)[:2]}")
+                seen |= addrs
+                continue
             # 兜底：目标群已出现过的也跳过
             real_new = new_addrs - target_addrs
             if not real_new:
@@ -258,6 +266,15 @@ async def run():
                 if a in bought_data and bought_data[a].get("ok"):
                     continue
                 chain_a = detect_chain(a, text)
+                if chain_a == "eth":
+                    log(f"ETH 链，跳过 dbotx 买入: {a}")
+                    bought_data[a] = {
+                        "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                        "chain": "eth",
+                        "ok": True,
+                        "skipped": "eth_no_buy",
+                    }
+                    continue
                 ok, info = api_buy(a, chain_a)
                 bought_data[a] = {
                     "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
