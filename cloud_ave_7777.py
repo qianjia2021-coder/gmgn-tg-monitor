@@ -88,7 +88,7 @@ def dbotx_buy(contract: str):
         "chain": "bsc",
         "amountOrPercent": "1",
         "type": "buy",
-        "stopEarnPercent": 0.5,
+        "stopEarnPercent": 0.99,
         "stopLossPercent": "",
         "stopEarnGroup": None,
         "stopLossGroup": None,
@@ -184,7 +184,7 @@ async def main():
             f"流动性: {info['liq']}"
         )
         bot_send(msg_text)
-        # dbotx_buy(info["contract"])  # 暂停模拟买入
+        dbotx_buy(info["contract"])
 
     log(f"done, {hits} hits")
     await client.disconnect()
