@@ -1,0 +1,47 @@
+{
+ "0xdead00000000000000000000000000000000beef": {
+  "ts": "2026-10-14 18:11:01",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "attempts": 3
+ },
+ "0x906e95e273d91fc0f5a4dc8f1b1979b14ec27777": {
+  "ts": "2026-10-14 18:34:05",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mv7z2ujp0z0kqn"
+ },
+ "0xd0fe47c04eea4f195b8883a09229a3c966cf7777": {
+  "ts": "2026-10-14 18:43:56",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mv7zfi7v0z2btl"
+ },
+ "cjsxshnqcudgmjiupxc9yjd4pasghu4f67g5mdy6pump": {
+  "ts": "2026-10-14 19:18:03",
+  "chain": "sol",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": false,
+  "attempts": 3,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "0xcbc838c28983288c1609976bf4f91a893cd50990": {
+  "ts": "2026-10-14 19:51:05",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": false,
+  "attempts": 3,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ }
+}
