@@ -90,12 +90,21 @@
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "4r4jzmdj8e8fjodywqtpojhkiiggnjc3vqbcc3t9pump": {
-  "ts": "2026-10-14 21:11:52",
+  "ts": "2026-10-14 21:12:15",
   "chain": "sol",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "0x9ff7456d34f8234eefe3d486e8333ab65b067777": {
+  "ts": "2026-10-14 21:12:38",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mv84qqq410gwwl"
  }
 }
