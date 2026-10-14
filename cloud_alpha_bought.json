@@ -88,5 +88,14 @@
   "ok": false,
   "attempts": 3,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "4r4jzmdj8e8fjodywqtpojhkiiggnjc3vqbcc3t9pump": {
+  "ts": "2026-10-14 21:11:52",
+  "chain": "sol",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": false,
+  "attempts": 1,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
