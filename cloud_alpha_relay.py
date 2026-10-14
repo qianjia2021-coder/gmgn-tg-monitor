@@ -4,16 +4,16 @@
 OnChain Alpha Trench 合约中继 - 云端版（GitHub Actions）
 ================================================================
 本地关机时由 GitHub Actions 每 5 分钟接管：
-  1. 读 heartbeat.txt：若本地 4 分钟内有心跳 -> 本地在线，直接退出（双端互斥）
+  1. 读 heartbeat.txt：若本地 4 分钟内有心跳 -> 本地在线，直接退出
   2. 扫源群 @onchainalphatrench 最近 60 条消息，提取合约地址
-  3. 读云端 cloud_alpha_seen.json；新合约 -> 推到目标群(chat_id=5194908956)
-  4. 写回 cloud_alpha_seen.json
+  3. 读云端 cloud_alpha_seen.json + 扫目标群最近 20 条消息（双兜底去重）
+  4. 新合约 -> 推到目标群(chat_id=5194908956) + dbotx 自动买入
+  5. 写回 cloud_alpha_seen.json + cloud_alpha_bought.json
 
-Secrets（在仓库 Settings -> Secrets 配置）:
-  TG_STRING_SESSION  telethon StringSession（与本地同一账号）
-  TG_API_ID          int
-  TG_API_HASH        str
-  GITHUB_TOKEN       Actions 自动提供
+Secrets:
+  TG_STRING_SESSION / TG_API_ID / TG_API_HASH
+  DBOTX_API_KEY   dbotx 模拟器 API key
+  GITHUB_TOKEN    Actions 自动提供
 """
 import asyncio
 import base64
@@ -29,13 +29,22 @@ from telethon.tl.types import InputPeerChat
 
 REPO = "qianjia2021-coder/gmgn-tg-monitor"
 SEEN_PATH = "cloud_alpha_seen.json"
+BOUGHT_PATH = "cloud_alpha_bought.json"
 HEARTBEAT_PATH = "alpha_heartbeat.txt"
 GH_API = "https://api.github.com"
 
 SOURCE_GROUP = "onchainalphatrench"
-TARGET_PEER = InputPeerChat(5194908956)   # BSC推送群（基础群）
-SCAN_LIMIT = 60                           # 每次扫源群最近多少条
-HEARTBEAT_FRESH_SECONDS = 4 * 60          # 4 分钟内有心跳视为本地在线
+TARGET_PEER = InputPeerChat(5194908956)
+SCAN_LIMIT = 60
+TARGET_DEDUP_LIMIT = 20                   # 推送前扫目标群最近 N 条兜底去重
+HEARTBEAT_FRESH_SECONDS = 4 * 60
+
+# dbotx 配置（与本地一致）
+DBOTX_SWAP_URL = "https://api-bot-v1.dbotx.com/simulator/sim_swap_order"
+DBOTX_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+DBOTX_BUY_AMOUNT = 1.0
+DBOTX_STOP_EARN = 0.99
+DBOTX_SLIPPAGE = 0.5
 
 ADDR_RE = re.compile(r"\b(?:[1-9A-HJ-NP-Za-km-z]{32,44}|0x[a-fA-F0-9]{40})\b")
 
@@ -85,17 +94,15 @@ def read_text_file(path):
 
 
 def local_online():
-    """读 heartbeat.txt；最近 4 分钟内有更新视为本地在线。"""
     try:
         text, _ = read_text_file(HEARTBEAT_PATH)
         text = text.strip()
         if not text:
             return False, "no heartbeat"
-        # 格式: "2026-10-14 10:00:00"
         ts = time.mktime(time.strptime(text, "%Y-%m-%d %H:%M:%S"))
         age = time.time() - ts
         if age < HEARTBEAT_FRESH_SECONDS:
-            return True, f"heartbeat age {int(age)}s (< {HEARTBEAT_FRESH_SECONDS}s)"
+            return True, f"heartbeat age {int(age)}s"
         return False, f"heartbeat stale age {int(age)}s"
     except Exception as e:
         return False, f"heartbeat check err: {e}"
@@ -116,6 +123,46 @@ def extract_addrs(text):
     return out
 
 
+def _chain_of(addr):
+    return "bsc" if addr.startswith("0x") else "sol"
+
+
+def api_buy(addr):
+    """dbotx 模拟器买入。返回 (ok, order_id_or_err)"""
+    dbotx_chain = "bsc" if addr.startswith("0x") else "solana"
+    body = json.dumps({
+        "chain": dbotx_chain,
+        "pair": addr,
+        "walletId": "",
+        "type": "buy",
+        "amountOrPercent": DBOTX_BUY_AMOUNT,
+        "stopEarnPercent": DBOTX_STOP_EARN,
+        "stopLossPercent": None,
+        "priorityFee": "",
+        "gasFeeDelta": 5,
+        "maxFeePerGas": 100,
+        "slippage": DBOTX_SLIPPAGE,
+    }).encode("utf-8")
+    req = requests.Request("POST", DBOTX_SWAP_URL, data=body,
+                           headers={
+                               "X-API-KEY": os.environ.get("DBOTX_API_KEY", ""),
+                               "Content-Type": "application/json",
+                               "accept": "application/json",
+                               "User-Agent": DBOTX_UA,
+                               "Origin": "https://dbotx.com",
+                               "Referer": "https://dbotx.com/",
+                           })
+    try:
+        with requests.Session() as s:
+            r = s.send(req.prepare(), timeout=30)
+        data = r.json()
+        if data.get("err") is False:
+            return True, data.get("res", {}).get("id", "")
+        return False, str(data)[:200]
+    except Exception as e:
+        return False, str(e)[:200]
+
+
 async def run():
     online, reason = local_online()
     log(f"local online check: {online} ({reason})")
@@ -123,28 +170,38 @@ async def run():
         log("本地在线，云端不接管，退出")
         return 0
 
-    # 读云端 seen
+    # 读云端 seen + bought
     seen_data, seen_sha = read_json_file(SEEN_PATH)
     if not isinstance(seen_data, dict):
         seen_data = {}
     seen = set(a.lower() for a in seen_data.get("seen", []))
-    log(f"云端 seen 数量: {len(seen)}")
+    bought_data, bought_sha = read_json_file(BOUGHT_PATH)
+    if not isinstance(bought_data, dict):
+        bought_data = {}
+    log(f"云端 seen={len(seen)}, bought={len(bought_data)}")
 
-    # 连接 TG
     api_id = int(os.environ["TG_API_ID"])
     api_hash = os.environ["TG_API_HASH"]
     string_session = os.environ["TG_STRING_SESSION"]
     client = TelegramClient(StringSession(string_session), api_id, api_hash)
     pushed = 0
+    bought_new = 0
     try:
         await client.connect()
         if not await client.is_user_authorized():
             log("StringSession 未授权")
             return 1
-        peer = await client.get_entity(SOURCE_GROUP)
-        log(f"源群解析: {getattr(peer,'title',SOURCE_GROUP)}")
+        src_peer = await client.get_entity(SOURCE_GROUP)
+        log(f"源群解析: {getattr(src_peer,'title',SOURCE_GROUP)}")
 
-        async for msg in client.iter_messages(peer, limit=SCAN_LIMIT):
+        # 兜底去重：扫目标群最近 N 条消息，已出现的合约不重复推
+        target_addrs = set()
+        async for msg in client.iter_messages(TARGET_PEER, limit=TARGET_DEDUP_LIMIT):
+            if msg.message:
+                target_addrs |= extract_addrs(msg.message)
+        log(f"目标群最近 {TARGET_DEDUP_LIMIT} 条含 {len(target_addrs)} 个合约（兜底去重）")
+
+        async for msg in client.iter_messages(src_peer, limit=SCAN_LIMIT):
             text = msg.message or ""
             if not text:
                 continue
@@ -152,8 +209,13 @@ async def run():
             new_addrs = addrs - seen
             if not new_addrs:
                 continue
-            # 转发
-            # 只取第一行非空行作为标题（详细分析全部扔掉）
+            # 兜底：目标群已出现过的也跳过
+            real_new = new_addrs - target_addrs
+            if not real_new:
+                seen |= addrs
+                continue
+
+            # 转发格式：第一行标题 + code 地址
             first_line = ""
             for line in text.splitlines():
                 line = line.strip()
@@ -161,7 +223,7 @@ async def run():
                     first_line = line
                     break
             header = ADDR_RE.sub("", first_line).strip()
-            lines = ["📡 <b>OnChain Alpha Trench 新合约</b>", ""]
+            lines = ["📡 <b>OnChain Alpha Trench 新合约（云端补推）</b>", ""]
             if header:
                 lines.append(header)
                 lines.append("")
@@ -171,21 +233,44 @@ async def run():
             try:
                 await client.send_message(TARGET_PEER, out, parse_mode="html",
                                           link_preview=False)
-                log(f"已转发新合约 {len(new_addrs)} 个: {sorted(new_addrs)[:3]}")
+                log(f"已转发新合约 {len(real_new)} 个: {sorted(real_new)[:3]}")
                 pushed += 1
+                target_addrs |= addrs   # 本轮已推的也加入兜底集
             except Exception as e:
                 log(f"转发失败: {e}")
                 continue
             seen |= addrs
+
+            # dbotx 自动买入（只对真正新的、且没买过的）
+            for a in sorted(real_new):
+                if a in bought_data and bought_data[a].get("ok"):
+                    continue
+                ok, info = api_buy(a)
+                bought_data[a] = {
+                    "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                    "chain": _chain_of(a),
+                    "amount": DBOTX_BUY_AMOUNT,
+                    "stop_earn": DBOTX_STOP_EARN,
+                    "ok": ok,
+                }
+                if ok:
+                    bought_data[a]["order_id"] = info
+                    bought_new += 1
+                    log(f"dbotx 买入成功: {a} 链={_chain_of(a)} 订单={info}")
+                else:
+                    bought_data[a]["err"] = str(info)[:200]
+                    log(f"dbotx 买入失败: {a} | {info}")
     finally:
         await client.disconnect()
 
-    # 写回 seen
+    # 写回 seen + bought
     seen_data["seen"] = sorted(seen)
     seen_data["last_cloud_push"] = time.strftime("%Y-%m-%d %H:%M:%S")
     write_json_file(SEEN_PATH, seen_data, seen_sha,
-                    f"alpha relay cloud: pushed {pushed} msgs, seen {len(seen)} [skip ci]")
-    log(f"本轮完成: pushed={pushed}, seen={len(seen)}")
+                    f"alpha cloud: pushed {pushed} msgs, seen {len(seen)} [skip ci]")
+    write_json_file(BOUGHT_PATH, bought_data, bought_sha,
+                    f"alpha cloud: bought {bought_new} new, total {len(bought_data)} [skip ci]")
+    log(f"本轮完成: pushed={pushed}, bought_new={bought_new}, seen={len(seen)}")
     return 0
 
 
