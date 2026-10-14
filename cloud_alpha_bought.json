@@ -72,12 +72,12 @@
   "order_id": "mv82cul419q1mr"
  },
  "0xb0590b500bd391dec5fa2af7a6546adf49725e7d": {
-  "ts": "2026-10-14 20:27:26",
+  "ts": "2026-10-14 20:28:05",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
