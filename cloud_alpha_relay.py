@@ -109,18 +109,31 @@ def local_online():
 
 
 def extract_addrs(text):
-    out = set()
+    """优先提取独立成行的地址，避免从描述文字误提取。"""
     if not text:
-        return out
-    for m in ADDR_RE.findall(text):
-        a = m.lower()
-        if a.startswith("0x"):
-            if len(a) == 42:
+        return set()
+    out = set()
+    for line in text.splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        m = ADDR_RE.fullmatch(s) or ADDR_RE.search(s)
+        if m:
+            a = m.group(0).lower()
+            if _valid(a):
                 out.add(a)
-        else:
-            if 32 <= len(a) <= 44:
+    if not out:
+        for m in ADDR_RE.findall(text):
+            a = m.lower()
+            if _valid(a):
                 out.add(a)
     return out
+
+
+def _valid(a):
+    if a.startswith("0x"):
+        return len(a) == 42
+    return 32 <= len(a) <= 44
 
 
 def _chain_of(addr):
@@ -268,12 +281,11 @@ async def run():
                 chain_a = detect_chain(a, text)
                 if chain_a == "eth":
                     log(f"ETH 链，跳过 dbotx 买入: {a}")
-                    bought_data[a] = {
-                        "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
-                        "chain": "eth",
-                        "ok": True,
-                        "skipped": "eth_no_buy",
-                    }
+                    bought_data[a] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"), "chain": "eth", "ok": True, "skipped": "eth_no_buy"}
+                    continue
+                if chain_a == "robinhood":
+                    log(f"Robinhood 链，跳过 dbotx 买入: {a}")
+                    bought_data[a] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"), "chain": "robinhood", "ok": True, "skipped": "rob_no_buy"}
                     continue
                 ok, info = api_buy(a, chain_a)
                 bought_data[a] = {
