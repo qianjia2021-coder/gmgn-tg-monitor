@@ -153,9 +153,14 @@ async def run():
             if not new_addrs:
                 continue
             # 转发
-            # 把原文本里的合约地址删掉，剩下的作为头部信息
-            header = ADDR_RE.sub("", text)
-            header = re.sub(r"\n{3,}", "\n\n", header).strip()
+            # 只取第一行非空行作为标题（详细分析全部扔掉）
+            first_line = ""
+            for line in text.splitlines():
+                line = line.strip()
+                if line:
+                    first_line = line
+                    break
+            header = ADDR_RE.sub("", first_line).strip()
             lines = ["📡 <b>OnChain Alpha Trench 新合约</b>", ""]
             if header:
                 lines.append(header)
