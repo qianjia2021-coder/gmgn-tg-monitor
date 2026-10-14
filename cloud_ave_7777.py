@@ -184,7 +184,7 @@ async def main():
             f"流动性: {info['liq']}"
         )
         bot_send(msg_text)
-        dbotx_buy(info["contract"])
+        # dbotx_buy(info["contract"])  # 暂停模拟买入
 
     log(f"done, {hits} hits")
     await client.disconnect()
