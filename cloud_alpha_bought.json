@@ -126,12 +126,12 @@
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "2srf6mhufzwjkz5nnivxgwamlmdjwxpqbmddj1mmpump": {
-  "ts": "2026-10-15 07:35:22",
+  "ts": "2026-10-15 07:35:45",
   "chain": "sol",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  }
 }
