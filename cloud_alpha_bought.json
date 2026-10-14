@@ -117,12 +117,12 @@
   "order_id": "mv85agpq1aumag"
  },
  "0x72321bcb82039ff421b55a671e4e9d28b8cad53f": {
-  "ts": "2026-10-15 07:21:45",
+  "ts": "2026-10-15 07:22:46",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 2,
+  "attempts": 3,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
