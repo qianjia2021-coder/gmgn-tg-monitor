@@ -127,9 +127,21 @@ def _chain_of(addr):
     return "bsc" if addr.startswith("0x") else "sol"
 
 
-def api_buy(addr):
-    """dbotx 模拟器买入。返回 (ok, order_id_or_err)"""
-    dbotx_chain = "bsc" if addr.startswith("0x") else "solana"
+def detect_chain(addr, msg_text=""):
+    """根据消息文本判断链（优先级高于地址格式）"""
+    t = (msg_text or "").upper()
+    if "ROBINHOOD" in t or "ROB" in t.split() or "RH" in t.split():
+        return "robinhood"
+    if "BSC" in t or "BNB" in t.split():
+        return "bsc"
+    if "SOL" in t or "SOLANA" in t:
+        return "sol"
+    return "bsc" if addr.startswith("0x") else "sol"
+
+
+def api_buy(addr, chain="bsc"):
+    """dbotx 模拟器买入。chain: bsc / solana / robinhood"""
+    dbotx_chain = "solana" if chain == "sol" else chain
     body = json.dumps({
         "chain": dbotx_chain,
         "pair": addr,
@@ -245,10 +257,11 @@ async def run():
             for a in sorted(real_new):
                 if a in bought_data and bought_data[a].get("ok"):
                     continue
-                ok, info = api_buy(a)
+                chain_a = detect_chain(a, text)
+                ok, info = api_buy(a, chain_a)
                 bought_data[a] = {
                     "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
-                    "chain": _chain_of(a),
+                    "chain": chain_a,
                     "amount": DBOTX_BUY_AMOUNT,
                     "stop_earn": DBOTX_STOP_EARN,
                     "ok": ok,
