@@ -27,30 +27,30 @@
   "order_id": "mv7zfi7v0z2btl"
  },
  "cjsxshnqcudgmjiupxc9yjd4pasghu4f67g5mdy6pump": {
-  "ts": "2026-10-14 19:18:03",
+  "ts": "2026-10-15 07:46:46",
   "chain": "sol",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  },
  "0xcbc838c28983288c1609976bf4f91a893cd50990": {
-  "ts": "2026-10-14 19:51:05",
+  "ts": "2026-10-15 07:46:47",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "6lxdhf2gt9mxgtn2lmck76mwdxze5ffub8qwdwkmpump": {
-  "ts": "2026-10-14 19:55:04",
+  "ts": "2026-10-15 07:46:48",
   "chain": "sol",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
  },
  "0xd4d318f2110bae5f5084c89f63af4689f89a7777": {
@@ -72,21 +72,21 @@
   "order_id": "mv82cul419q1mr"
  },
  "0xb0590b500bd391dec5fa2af7a6546adf49725e7d": {
-  "ts": "2026-10-14 20:29:06",
+  "ts": "2026-10-15 07:46:49",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0xfd2381277fb70d485f4e090a312ab17dbc24ef66": {
-  "ts": "2026-10-14 20:42:10",
+  "ts": "2026-10-15 07:46:49",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "4r4jzmdj8e8fjodywqtpojhkiiggnjc3vqbcc3t9pump": {
