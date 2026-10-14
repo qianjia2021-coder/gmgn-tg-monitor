@@ -90,12 +90,12 @@
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "4r4jzmdj8e8fjodywqtpojhkiiggnjc3vqbcc3t9pump": {
-  "ts": "2026-10-14 21:12:15",
+  "ts": "2026-10-14 21:13:20",
   "chain": "sol",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 2,
+  "attempts": 3,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "0x9ff7456d34f8234eefe3d486e8333ab65b067777": {
