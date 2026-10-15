@@ -4527,5 +4527,17 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "BvySUWuyhV8poaLjntw9VQhgC1dsH28DxKZj1Ucrpump": {
+  "ts": "2026-10-15 18:32:28",
+  "order_id": "mv9egm8q1b9yxl",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Eliot Calls 🎯",
+   "eliotcall"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
