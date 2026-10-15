@@ -4319,5 +4319,21 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "HUDmsj3BJ6EkbRBWpi2j8tzRLbv4xhho1x9AGw2Ypump": {
+  "ts": "2026-10-15 17:22:11",
+  "order_id": "mv9by8i31ndoex",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "loganpump",
+   "AlphaX100Callers",
+   "Logan Pumpfun",
+   "Alpha X100 Callers",
+   "MemesDontLies",
+   "Memes Don’t Lies | by @k_vlde"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
