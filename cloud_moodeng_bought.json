@@ -4663,5 +4663,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "5FwW71CoCVsWGz8MCujqpq5TEkYuNg7nD7Eb9BNpump": {
+  "ts": "2026-10-15 20:12:03",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "Eliot Calls 🎯",
+   "eliotcall",
+   2441861183,
+   "🐶BING-SOL-CALL"
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
  }
 }
