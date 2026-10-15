@@ -135,12 +135,12 @@
   "order_id": "mv8rp8os1ck2wv"
  },
  "0x797abf94a828776f082c56e33e5ec432e1d27033": {
-  "ts": "2026-10-15 08:11:48",
+  "ts": "2026-10-15 08:14:49",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 3,
+  "attempts": 4,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
