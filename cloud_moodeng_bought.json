@@ -4223,5 +4223,21 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "Cqo4KeBNzEyaZQJ3D7Xwsnx5uvntq7WrEa7uYETtpump": {
+  "ts": "2026-10-15 16:12:03",
+  "order_id": "mv99g1p619f79r",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "loganpump",
+   "AlphaX100Callers",
+   "Logan Pumpfun",
+   "🐶BING-SOL-CALL",
+   "Alpha X100 Callers",
+   2441861183
+  ],
+  "ok": true,
+  "name": ""
  }
 }
