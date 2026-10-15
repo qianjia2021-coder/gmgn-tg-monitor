@@ -3973,8 +3973,8 @@
   "name": ""
  },
  "4aMD7TAujKhojDpw4Kgs7xbF4AKycfH9Mr8ehqzzpump": {
-  "ts": "2026-10-15 11:39:36",
-  "order_id": "mv8zpm6l1icl0z",
+  "ts": "2026-10-15 11:39:37",
+  "order_id": "mv8zpmi61icosv",
   "sol": 1.0,
   "stop_earn": 0.3,
   "groups": [
@@ -3984,6 +3984,20 @@
    "Moo Deng President"
   ],
   "ok": true,
+  "name": ""
+ },
+ "EwFh54NgWXMHMjYwzRBSWTsEUcq2hDivb9BqGN8xpump": {
+  "ts": "2026-10-15 11:54:28",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "🐶BING-SOL-CALL",
+   "MooDengPresidentCallers",
+   2441861183,
+   "Moo Deng President"
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
  }
 }
