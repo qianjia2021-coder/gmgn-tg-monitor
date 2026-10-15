@@ -4539,5 +4539,17 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "4FhHaEvSngtqnAZrFjDXPyptXZCiLQD3VftsefaSpump": {
+  "ts": "2026-10-15 18:37:04",
+  "order_id": "mv9emj8t1baduw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President",
+   "MooDengPresidentCallers"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
