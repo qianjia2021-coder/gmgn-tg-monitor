@@ -4551,5 +4551,17 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "J4SoGn4ttFbuKzQ2ojKgJAW8KTzfocvFTUSekwhRpump": {
+  "ts": "2026-10-15 18:39:15",
+  "order_id": "mv9epc431o8rg0",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Eliot Calls 🎯",
+   "eliotcall"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
