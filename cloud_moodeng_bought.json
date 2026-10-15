@@ -3840,5 +3840,18 @@
   "ok": false,
   "err": "HTTP 401 Unauthorized",
   "name": ""
+ },
+ "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump": {
+  "ts": "2026-10-15 10:45:42",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "Kingdom of Degen CALLS",
+   "KingdomOfDegenCalls",
+   "🐶BING-SOL-CALL"
+  ],
+  "ok": false,
+  "err": "HTTP 401 Unauthorized",
+  "name": ""
  }
 }
