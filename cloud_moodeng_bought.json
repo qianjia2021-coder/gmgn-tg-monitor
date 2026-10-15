@@ -4095,5 +4095,21 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "4TM1GKNMJhSTnHN9hE4vgrmC9vNf2E7Eb7jaqpgv8Jha": {
+  "ts": "2026-10-15 13:02:25",
+  "order_id": "mv92o41f16zofb",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "groups": [
+   "Moo Deng President",
+   "MooDengPresidentCallers",
+   "Logan Pumpfun",
+   "Alpha X100 Callers",
+   "🐶BING-SOL-CALL",
+   2441861183
+  ],
+  "ok": true,
+  "name": ""
  }
 }
