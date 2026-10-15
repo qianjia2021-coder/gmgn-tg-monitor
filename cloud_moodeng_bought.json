@@ -4575,5 +4575,17 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "5VoCJVEeJsC9o9nmtBPdFKVudKs3u8uXVapmbCPvpump": {
+  "ts": "2026-10-15 18:42:43",
+  "order_id": "mv9ett3s1bayqs",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "LUK filter 💎",
+   "lukfilter"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
