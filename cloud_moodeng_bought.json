@@ -3853,5 +3853,18 @@
   "ok": false,
   "err": "HTTP 401 Unauthorized",
   "name": ""
+ },
+ "Ef7gV9mbEAEoDRy42e5Hs9KtwpxfrthjEJqu3Arzpump": {
+  "ts": "2026-10-15 10:47:11",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "Moo Deng President",
+   "Logan Pumpfun",
+   "MooDengPresidentCallers"
+  ],
+  "ok": false,
+  "err": "HTTP 401 Unauthorized",
+  "name": ""
  }
 }
