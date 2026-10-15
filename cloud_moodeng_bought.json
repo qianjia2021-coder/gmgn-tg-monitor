@@ -4611,5 +4611,17 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "38EDtQs36gXcjnjcdnLbuF1b7Ppv4i5sbgF4muJ4pump": {
+  "ts": "2026-10-15 18:49:16",
+  "order_id": "mv9f28511o9s35",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "KingdomOfDegenCalls",
+   "Kingdom of Degen CALLS"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
