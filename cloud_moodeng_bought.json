@@ -4012,5 +4012,18 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "9ujDGXkPKFLWQnaSCPmSuX4vTACFXN7ok3ULwBM8pump": {
+  "ts": "2026-10-15 12:07:41",
+  "order_id": "mv90pqdq1jvz3m",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "groups": [
+   "🐶BING-SOL-CALL",
+   "MooDengPresidentCallers",
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
