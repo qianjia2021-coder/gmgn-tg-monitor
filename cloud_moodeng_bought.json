@@ -3756,5 +3756,19 @@
   "rug_ratio": null,
   "ok": true,
   "name": "Sogecoin"
+ },
+ "3vFnqunqv6UWA5pYiaD6TiaRUB3EvwMEYo1wV7ZZpump": {
+  "ts": "2026-10-15 10:11:21",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "MooDengPresidentCallers",
+   "Eliot Calls 🎯",
+   "Moo Deng President",
+   "eliotcall"
+  ],
+  "ok": false,
+  "err": "HTTP 401 Unauthorized",
+  "name": ""
  }
 }
