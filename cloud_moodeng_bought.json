@@ -4635,5 +4635,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "vaJ2tXfvML8sFstrEYtza7tmJGvbmBAp8Dvx3Qxpump": {
+  "ts": "2026-10-15 19:19:22",
+  "order_id": "mv9g4xf61op8iy",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "AlphaX100Callers",
+   "loganpump",
+   "Alpha X100 Callers",
+   "Logan Pumpfun"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
