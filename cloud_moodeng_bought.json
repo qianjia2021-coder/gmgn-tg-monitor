@@ -4038,5 +4038,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "GKXeQBS55KgaCZehvDnDqSVo6kaDTcE4jRYzdj5vrbrK": {
+  "ts": "2026-10-15 12:25:18",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "🐶BING-SOL-CALL",
+   "MooDengPresidentCallers",
+   2441861183,
+   "Moo Deng President"
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
  }
 }
