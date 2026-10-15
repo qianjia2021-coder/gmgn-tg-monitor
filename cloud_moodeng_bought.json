@@ -4271,5 +4271,21 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "88oCArk6JpHy2m4sdh8TKo37rwBB5r7SJACiwjs5pump": {
+  "ts": "2026-10-15 16:52:19",
+  "order_id": "mv9avthk19w78m",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "loganpump",
+   "AlphaX100Callers",
+   "Logan Pumpfun",
+   "Moo Deng President",
+   "MooDengPresidentCallers",
+   "Alpha X100 Callers"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
