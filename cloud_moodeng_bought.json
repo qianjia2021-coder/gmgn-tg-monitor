@@ -4395,5 +4395,17 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "RBgEki8XNdpx6xB9ozWsMcKpqTasjvgH6riqRzHpump": {
+  "ts": "2026-10-15 17:47:45",
+  "order_id": "mv9cv3y31au88x",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   2441861183,
+   "🐶BING-SOL-CALL"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
