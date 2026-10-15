@@ -3945,5 +3945,18 @@
   "ok": false,
   "err": "HTTP 401 Unauthorized",
   "name": ""
+ },
+ "4w1aTGJTMFRgMttK5p5W6LKN5Wuvg5TqfXwtGfnUpump": {
+  "ts": "2026-10-15 11:33:27",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "🐶BING-SOL-CALL",
+   "MooDengPresidentCallers",
+   2441861183
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
  }
 }
