@@ -4040,7 +4040,7 @@
   "name": ""
  },
  "GKXeQBS55KgaCZehvDnDqSVo6kaDTcE4jRYzdj5vrbrK": {
-  "ts": "2026-10-15 12:25:18",
+  "ts": "2026-10-15 12:25:20",
   "order_id": "",
   "sol": 1.0,
   "groups": [
@@ -4051,6 +4051,19 @@
   ],
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
+ },
+ "AFeJdCi5rwJvvN1VYeqP6pmsh3LYPwNTX9ZHgdUEpump": {
+  "ts": "2026-10-15 12:29:09",
+  "order_id": "mv91hc051jyzkf",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "groups": [
+   "MooDengPresidentCallers",
+   "Memes Don’t Lies | by @k_vlde",
+   "Moo Deng President"
+  ],
+  "ok": true,
   "name": ""
  }
 }
