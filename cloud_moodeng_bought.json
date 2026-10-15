@@ -4067,7 +4067,7 @@
   "name": ""
  },
  "6sxuTywfJ6YjQE9E7ikevvRYKm3MJddqRepKKWdS78XC": {
-  "ts": "2026-10-15 12:37:36",
+  "ts": "2026-10-15 12:37:40",
   "order_id": "",
   "sol": 1.0,
   "groups": [
@@ -4078,6 +4078,22 @@
   ],
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
+ },
+ "DiLSCai5hqGASqC7LEbQnJ9Dv2GjjSUmFnW7DrBpump": {
+  "ts": "2026-10-15 12:52:02",
+  "order_id": "mv92ar9216yd8p",
+  "sol": 1.0,
+  "stop_earn": 0.3,
+  "groups": [
+   "Moo Deng President",
+   "MooDengPresidentCallers",
+   "Logan Pumpfun",
+   "Alpha X100 Callers",
+   "🐶BING-SOL-CALL",
+   2441861183
+  ],
+  "ok": true,
   "name": ""
  }
 }
