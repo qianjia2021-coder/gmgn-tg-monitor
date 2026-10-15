@@ -4677,5 +4677,19 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "rc5QqCeRy58gCa4x3KMXiZNY9b86Z3YF3c3M8JLpump": {
+  "ts": "2026-10-15 20:25:12",
+  "order_id": "mv9ihkuh1pcgoe",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Kingdom of Degen CALLS",
+   "🐶BING-SOL-CALL",
+   2441861183,
+   "axioscan"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
