@@ -3826,5 +3826,19 @@
   "ok": false,
   "err": "HTTP 401 Unauthorized",
   "name": ""
+ },
+ "CRXtSZ2sbSTHkcsr86fffXdC6v5ujCKx21dUz8eMpump": {
+  "ts": "2026-10-15 10:41:10",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "AlphaX100Callers",
+   "Logan Pumpfun",
+   "Alpha X100 Callers",
+   "loganpump"
+  ],
+  "ok": false,
+  "err": "HTTP 401 Unauthorized",
+  "name": ""
  }
 }
