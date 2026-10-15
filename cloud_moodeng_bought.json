@@ -4649,5 +4649,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "bLip6GWmVHURBCsKqAjLqzdbutfUJ4YiatJMaR6pump": {
+  "ts": "2026-10-15 19:36:01",
+  "order_id": "mv9gqc1r1oryt8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "KingdomOfDegenCalls",
+   "Kingdom of Degen CALLS",
+   2441861183,
+   "🐶BING-SOL-CALL"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
