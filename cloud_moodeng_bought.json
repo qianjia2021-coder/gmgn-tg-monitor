@@ -3932,5 +3932,18 @@
   "ok": false,
   "err": "HTTP 401 Unauthorized",
   "name": ""
+ },
+ "8NNXiGBRjwSzjRXbxktfJxZbE4GTUrWLrnuULbtdpump": {
+  "ts": "2026-10-15 11:17:49",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "Moo Deng President",
+   "🐶BING-SOL-CALL",
+   "MooDengPresidentCallers"
+  ],
+  "ok": false,
+  "err": "HTTP 401 Unauthorized",
+  "name": ""
  }
 }
