@@ -4761,5 +4761,19 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "AsJQYwsNAAuTyoDHCPQH5EuKucsgSJiDmCR61Krfpump": {
+  "ts": "2026-10-16 06:45:55",
+  "order_id": "mva4ntny1efgev",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "🐶BING-SOL-CALL",
+   "Moo Deng President",
+   "Kingdom of Degen CALLS",
+   "AXIOSCAN | Free"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
