@@ -4957,5 +4957,33 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "63jFLp6eRDPFCj4Szo1YoBUpRvjfQw7mE16Y18hDpump": {
+  "ts": "2026-10-17 06:20:02",
+  "order_id": "mvbj6ca01op1fo",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "AXIOSCAN | Free",
+   "🐶BING-SOL-CALL",
+   "Logan Pumpfun"
+  ],
+  "ok": true,
+  "name": ""
+ },
+ "AkLSvCawfqToAUTo4qSpSjPQcWXZXXa8CDJaWyCjpump": {
+  "ts": "2026-10-17 06:58:25",
+  "order_id": "mvbkjrj31oq5vv",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "🐶BING-SOL-CALL",
+   "Logan Pumpfun",
+   "LUK filter 💎"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
