@@ -4929,5 +4929,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "GjuiYGJi3QNtsa9PEsEyvpDwpVxejBQoQrrGRpyFpump": {
+  "ts": "2026-10-16 20:13:23",
+  "order_id": "mvaxi81a1l9pj8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Logan Pumpfun",
+   "SOL Whales Market",
+   "AXIOSCAN | Free",
+   "Alpha X100 Callers"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
