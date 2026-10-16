@@ -4803,5 +4803,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "6AVUAwHMAQQ65zVJCYirTC6BnuA939KT4P2J1KKopump": {
+  "ts": "2026-10-16 09:33:44",
+  "order_id": "mvaanmsb1s7rq1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "🐶BING-SOL-CALL",
+   "Moo Deng President",
+   "Logan Pumpfun"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
