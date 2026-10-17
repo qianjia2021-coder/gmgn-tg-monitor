@@ -5083,5 +5083,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk": {
+  "ts": "2026-10-17 16:15:58",
+  "order_id": "mvc4gs3q20g6oe",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "AXIOSCAN | Free",
+   "SOL Whales Market",
+   "Logan Pumpfun"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
