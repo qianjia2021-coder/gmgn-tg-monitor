@@ -5069,5 +5069,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "BkAKWGqXKioyhEetek8KPUXrzkQ4PEtkfQStxqGPpump": {
+  "ts": "2026-10-17 15:15:50",
+  "order_id": "mvc2bfr420doke",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "Moo Deng President",
+   "AXIOSCAN | Free",
+   "Logan Pumpfun"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
