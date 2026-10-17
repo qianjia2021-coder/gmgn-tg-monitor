@@ -5013,5 +5013,19 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "EgKyLCmBDAUi5EcRe2CbidkKPbPpK4WAu47qfEcXpump": {
+  "ts": "2026-10-17 11:20:27",
+  "order_id": "mvbtwqo71p3a73",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "SOL Whales Market",
+   "AXIOSCAN | Free",
+   "Logan Pumpfun"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
