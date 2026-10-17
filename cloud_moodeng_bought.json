@@ -5027,5 +5027,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "HmqnR7WAWeZgGNF5QbcF74aTfzCAtxcgtsjTEbLHfart": {
+  "ts": "2026-10-17 11:29:25",
+  "order_id": "mvbu89pb1p3yw1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "AXIOSCAN | Free",
+   "Logan Pumpfun",
+   "🐶BING-SOL-CALL"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
