@@ -5111,5 +5111,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "7VzWURCfosjxvT7KKM9gib5CzqnCg4vKU2UobGp3pump": {
+  "ts": "2026-10-17 20:19:53",
+  "order_id": "mvcd6fs320qtz8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "SOL Whales Market",
+   "Moo Deng President",
+   "AXIOSCAN | Free",
+   "🐶BING-SOL-CALL"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
