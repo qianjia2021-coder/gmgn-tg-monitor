@@ -5516,5 +5516,16 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "CeWp3yAthdCa9b1AqmDXskXVzce2j4xMUnUXrzcAbgy5": {
+  "ts": "2026-10-18 18:43:28",
+  "order_id": "mvdp6bsi1txq2i",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
