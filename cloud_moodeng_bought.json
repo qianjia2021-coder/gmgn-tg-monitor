@@ -5758,5 +5758,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
+  "ts": "2026-10-18 20:27:57",
+  "order_id": "",
+  "sol": 0.1,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
  }
 }
