@@ -5736,5 +5736,27 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "8dATxRTextAcaGxtWWUoTVApruNXtNS3Y74uD4Jzpump": {
+  "ts": "2026-10-18 20:24:32",
+  "order_id": "mvdssalg1u52o5",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
+ },
+ "EeGYEJBBGygP9eNzRbKmnpzjn4TCmTA4xD7qfHBJpump": {
+  "ts": "2026-10-18 20:26:17",
+  "order_id": "mvdsuju11u5bhl",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
