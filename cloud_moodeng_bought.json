@@ -5125,5 +5125,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "7gaSwUhZHFwdUCuzxppShRq6CjGgu19xoQTMSVinpump": {
+  "ts": "2026-10-18 11:25:37",
+  "order_id": "mvd9j7nf24o3gt",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "AXIOSCAN | Free",
+   "Eliot Calls 🎯",
+   "Kingdom of Degen CALLS",
+   "🐶BING-SOL-CALL"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
