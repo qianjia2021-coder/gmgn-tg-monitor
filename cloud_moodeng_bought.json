@@ -5153,5 +5153,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "7tFHmjGGg8Je88XgjxVWm4Co9G7SLb85MEzLiBokWgHw": {
+  "ts": "2026-10-18 16:13:51",
+  "order_id": "mvdjtvb71sqanj",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
