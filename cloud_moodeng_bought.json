@@ -6273,5 +6273,18 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "3htrnMWdXeJ54YaBnVC4jRJJ12ix4bmKHsMKrcTMpump": {
+  "ts": "2026-10-19 19:38:22",
+  "order_id": "mvf6kro62a8gk9",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Sol Rush Insights",
+   "Moo Deng President",
+   "KOL SignalX | by @k_vlde"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
