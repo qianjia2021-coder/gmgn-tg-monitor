@@ -6168,5 +6168,18 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "12CToJ7gDtrrMobAm622FneourheQx3x2CkWEJbnpump": {
+  "ts": "2026-10-19 16:19:32",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "Memes Don’t Lies | by @k_vlde",
+   "KOL SignalX | by @k_vlde",
+   "Moo Deng President"
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
  }
 }
