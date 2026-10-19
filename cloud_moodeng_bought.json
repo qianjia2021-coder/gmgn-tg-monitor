@@ -6129,5 +6129,18 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "3FwAStpydAQmPXR6vTVwgV7NkGw6et7FcD1KLNBKpump": {
+  "ts": "2026-10-19 15:36:57",
+  "order_id": "mvexybbb29hzn4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "KOL SignalX | by @k_vlde",
+   "Logan Pumpfun"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
