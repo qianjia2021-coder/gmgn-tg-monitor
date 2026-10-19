@@ -6055,5 +6055,40 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "CXCRDMes1uc35sgWkeVZoGsFaYsV61oWA4bHhNU78gei": {
+  "ts": "2026-10-19 11:19:50",
+  "order_id": "",
+  "sol": 0.1,
+  "groups": [
+   "KOL SignalX | by @k_vlde"
+  ],
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}",
+  "name": ""
+ },
+ "AyCeUvLXUZV2jnh8rT3Q6kAbuvVjyQSJAGuvDEQzpump": {
+  "ts": "2026-10-19 11:29:29",
+  "order_id": "mvep41mx1winx7",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
+ },
+ "4K56ofxCCeCYQTfpeySXUK3ByVTxE95AqE9rencPpump": {
+  "ts": "2026-10-19 11:48:38",
+  "order_id": "mvepsnjq295n1d",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Logan Pumpfun",
+   "Alpha X100 Callers",
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
