@@ -6207,5 +6207,18 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "EefXDYJpDWKddDxGiEHtssqrRuo88s3z6GyY73Qmpump": {
+  "ts": "2026-10-19 18:25:35",
+  "order_id": "mvf3z5wv1ywu6e",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "Logan Pumpfun",
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
