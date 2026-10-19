@@ -6044,5 +6044,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "8fQgfsRnRkKSeNUhevT7wp8mhNvMSJdLn1fJi4oVpump": {
+  "ts": "2026-10-19 11:18:19",
+  "order_id": "mveopon61whjop",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
