@@ -6022,5 +6022,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "A7bh3cswp9oZTPQ4EP8CmXy6GpdMRuCTWFzgUKvXpump": {
+  "ts": "2026-10-19 11:12:38",
+  "order_id": "mveoide22924tr",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
