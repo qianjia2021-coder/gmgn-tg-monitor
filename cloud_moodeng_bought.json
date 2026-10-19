@@ -6447,5 +6447,17 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "56EcdzrFZ87F9PLhrXWgXKRct2gcugbU6rnXPDFJpump": {
+  "ts": "2026-10-19 21:36:48",
+  "order_id": "mvfat2rb2c9uz2",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Sol Rush Insights",
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
