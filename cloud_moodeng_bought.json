@@ -6116,5 +6116,18 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "CSCMv42J64mWfFWyMFvho24vQxyVRTkK37B9k5Yopump": {
+  "ts": "2026-10-19 15:07:03",
+  "order_id": "mvewvuxh29g5lp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Alpha X100 Callers",
+   "Logan Pumpfun",
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
