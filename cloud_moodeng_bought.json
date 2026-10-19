@@ -6000,5 +6000,16 @@
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}",
   "name": ""
+ },
+ "7uJfJKvWEJvEYS7bo86JsuU2kRjmU9Wdp27CNDp87inp": {
+  "ts": "2026-10-19 11:08:18",
+  "order_id": "mveocsmu1wgdir",
+  "sol": 0.1,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
