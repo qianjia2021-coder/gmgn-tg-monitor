@@ -6325,5 +6325,18 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "G9KzU3F2gKzpRHcCxT7VMApDJ8rVeGs3GSaRpQYipump": {
+  "ts": "2026-10-19 20:34:21",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "Moo Deng President",
+   "Sol Rush Insights",
+   "KOL SignalX | by @k_vlde"
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
  }
 }
