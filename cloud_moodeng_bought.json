@@ -6090,5 +6090,18 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "3xrmyTm2sWrh6SpRegMrrmsP47fALoQBKyEFse5Dpump": {
+  "ts": "2026-10-19 12:31:32",
+  "order_id": "mverbu4r298w03",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "🐶BING-SOL-CALL",
+   "AXIOSCAN | Free",
+   "Kingdom of Degen CALLS"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
