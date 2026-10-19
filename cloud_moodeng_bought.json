@@ -6338,5 +6338,18 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "G3fzUvAot8cgANnmJiF3EjU8SQ9oJAkwWB6eXY7Qpump": {
+  "ts": "2026-10-19 20:44:49",
+  "order_id": "mvf8y7qg1zh6mg",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Logan Pumpfun",
+   "Alpha X100 Callers",
+   "Sol Rush Insights"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
