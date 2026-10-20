@@ -6699,5 +6699,17 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "cTHXie8bzQerPPgzPQYfknksFhT8dXX9rXyU7dspump": {
+  "ts": "2026-10-20 12:09:40",
+  "order_id": "mvg5zjfc22f8la",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Moo Deng President",
+   "Sol Rush Insights"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
