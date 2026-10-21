@@ -7065,5 +7065,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": {
+  "ts": "2026-10-21 13:19:47",
+  "order_id": "mvhnxl1v2k1jwi",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "🐶BING-SOL-CALL",
+   "AXIOSCAN | Free",
+   "SOL Whales Market",
+   "Kingdom of Degen CALLS"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
