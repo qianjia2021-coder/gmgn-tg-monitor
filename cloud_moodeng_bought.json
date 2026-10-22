@@ -7219,5 +7219,19 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "FjPVqJmRK9fYZpY5PC5qT97CtoyZyNMfQDVnq8jkpump": {
+  "ts": "2026-10-22 13:48:49",
+  "order_id": "mvj4eshj2oo3mf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "Logan Pumpfun",
+   "AXIOSCAN | Free",
+   "Sol Rush Insights",
+   "Moo Deng President"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
