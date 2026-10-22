@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
       - name: 本机心跳检查（开机本地/关机云端，互斥接力）
         id: hb
         env:
@@ -35,6 +32,10 @@ jobs:
             echo "本机已关机/无响应，云端接管"
             echo "takeover=true" >> "$GITHUB_OUTPUT"
           fi
+      - uses: actions/checkout@v4
+        if: steps.hb.outputs.takeover == 'true'
+        with:
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         if: steps.hb.outputs.takeover == 'true'
         with:
