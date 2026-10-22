@@ -35,13 +35,6 @@ jobs:
             echo "本机已关机/无响应，云端接管"
             echo "takeover=true" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/setup-node@v4
-        if: steps.hb.outputs.takeover == 'true'
-        with:
-          node-version: '20'
-      - name: Install gmgn-cli
-        if: steps.hb.outputs.takeover == 'true'
-        run: npm install -g gmgn-cli
       - uses: actions/setup-python@v5
         if: steps.hb.outputs.takeover == 'true'
         with:
@@ -51,9 +44,9 @@ jobs:
       - name: Run moodeng monitor (cloud takeover)
         if: steps.hb.outputs.takeover == 'true'
         env:
-          MOODENG_TG_API_ID: ${{ secrets.DAHUI_TG_API_ID }}
-          MOODENG_TG_API_HASH: ${{ secrets.DAHUI_TG_API_HASH }}
-          MOODENG_TG_STRING_SESSION: ${{ secrets.DAHUI_TG_STRING_SESSION }}
+          MOODENG_TG_API_ID: ${{ secrets.MOODENG_TG_API_ID }}
+          MOODENG_TG_API_HASH: ${{ secrets.MOODENG_TG_API_HASH }}
+          MOODENG_TG_STRING_SESSION: ${{ secrets.MOODENG_TG_STRING_SESSION }}
           DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 cloud_moodeng.py
