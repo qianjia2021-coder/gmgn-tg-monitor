@@ -7663,5 +7663,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "4aVoUcyhHmhxfUSzDaUpEKchuc8V8d1cGphxakvVpump": {
+  "ts": "2026-10-23 07:34:30",
+  "order_id": "mvk6h9zv2qh1la",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
