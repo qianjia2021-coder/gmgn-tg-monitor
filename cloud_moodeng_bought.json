@@ -7608,5 +7608,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "6ceuPfcE67PLs3Z6CbJpFpqNyAevVocP2zsDkbM1pump": {
+  "ts": "2026-10-23 07:01:49",
+  "order_id": "mvk5b9ee2c76v5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
