@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MooDengPresidentCallers 群合约监控 - 云端版（GitHub Actions）
+MooDeng 合约监听 - 云端版（GitHub Actions 接管）
 ================================================================
-本机关机时由云端每 5 分钟接管：拉群新消息，KOL 过滤后 dbotx 模拟买 1 SOL，
-止盈 +50% 全卖。状态存仓库 cloud_moodeng_state.json / cloud_moodeng_bought.json。
-
-注意：配置（BUY_SOL/STOP_EARN/KOL_MIN/TARGET_USERNAME 等）与本地
-moodeng_auto_buy.py 顶部 CONFIG 段保持一致，改设置两边同步改。
-
+与本地 moodeng_auto_buy.py 同一策略（2026-10-22 18:18 起，workbuddy 版本）：
+  - 只监听 web3_gxfc 群「SOL大厅」话题（TOPIC_ID = 23，群标题「恭喜发财」）
+  - 单群直推：话题内 pump 后缀 + 30 分钟币龄内合约 → 立即 DBotX 模拟买 1 SOL（止盈 50%）
+  - 一个合约只买一次（bought / seen / baseline 三重去重）
+  - 买入成功/失败都推送「SOL推送」群（私有邀请链接 CheckChatInvite 解析）
+  - 不查 KOL、不用黑名单拦截（与本地一致）
+触发时机：本机心跳 heartbeat_moodeng.txt 距今 >120s（关机/断线）时，由
+          moodeng-monitor workflow 每 5 分钟接管；本机在线时 workflow 跳过，本脚本不运行。
+状态文件：cloud_moodeng_state.json（seen/baseline）+ cloud_moodeng_bought.json（bought）
 Env:
   MOODENG_TG_API_ID / MOODENG_TG_API_HASH / MOODENG_TG_STRING_SESSION
-  DBOTX_API_KEY
-  GITHUB_TOKEN   Actions 自动提供
+  DBOTX_API_KEY / GITHUB_TOKEN（Actions 自动提供）
 """
-import asyncio, base64, json, os, re, subprocess, sys, time
+import asyncio, base64, json, os, re, sys, time
 import requests
 from telethon import TelegramClient
 from telethon.sessions import StringSession
@@ -24,13 +26,18 @@ STATE_PATH = "cloud_moodeng_state.json"
 BOUGHT_PATH = "cloud_moodeng_bought.json"
 GH_API = "https://api.github.com"
 
-# === CONFIG（与本地 moodeng_auto_buy.py 保持一致） ===
-TARGETS = ["MooDengPresidentCallers", "beijngdontlie", "logandegen", "SolanaWhalesMarket", "lycagamble", "nhn0x69420", "axioscan", "MemesDontLies", 2441861183, "loganpump", "AlphaX100Callers", "lukfilter", "KingdomOfDegenCalls", "Xiao_Trading", "ivanshiller", "eliotcall"]
-BLOCKED_SOURCES = ["debot_watcher_14_bot"]
-KOL_MIN = 1
+# ==== 与本地 moodeng_auto_buy.py 对齐的策略配置 ====
+TARGET = "web3_gxfc"            # 只监听这个群
+TOPIC_ID = 23                   # 该群「SOL大厅」话题 id（链接末尾数字）
+NOTIFY_TARGET = "https://t.me/+QfV7aMQ05B02ODE9"   # 推送群（私有邀请链接）
+MAX_TOKEN_AGE_MIN = 30          # 只买 30 分钟币龄内的合约
+ONLY_PUMP_SUFFIX = True
+PUMP_SUFFIX = "pump"
 BUY_SOL = 1.0
 STOP_EARN = 0.5
 SLIPPAGE = 0.5
+MSG_WINDOW_SEC = 900            # 只处理最近 15 分钟内的消息（覆盖关机→云端接管间隙）
+SEEN_LIMIT = 20000              # seen 上限，防 state 无限膨胀
 # =====================================================
 
 DBOTX_SWAP_URL = "https://api-bot-v1.dbotx.com/simulator/sim_swap_order"
@@ -38,6 +45,11 @@ DBOTX_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 SOL_NATIVE = "So11111111111111111111111111111111111111112"
 ADDR_RE = re.compile(r"[1-9A-HJ-NP-Za-km-z]{32,44}")
+AGE_RE = re.compile(r"\u231b\ufe0f?\s*(\d+)\s*(m|h)(?:\s*(\d+)\s*m)?")
+
+
+def log(msg):
+    print(time.strftime("%Y-%m-%d %H:%M:%S") + " " + str(msg), flush=True)
 
 
 def gh_headers():
@@ -60,181 +72,229 @@ def write_json_file(path, data, sha, msg):
     body = {"message": msg, "content": base64.b64encode(payload).decode(), "branch": "main"}
     if sha:
         body["sha"] = sha
-    r = requests.put(f"{GH_API}/repos/{REPO}/contents/{path}", headers=gh_headers(), json=body, timeout=30)
-    r.raise_for_status()
+    for attempt in range(2):
+        r = requests.put(f"{GH_API}/repos/{REPO}/contents/{path}", headers=gh_headers(), json=body, timeout=30)
+        if r.status_code == 409 and attempt == 0:
+            time.sleep(2)
+            continue
+        r.raise_for_status()
+        return
+    raise RuntimeError("write_json_file failed: " + path)
 
 
-def extract_addrs(text):
+# ---------------- 地址/币龄/后缀过滤（与本地完全一致） ----------------
+def extract_addrs_raw(text):
     out = []
-    for c in ADDR_RE.findall(text or ""):
-        if c != SOL_NATIVE:
-            out.append(c)
+    for cand in ADDR_RE.findall(text or ""):
+        if cand != SOL_NATIVE:
+            out.append(cand)
     return out
 
 
-def run_gmgn(args, timeout=60):
-    for attempt in (1, 2):
-        p = subprocess.run(args, capture_output=True, text=True, timeout=timeout)
-        if p.returncode == 0:
-            return p.stdout
-        err = (p.stderr or p.stdout or "")
-        if "429" in err and attempt == 1:
-            print("429, wait 35s retry"); time.sleep(35); continue
-        raise RuntimeError("gmgn-cli rc={}: {}".format(p.returncode, err[-300:]))
+def parse_token_age_min(text):
+    m = AGE_RE.search(text or "")
+    if not m:
+        return None
+    num = int(m.group(1))
+    unit = m.group(2)
+    extra = m.group(3)
+    if unit == "h":
+        return num * 60 + (int(extra) if extra else 0)
+    return num
 
 
-def kol_count(addr):
+def extract_addrs(text):
+    addrs = extract_addrs_raw(text)
+    if ONLY_PUMP_SUFFIX:
+        addrs = [a for a in addrs if a.lower().endswith(PUMP_SUFFIX)]
+    return addrs
+
+
+def msg_topic_id(m):
+    rt = getattr(m, "reply_to", None)
+    if rt is not None:
+        tid = getattr(rt, "reply_to_top_id", None)
+        if tid:
+            return int(tid)
+        fid = getattr(rt, "reply_to_msg_id", None)
+        if fid:
+            return int(fid)
+    rid = getattr(m, "reply_to_msg_id", None)
+    return int(rid) if rid else None
+
+
+# ---------------- 推送目标解析（与本地一致：CheckChatInvite / ImportChatInvite） ----------------
+def invite_hash(link):
+    s = (link or "").strip()
+    if "/+" in s:
+        return s.split("/+", 1)[1].split("/")[0].split("?")[0].strip()
+    if "joinchat/" in s:
+        return s.split("joinchat/", 1)[1].split("/")[0].split("?")[0].strip()
+    return None
+
+
+async def resolve_notify_target(client):
+    h = invite_hash(NOTIFY_TARGET)
+    if h:
+        try:
+            from telethon.tl.functions.messages import (
+                CheckChatInviteRequest, ImportChatInviteRequest)
+            from telethon.tl.types import ChatInviteAlready
+            res = await client(CheckChatInviteRequest(hash=h))
+            if isinstance(res, ChatInviteAlready):
+                return res.chat
+            log("推送群尚未加入，尝试加入...")
+            upd = await client(ImportChatInviteRequest(hash=h))
+            for c in getattr(upd, "chats", None) or []:
+                return c
+        except Exception as e:
+            log("推送目标解析失败: {}: {}".format(type(e).__name__, e))
+        log("!! 推送目标解析失败，本轮不推送（目标：{}）".format(NOTIFY_TARGET))
+        return None
     try:
-        out = run_gmgn(["gmgn-cli", "token", "info", "--chain", "sol", "--address", addr], timeout=45)
-        data = json.loads(out)
+        return await client.get_entity(NOTIFY_TARGET)
     except Exception as e:
-        print("info fail {}: {}".format(addr, e))
-        return 0, False
-    wts = data.get("wallet_tags_stat") or {}
-    return int(wts.get("renowned_wallets") or 0), True
+        log("推送目标 get_entity 失败: {}".format(e))
+        return None
 
 
-def rug_ratio(addr):
-    target = addr.lower()
-    try:
-        out = run_gmgn(["gmgn-cli", "market", "trending", "--chain", "sol",
-                        "--interval", "24h", "--limit", "100", "--raw"], timeout=45)
-        d = json.loads(out)
-        for r in (d.get("data") or {}).get("rank") or []:
-            if (r.get("address") or "").lower() == target:
-                v = r.get("rug_ratio")
-                return (None if v is None else float(v)), True
-    except Exception:
-        pass
-    try:
-        out = run_gmgn(["gmgn-cli", "market", "trenches", "--chain", "sol", "--raw"], timeout=60)
-        d = json.loads(out.stdout) if hasattr(out, 'stdout') else json.loads(out)
-        for rows in d.values():
-            if not isinstance(rows, list):
-                continue
-            for r in rows:
-                if (r.get("address") or "").lower() == target:
-                    v = r.get("rug_ratio")
-                    return (None if v is None else float(v)), True
-    except Exception:
-        pass
-    return None, True
-
-
+# ---------------- DBotX 模拟买入（与本地 api_buy 一致） ----------------
 def api_buy(addr):
     key = os.environ.get("DBOTX_API_KEY", "")
     if not key:
         return False, "no DBOTX_API_KEY"
-    body = {"chain": "solana", "pair": addr, "walletId": "", "type": "buy",
+    body = {"chain": "solana", "pair": addr, "type": "buy",
             "amountOrPercent": BUY_SOL, "stopEarnPercent": STOP_EARN,
             "stopLossPercent": None, "priorityFee": "", "gasFeeDelta": 5,
-            "maxFeePerGas": 100, "slippage": SLIPPAGE}
+            "maxFeePerGas": 100, "walletId": "", "slippage": SLIPPAGE}
     headers = {"X-API-KEY": key, "Content-Type": "application/json",
                "accept": "application/json", "User-Agent": DBOTX_UA,
                "Origin": "https://dbotx.com", "Referer": "https://dbotx.com/"}
-    for attempt in range(3):
+    for attempt in range(5):
         try:
             r = requests.post(DBOTX_SWAP_URL, json=body, headers=headers, timeout=30)
             d = r.json()
             if d.get("err") is False:
                 return True, d.get("res", {}).get("id", "")
-            if r.status_code >= 500 and attempt < 2:
-                time.sleep(2); continue
-            return False, str(d)[:300]
+            res_str = str(d)
+            if "pair not found" in res_str:
+                return False, res_str[:200]
+            if r.status_code >= 500 and attempt < 4:
+                time.sleep(3)
+                continue
+            return False, res_str[:200]
         except Exception as e:
-            if attempt < 2:
-                time.sleep(2); continue
-            return False, "HTTP {}".format(e)
+            if attempt < 4:
+                time.sleep(2)
+                continue
+            return False, str(e)
+    return False, "retry exhausted"
 
 
 async def main():
     state, sha = read_json_file(STATE_PATH)
     bought, bsha = read_json_file(BOUGHT_PATH)
     seen = state.get("seen") or {}
-    baseline = state.get("baseline") or []
-    last_id = int(state.get("last_id") or 0)
-    baseline_set = set(baseline)
-    print("last_id={} seen={} bought={} baseline={}".format(last_id, len(seen), len(bought), len(baseline_set)))
+    # baseline 兼容 dict / list 两种历史格式
+    baseline_raw = state.get("baseline") or {}
+    if isinstance(baseline_raw, list):
+        baseline = {a: "baseline" for a in baseline_raw}
+    else:
+        baseline = dict(baseline_raw)
+    log("state: seen={} baseline={} bought={}".format(len(seen), len(baseline), len(bought)))
 
     client = TelegramClient(StringSession(os.environ["MOODENG_TG_STRING_SESSION"]),
                             int(os.environ["MOODENG_TG_API_ID"]),
                             os.environ["MOODENG_TG_API_HASH"])
     await client.connect()
     if not await client.is_user_authorized():
-        print("FATAL: not authorized"); sys.exit(1)
+        log("FATAL: TG 会话未授权")
+        sys.exit(1)
+    me = await client.get_me()
+    log("已登录 TG: {}".format(getattr(me, "username", "") or getattr(me, "first_name", "")))
 
-    changed = False
-    for target in TARGETS:
-        try:
-            peer = await client.get_entity(target)
-        except Exception as e:
-            print("群 @{} 访问失败: {}".format(target, e))
+    notify = await resolve_notify_target(client)
+
+    try:
+        peer = await client.get_entity(TARGET)
+    except Exception as e:
+        log("群 @{} 访问失败: {}（云端账号可能不在该群）".format(TARGET, e))
+        await client.disconnect()
+        sys.exit(2)
+    cname = getattr(peer, "title", TARGET)
+    log("监听群: {} (@{}) 话题={}".format(cname, TARGET, TOPIC_ID))
+
+    now = time.time()
+    new_seen = {}
+    new_bought = {}
+    processed = 0
+    async for m in client.iter_messages(peer, limit=200):
+        if m.date is None or m.date.timestamp() < now - MSG_WINDOW_SEC:
             continue
-        print("--- 扫描 @{} ---".format(target))
-        async for m in client.iter_messages(peer, limit=200):
-            if m.reply_to_msg_id:
+        if msg_topic_id(m) != TOPIC_ID:
+            continue
+        text = m.message or ""
+        addrs = extract_addrs(text)
+        if not addrs:
+            continue
+        delay_min = (now - m.date.timestamp()) / 60.0
+        for addr in addrs:
+            if addr in bought or addr in seen or addr in baseline:
                 continue
-            text = m.message or ""
-            addrs = extract_addrs(text)
-            for addr in addrs:
-                if addr in seen or addr in bought or addr in baseline_set:
-                    continue
-                print("new [{}] #{}: {}".format(target, m.id, addr))
-                kol, ok = kol_count(addr)
-                if not ok:
-                    print("  KOL 查询失败，本轮跳过")
-                    continue
-                if kol < KOL_MIN:
-                    seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-                    print("  KOL={}<{} 跳过".format(kol, KOL_MIN))
-                    changed = True
-                    continue
-                rr, rok = rug_ratio(addr)
-                if not rok:
-                    print("  rug 查询异常，跳过")
-                    continue
-                if rr is not None and rr >= 1.0:
-                    seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-                    print("  rug={:.0%} 跳过".format(rr))
-                    changed = True
-                    continue
-                bok, info = api_buy(addr)
-                bought[addr] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"),
-                                "order_id": info if bok else "", "sol": BUY_SOL,
-                                "stop_earn": STOP_EARN, "kol": kol, "rug_ratio": rr,
-                                "ok": bok}
-                seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-                print("  KOL={} rug={} buy {}: {}".format(kol, rr, "OK" if bok else "FAIL", info))
-                changed = True
-                await asyncio.sleep(2)
-    # 黑名单来源：只记基线不买
-    for blk in BLOCKED_SOURCES:
-        try:
-            peer = await client.get_entity(blk)
-        except Exception as e:
-            print("黑名单 @{} 访问失败: {}".format(blk, e))
-            continue
-        print("--- 屏蔽源 @{} ---".format(blk))
-        async for m in client.iter_messages(peer, limit=100):
-            text = m.message or ""
-            for addr in extract_addrs(text):
-                if addr not in baseline_set:
-                    baseline_set.add(addr)
-                    baseline.append(addr)
-                    print("屏蔽合约: {}".format(addr))
-                    changed = True
+            processed += 1
+            # 币龄：文本年龄 + 消息延迟（云端是轮询，必须换算实际年龄）
+            age = parse_token_age_min(text)
+            real_age = (age + delay_min) if age is not None else None
+            if real_age is not None and real_age > MAX_TOKEN_AGE_MIN:
+                log("  币龄超限(实际 {:.0f} 分钟 > {})，跳过: {}".format(
+                    real_age, MAX_TOKEN_AGE_MIN, addr[:12] + "..."))
+                new_seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
+                continue
+            log("new [{}] #{}: {} (delay={:.0f}s)".format(cname, m.id, addr, (now - m.date.timestamp())))
+            bok, info = api_buy(addr)
+            rec = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                   "order_id": info if bok else "", "sol": BUY_SOL,
+                   "stop_earn": STOP_EARN, "groups": [cname], "ok": bok,
+                   "src": "cloud"}
+            if not bok:
+                rec["err"] = str(info)[:200]
+            new_bought[addr] = rec
+            new_seen[addr] = rec["ts"]
+            log("  {} -> {} | {}".format("买入成功" if bok else "买入失败", addr, info))
+            # 推送（成功/失败都推，与本地一致）
+            if notify is not None:
+                status = "✅买入成功" if bok else "❌买入失败"
+                msg = "{}\n合约: `{}`\n单群直推: {}\n订单: {}\n时间: {}".format(
+                    status, addr, cname, info if bok else "无", rec["ts"])
+                try:
+                    await client.send_message(notify, msg)
+                    log("  通知已推送")
+                except Exception as e:
+                    log("  通知发送失败: {}".format(e))
+            await asyncio.sleep(2)
     await client.disconnect()
 
-    state["last_id"] = last_id
-    state["seen"] = seen
-    state["baseline"] = baseline
-    try:
-        write_json_file(STATE_PATH, state, sha, "sync moodeng state from cloud [skip ci]")
-        write_json_file(BOUGHT_PATH, bought, bsha, "sync moodeng bought from cloud [skip ci]")
-        print("state written, last_id={}".format(last_id))
-    except Exception as e:
-        print("write state failed: {}".format(e))
-    print("done changed={}".format(changed))
+    if processed:
+        log("本轮处理新合约 {} 个（其余为已见/非本话题/超龄）".format(processed))
+
+    # 写回状态
+    if new_seen or new_bought:
+        bought.update(new_bought)
+        seen.update(new_seen)
+        # seen 裁剪：保留最近 SEEN_LIMIT 条（字典插入序，新条目在后）
+        if len(seen) > SEEN_LIMIT:
+            drop = len(seen) - SEEN_LIMIT
+            for k in list(seen.keys())[:drop]:
+                del seen[k]
+        state["seen"] = seen
+        state["ts"] = time.strftime("%Y-%m-%d %H:%M:%S")
+        try:
+            write_json_file(STATE_PATH, state, sha, "sync moodeng state from cloud [skip ci]")
+            write_json_file(BOUGHT_PATH, bought, bsha, "sync moodeng bought from cloud [skip ci]")
+            log("状态已写回: bought+{} seen+{}".format(len(new_bought), len(new_seen)))
+        except Exception as e:
+            log("写回失败: {}".format(e))
+    log("done")
 
 
 if __name__ == "__main__":
