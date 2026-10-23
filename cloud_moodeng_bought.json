@@ -7751,5 +7751,16 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "HXuAgtMSuuv3sJH6UPg2cG4Txqovc19kD6PtyHxmpump": {
+  "ts": "2026-10-23 11:28:31",
+  "order_id": "mvkeu8ip2r1ir0",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
