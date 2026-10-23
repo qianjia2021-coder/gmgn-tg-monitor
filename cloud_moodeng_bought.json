@@ -7784,5 +7784,16 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "BnYKTZjTf42u5G9qqsBBzYCuGZT8CvrGL3JuRcLnpump": {
+  "ts": "2026-10-23 13:11:16",
+  "order_id": "mvkiicxq2ctwnb",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
