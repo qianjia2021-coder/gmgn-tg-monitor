@@ -7850,5 +7850,27 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "EL2zqbtSTeFMkNYzKCaUDfBW7DHdt8dYguc11Qxppump": {
+  "ts": "2026-10-23 19:12:19",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
+  "name": ""
+ },
+ "DjBGgYBCAUsCjZ9zgfMmPTjiWkvgur7dCiRGNh7opump": {
+  "ts": "2026-10-23 20:34:17",
+  "order_id": "mvkyc2ry006h0f",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
