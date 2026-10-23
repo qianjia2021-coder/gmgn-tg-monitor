@@ -7980,5 +7980,29 @@
   "ok": false,
   "src": "cloud",
   "err": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "CP3YBLFEQcaudRX1gga9p4HjsVSfXGCYzKJLL8Pcpump": {
+  "ts": "2026-10-23 16:30:58",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": false,
+  "src": "cloud",
+  "err": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "DdaN5Uc9zbnmuVfzE6A1Wfqr5FrUbNfYstrZhyQWpump": {
+  "ts": "2026-10-23 16:31:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": false,
+  "src": "cloud",
+  "err": "Expecting value: line 1 column 1 (char 0)"
  }
 }
