@@ -7729,5 +7729,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "4C8xh6tW9wbeG7vX2DwmPJasXL7fQ6dUiNMCneu8pump": {
+  "ts": "2026-10-23 10:58:29",
+  "order_id": "mvkdrles2cn1hu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
