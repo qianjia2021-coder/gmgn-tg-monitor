@@ -7806,5 +7806,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": {
+  "ts": "2026-10-23 15:41:32",
+  "order_id": "mvknvlar2r9de6",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
