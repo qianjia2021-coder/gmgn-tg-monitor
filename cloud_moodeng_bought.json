@@ -8541,5 +8541,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "3X2xbBx6ShSVkhP2RoHGZbrQWZpxx5mdjG2PaAXzpump": {
+  "ts": "2026-10-24 22:35:29",
+  "order_id": "mvmi3sgo07c0c7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
