@@ -8475,5 +8475,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "Db18cw8mqfuGgkprg6NvzmXYpftcNdQ7yWK48CsSpump": {
+  "ts": "2026-10-24 18:42:21",
+  "order_id": "mvm9rzuc02cmk5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
