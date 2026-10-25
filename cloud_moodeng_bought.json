@@ -9139,5 +9139,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "3R6wME5qd4f3dooiVpTk3vEi8hPPEpYPuByYvR23pump": {
+  "ts": "2026-10-26 07:55:14",
+  "order_id": "mvohjhbw0bxuzz",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
