@@ -8801,5 +8801,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "6QYik2YpgbndorAAVnkv4gmRYDJ73TuGAdRssG7Vpump": {
+  "ts": "2026-10-25 09:59:22",
+  "order_id": "mvn6j8pd03wkfp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
