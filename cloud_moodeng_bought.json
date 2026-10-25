@@ -8914,5 +8914,16 @@
   "ok": false,
   "src": "cloud",
   "err": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "GHjpD4pZ67mZX15gfgEg3w1jnvcMM5ZZj4cWy2wgpump": {
+  "ts": "2026-10-25 21:05:24",
+  "order_id": "mvnubt8105221h",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
