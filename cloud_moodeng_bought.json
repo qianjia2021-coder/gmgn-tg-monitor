@@ -8856,5 +8856,16 @@
   "ok": false,
   "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}",
   "name": ""
+ },
+ "9LepYg9iRDy2APTZnSz8NyoTtVqG9wHobzfU7ZEvpump": {
+  "ts": "2026-10-25 11:02:10",
+  "order_id": "mvn8s0a103yr8e",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
