@@ -9020,5 +9020,17 @@
   "ok": false,
   "src": "cloud",
   "err": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": {
+  "ts": "2026-10-25 20:15:35",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": false,
+  "src": "cloud",
+  "err": "Expecting value: line 1 column 1 (char 0)"
  }
 }
