@@ -153,12 +153,12 @@
   "order_id": "mv8tz1o812e9q2"
  },
  "0x46f5dc6809fa0d9647739c22fbff5f61cd9affff": {
-  "ts": "2026-10-26 21:47:23",
+  "ts": "2026-10-26 21:48:47",
   "chain": "bsc",
   "amount": 1.0,
   "stop_earn": 0.99,
   "ok": false,
-  "attempts": 1,
+  "attempts": 2,
   "err": "HTTP 401 Unauthorized"
  }
 }
