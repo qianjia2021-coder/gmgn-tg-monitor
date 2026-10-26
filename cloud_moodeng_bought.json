@@ -9150,5 +9150,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "AzJdTPbo9jo2xgZLdVbkEpC7Yv8WXtSGadzHGesEpump": {
+  "ts": "2026-10-26 08:39:38",
+  "order_id": "mvoj4kuz0bzgft",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
