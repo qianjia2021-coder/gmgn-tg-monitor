@@ -232,10 +232,14 @@ async def run():
             text = msg.message or ""
             if not text:
                 continue
+            # 第一步：消息必须明确标注 BSC 链（参考源群格式 "ZONE TRENCH 🟡 BSC ·"）
+            t_up = text.upper()
+            if not re.search(r"\bBSC\b", t_up):
+                continue
             addrs = extract_addrs(text)
             if not addrs:
                 continue
-            # 只保留 BSC（0x 开头）；SOL(base58)/ETH/Robinhood 一律忽略
+            # 第二步：只保留 0x EVM 地址（BSC 链上的合约都是 0x 开头）
             bsc_addrs = {a for a in addrs if a.startswith("0x")}
             if not bsc_addrs:
                 continue
