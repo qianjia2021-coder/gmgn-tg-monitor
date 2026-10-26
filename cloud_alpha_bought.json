@@ -160,5 +160,14 @@
   "ok": false,
   "attempts": 5,
   "err": "HTTP 401 Unauthorized"
+ },
+ "0x207f9d389d3de825e9bfb52403301b7881027777": {
+  "ts": "2026-10-26 22:08:33",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mvpc0vhl0emy4g"
  }
 }
