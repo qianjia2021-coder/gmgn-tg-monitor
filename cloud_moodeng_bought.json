@@ -9266,5 +9266,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "DBDqhnAi5MjaHsk1JyUonAtUUrmRBJPjJi3GdiBLpump": {
+  "ts": "2026-10-26 13:59:56",
+  "order_id": "mvoukhd90e0n6v",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
