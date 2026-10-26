@@ -233,22 +233,22 @@ async def run():
             if not text:
                 continue
             addrs = extract_addrs(text)
-            new_addrs = addrs - seen
+            if not addrs:
+                continue
+            # 只保留 BSC（0x 开头）；SOL(base58)/ETH/Robinhood 一律忽略
+            bsc_addrs = {a for a in addrs if a.startswith("0x")}
+            if not bsc_addrs:
+                continue
+            new_addrs = bsc_addrs - seen
             if not new_addrs:
                 continue
-            # ETH 链直接跳过，不推送不买入
-            t_up = text.upper()
-            if "ETH" in t_up.split() or "ETHEREUM" in t_up:
-                log(f"ETH 链合约，跳过: {sorted(addrs)[:2]}")
-                seen |= addrs
-                continue
-            # 兜底：目标群已出现过的也跳过
+            # 兜底：目标群最近已出现过的也跳过
             real_new = new_addrs - target_addrs
             if not real_new:
-                seen |= addrs
+                seen |= bsc_addrs
                 continue
 
-            # 转发格式：第一行标题 + code 地址
+            # 转发格式：第一行标题 + code 地址（每个 BSC 合约单独一条消息）
             first_line = ""
             for line in text.splitlines():
                 line = line.strip()
@@ -256,36 +256,36 @@ async def run():
                     first_line = line
                     break
             header = ADDR_RE.sub("", first_line).strip()
-            lines = ["📡 <b>OnChain Alpha Trench 新合约（云端补推）</b>", ""]
-            if header:
-                lines.append(header)
-                lines.append("")
-            for a in sorted(addrs):
-                lines.append(f"<code>{a}</code>")
-            out = "\n".join(lines)
-            try:
-                await client.send_message(TARGET_PEER, out, parse_mode="html",
-                                          link_preview=False)
-                log(f"已转发新合约 {len(real_new)} 个: {sorted(real_new)[:3]}")
-                pushed += 1
-                target_addrs |= addrs   # 本轮已推的也加入兜底集
-            except Exception as e:
-                log(f"转发失败: {e}")
-                continue
-            seen |= addrs
 
-            # dbotx 自动买入（只对真正新的、且没买过的）
             for a in sorted(real_new):
+                lines = ["📡 <b>BSC 新合约（云端补推）</b>", ""]
+                if header:
+                    lines.append(header)
+                    lines.append("")
+                lines.append(f"<code>{a}</code>")
+                out = "\n".join(lines)
+                try:
+                    await client.send_message(TARGET_PEER, out,
+                                             parse_mode="html",
+                                             link_preview=False)
+                    log(f"已单独转发 BSC 合约: {a}")
+                    pushed += 1
+                    target_addrs.add(a)
+                except Exception as e:
+                    log(f"发送单条 BSC 合约失败（跳过该地址）: {a} | {e}")
+                    continue
+                seen.add(a)
+
+                # dbotx 自动买入（只对真正新的、且没买过的）
                 if a in bought_data and bought_data[a].get("ok"):
                     continue
                 chain_a = detect_chain(a, text)
-                if chain_a == "eth":
-                    log(f"ETH 链，跳过 dbotx 买入: {a}")
-                    bought_data[a] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"), "chain": "eth", "ok": True, "skipped": "eth_no_buy"}
-                    continue
-                if chain_a == "robinhood":
-                    log(f"Robinhood 链，跳过 dbotx 买入: {a}")
-                    bought_data[a] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"), "chain": "robinhood", "ok": True, "skipped": "rob_no_buy"}
+                if chain_a in ("eth", "robinhood"):
+                    log(f"{chain_a} 链，跳过 dbotx 买入: {a}")
+                    bought_data[a] = {
+                        "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                        "chain": chain_a, "ok": True,
+                        "skipped": f"{chain_a}_no_buy"}
                     continue
                 ok, info = api_buy(a, chain_a)
                 bought_data[a] = {
@@ -298,7 +298,7 @@ async def run():
                 if ok:
                     bought_data[a]["order_id"] = info
                     bought_new += 1
-                    log(f"dbotx 买入成功: {a} 链={_chain_of(a)} 订单={info}")
+                    log(f"dbotx 买入成功: {a} 链={chain_a} 订单={info}")
                 else:
                     bought_data[a]["err"] = str(info)[:200]
                     log(f"dbotx 买入失败: {a} | {info}")
