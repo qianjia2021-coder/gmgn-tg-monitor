@@ -9300,5 +9300,16 @@
   "ok": false,
   "src": "cloud",
   "err": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump": {
+  "ts": "2026-10-26 20:17:57",
+  "order_id": "mvp82nb008lrma",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
