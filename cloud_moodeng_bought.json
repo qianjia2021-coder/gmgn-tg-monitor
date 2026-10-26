@@ -9344,5 +9344,16 @@
   ],
   "ok": true,
   "name": ""
+ },
+ "HtsFVhDAs1pHXGZX2VJnM2Q8bb6m4Nf4xk5oSvorpump": {
+  "ts": "2026-10-26 21:46:19",
+  "order_id": "mvpb89pj08z32s",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": true,
+  "name": ""
  }
 }
