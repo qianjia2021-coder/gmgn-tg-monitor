@@ -331,5 +331,69 @@
   "ok": true,
   "attempts": 1,
   "order_id": "mvtaa8zu04xvu8"
+ },
+ "0x13a839c509868cbcffb4acfdad53bba291e57777": {
+  "ts": "2026-10-29 08:59:46",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbc5d0515ad"
+ },
+ "0xaf7673422e4b035fc181cfb1449adfeaee777777": {
+  "ts": "2026-10-29 08:59:46",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbch20516kl"
+ },
+ "0x4bd8c42702da46f1af25c1bc7a0c5de68d997777": {
+  "ts": "2026-10-29 08:59:47",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbcwe05170k"
+ },
+ "0x80a5961bae1463a12772ec086904bbe229f27777": {
+  "ts": "2026-10-29 08:59:48",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbdve03ekek"
+ },
+ "0x5e3d8571de64e375ac9794a1eaaaf5da617d7777": {
+  "ts": "2026-10-29 08:59:49",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbehp0518kt"
+ },
+ "0xbcd6e60e7f7eae59c9ad79c5fb6b42e221b77777": {
+  "ts": "2026-10-29 08:59:50",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbf4x03elpo"
+ },
+ "0xa6b2795c01a33b4b88905fb4117c149aad5c7777": {
+  "ts": "2026-10-29 08:59:50",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbfgs03em82"
+ },
+ "0x1a923d2759313a27ade891876045ec09af397777": {
+  "ts": "2026-10-29 08:59:51",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvtbbgeo03enld"
  }
 }
