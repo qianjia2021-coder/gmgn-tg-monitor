@@ -54,8 +54,11 @@ def log(msg):
 
 
 def gh_headers():
+    """写 GitHub 用用户 token（GMGN_GH_TOKEN，有写权限），
+    没有时退回 GITHUB_TOKEN（仓库默认 read-only 时会导致 403）。"""
+    tok = os.environ.get("GH_TOKEN") or os.environ.get("GMGN_GH_TOKEN") or os.environ["GITHUB_TOKEN"]
     return {
-        "Authorization": "token " + os.environ["GITHUB_TOKEN"],
+        "Authorization": "token " + tok,
         "Accept": "application/vnd.github+json",
         "User-Agent": "alpha-relay-cloud",
     }
