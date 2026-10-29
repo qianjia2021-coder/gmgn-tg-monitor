@@ -304,5 +304,14 @@
   "ok": true,
   "attempts": 1,
   "order_id": "mvt61xbe0395nn"
+ },
+ "0xa0acb317935cf8f240d237a749a4235e48707777": {
+  "ts": "2026-10-29 14:42:39",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mvt6f01x038dgl"
  }
 }
