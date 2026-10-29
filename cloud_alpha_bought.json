@@ -395,5 +395,14 @@
   "stop_earn": 0.99,
   "ok": true,
   "order_id": "mvtbbgeo03enld"
+ },
+ "0xecf1d40c19d6ca94a91ded702c47d970b00f7777": {
+  "ts": "2026-10-29 19:38:41",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mvtgzow403krle"
  }
 }
