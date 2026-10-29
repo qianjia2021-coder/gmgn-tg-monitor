@@ -286,5 +286,14 @@
   "ok": true,
   "attempts": 1,
   "order_id": "mvs425bd00aese"
+ },
+ "0x4a196575cbd595aeea9d9d4b7fa9dc3b5f317777": {
+  "ts": "2026-10-29 14:06:45",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "attempts": 1,
+  "order_id": "mvt54ont037wjk"
  }
 }
