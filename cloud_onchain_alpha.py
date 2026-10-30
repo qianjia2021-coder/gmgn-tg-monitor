@@ -101,57 +101,62 @@ async def main():
     client = TelegramClient(StringSession(os.environ["TG_STRING_SESSION"]),
                             int(os.environ["TG_API_ID"]),
                             os.environ["TG_API_HASH"])
-    await client.connect()
-    if not await client.is_user_authorized():
-        print("FATAL: not authorized")
-        sys.exit(1)
+    try:
+        await client.connect()
+        if not await client.is_user_authorized():
+            print("FATAL: not authorized")
+            sys.exit(1)
 
-    src = await client.get_entity(SOURCE_CHANNEL)
-    tgt = InputPeerChat(TARGET_CHAT)
+        src = await client.get_entity(SOURCE_CHANNEL)
+        tgt = InputPeerChat(TARGET_CHAT)
 
-    # 兜底去重：目标群最近 30 条
-    already = set()
-    async for msg in client.iter_messages(tgt, limit=30):
-        if msg.message:
-            for m in ADDR_RE.findall(msg.message):
-                already.add(m.lower())
-    print("already in target group (last 30): {}".format(len(already)))
+        # 兜底去重：目标群最近 30 条
+        already = set()
+        async for msg in client.iter_messages(tgt, limit=30):
+            if msg.message:
+                for m in ADDR_RE.findall(msg.message):
+                    already.add(m.lower())
+        print("already in target group (last 30): {}".format(len(already)))
 
-    msgs = []
-    async for msg in client.iter_messages(src, limit=SCAN_LIMIT):
-        msgs.append(msg)
-    msgs.reverse()
+        msgs = []
+        async for msg in client.iter_messages(src, limit=SCAN_LIMIT):
+            msgs.append(msg)
+        msgs.reverse()
 
-    pushed = 0
-    changed = False
-    for msg in msgs:
-        addr = extract_addr(msg.message or "")
-        if not addr:
-            continue
-        if addr in seen or addr in already:
-            continue
-        body = fmt_push(msg.message or "", addr)
+        pushed = 0
+        changed = False
+        for msg in msgs:
+            addr = extract_addr(msg.message or "")
+            if not addr:
+                continue
+            if addr in seen or addr in already:
+                continue
+            body = fmt_push(msg.message or "", addr)
+            try:
+                await client.send_message(tgt, body, parse_mode="html", link_preview=False)
+                print("PUSHED: {} | {}".format(addr, title_line(msg.message or "")))
+            except Exception as e:
+                print("push failed {}: {}".format(addr, e))
+                continue
+            await asyncio.sleep(1.0)
+            seen.add(addr)
+            pushed += 1
+            changed = True
+
+        state["seen"] = sorted(seen)
+        if changed:
+            try:
+                write_json_file(STATE_PATH, state, sha,
+                                "sync onchain-alpha state from cloud [skip ci]")
+                print("state written, seen={}".format(len(seen)))
+            except Exception as e:
+                print("state write failed: {}".format(e))
+        print("done pushed={} seen={}".format(pushed, len(seen)))
+    finally:
         try:
-            await client.send_message(tgt, body, parse_mode="html", link_preview=False)
-            print("PUSHED: {} | {}".format(addr, title_line(msg.message or "")))
-        except Exception as e:
-            print("push failed {}: {}".format(addr, e))
-            continue
-        await asyncio.sleep(1.0)
-        seen.add(addr)
-        pushed += 1
-        changed = True
-
-    await client.disconnect()
-    state["seen"] = sorted(seen)
-    if changed:
-        try:
-            write_json_file(STATE_PATH, state, sha,
-                            "sync onchain-alpha state from cloud [skip ci]")
-            print("state written, seen={}".format(len(seen)))
-        except Exception as e:
-            print("state write failed: {}".format(e))
-    print("done pushed={} seen={}".format(pushed, len(seen)))
+            await client.disconnect()
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":
