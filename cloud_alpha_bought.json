@@ -495,5 +495,37 @@
   "stop_earn": 0.99,
   "ok": true,
   "order_id": "mvu13p2n04atur"
+ },
+ "0x264844a1afa0512323c5575bf6701ce51f3a7777": {
+  "ts": "2026-10-30 00:50:53",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvu9ahda06cs56"
+ },
+ "0xeab4fa591bc49b5c7c266303793ad13572e57777": {
+  "ts": "2026-10-30 00:50:54",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvu9ahs404ojfe"
+ },
+ "0xff4620a7f1fb83433277c572510ff0e778287777": {
+  "ts": "2026-10-30 00:50:54",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvu9ai7f06ctu2"
+ },
+ "0x867bff0f6d38357d8f1cb0c20514753a9baf7777": {
+  "ts": "2026-10-30 00:50:55",
+  "chain": "bsc",
+  "amount": 1.0,
+  "stop_earn": 0.99,
+  "ok": true,
+  "order_id": "mvu9aimg04okpg"
  }
 }
