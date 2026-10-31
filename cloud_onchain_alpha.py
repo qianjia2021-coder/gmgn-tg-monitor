@@ -85,11 +85,11 @@ def title_line(text):
 
 def fmt_push(text, addr):
     t = title_line(text)
-    chain_tag = "EVM" if addr.startswith("0x") else "SOL"
     return "\n".join([
         "📡 <b>Onchain Alpha Trench 新合约</b>",
+        "",
         t or "(无标题)",
-        "链: {}".format(chain_tag),
+        "",
         addr,
     ])
 
