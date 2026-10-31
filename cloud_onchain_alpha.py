@@ -33,7 +33,7 @@ GH_API = "https://api.github.com"
 
 SOURCE_CHANNEL = "onchainalphatrench"
 TARGET_CHAT = int(os.environ.get("TG_TARGET_CHAT_ID", "5499948080"))
-SCAN_LIMIT = 40
+SCAN_LIMIT = 200  # 补扫窗口：覆盖约33小时历史，保证关机后漏的合约下次跑能补到
 ADDR_RE = re.compile(r"\b0x[a-fA-F0-9]{40}\b|\b[1-9A-HJ-NP-Za-km-z]{32,44}\b")
 
 
