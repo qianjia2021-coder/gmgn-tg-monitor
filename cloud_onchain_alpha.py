@@ -72,7 +72,7 @@ def write_json_file(path, data, sha, msg):
 
 def extract_addr(text):
     for m in ADDR_RE.findall(text or ""):
-        return m.lower()
+        return m
     return None
 
 
@@ -89,8 +89,7 @@ def fmt_push(text, addr):
         "📡 <b>Onchain Alpha Trench 新合约</b>",
         "",
         t or "(无标题)",
-        "",
-        addr,
+        "合约: <code>{}</code>".format(addr),
     ])
 
 
@@ -116,7 +115,7 @@ async def main():
         async for msg in client.iter_messages(tgt, limit=30):
             if msg.message:
                 for m in ADDR_RE.findall(msg.message):
-                    already.add(m.lower())
+                    already.add(m)
         print("already in target group (last 30): {}".format(len(already)))
 
         msgs = []
