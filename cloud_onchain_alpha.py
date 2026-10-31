@@ -89,7 +89,8 @@ def fmt_push(text, addr):
     return "\n".join([
         "📡 <b>Onchain Alpha Trench 新合约</b>",
         t or "(无标题)",
-        "链: {} | 合约: <code>{}</code>".format(chain_tag, addr),
+        "链: {}".format(chain_tag),
+        addr,
     ])
 
 
