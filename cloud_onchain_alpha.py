@@ -76,6 +76,16 @@ def extract_addr(text):
     return None
 
 
+def addr_key(addr):
+    """去重键：统一小写。
+
+    SOL 合约地址大小写敏感（推送时必须用原始形式），
+    但历史状态里大小写两种写法混存，判重必须用小写键，
+    否则同一合约会被重复推送。
+    """
+    return (addr or "").lower()
+
+
 def title_line(text):
     first = (text or "").strip().splitlines()[0] if (text or "").strip() else ""
     first = ADDR_RE.sub("", first)
@@ -95,7 +105,7 @@ def fmt_push(text, addr):
 
 async def main():
     state, sha = read_json_file(STATE_PATH)
-    seen = set(state.get("seen") or [])
+    seen = set(addr_key(x) for x in (state.get("seen") or []))
     print("state seen: {}".format(len(seen)))
 
     client = TelegramClient(StringSession(os.environ["TG_STRING_SESSION"]),
@@ -115,7 +125,7 @@ async def main():
         async for msg in client.iter_messages(tgt, limit=30):
             if msg.message:
                 for m in ADDR_RE.findall(msg.message):
-                    already.add(m)
+                    already.add(addr_key(m))
         print("already in target group (last 30): {}".format(len(already)))
 
         msgs = []
@@ -127,9 +137,10 @@ async def main():
         changed = False
         for msg in msgs:
             addr = extract_addr(msg.message or "")
+            key = addr_key(addr)
             if not addr:
                 continue
-            if addr in seen or addr in already:
+            if key in seen or key in already:
                 continue
             body = fmt_push(msg.message or "", addr)
             try:
@@ -139,7 +150,7 @@ async def main():
                 print("push failed {}: {}".format(addr, e))
                 continue
             await asyncio.sleep(1.0)
-            seen.add(addr)
+            seen.add(key)
             pushed += 1
             changed = True
 
