@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:04:15.300268+00:00",
+ "ts": "2026-11-04T05:05:26.422972+00:00",
  "state": {
-  "last_id": 1700639,
+  "last_id": 1700651,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,8 +145,9 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1,
-   "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 12,
+   "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
+   "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -169,7 +170,8 @@
    "BxsNVvPuvCmHJRE6LyzqFAVoiTNhdHUVAgKNZhvApump": 3,
    "HQstiRVdp2cB6s6p3v6WWe23r8K4EP9wnx9gS3yLpump": 3,
    "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 3,
-   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 3
+   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 3,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -2423,6 +2425,72 @@
       "side": "Buy",
       "amt": "1.2K USDC MC 12.9M",
       "pusher": "ResellCalendar"
+     },
+     {
+      "ts": "11-04 05:05:08",
+      "side": "Buy",
+      "amt": "4.96 WSOL MC 984.9K",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 05:05:08",
+      "side": "Buy",
+      "amt": "4.96 WSOL MC 913.3K",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 05:05:09",
+      "side": "Buy",
+      "amt": "1.39 WSOL MC 254.8K",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 05:05:11",
+      "side": "Buy",
+      "amt": "1.39 WSOL MC 195.4K",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 05:05:11",
+      "side": "Buy",
+      "amt": "1.39 WSOL MC 197.5K",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 05:05:14",
+      "side": "Buy",
+      "amt": "2.39 WSOL MC 280.2K",
+      "pusher": "disc_3UNP"
+     },
+     {
+      "ts": "11-04 05:05:14",
+      "side": "Buy",
+      "amt": "2.47 WSOL MC 280K",
+      "pusher": "disc_3UNP"
+     },
+     {
+      "ts": "11-04 05:05:14",
+      "side": "Buy",
+      "amt": "2.82 WSOL MC 316.8K",
+      "pusher": "disc_3UNP"
+     },
+     {
+      "ts": "11-04 05:05:22",
+      "side": "Buy",
+      "amt": "19.8 WSOL MC 1.3M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-04 05:05:22",
+      "side": "Buy",
+      "amt": "19.8 WSOL MC 1.1M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-04 05:05:22",
+      "side": "Buy",
+      "amt": "19.8 WSOL MC 1.2M",
+      "pusher": "TheRealZrool"
      }
     ],
     "token": "RAM",
@@ -2438,6 +2506,18 @@
      }
     ],
     "token": "VETO",
+    "chain": "SOL"
+   },
+   "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": {
+    "rows": [
+     {
+      "ts": "11-04 05:05:19",
+      "side": "Buy",
+      "amt": "359.13 USDC MC 14.4M",
+      "pusher": "disc_2ZRu"
+     }
+    ],
+    "token": "RAM",
     "chain": "SOL"
    }
   }
