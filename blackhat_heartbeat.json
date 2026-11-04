@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:11:16.703090+00:00",
+ "ts": "2026-11-04T05:12:22.575828+00:00",
  "state": {
-  "last_id": 1700671,
+  "last_id": 1700674,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,7 +145,7 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 21,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 24,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
@@ -2561,6 +2561,24 @@
       "ts": "11-04 05:08:20",
       "side": "Buy",
       "amt": "2.98 WSOL MC 175.2K",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 05:11:27",
+      "side": "Buy",
+      "amt": "1.99 WSOL MC 140.5K",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 05:11:27",
+      "side": "Buy",
+      "amt": "1.99 WSOL MC 141.3K",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 05:11:28",
+      "side": "Buy",
+      "amt": "1.99 WSOL MC 134.5K",
       "pusher": "whale_URANUS24"
      }
     ],
