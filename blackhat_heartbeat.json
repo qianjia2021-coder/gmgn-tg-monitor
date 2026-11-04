@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:14:43.956915+00:00",
+ "ts": "2026-11-04T05:15:55.237679+00:00",
  "state": {
-  "last_id": 1700677,
+  "last_id": 1700681,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,13 +145,14 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 24,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 27,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
    "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 1,
    "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 4,
-   "6bsdcAsHb9zand6Eas9zdfDsLnD861FTjTbnu9Ymcc9W": 1
+   "6bsdcAsHb9zand6Eas9zdfDsLnD861FTjTbnu9Ymcc9W": 1,
+   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2582,6 +2583,24 @@
       "side": "Buy",
       "amt": "1.99 WSOL MC 134.5K",
       "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 05:15:38",
+      "side": "Buy",
+      "amt": "1.99 WSOL MC 139.2K",
+      "pusher": "Cendolnice"
+     },
+     {
+      "ts": "11-04 05:15:41",
+      "side": "Buy",
+      "amt": "4.96 WSOL MC 354.3K",
+      "pusher": "Cendolnice"
+     },
+     {
+      "ts": "11-04 05:15:46",
+      "side": "Buy",
+      "amt": "4.96 WSOL MC 362.3K",
+      "pusher": "Cendolnice"
      }
     ],
     "token": "RAM",
@@ -2705,6 +2724,18 @@
      }
     ],
     "token": "RAMTRAP",
+    "chain": "SOL"
+   },
+   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": {
+    "rows": [
+     {
+      "ts": "11-04 05:15:34",
+      "side": "Buy",
+      "amt": "2.48 WSOL MC 2M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "SLINGTOSHI",
     "chain": "SOL"
    }
   }
