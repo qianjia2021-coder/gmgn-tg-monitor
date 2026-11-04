@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:51:22.579775+00:00",
+ "ts": "2026-11-04T05:52:32.914870+00:00",
  "state": {
-  "last_id": 1700705,
+  "last_id": 1700706,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -158,7 +158,8 @@
    "F88RqqAz7ANsQ4XMn5VKs37Xvc6xbhSR6RusYuTqpump": 1,
    "5PuXxuezQHvALsbvjcB65MgTNAvCCSwxhjrbkHrHpump": 1,
    "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3,
-   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 3
+   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 3,
+   "4zWnqvsqGDcUfyYtojq3CLgFRoCuspsDqyx9SYM8pump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2925,6 +2926,18 @@
      }
     ],
     "token": "BTC",
+    "chain": "SOL"
+   },
+   "4zWnqvsqGDcUfyYtojq3CLgFRoCuspsDqyx9SYM8pump": {
+    "rows": [
+     {
+      "ts": "11-04 05:52:04",
+      "side": "Buy",
+      "amt": "2.46 WSOL MC 9M",
+      "pusher": "gh0stee"
+     }
+    ],
+    "token": "Slingmas",
     "chain": "SOL"
    }
   }
