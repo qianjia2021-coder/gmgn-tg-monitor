@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T04:59:47.460205+00:00",
+ "ts": "2026-11-04T05:00:58.331416+00:00",
  "state": {
-  "last_id": 1700635,
+  "last_id": 1700637,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -43,7 +43,7 @@
    "HdC6WeZQ1qD3F268bGBDqF6tNdbxtuUNY65QDRTypump": 1,
    "3XBgK7Y9Frdp4xytn4d5bT4oDye1p1afUSFhWNvPEEUk": 2,
    "GojcTAaaJjvG83MovnnhogiVrBxghvyogof1mey1pump": 2,
-   "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 1,
+   "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 2,
    "EwwUBT1wGJCdvfu95aGncgwYhk8nnTgByn3BkfdFpump": 1,
    "4RheSruFr8CCrdAHaEDZf1wza3um5URJLK4CZB4Spump": 1,
    "CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH": 3,
@@ -144,7 +144,8 @@
    "HWwYCfQ7zffhwyMWjPSsrrDRzLxufBdh9is2v12fpump": 1,
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
-   "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1
+   "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -897,6 +898,12 @@
       "side": "Buy",
       "amt": "1.31 WSOL MC 2.4M",
       "pusher": "luckedhub"
+     },
+     {
+      "ts": "11-04 05:00:22",
+      "side": "Buy",
+      "amt": "130.6M PEPE MC 10M",
+      "pusher": "whale_NUB2"
      }
     ],
     "token": "Groyper",
@@ -2400,6 +2407,18 @@
      }
     ],
     "token": "ANTFUN",
+    "chain": "SOL"
+   },
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": {
+    "rows": [
+     {
+      "ts": "11-04 05:00:27",
+      "side": "Buy",
+      "amt": "1.2K USDC MC 12.9M",
+      "pusher": "ResellCalendar"
+     }
+    ],
+    "token": "RAM",
     "chain": "SOL"
    }
   }
