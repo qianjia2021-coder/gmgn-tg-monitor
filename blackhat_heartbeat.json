@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:12:46.925173+00:00",
+ "ts": "2026-11-04T07:13:54.863304+00:00",
  "state": {
-  "last_id": 1700785,
+  "last_id": 1700786,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -43,7 +43,7 @@
    "HdC6WeZQ1qD3F268bGBDqF6tNdbxtuUNY65QDRTypump": 1,
    "3XBgK7Y9Frdp4xytn4d5bT4oDye1p1afUSFhWNvPEEUk": 2,
    "GojcTAaaJjvG83MovnnhogiVrBxghvyogof1mey1pump": 2,
-   "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 4,
+   "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 5,
    "EwwUBT1wGJCdvfu95aGncgwYhk8nnTgByn3BkfdFpump": 1,
    "4RheSruFr8CCrdAHaEDZf1wza3um5URJLK4CZB4Spump": 1,
    "CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH": 3,
@@ -985,6 +985,12 @@
       "side": "Buy",
       "amt": "185.54 USDC MC 2M",
       "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 07:13:31",
+      "side": "Buy",
+      "amt": "1.88 WSOL MC 1.6M",
+      "pusher": "memeqinb"
      }
     ],
     "token": "Groyper",
