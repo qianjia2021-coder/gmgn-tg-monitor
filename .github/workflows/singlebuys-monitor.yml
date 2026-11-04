@@ -1,0 +1,53 @@
+name: singlebuys-monitor
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: singlebuys
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 本机心跳检查
+        id: hb
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          HB=$(curl -s -H "Authorization: Bearer $GH_TOKEN" -H "User-Agent: gh-runner" "https://api.github.com/repos/${{ github.repository }}/commits?path=heartbeat_singlebuys.txt&per_page=1" | python3 -c "import sys,json;d=json.load(sys.stdin);print(d[0]['commit']['committer']['date'] if d else '')" 2>/dev/null || echo "")
+          if [ -z "$HB" ]; then
+            echo "无心跳文件 → 云端接管"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          AGE=$(( $(date +%s) - $(date -d "$HB" +%s) ))
+          echo "本机心跳距今 ${AGE}s"
+          if [ "$AGE" -lt 120 ]; then
+            echo "本机在线，云端本轮跳过"
+            echo "takeover=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "本机已关机/无响应，云端接管"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.hb.outputs.takeover == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.hb.outputs.takeover == 'true'
+        with:
+          python-version: '3.11'
+      - run: pip install telethon
+        if: steps.hb.outputs.takeover == 'true'
+      - name: Run singlebuys monitor (cloud takeover)
+        if: steps.hb.outputs.takeover == 'true'
+        env:
+          SB_TG_API_ID: ${{ secrets.SB_TG_API_ID }}
+          SB_TG_API_HASH: ${{ secrets.SB_TG_API_HASH }}
+          SB_TG_STRING_SESSION: ${{ secrets.MOODENG_TG_STRING_SESSION }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 把 cloud_singlebuys.py 从仓库读入
+          curl -s -H "Authorization: Bearer $GITHUB_TOKEN" -H "User-Agent: gh-runner" "https://api.github.com/repos/${{ github.repository }}/contents/cloud_singlebuys.py" | python3 -c "import sys,json,base64;print(base64.b64decode(json.load(sys.stdin)['content']).decode())" > cloud_singlebuys.py
+          python3 cloud_singlebuys.py
