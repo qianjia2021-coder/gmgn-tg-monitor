@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T08:08:01.371707+00:00",
+ "ts": "2026-11-04T08:09:07.068672+00:00",
  "state": {
-  "last_id": 1700825,
+  "last_id": 1700826,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 2,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -74,7 +74,7 @@
    "FR1RCwyGp6JAZTZVTQnF9dTbe9i33t4KmUSwWUrQpump": 1,
    "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 7,
    "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp": 1,
-   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1,
+   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 2,
    "KxwAdKe6GKv6BExpP3HAnBd5k22d2jbqNXebgD5pump": 1,
    "96i4iThgUK4FHGsg2epNEwtr6L42b1hFr7kCYvtzpump": 1,
    "DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1,
@@ -1480,6 +1480,12 @@
       "side": "Buy",
       "amt": "0.42676 XMR MC 11.5M",
       "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-04 08:08:45",
+      "side": "Buy",
+      "amt": "641.04 USDC MC 10.5M",
+      "pusher": "Putrickk"
      }
     ],
     "token": "OMBRO",
