@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:20:06.309111+00:00",
+ "ts": "2026-11-04T06:21:17.830103+00:00",
  "state": {
-  "last_id": 1700743,
+  "last_id": 1700747,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -14,7 +14,7 @@
    "EknQaH72GW4JqkBSQwWUKY3jFeZensW3tsR1n4Ztpump": 1,
    "ribmbWE15MZVbr2CzQPxLo1S1jQvbeiSRR3qY9QKzGv": 1,
    "4NfS75GSBHtvFCej5WPUtiMYRienBeRhZjWzmPSGD5uu": 1,
-   "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 5,
+   "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 6,
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 5,
    "9nGfUi5yiSAjEofHZCPaGaUAPQ7HGVGpzvsWdHsNpump": 1,
    "8X2EfAm87d4bwyUzdH6F6EQ1ionR4aT3GBeg4MXzpump": 1,
@@ -134,7 +134,7 @@
    "6f7je1r8HUJ6hsBTHRhVhGqZPRguFMxq83Sv84ELpump": 1,
    "6jn6w3CkfQqNhu23cs76xdFjj93RRDxbtThQ14P1pump": 2,
    "o1KpsBuRa5apJtg7Ayapza19k7r68YRPEBc162jpump": 1,
-   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 4,
+   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 5,
    "32gAe266hHvS5g76YPTqmBF11n9ptvB4ALGxkDqpLX1q": 2,
    "AsQCfJtCgRcPWLUu1fDvwwvXwmJUBhDXFHK533s5JPJJ": 1,
    "573DefgpFQMGDaVLLmFEVMo295Y7cWtPnYJEPHy1pump": 1,
@@ -168,7 +168,7 @@
    "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
    "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1,
    "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 2,
-   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 14,
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 16,
    "5Gs9gdV6UqYRT5mFbv2zN22sfn7PyaNzWGb7XngGpump": 1,
    "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 3,
    "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": 1,
@@ -370,6 +370,12 @@
       "side": "Buy",
       "amt": "288.61 USDC MC 51.79",
       "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-04 06:20:39",
+      "side": "Buy",
+      "amt": "137.18 USDC MC 24.53",
+      "pusher": "Limfork"
      }
     ],
     "token": "DJT",
@@ -2332,6 +2338,12 @@
       "side": "Buy",
       "amt": "452.83 USDC MC 1.7M",
       "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-04 06:20:39",
+      "side": "Buy",
+      "amt": "24.52 DJT MC 445.6K",
+      "pusher": "Limfork"
      }
     ],
     "token": "VETO",
@@ -3183,6 +3195,18 @@
       "ts": "11-04 06:19:50",
       "side": "Buy",
       "amt": "2.12 WSOL MC 775.3K",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:20:34",
+      "side": "Buy",
+      "amt": "1.85 WSOL MC 604K",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:20:54",
+      "side": "Buy",
+      "amt": "1.62 WSOL MC 556.9K",
       "pusher": "disc_2AWs"
      }
     ],
