@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:49:57.915495+00:00",
+ "ts": "2026-11-04T06:51:34.195225+00:00",
  "state": {
-  "last_id": 1700765,
+  "last_id": 1700767,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -180,7 +180,9 @@
    "8djG15hUCgQ3x992CqDj5YKu79Xzinw83cpULvwwpump": 1,
    "HmHTsc73EywNyEdjo4NkB9cYpJDaHiZzSzJ9VW7Zpump": 1,
    "Gggu4fAhQgbzKdXT8jafKJXNp2LgyUdtpE5d7wgNpump": 1,
-   "8eQTCobfXWSGtz12Fn5QzmcBSH5iRBjef1yQPF6Npump": 1
+   "8eQTCobfXWSGtz12Fn5QzmcBSH5iRBjef1yQPF6Npump": 1,
+   "78fWB6aN8RTLBdmpBLApLa8gK2VpGTjagJ7sqJacpump": 1,
+   "Ajqo3AC4DevGsLF88qwwaRLsu56m67PYHgaP4ctNYACd": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3411,6 +3413,30 @@
      }
     ],
     "token": "Guajira",
+    "chain": "SOL"
+   },
+   "78fWB6aN8RTLBdmpBLApLa8gK2VpGTjagJ7sqJacpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:49:56",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 32.4M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "SPED",
+    "chain": "SOL"
+   },
+   "Ajqo3AC4DevGsLF88qwwaRLsu56m67PYHgaP4ctNYACd": {
+    "rows": [
+     {
+      "ts": "11-04 06:50:54",
+      "side": "Buy",
+      "amt": "2.33 WSOL MC 5M",
+      "pusher": "gh0stee"
+     }
+    ],
+    "token": "STARMIND",
     "chain": "SOL"
    }
   }
