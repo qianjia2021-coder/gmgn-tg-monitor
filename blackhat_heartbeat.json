@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:51:34.195225+00:00",
+ "ts": "2026-11-04T06:55:12.040170+00:00",
  "state": {
-  "last_id": 1700767,
+  "last_id": 1700771,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -182,7 +182,9 @@
    "Gggu4fAhQgbzKdXT8jafKJXNp2LgyUdtpE5d7wgNpump": 1,
    "8eQTCobfXWSGtz12Fn5QzmcBSH5iRBjef1yQPF6Npump": 1,
    "78fWB6aN8RTLBdmpBLApLa8gK2VpGTjagJ7sqJacpump": 1,
-   "Ajqo3AC4DevGsLF88qwwaRLsu56m67PYHgaP4ctNYACd": 1
+   "Ajqo3AC4DevGsLF88qwwaRLsu56m67PYHgaP4ctNYACd": 1,
+   "4J7U6bjM1FkFAyD6NsyJKD97FWe6JNM8JsUwydREpump": 1,
+   "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -214,7 +216,8 @@
    "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3,
    "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 3,
    "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 3,
-   "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 3
+   "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 3,
+   "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -3437,6 +3440,42 @@
      }
     ],
     "token": "STARMIND",
+    "chain": "SOL"
+   },
+   "4J7U6bjM1FkFAyD6NsyJKD97FWe6JNM8JsUwydREpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:51:29",
+      "side": "Buy",
+      "amt": "137.11 USDC MC 20.9M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "OI",
+    "chain": "SOL"
+   },
+   "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": {
+    "rows": [
+     {
+      "ts": "11-04 06:52:45",
+      "side": "Buy",
+      "amt": "249.29 USDC MC 0.19528",
+      "pusher": "whale_SPX2"
+     },
+     {
+      "ts": "11-04 06:52:45",
+      "side": "Buy",
+      "amt": "498.26 USDC MC 0.39044",
+      "pusher": "whale_SPX2"
+     },
+     {
+      "ts": "11-04 06:52:45",
+      "side": "Buy",
+      "amt": "809.52 USDC MC 0.63387",
+      "pusher": "whale_SPX2"
+     }
+    ],
+    "token": "ZEC",
     "chain": "SOL"
    }
   }
