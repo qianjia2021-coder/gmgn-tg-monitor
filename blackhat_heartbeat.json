@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:31:42.128939+00:00",
+ "ts": "2026-11-04T07:32:50.364114+00:00",
  "state": {
-  "last_id": 1700795,
+  "last_id": 1700796,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -199,7 +199,7 @@
    "BbJfrpVT9stPHaXTzdGtjyf5qX4fjanAZtzJ2Pf1pump": 1,
    "6KZcYid8TQKz4FtR4nshPUioQtqaQzi4Z4jwUYakpump": 1,
    "DambCKPMaXdqQhsWaT1nnGUL88zHoCCFpBy1sA5Fpump": 1,
-   "9t8toD44YPFv5QcnCi56FTybpGnHeVrPk3Hwmxsxpump": 2
+   "9t8toD44YPFv5QcnCi56FTybpGnHeVrPk3Hwmxsxpump": 3
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -233,7 +233,8 @@
    "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 3,
    "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 3,
    "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3,
-   "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 3
+   "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 3,
+   "9t8toD44YPFv5QcnCi56FTybpGnHeVrPk3Hwmxsxpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -3722,6 +3723,12 @@
       "ts": "11-04 07:29:57",
       "side": "Buy",
       "amt": "1.47 WSOL MC 11M",
+      "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 07:32:37",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 9.4M",
       "pusher": "Ramsetx"
      }
     ],
