@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:59:58.256559+00:00",
+ "ts": "2026-11-04T07:01:08.778257+00:00",
  "state": {
-  "last_id": 1700777,
+  "last_id": 1700778,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -187,7 +187,8 @@
    "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3,
    "8ebks9ECo9omHR1EL1Aa2UfD7YnW1tHTPuL4VzcEpump": 2,
    "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 1,
-   "8efxkRzjAHCfwahitHmiwENntrbFUddzbNToMxmZpump": 1
+   "8efxkRzjAHCfwahitHmiwENntrbFUddzbNToMxmZpump": 1,
+   "HjUWqS5w1rtD6widqXwkbzPVFSn2qLHbXRRmNKQzpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3533,6 +3534,18 @@
      }
     ],
     "token": "MEMES",
+    "chain": "SOL"
+   },
+   "HjUWqS5w1rtD6widqXwkbzPVFSn2qLHbXRRmNKQzpump": {
+    "rows": [
+     {
+      "ts": "11-04 07:00:37",
+      "side": "Buy",
+      "amt": "3.42 WSOL MC 33.1M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "BOW",
     "chain": "SOL"
    }
   }
