@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:35:25.971421+00:00",
+ "ts": "2026-11-04T07:36:32.990650+00:00",
  "state": {
-  "last_id": 1700799,
+  "last_id": 1700800,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -200,7 +200,7 @@
    "6KZcYid8TQKz4FtR4nshPUioQtqaQzi4Z4jwUYakpump": 1,
    "DambCKPMaXdqQhsWaT1nnGUL88zHoCCFpBy1sA5Fpump": 2,
    "9t8toD44YPFv5QcnCi56FTybpGnHeVrPk3Hwmxsxpump": 4,
-   "23TUxpM25XJkGUhkFtadYsJ2bp8Mw5PJQ5FC8kijpump": 1
+   "23TUxpM25XJkGUhkFtadYsJ2bp8Mw5PJQ5FC8kijpump": 2
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3755,6 +3755,12 @@
       "side": "Buy",
       "amt": "1.96 WSOL MC 34.5M",
       "pusher": "trunoest"
+     },
+     {
+      "ts": "11-04 07:36:30",
+      "side": "Buy",
+      "amt": "1.58 WSOL MC 22.3M",
+      "pusher": "gh0stee"
      }
     ],
     "token": "WMV",
