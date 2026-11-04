@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T04:57:28.611479+00:00",
+ "ts": "2026-11-04T04:58:35.488631+00:00",
  "state": {
-  "last_id": 1700632,
+  "last_id": 1700633,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -141,7 +141,8 @@
    "7FSQGUnsucce93nBUnqg9YfEd4iYuaNBhz519Saypump": 1,
    "3BHazepBWw7zTQK4QqEe22V4tBv2uDSaWYPvXXyfLoat": 1,
    "GH4MMrcjTcmF6oPwL6kSuecw1aHSUBPUJeckyyf37Mz8": 1,
-   "HWwYCfQ7zffhwyMWjPSsrrDRzLxufBdh9is2v12fpump": 1
+   "HWwYCfQ7zffhwyMWjPSsrrDRzLxufBdh9is2v12fpump": 1,
+   "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2361,6 +2362,18 @@
      }
     ],
     "token": "Gloop",
+    "chain": "SOL"
+   },
+   "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": {
+    "rows": [
+     {
+      "ts": "11-04 04:58:34",
+      "side": "Buy",
+      "amt": "1.22 WSOL MC 29.6M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "Fword",
     "chain": "SOL"
    }
   }
