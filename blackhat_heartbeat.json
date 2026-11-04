@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:10:08.296699+00:00",
+ "ts": "2026-11-04T05:11:16.703090+00:00",
  "state": {
-  "last_id": 1700669,
+  "last_id": 1700671,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -149,7 +149,8 @@
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
-   "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 1
+   "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 1,
+   "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 2
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2642,6 +2643,24 @@
      }
     ],
     "token": "OPENAI",
+    "chain": "SOL"
+   },
+   "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": {
+    "rows": [
+     {
+      "ts": "11-04 05:10:25",
+      "side": "Buy",
+      "amt": "1.64 WSOL MC 7.9M",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-04 05:10:33",
+      "side": "Buy",
+      "amt": "2.64 WSOL MC 10.3M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "RAM",
     "chain": "SOL"
    }
   }
