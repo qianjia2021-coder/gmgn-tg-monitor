@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T04:53:58.858116+00:00",
+ "ts": "2026-11-04T04:55:10.928504+00:00",
  "state": {
-  "last_id": 1700630,
+  "last_id": 1700631,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -139,7 +139,8 @@
    "AsQCfJtCgRcPWLUu1fDvwwvXwmJUBhDXFHK533s5JPJJ": 1,
    "573DefgpFQMGDaVLLmFEVMo295Y7cWtPnYJEPHy1pump": 1,
    "7FSQGUnsucce93nBUnqg9YfEd4iYuaNBhz519Saypump": 1,
-   "3BHazepBWw7zTQK4QqEe22V4tBv2uDSaWYPvXXyfLoat": 1
+   "3BHazepBWw7zTQK4QqEe22V4tBv2uDSaWYPvXXyfLoat": 1,
+   "GH4MMrcjTcmF6oPwL6kSuecw1aHSUBPUJeckyyf37Mz8": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2332,6 +2333,18 @@
       "side": "Buy",
       "amt": "239.16 USDC MC 4.1M",
       "pusher": "TobxG"
+     }
+    ],
+    "token": "VETO",
+    "chain": "SOL"
+   },
+   "GH4MMrcjTcmF6oPwL6kSuecw1aHSUBPUJeckyyf37Mz8": {
+    "rows": [
+     {
+      "ts": "11-04 04:54:48",
+      "side": "Buy",
+      "amt": "227.86 USDC MC 10.6M",
+      "pusher": "TheRealZrool"
      }
     ],
     "token": "VETO",
