@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:44:18.998125+00:00",
+ "ts": "2026-11-04T07:45:32.760985+00:00",
  "state": {
-  "last_id": 1700807,
+  "last_id": 1700809,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -204,7 +204,9 @@
    "8fivA3o2tNZs8VsQrLh47Z9CUvfhboYxaPg7cPaRpump": 2,
    "8fvfmox1Nski3z9kKCkmfsnePSemHPdKchLnVHWUpump": 2,
    "wqq7iMykHXZqMrReBKM73WPbAjdcfkkrYMuNE6Mpump": 1,
-   "HAfiaFVTPHbsdpXbu6whTEhkWnswHcrMtrpBQV9Cpump": 1
+   "HAfiaFVTPHbsdpXbu6whTEhkWnswHcrMtrpBQV9Cpump": 1,
+   "9fDKaaMNTt1YfGg4mpfqubZ1UpmDKRSHG2bfL63FGiNw": 1,
+   "9ueEeBuYUc9X1GrNCyWHbKGnHJq1kaD2nvDapDsMpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3835,6 +3837,30 @@
      }
     ],
     "token": "AI",
+    "chain": "SOL"
+   },
+   "9fDKaaMNTt1YfGg4mpfqubZ1UpmDKRSHG2bfL63FGiNw": {
+    "rows": [
+     {
+      "ts": "11-04 07:45:01",
+      "side": "Buy",
+      "amt": "1.29 WSOL MC 1.9M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "X",
+    "chain": "SOL"
+   },
+   "9ueEeBuYUc9X1GrNCyWHbKGnHJq1kaD2nvDapDsMpump": {
+    "rows": [
+     {
+      "ts": "11-04 07:45:20",
+      "side": "Buy",
+      "amt": "3.42 WSOL MC 23.3M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "DMOTH",
     "chain": "SOL"
    }
   }
