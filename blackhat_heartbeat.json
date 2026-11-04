@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:55:12.040170+00:00",
+ "ts": "2026-11-04T06:56:20.564256+00:00",
  "state": {
-  "last_id": 1700771,
+  "last_id": 1700773,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -184,7 +184,8 @@
    "78fWB6aN8RTLBdmpBLApLa8gK2VpGTjagJ7sqJacpump": 1,
    "Ajqo3AC4DevGsLF88qwwaRLsu56m67PYHgaP4ctNYACd": 1,
    "4J7U6bjM1FkFAyD6NsyJKD97FWe6JNM8JsUwydREpump": 1,
-   "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3
+   "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3,
+   "8ebks9ECo9omHR1EL1Aa2UfD7YnW1tHTPuL4VzcEpump": 2
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3476,6 +3477,24 @@
      }
     ],
     "token": "ZEC",
+    "chain": "SOL"
+   },
+   "8ebks9ECo9omHR1EL1Aa2UfD7YnW1tHTPuL4VzcEpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:54:11",
+      "side": "Buy",
+      "amt": "116.69 USDC MC 21.8M",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-04 06:54:11",
+      "side": "Buy",
+      "amt": "116.69 USDC MC 21.8M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "TIT",
     "chain": "SOL"
    }
   }
