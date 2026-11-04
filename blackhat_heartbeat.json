@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:18:35.712692+00:00",
+ "ts": "2026-11-04T07:19:40.477302+00:00",
  "state": {
-  "last_id": 1700787,
+  "last_id": 1700789,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -193,7 +193,9 @@
    "8evWeiUdC2Ra1At53HHnfdEmJNq8jEQGfwc91NZ5pump": 1,
    "BQvpyazpBPvAFdHSjA8bfMVvSN1CJorjJ2GAGppapump": 2,
    "A9KhafefkNp1PSscFhY4uCVPmafKRYNGTwNJXXPkpump": 1,
-   "ELG2WX7c67AFEbPRUqz6AP8m9xA1eaSXxNGtVA2qpump": 1
+   "ELG2WX7c67AFEbPRUqz6AP8m9xA1eaSXxNGtVA2qpump": 1,
+   "9SHAZjtEXgeHF6rWnnY5nfGkAgj98cnciDjy7PnbvE5n": 1,
+   "UPSqUeMHcWbkdg784XuBUEF9DtySSnW9ur5LAVdcuB9": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3635,6 +3637,30 @@
      }
     ],
     "token": "SI",
+    "chain": "SOL"
+   },
+   "9SHAZjtEXgeHF6rWnnY5nfGkAgj98cnciDjy7PnbvE5n": {
+    "rows": [
+     {
+      "ts": "11-04 07:19:35",
+      "side": "Buy",
+      "amt": "103.2 USDC MC 30.5M",
+      "pusher": "Sunnyikes"
+     }
+    ],
+    "token": "P",
+    "chain": "SOL"
+   },
+   "UPSqUeMHcWbkdg784XuBUEF9DtySSnW9ur5LAVdcuB9": {
+    "rows": [
+     {
+      "ts": "11-04 07:19:35",
+      "side": "Buy",
+      "amt": "103.2 USDC MC 0.94807",
+      "pusher": "Sunnyikes"
+     }
+    ],
+    "token": "UPS",
     "chain": "SOL"
    }
   }
