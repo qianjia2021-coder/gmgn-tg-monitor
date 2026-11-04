@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T04:15:59.528343+00:00",
+ "ts": "2026-11-04T04:17:10.180214+00:00",
  "state": {
-  "last_id": 1700577,
+  "last_id": 1700581,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -39,7 +39,7 @@
    "9jij8AHifguytfKMAvLrdJ6xnBaGvUaBf2rGt31Spump": 1,
    "CsHquZCWQyrfuUX3irv8avsa8MNrtfqHeL3rgEdNpump": 1,
    "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 3,
-   "FicTXnzYTUSA3ahseJQ5RMroB2Fr2kqZ2WqPnJDnpump": 4,
+   "FicTXnzYTUSA3ahseJQ5RMroB2Fr2kqZ2WqPnJDnpump": 6,
    "HdC6WeZQ1qD3F268bGBDqF6tNdbxtuUNY65QDRTypump": 1,
    "3XBgK7Y9Frdp4xytn4d5bT4oDye1p1afUSFhWNvPEEUk": 2,
    "GojcTAaaJjvG83MovnnhogiVrBxghvyogof1mey1pump": 2,
@@ -114,7 +114,9 @@
    "9fEcN2Aj79yx1DeNnxSFDTVgJxu7znp3bjTUtMW4pump": 1,
    "2EyFXKDBt881isZeCxw8HtqLQqnXEQ1kQpj3KRJ8pump": 1,
    "HJm3HVGQu7ZdWFdc79B5SJodSF9DWgxUHXQ2oBi5pump": 1,
-   "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": 1
+   "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": 1,
+   "Cp738GtZr7yCPu5FUmYTigW2comsuSAXjiGxwS3Gpump": 1,
+   "6jqkEnJbB9v9QHorRsDscaQ6EPutJwWWpks1ZTevpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -752,6 +754,18 @@
       "ts": "11-04 02:49:05",
       "side": "Buy",
       "amt": "4.89 WSOL MC 22.2M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-04 04:17:04",
+      "side": "Buy",
+      "amt": "4.93 WSOL MC 17M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-04 04:17:06",
+      "side": "Buy",
+      "amt": "4.93 WSOL MC 14.8M",
       "pusher": "disc_3JD7"
      }
     ],
@@ -1836,6 +1850,30 @@
      }
     ],
     "token": "MeiMei",
+    "chain": "SOL"
+   },
+   "Cp738GtZr7yCPu5FUmYTigW2comsuSAXjiGxwS3Gpump": {
+    "rows": [
+     {
+      "ts": "11-04 04:16:49",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 79.7M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "BlueAnon",
+    "chain": "SOL"
+   },
+   "6jqkEnJbB9v9QHorRsDscaQ6EPutJwWWpks1ZTevpump": {
+    "rows": [
+     {
+      "ts": "11-04 04:16:55",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 33.8M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "ONLY/UP",
     "chain": "SOL"
    }
   }
