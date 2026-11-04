@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:11:31.325818+00:00",
+ "ts": "2026-11-04T07:12:46.925173+00:00",
  "state": {
-  "last_id": 1700784,
+  "last_id": 1700785,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -191,7 +191,8 @@
    "HjUWqS5w1rtD6widqXwkbzPVFSn2qLHbXRRmNKQzpump": 1,
    "5XsGvzqH1V5o7G6eTtQkb442AHisDjTuVULt5oHCpump": 1,
    "8evWeiUdC2Ra1At53HHnfdEmJNq8jEQGfwc91NZ5pump": 1,
-   "BQvpyazpBPvAFdHSjA8bfMVvSN1CJorjJ2GAGppapump": 2
+   "BQvpyazpBPvAFdHSjA8bfMVvSN1CJorjJ2GAGppapump": 2,
+   "A9KhafefkNp1PSscFhY4uCVPmafKRYNGTwNJXXPkpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3603,6 +3604,18 @@
      }
     ],
     "token": "dih",
+    "chain": "SOL"
+   },
+   "A9KhafefkNp1PSscFhY4uCVPmafKRYNGTwNJXXPkpump": {
+    "rows": [
+     {
+      "ts": "11-04 07:12:05",
+      "side": "Buy",
+      "amt": "547.63 USDC MC 15.5M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "HYDRO",
     "chain": "SOL"
    }
   }
