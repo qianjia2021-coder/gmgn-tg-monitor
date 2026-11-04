@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T04:55:10.928504+00:00",
+ "ts": "2026-11-04T04:56:21.682146+00:00",
  "state": {
-  "last_id": 1700631,
+  "last_id": 1700632,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -140,7 +140,8 @@
    "573DefgpFQMGDaVLLmFEVMo295Y7cWtPnYJEPHy1pump": 1,
    "7FSQGUnsucce93nBUnqg9YfEd4iYuaNBhz519Saypump": 1,
    "3BHazepBWw7zTQK4QqEe22V4tBv2uDSaWYPvXXyfLoat": 1,
-   "GH4MMrcjTcmF6oPwL6kSuecw1aHSUBPUJeckyyf37Mz8": 1
+   "GH4MMrcjTcmF6oPwL6kSuecw1aHSUBPUJeckyyf37Mz8": 1,
+   "HWwYCfQ7zffhwyMWjPSsrrDRzLxufBdh9is2v12fpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2348,6 +2349,18 @@
      }
     ],
     "token": "VETO",
+    "chain": "SOL"
+   },
+   "HWwYCfQ7zffhwyMWjPSsrrDRzLxufBdh9is2v12fpump": {
+    "rows": [
+     {
+      "ts": "11-04 04:55:23",
+      "side": "Buy",
+      "amt": "1 SOL MC 22.9M",
+      "pusher": "VeloceSVJ"
+     }
+    ],
+    "token": "Gloop",
     "chain": "SOL"
    }
   }
