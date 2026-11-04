@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:09:41.291307+00:00",
+ "ts": "2026-11-04T06:10:48.233734+00:00",
  "state": {
-  "last_id": 1700720,
+  "last_id": 1700721,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -165,7 +165,8 @@
    "6fxue81EmbLBeUFe4dnNYdqPgZQeGY2Q4Bi52m3Upump": 2,
    "GBzLJmDdjpaVnjZdZDq5LKSuraYWcFXZBk7uM2aJpump": 1,
    "3EYkadvMT7BmPZ6Tw36ctLpDYDHspD7oj9qnu3rfLoat": 1,
-   "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1
+   "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
+   "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3058,6 +3059,18 @@
      }
     ],
     "token": "POLSIA",
+    "chain": "SOL"
+   },
+   "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:10:34",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 47.7M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "Jewnald",
     "chain": "SOL"
    }
   }
