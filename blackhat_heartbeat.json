@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:44:07.647505+00:00",
+ "ts": "2026-11-04T06:45:20.745693+00:00",
  "state": {
-  "last_id": 1700763,
+  "last_id": 1700764,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -178,7 +178,8 @@
    "7HVJLqTso8XDpR76exrzZ62oLhjzxhgeRTCfL4BkEZ77": 2,
    "8ZSui6xyBJpu8gWny98cTM6JWKYo6jm69SeWWvYbpump": 1,
    "8djG15hUCgQ3x992CqDj5YKu79Xzinw83cpULvwwpump": 1,
-   "HmHTsc73EywNyEdjo4NkB9cYpJDaHiZzSzJ9VW7Zpump": 1
+   "HmHTsc73EywNyEdjo4NkB9cYpJDaHiZzSzJ9VW7Zpump": 1,
+   "Gggu4fAhQgbzKdXT8jafKJXNp2LgyUdtpE5d7wgNpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3385,6 +3386,18 @@
      }
     ],
     "token": "AI1",
+    "chain": "SOL"
+   },
+   "Gggu4fAhQgbzKdXT8jafKJXNp2LgyUdtpE5d7wgNpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:45:08",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 24.6M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "AMD",
     "chain": "SOL"
    }
   }
