@@ -1,10 +1,10 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:51:39.055100+00:00",
+ "ts": "2026-11-04T07:52:45.709271+00:00",
  "state": {
-  "last_id": 1700818,
+  "last_id": 1700821,
   "counts": {
-   "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
+   "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 2,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
    "5BRSr9etRiR9GQEHk6whFPQinhTi8ab5X26p4M8Lpump": 1,
    "2zZUzCHj3ZGQibwKD44R7cTD3tV2WBevbK6d3tmspump": 1,
@@ -208,10 +208,10 @@
    "9fDKaaMNTt1YfGg4mpfqubZ1UpmDKRSHG2bfL63FGiNw": 1,
    "9ueEeBuYUc9X1GrNCyWHbKGnHJq1kaD2nvDapDsMpump": 1,
    "GxXQHp29d2xsVrfaf9p1TiFrDSWyPDPqxGgeEP9jZNUB": 1,
-   "57NTXnoGkFzhCvJGjXhCxp4WmVEhhLa9273fLNngpump": 1,
+   "57NTXnoGkFzhCvJGjXhCxp4WmVEhhLa9273fLNngpump": 2,
    "DJwkfximjR4dMwLEStBGbERNQvcXrYLhtrC1snZ7CSCX": 1,
    "8g2BeYB8AMXEuZw36fj6nAisvhzFZRRDcuGvRgoCpump": 1,
-   "FQE9h4fL65oDHMsR2MHcSe6d6DF4hFrFarsQQkVJpump": 2,
+   "FQE9h4fL65oDHMsR2MHcSe6d6DF4hFrFarsQQkVJpump": 3,
    "G8yK8JLEaRtW4P2knDpBGuf2pdEFYv7xyNfCyyNvrws7": 1
   },
   "pushed": {
@@ -248,7 +248,8 @@
    "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3,
    "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 3,
    "9t8toD44YPFv5QcnCi56FTybpGnHeVrPk3Hwmxsxpump": 3,
-   "23TUxpM25XJkGUhkFtadYsJ2bp8Mw5PJQ5FC8kijpump": 3
+   "23TUxpM25XJkGUhkFtadYsJ2bp8Mw5PJQ5FC8kijpump": 3,
+   "FQE9h4fL65oDHMsR2MHcSe6d6DF4hFrFarsQQkVJpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -258,6 +259,12 @@
       "side": "Buy",
       "amt": "1.59 WSOL MC 13M",
       "pusher": "gh0stee"
+     },
+     {
+      "ts": "11-04 07:52:19",
+      "side": "Buy",
+      "amt": "1.05 WSOL MC 25.6M",
+      "pusher": "Putrickk"
      }
     ],
     "token": "SR",
@@ -3888,6 +3895,12 @@
       "side": "Buy",
       "amt": "2.44 WSOL MC 32.2M",
       "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 07:52:20",
+      "side": "Buy",
+      "amt": "2.64 WSOL MC 19.3M",
+      "pusher": "gh0stee"
      }
     ],
     "token": "enu",
@@ -3929,6 +3942,12 @@
       "ts": "11-04 07:48:13",
       "side": "Buy",
       "amt": "1.7 WSOL MC 1M",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-04 07:52:36",
+      "side": "Buy",
+      "amt": "1.76 WSOL MC 1.6M",
       "pusher": "Putrickk"
      }
     ],
