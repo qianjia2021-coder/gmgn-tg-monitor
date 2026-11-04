@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:05:10.154234+00:00",
+ "ts": "2026-11-04T06:06:16.754132+00:00",
  "state": {
-  "last_id": 1700717,
+  "last_id": 1700718,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -162,7 +162,7 @@
    "4zWnqvsqGDcUfyYtojq3CLgFRoCuspsDqyx9SYM8pump": 2,
    "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1,
    "BeGY8KqKxboEwRbJd1q9H2K829jS4Rc5dEyNMYXCbV5p": 1,
-   "6fxue81EmbLBeUFe4dnNYdqPgZQeGY2Q4Bi52m3Upump": 1,
+   "6fxue81EmbLBeUFe4dnNYdqPgZQeGY2Q4Bi52m3Upump": 2,
    "GBzLJmDdjpaVnjZdZDq5LKSuraYWcFXZBk7uM2aJpump": 1
   },
   "pushed": {
@@ -3010,6 +3010,12 @@
       "ts": "11-04 06:03:38",
       "side": "Buy",
       "amt": "2.44 WSOL MC 48.1M",
+      "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 06:05:53",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 34.2M",
       "pusher": "Ramsetx"
      }
     ],
