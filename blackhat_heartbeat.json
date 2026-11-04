@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:40:38.945756+00:00",
+ "ts": "2026-11-04T05:41:47.502142+00:00",
  "state": {
-  "last_id": 1700702,
+  "last_id": 1700703,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -152,7 +152,7 @@
    "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 1,
    "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 4,
    "6bsdcAsHb9zand6Eas9zdfDsLnD861FTjTbnu9Ymcc9W": 1,
-   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 3,
+   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 4,
    "8Vn8V5YwcQ5KmJjyVybGkGb4vEAvwEnzFeZ9JtKzpump": 1,
    "Gr6eqzyT1AmfNK9cEvLc28rKYQay1zL2S3kk9KGgpump": 1,
    "F88RqqAz7ANsQ4XMn5VKs37Xvc6xbhSR6RusYuTqpump": 1,
@@ -2807,6 +2807,12 @@
       "ts": "11-04 05:37:54",
       "side": "Buy",
       "amt": "2.9 WSOL MC 780.4K",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-04 05:41:41",
+      "side": "Buy",
+      "amt": "1.75 WSOL MC 576.2K",
       "pusher": "Putrickk"
      }
     ],
