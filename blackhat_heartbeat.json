@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:29:18.088822+00:00",
+ "ts": "2026-11-04T06:32:52.027924+00:00",
  "state": {
-  "last_id": 1700753,
+  "last_id": 1700760,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,7 +145,7 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 2,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 41,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 45,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
@@ -168,14 +168,14 @@
    "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
    "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1,
    "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 2,
-   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 19,
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 20,
    "5Gs9gdV6UqYRT5mFbv2zN22sfn7PyaNzWGb7XngGpump": 1,
    "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 3,
    "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": 1,
    "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1,
    "47pFfWYEDUjrLyaTvQwttpgmKJrZihW3apVWnPZpwg3M": 1,
-   "GHGuhBEV66DMVCZaUGzxD3NKDSu78zX9edcH9wPEpump": 1,
-   "7HVJLqTso8XDpR76exrzZ62oLhjzxhgeRTCfL4BkEZ77": 1
+   "GHGuhBEV66DMVCZaUGzxD3NKDSu78zX9edcH9wPEpump": 2,
+   "7HVJLqTso8XDpR76exrzZ62oLhjzxhgeRTCfL4BkEZ77": 2
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2487,30 +2487,6 @@
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": {
     "rows": [
      {
-      "ts": "11-04 05:05:08",
-      "side": "Buy",
-      "amt": "4.96 WSOL MC 984.9K",
-      "pusher": "theonomix"
-     },
-     {
-      "ts": "11-04 05:05:08",
-      "side": "Buy",
-      "amt": "4.96 WSOL MC 913.3K",
-      "pusher": "theonomix"
-     },
-     {
-      "ts": "11-04 05:05:09",
-      "side": "Buy",
-      "amt": "1.39 WSOL MC 254.8K",
-      "pusher": "theonomix"
-     },
-     {
-      "ts": "11-04 05:05:11",
-      "side": "Buy",
-      "amt": "1.39 WSOL MC 195.4K",
-      "pusher": "theonomix"
-     },
-     {
       "ts": "11-04 05:05:11",
       "side": "Buy",
       "amt": "1.39 WSOL MC 197.5K",
@@ -2725,6 +2701,30 @@
       "side": "Buy",
       "amt": "2.97 WSOL MC 314K",
       "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 06:29:26",
+      "side": "Buy",
+      "amt": "2.98 WSOL MC 354.6K",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 06:29:33",
+      "side": "Buy",
+      "amt": "2.98 WSOL MC 359.4K",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 06:29:39",
+      "side": "Buy",
+      "amt": "2.98 WSOL MC 360.6K",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 06:29:56",
+      "side": "Buy",
+      "amt": "1.98 WSOL MC 236.1K",
+      "pusher": "whale_URANUS24"
      }
     ],
     "token": "RAM",
@@ -3229,6 +3229,12 @@
       "side": "Buy",
       "amt": "1.18 WSOL MC 357.5K",
       "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:30:34",
+      "side": "Buy",
+      "amt": "1.08 WSOL MC 330.8K",
+      "pusher": "disc_2AWs"
      }
     ],
     "token": "SLINGTOSHI",
@@ -3313,6 +3319,12 @@
       "side": "Buy",
       "amt": "1.29 SOL MC 16.2M",
       "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 06:32:32",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 36M",
+      "pusher": "Ramsetx"
      }
     ],
     "token": "lasers",
@@ -3324,6 +3336,12 @@
       "ts": "11-04 06:29:09",
       "side": "Buy",
       "amt": "1.47 WSOL MC 28.8M",
+      "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 06:31:05",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 56.2M",
       "pusher": "Ramsetx"
      }
     ],
