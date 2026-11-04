@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:05:45.888731+00:00",
+ "ts": "2026-11-04T07:06:55.057436+00:00",
  "state": {
-  "last_id": 1700780,
+  "last_id": 1700781,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -189,7 +189,8 @@
    "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 1,
    "8efxkRzjAHCfwahitHmiwENntrbFUddzbNToMxmZpump": 1,
    "HjUWqS5w1rtD6widqXwkbzPVFSn2qLHbXRRmNKQzpump": 1,
-   "5XsGvzqH1V5o7G6eTtQkb442AHisDjTuVULt5oHCpump": 1
+   "5XsGvzqH1V5o7G6eTtQkb442AHisDjTuVULt5oHCpump": 1,
+   "8evWeiUdC2Ra1At53HHnfdEmJNq8jEQGfwc91NZ5pump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3565,6 +3566,18 @@
      }
     ],
     "token": "Spacecoin",
+    "chain": "SOL"
+   },
+   "8evWeiUdC2Ra1At53HHnfdEmJNq8jEQGfwc91NZ5pump": {
+    "rows": [
+     {
+      "ts": "11-04 07:06:35",
+      "side": "Buy",
+      "amt": "115.37 USDC MC 24.7M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "HAMAS",
     "chain": "SOL"
    }
   }
