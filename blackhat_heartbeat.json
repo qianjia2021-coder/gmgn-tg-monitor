@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:46:47.969943+00:00",
+ "ts": "2026-11-04T07:48:00.838456+00:00",
  "state": {
-  "last_id": 1700811,
+  "last_id": 1700814,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,7 +145,7 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 2,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 45,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 47,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
@@ -208,7 +208,8 @@
    "9fDKaaMNTt1YfGg4mpfqubZ1UpmDKRSHG2bfL63FGiNw": 1,
    "9ueEeBuYUc9X1GrNCyWHbKGnHJq1kaD2nvDapDsMpump": 1,
    "GxXQHp29d2xsVrfaf9p1TiFrDSWyPDPqxGgeEP9jZNUB": 1,
-   "57NTXnoGkFzhCvJGjXhCxp4WmVEhhLa9273fLNngpump": 1
+   "57NTXnoGkFzhCvJGjXhCxp4WmVEhhLa9273fLNngpump": 1,
+   "DJwkfximjR4dMwLEStBGbERNQvcXrYLhtrC1snZ7CSCX": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2548,18 +2549,6 @@
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": {
     "rows": [
      {
-      "ts": "11-04 05:05:11",
-      "side": "Buy",
-      "amt": "1.39 WSOL MC 197.5K",
-      "pusher": "theonomix"
-     },
-     {
-      "ts": "11-04 05:05:14",
-      "side": "Buy",
-      "amt": "2.39 WSOL MC 280.2K",
-      "pusher": "disc_3UNP"
-     },
-     {
       "ts": "11-04 05:05:14",
       "side": "Buy",
       "amt": "2.47 WSOL MC 280K",
@@ -2786,6 +2775,18 @@
       "side": "Buy",
       "amt": "1.98 WSOL MC 236.1K",
       "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-04 07:47:01",
+      "side": "Buy",
+      "amt": "6.94 WSOL MC 1M",
+      "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 07:47:05",
+      "side": "Buy",
+      "amt": "2.98 WSOL MC 436.5K",
+      "pusher": "whale_NUB2"
      }
     ],
     "token": "RAM",
@@ -3887,6 +3888,18 @@
      }
     ],
     "token": "enu",
+    "chain": "SOL"
+   },
+   "DJwkfximjR4dMwLEStBGbERNQvcXrYLhtrC1snZ7CSCX": {
+    "rows": [
+     {
+      "ts": "11-04 07:47:00",
+      "side": "Buy",
+      "amt": "1.16 WSOL MC 1M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "X",
     "chain": "SOL"
    }
   }
