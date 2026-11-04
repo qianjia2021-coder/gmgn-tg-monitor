@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:30:07.336320+00:00",
+ "ts": "2026-11-04T05:31:16.818862+00:00",
  "state": {
-  "last_id": 1700689,
+  "last_id": 1700695,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -156,7 +156,9 @@
    "8Vn8V5YwcQ5KmJjyVybGkGb4vEAvwEnzFeZ9JtKzpump": 1,
    "Gr6eqzyT1AmfNK9cEvLc28rKYQay1zL2S3kk9KGgpump": 1,
    "F88RqqAz7ANsQ4XMn5VKs37Xvc6xbhSR6RusYuTqpump": 1,
-   "5PuXxuezQHvALsbvjcB65MgTNAvCCSwxhjrbkHrHpump": 1
+   "5PuXxuezQHvALsbvjcB65MgTNAvCCSwxhjrbkHrHpump": 1,
+   "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3,
+   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 3
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -183,7 +185,9 @@
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 3,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 3,
    "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 3,
-   "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 3
+   "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 3,
+   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 3,
+   "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -2812,6 +2816,54 @@
      }
     ],
     "token": "RAM",
+    "chain": "SOL"
+   },
+   "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": {
+    "rows": [
+     {
+      "ts": "11-04 05:30:21",
+      "side": "Buy",
+      "amt": "2.7 WSOL MC 3.9M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-04 05:30:21",
+      "side": "Buy",
+      "amt": "1.52 WSOL MC 2M",
+      "pusher": "disc_3UNP"
+     },
+     {
+      "ts": "11-04 05:30:27",
+      "side": "Buy",
+      "amt": "1.63 WSOL MC 1.8M",
+      "pusher": "disc_3UNP"
+     }
+    ],
+    "token": "RAM",
+    "chain": "SOL"
+   },
+   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
+    "rows": [
+     {
+      "ts": "11-04 05:30:21",
+      "side": "Buy",
+      "amt": "2.7 WSOL MC 16.1K",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-04 05:30:21",
+      "side": "Buy",
+      "amt": "1.52 WSOL MC 9.3K",
+      "pusher": "disc_3UNP"
+     },
+     {
+      "ts": "11-04 05:30:21",
+      "side": "Buy",
+      "amt": "1.63 WSOL MC 9.5K",
+      "pusher": "disc_3UNP"
+     }
+    ],
+    "token": "BTC",
     "chain": "SOL"
    }
   }
