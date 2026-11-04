@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:05:26.422972+00:00",
+ "ts": "2026-11-04T05:06:35.889664+00:00",
  "state": {
-  "last_id": 1700651,
+  "last_id": 1700658,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -134,7 +134,7 @@
    "6f7je1r8HUJ6hsBTHRhVhGqZPRguFMxq83Sv84ELpump": 1,
    "6jn6w3CkfQqNhu23cs76xdFjj93RRDxbtThQ14P1pump": 2,
    "o1KpsBuRa5apJtg7Ayapza19k7r68YRPEBc162jpump": 1,
-   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 3,
+   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 4,
    "32gAe266hHvS5g76YPTqmBF11n9ptvB4ALGxkDqpLX1q": 2,
    "AsQCfJtCgRcPWLUu1fDvwwvXwmJUBhDXFHK533s5JPJJ": 1,
    "573DefgpFQMGDaVLLmFEVMo295Y7cWtPnYJEPHy1pump": 1,
@@ -147,7 +147,9 @@
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 12,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
-   "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 1
+   "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 1,
+   "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
+   "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -171,7 +173,8 @@
    "HQstiRVdp2cB6s6p3v6WWe23r8K4EP9wnx9gS3yLpump": 3,
    "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 3,
    "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 3,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 3
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 3,
+   "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -2287,6 +2290,12 @@
       "side": "Buy",
       "amt": "901.41 USDC MC 2.5M",
       "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-04 05:06:27",
+      "side": "Buy",
+      "amt": "452.83 USDC MC 1.7M",
+      "pusher": "Putrickk"
      }
     ],
     "token": "VETO",
@@ -2518,6 +2527,54 @@
      }
     ],
     "token": "RAM",
+    "chain": "SOL"
+   },
+   "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": {
+    "rows": [
+     {
+      "ts": "11-04 05:06:04",
+      "side": "Buy",
+      "amt": "0.22172 OPENAI MC 61.6M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 05:06:16",
+      "side": "Buy",
+      "amt": "107.78 USDC MC 6.4M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-04 05:06:17",
+      "side": "Buy",
+      "amt": "3 WSOL MC 15.2M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 05:06:17",
+      "side": "Buy",
+      "amt": "107.78 USDC MC 6.4M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-04 05:06:19",
+      "side": "Buy",
+      "amt": "3 WSOL MC 15.2M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "RAM",
+    "chain": "SOL"
+   },
+   "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": {
+    "rows": [
+     {
+      "ts": "11-04 05:06:04",
+      "side": "Buy",
+      "amt": "455.43 USDC MC 0.22418",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "OPENAI",
     "chain": "SOL"
    }
   }
