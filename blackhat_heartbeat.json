@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-04T03:49:23+00:00",
+ "ts": "2026-11-04T03:50:25+00:00",
  "identity": "local",
  "state": {
-  "last_id": 1700543,
+  "last_id": 1700545,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -92,7 +92,8 @@
    "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk": 1,
    "2FKdTxiW6WXKYSs1dabHeAP396aQGSQ9ZeKBaff6pump": 3,
    "46yuCwy6725NEjuwmWFZvvd6UAW9R7PpSPh8LThxpump": 3,
-   "APZXFNx22Tx2iotMRjaQwW9uFidfLh39VqrvQsoCpump": 1
+   "APZXFNx22Tx2iotMRjaQwW9uFidfLh39VqrvQsoCpump": 1,
+   "CrC7v6SnkimqGJTYyg3zcq45gKGuzY9XCHZbudCFpump": 2
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -1475,6 +1476,24 @@
      }
     ],
     "token": "AI",
+    "chain": "SOL"
+   },
+   "CrC7v6SnkimqGJTYyg3zcq45gKGuzY9XCHZbudCFpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:50:12",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 46.5M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-04 03:50:14",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 35.4M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "altcoin",
     "chain": "SOL"
    }
   }
