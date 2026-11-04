@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:16:10.118579+00:00",
+ "ts": "2026-11-04T06:17:49.631631+00:00",
  "state": {
-  "last_id": 1700735,
+  "last_id": 1700738,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -168,10 +168,11 @@
    "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
    "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1,
    "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 2,
-   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 8,
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 10,
    "5Gs9gdV6UqYRT5mFbv2zN22sfn7PyaNzWGb7XngGpump": 1,
    "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 2,
-   "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": 1
+   "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": 1,
+   "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3146,6 +3147,18 @@
       "side": "Buy",
       "amt": "1.17 WSOL MC 736.7K",
       "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:16:54",
+      "side": "Buy",
+      "amt": "2.27 WSOL MC 895.2K",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:17:04",
+      "side": "Buy",
+      "amt": "2.55 WSOL MC 922.3K",
+      "pusher": "disc_2AWs"
      }
     ],
     "token": "SLINGTOSHI",
@@ -3191,6 +3204,18 @@
      }
     ],
     "token": "GOYBEAM",
+    "chain": "SOL"
+   },
+   "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:16:29",
+      "side": "Buy",
+      "amt": "14.85 WSOL MC 23.9M",
+      "pusher": "Luce46x"
+     }
+    ],
+    "token": "Impeach",
     "chain": "SOL"
    }
   }
