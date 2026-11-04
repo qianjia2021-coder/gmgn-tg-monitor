@@ -10114,5 +10114,27 @@
   "ok": false,
   "err": "HTTP 401 Unauthorized",
   "name": ""
+ },
+ "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": {
+  "ts": "2026-11-04 10:59:08",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": false,
+  "err": "HTTP 401 Unauthorized",
+  "name": ""
+ },
+ "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": {
+  "ts": "2026-11-04 11:19:26",
+  "order_id": "",
+  "sol": 1.0,
+  "groups": [
+   "恭喜发财"
+  ],
+  "ok": false,
+  "err": "HTTP 401 Unauthorized",
+  "name": ""
  }
 }
