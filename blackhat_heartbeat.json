@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:10:48.233734+00:00",
+ "ts": "2026-11-04T06:11:59.128491+00:00",
  "state": {
-  "last_id": 1700721,
+  "last_id": 1700725,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -166,7 +166,9 @@
    "GBzLJmDdjpaVnjZdZDq5LKSuraYWcFXZBk7uM2aJpump": 1,
    "3EYkadvMT7BmPZ6Tw36ctLpDYDHspD7oj9qnu3rfLoat": 1,
    "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
-   "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1
+   "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1,
+   "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 1,
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 3
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -196,7 +198,8 @@
    "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 3,
    "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 3,
    "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3,
-   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 3
+   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 3,
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -3071,6 +3074,42 @@
      }
     ],
     "token": "Jewnald",
+    "chain": "SOL"
+   },
+   "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": {
+    "rows": [
+     {
+      "ts": "11-04 06:11:32",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 34.8M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "MGM",
+    "chain": "SOL"
+   },
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": {
+    "rows": [
+     {
+      "ts": "11-04 06:11:35",
+      "side": "Buy",
+      "amt": "1.41 WSOL MC 1.8M",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:11:41",
+      "side": "Buy",
+      "amt": "1.65 WSOL MC 1.8M",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:11:54",
+      "side": "Buy",
+      "amt": "1.49 WSOL MC 1.5M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "SLINGTOSHI",
     "chain": "SOL"
    }
   }
