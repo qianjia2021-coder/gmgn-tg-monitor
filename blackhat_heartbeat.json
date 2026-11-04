@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:58:48.145799+00:00",
+ "ts": "2026-11-04T06:59:58.256559+00:00",
  "state": {
-  "last_id": 1700774,
+  "last_id": 1700777,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -43,7 +43,7 @@
    "HdC6WeZQ1qD3F268bGBDqF6tNdbxtuUNY65QDRTypump": 1,
    "3XBgK7Y9Frdp4xytn4d5bT4oDye1p1afUSFhWNvPEEUk": 2,
    "GojcTAaaJjvG83MovnnhogiVrBxghvyogof1mey1pump": 2,
-   "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 3,
+   "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 4,
    "EwwUBT1wGJCdvfu95aGncgwYhk8nnTgByn3BkfdFpump": 1,
    "4RheSruFr8CCrdAHaEDZf1wza3um5URJLK4CZB4Spump": 1,
    "CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH": 3,
@@ -104,7 +104,7 @@
    "6u5E7H6DNDByyo4omq5KqQfJxhNwoKWqCytyoi9Tpump": 1,
    "CFANio5we11ffBeRincvzbuhhAgPpbPVZcA1AaTapump": 1,
    "97yMhDr5H5JLAba7QGyKgTsDbbwBZqybtWfNq3Yvpump": 1,
-   "PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1,
+   "PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 2,
    "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 2,
    "GJZNFoYxcSnPVtF7PGHokqQsMXxzhsUuyUYZg1tHpump": 1,
    "798MiZK7LkCYWvgenauBKmcwBURRfbaumqhNQfpxpump": 1,
@@ -186,7 +186,8 @@
    "4J7U6bjM1FkFAyD6NsyJKD97FWe6JNM8JsUwydREpump": 1,
    "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 3,
    "8ebks9ECo9omHR1EL1Aa2UfD7YnW1tHTPuL4VzcEpump": 2,
-   "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 1
+   "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 1,
+   "8efxkRzjAHCfwahitHmiwENntrbFUddzbNToMxmZpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -972,6 +973,12 @@
       "ts": "11-04 05:09:11",
       "side": "Buy",
       "amt": "2.96 WSOL MC 4.6M",
+      "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 06:59:41",
+      "side": "Buy",
+      "amt": "185.54 USDC MC 2M",
       "pusher": "whale_NUB2"
      }
     ],
@@ -1855,6 +1862,12 @@
       "side": "Buy",
       "amt": "2.96 WSOL MC 56M",
       "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-04 06:59:41",
+      "side": "Buy",
+      "amt": "185.54 USDC MC 37.5M",
+      "pusher": "whale_NUB2"
      }
     ],
     "token": "PEPE",
@@ -3508,6 +3521,18 @@
      }
     ],
     "token": "SI",
+    "chain": "SOL"
+   },
+   "8efxkRzjAHCfwahitHmiwENntrbFUddzbNToMxmZpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:59:37",
+      "side": "Buy",
+      "amt": "1.25 WSOL MC 23.2M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "MEMES",
     "chain": "SOL"
    }
   }
