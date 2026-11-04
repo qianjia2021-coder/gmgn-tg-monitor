@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:58:30.948958+00:00",
+ "ts": "2026-11-04T05:59:37.690826+00:00",
  "state": {
-  "last_id": 1700710,
+  "last_id": 1700713,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,7 +145,7 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 2,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 38,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 41,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
@@ -2459,12 +2459,6 @@
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": {
     "rows": [
      {
-      "ts": "11-04 05:00:27",
-      "side": "Buy",
-      "amt": "1.2K USDC MC 12.9M",
-      "pusher": "ResellCalendar"
-     },
-     {
       "ts": "11-04 05:05:08",
       "side": "Buy",
       "amt": "4.96 WSOL MC 984.9K",
@@ -2684,6 +2678,24 @@
       "ts": "11-04 05:42:06",
       "side": "Buy",
       "amt": "6.94 WSOL MC 713.1K",
+      "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 05:58:51",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 321.6K",
+      "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 05:59:33",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 319K",
+      "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 05:59:33",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 314K",
       "pusher": "whale_NUB2"
      }
     ],
