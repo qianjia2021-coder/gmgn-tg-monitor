@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T04:14:39.609719+00:00",
+ "ts": "2026-11-04T04:15:59.528343+00:00",
  "state": {
-  "last_id": 1700576,
+  "last_id": 1700577,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -113,7 +113,8 @@
    "7ACeALj6v2KkPuh1vTYoNYUowF8XN6HMy3xZ5QjGpump": 1,
    "9fEcN2Aj79yx1DeNnxSFDTVgJxu7znp3bjTUtMW4pump": 1,
    "2EyFXKDBt881isZeCxw8HtqLQqnXEQ1kQpj3KRJ8pump": 1,
-   "HJm3HVGQu7ZdWFdc79B5SJodSF9DWgxUHXQ2oBi5pump": 1
+   "HJm3HVGQu7ZdWFdc79B5SJodSF9DWgxUHXQ2oBi5pump": 1,
+   "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -1823,6 +1824,18 @@
      }
     ],
     "token": "CHEST",
+    "chain": "SOL"
+   },
+   "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": {
+    "rows": [
+     {
+      "ts": "11-04 04:15:13",
+      "side": "Buy",
+      "amt": "812.69 USDC MC 3.3M",
+      "pusher": "gr3gor14n"
+     }
+    ],
+    "token": "MeiMei",
     "chain": "SOL"
    }
   }
