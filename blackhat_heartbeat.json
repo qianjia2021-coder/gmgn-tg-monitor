@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:35:56.515855+00:00",
+ "ts": "2026-11-04T05:37:04.347050+00:00",
  "state": {
-  "last_id": 1700699,
+  "last_id": 1700700,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,7 +145,7 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 35,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 36,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
@@ -2656,6 +2656,12 @@
       "ts": "11-04 05:34:47",
       "side": "Buy",
       "amt": "6.95 WSOL MC 646.9K",
+      "pusher": "whale_NUB2"
+     },
+     {
+      "ts": "11-04 05:36:48",
+      "side": "Buy",
+      "amt": "19.8 WSOL MC 1.8M",
       "pusher": "whale_NUB2"
      }
     ],
