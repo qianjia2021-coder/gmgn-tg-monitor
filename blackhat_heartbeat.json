@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T07:10:20.704044+00:00",
+ "ts": "2026-11-04T07:11:31.325818+00:00",
  "state": {
-  "last_id": 1700783,
+  "last_id": 1700784,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -191,7 +191,7 @@
    "HjUWqS5w1rtD6widqXwkbzPVFSn2qLHbXRRmNKQzpump": 1,
    "5XsGvzqH1V5o7G6eTtQkb442AHisDjTuVULt5oHCpump": 1,
    "8evWeiUdC2Ra1At53HHnfdEmJNq8jEQGfwc91NZ5pump": 1,
-   "BQvpyazpBPvAFdHSjA8bfMVvSN1CJorjJ2GAGppapump": 1
+   "BQvpyazpBPvAFdHSjA8bfMVvSN1CJorjJ2GAGppapump": 2
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3594,6 +3594,12 @@
       "side": "Buy",
       "amt": "182.27 USDC MC 19.8M",
       "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 07:10:54",
+      "side": "Buy",
+      "amt": "2.46 WSOL MC 15.1M",
+      "pusher": "gh0stee"
      }
     ],
     "token": "dih",
