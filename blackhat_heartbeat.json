@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:11:59.128491+00:00",
+ "ts": "2026-11-04T06:13:07.353802+00:00",
  "state": {
-  "last_id": 1700725,
+  "last_id": 1700731,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -168,7 +168,9 @@
    "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
    "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1,
    "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 1,
-   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 3
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 6,
+   "5Gs9gdV6UqYRT5mFbv2zN22sfn7PyaNzWGb7XngGpump": 1,
+   "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 2
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3107,9 +3109,57 @@
       "side": "Buy",
       "amt": "1.49 WSOL MC 1.5M",
       "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:11:59",
+      "side": "Buy",
+      "amt": "1.49 WSOL MC 1.4M",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:12:37",
+      "side": "Buy",
+      "amt": "1.4 WSOL MC 757.9K",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:12:51",
+      "side": "Buy",
+      "amt": "1.86 WSOL MC 1.1M",
+      "pusher": "disc_2AWs"
      }
     ],
     "token": "SLINGTOSHI",
+    "chain": "SOL"
+   },
+   "5Gs9gdV6UqYRT5mFbv2zN22sfn7PyaNzWGb7XngGpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:12:30",
+      "side": "Buy",
+      "amt": "124.75 USDC MC 34.1M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "TWIN",
+    "chain": "SOL"
+   },
+   "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:12:49",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 69.9M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 06:12:49",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 43.6M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "FSD",
     "chain": "SOL"
    }
   }
