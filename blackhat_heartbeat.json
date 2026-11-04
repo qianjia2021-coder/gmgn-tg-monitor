@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:37:04.347050+00:00",
+ "ts": "2026-11-04T05:38:10.766171+00:00",
  "state": {
-  "last_id": 1700700,
+  "last_id": 1700702,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -152,7 +152,7 @@
    "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 1,
    "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 4,
    "6bsdcAsHb9zand6Eas9zdfDsLnD861FTjTbnu9Ymcc9W": 1,
-   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 1,
+   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 3,
    "8Vn8V5YwcQ5KmJjyVybGkGb4vEAvwEnzFeZ9JtKzpump": 1,
    "Gr6eqzyT1AmfNK9cEvLc28rKYQay1zL2S3kk9KGgpump": 1,
    "F88RqqAz7ANsQ4XMn5VKs37Xvc6xbhSR6RusYuTqpump": 1,
@@ -187,7 +187,8 @@
    "6VMScJ8VKeiKe4JcCXigEe1k3WycMhVaCoPKArQGpump": 3,
    "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 3,
    "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 3,
-   "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3
+   "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3,
+   "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -2795,6 +2796,18 @@
       "side": "Buy",
       "amt": "2.48 WSOL MC 2M",
       "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-04 05:37:54",
+      "side": "Buy",
+      "amt": "2.9 WSOL MC 823.8K",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-04 05:37:54",
+      "side": "Buy",
+      "amt": "2.9 WSOL MC 780.4K",
+      "pusher": "Putrickk"
      }
     ],
     "token": "SLINGTOSHI",
