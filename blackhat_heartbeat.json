@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:14:20.188715+00:00",
+ "ts": "2026-11-04T06:16:10.118579+00:00",
  "state": {
-  "last_id": 1700733,
+  "last_id": 1700735,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -168,7 +168,7 @@
    "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
    "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1,
    "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 2,
-   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 6,
+   "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 8,
    "5Gs9gdV6UqYRT5mFbv2zN22sfn7PyaNzWGb7XngGpump": 1,
    "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 2,
    "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": 1
@@ -3133,6 +3133,18 @@
       "ts": "11-04 06:12:51",
       "side": "Buy",
       "amt": "1.86 WSOL MC 1.1M",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:14:45",
+      "side": "Buy",
+      "amt": "1.61 WSOL MC 1.2M",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-04 06:15:25",
+      "side": "Buy",
+      "amt": "1.17 WSOL MC 736.7K",
       "pusher": "disc_2AWs"
      }
     ],
