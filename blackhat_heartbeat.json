@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-04T03:20:55+00:00",
+ "ts": "2026-11-04T03:49:23+00:00",
  "identity": "local",
  "state": {
-  "last_id": 1700520,
+  "last_id": 1700543,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -33,7 +33,7 @@
    "Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": 2,
    "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 3,
    "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij": 2,
-   "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": 1,
+   "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": 2,
    "9dXJvp4ipAjwbxGH4EyctpN7HN6aJtLEQxis2Urdpump": 1,
    "8Xpq1oY2c6mKq2Je41PC9MGuuJo5pTr6Q7tQPSRapump": 1,
    "9jij8AHifguytfKMAvLrdJ6xnBaGvUaBf2rGt31Spump": 1,
@@ -74,7 +74,25 @@
    "FR1RCwyGp6JAZTZVTQnF9dTbe9i33t4KmUSwWUrQpump": 1,
    "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 6,
    "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp": 1,
-   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1
+   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1,
+   "KxwAdKe6GKv6BExpP3HAnBd5k22d2jbqNXebgD5pump": 1,
+   "96i4iThgUK4FHGsg2epNEwtr6L42b1hFr7kCYvtzpump": 1,
+   "DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1,
+   "Hg5N4C5S8sqtX4m6Ys6rwRwYffrGha59Fp9AmobPWTXv": 1,
+   "2BmNSGzNvZFPTu4wkqt6G9V82EhZSyaLgk1rjYfCpump": 1,
+   "9AMfRTk5H8mbr8xjsSekNzWtyp5oiQtnaXTVHbZ8pump": 1,
+   "8aCQw12Xw2WKnbYPFbb1jjZHEM8NQdGAFXK537zupump": 1,
+   "FBYjDLfPM1FpZPX6Zc6SV7ut2D5veLA4iS4gppzepump": 1,
+   "HSn7DsPFsUiQXhWx8F9zLHUihvoHgUV9cPouVBdWpump": 1,
+   "BkqA7cWZvSZ4weQZatbgiQo9b8Sr3xQg6VvzCn5Epump": 1,
+   "LMT3i1BHgixFqPUgcyteJhnEz2dpy9i3cYy4pi9BoeV": 1,
+   "ErTjyWEn8P3ydtZDeqFez8xkju83s5gT6PVemQGZpump": 1,
+   "6ESBx8bbmyDQJsvgUV8aR1rpV4J1bV8amkuPuEFvpump": 1,
+   "92nexDGhoyqvTm7hFGEgdngKuRtXTWGrQKxqomNQpump": 1,
+   "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk": 1,
+   "2FKdTxiW6WXKYSs1dabHeAP396aQGSQ9ZeKBaff6pump": 3,
+   "46yuCwy6725NEjuwmWFZvvd6UAW9R7PpSPh8LThxpump": 3,
+   "APZXFNx22Tx2iotMRjaQwW9uFidfLh39VqrvQsoCpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -86,7 +104,9 @@
    "5wKJfGTCoyy7ZVxic9pJv8RHkxpx1aWWJohWC3xypump": 3,
    "8Yq8nG1iKtkm3DHo4fJF1FBVMpgWL5KA1GH6FZzupump": 3,
    "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 3,
-   "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 3
+   "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 3,
+   "2FKdTxiW6WXKYSs1dabHeAP396aQGSQ9ZeKBaff6pump": 3,
+   "46yuCwy6725NEjuwmWFZvvd6UAW9R7PpSPh8LThxpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -600,6 +620,12 @@
       "side": "Buy",
       "amt": "623.43 USDC MC 150.7K",
       "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-04 03:23:58",
+      "side": "Buy",
+      "amt": "439.7 USDC MC 106K",
+      "pusher": "whale_FWOG4"
      }
     ],
     "token": "PUMP",
@@ -1209,6 +1235,246 @@
      }
     ],
     "token": "OMBRO",
+    "chain": "SOL"
+   },
+   "KxwAdKe6GKv6BExpP3HAnBd5k22d2jbqNXebgD5pump": {
+    "rows": [
+     {
+      "ts": "11-04 03:21:57",
+      "side": "Buy",
+      "amt": "3.42 WSOL MC 22.3M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "WMV",
+    "chain": "SOL"
+   },
+   "96i4iThgUK4FHGsg2epNEwtr6L42b1hFr7kCYvtzpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:22:19",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 43.2M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "SPACECENTER",
+    "chain": "SOL"
+   },
+   "DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:23:58",
+      "side": "Buy",
+      "amt": "109K PUMP MC 615.8K",
+      "pusher": "whale_FWOG4"
+     }
+    ],
+    "token": "pill",
+    "chain": "SOL"
+   },
+   "Hg5N4C5S8sqtX4m6Ys6rwRwYffrGha59Fp9AmobPWTXv": {
+    "rows": [
+     {
+      "ts": "11-04 03:27:16",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 29.7M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "PRICEDIN",
+    "chain": "SOL"
+   },
+   "2BmNSGzNvZFPTu4wkqt6G9V82EhZSyaLgk1rjYfCpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:29:58",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 61.4M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "OSSOFF",
+    "chain": "SOL"
+   },
+   "9AMfRTk5H8mbr8xjsSekNzWtyp5oiQtnaXTVHbZ8pump": {
+    "rows": [
+     {
+      "ts": "11-04 03:30:56",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 80.7M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "assoff",
+    "chain": "SOL"
+   },
+   "8aCQw12Xw2WKnbYPFbb1jjZHEM8NQdGAFXK537zupump": {
+    "rows": [
+     {
+      "ts": "11-04 03:31:15",
+      "side": "Buy",
+      "amt": "178.83 USDC MC 37.7M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "NIO",
+    "chain": "SOL"
+   },
+   "FBYjDLfPM1FpZPX6Zc6SV7ut2D5veLA4iS4gppzepump": {
+    "rows": [
+     {
+      "ts": "11-04 03:31:57",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 75.1M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "assoff",
+    "chain": "SOL"
+   },
+   "HSn7DsPFsUiQXhWx8F9zLHUihvoHgUV9cPouVBdWpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:32:29",
+      "side": "Buy",
+      "amt": "112.36 USDC MC 25.3M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "טראמפ",
+    "chain": "SOL"
+   },
+   "BkqA7cWZvSZ4weQZatbgiQo9b8Sr3xQg6VvzCn5Epump": {
+    "rows": [
+     {
+      "ts": "11-04 03:35:42",
+      "side": "Buy",
+      "amt": "0.41051 LMT MC 36.4M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "LMI",
+    "chain": "SOL"
+   },
+   "LMT3i1BHgixFqPUgcyteJhnEz2dpy9i3cYy4pi9BoeV": {
+    "rows": [
+     {
+      "ts": "11-04 03:35:42",
+      "side": "Buy",
+      "amt": "269.09 USDC MC 0.41565",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "LMT",
+    "chain": "SOL"
+   },
+   "ErTjyWEn8P3ydtZDeqFez8xkju83s5gT6PVemQGZpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:36:58",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 45.1M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "NEKO",
+    "chain": "SOL"
+   },
+   "6ESBx8bbmyDQJsvgUV8aR1rpV4J1bV8amkuPuEFvpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:39:28",
+      "side": "Buy",
+      "amt": "2.25 WSOL MC 16.7M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "Wars",
+    "chain": "SOL"
+   },
+   "92nexDGhoyqvTm7hFGEgdngKuRtXTWGrQKxqomNQpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:39:41",
+      "side": "Buy",
+      "amt": "1.16 WSOL MC 19.7M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "TREMP",
+    "chain": "SOL"
+   },
+   "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk": {
+    "rows": [
+     {
+      "ts": "11-04 03:41:21",
+      "side": "Buy",
+      "amt": "1.84 WSOL MC 2.9M",
+      "pusher": "ohzarke"
+     }
+    ],
+    "token": "AI",
+    "chain": "SOL"
+   },
+   "2FKdTxiW6WXKYSs1dabHeAP396aQGSQ9ZeKBaff6pump": {
+    "rows": [
+     {
+      "ts": "11-04 03:41:23",
+      "side": "Buy",
+      "amt": "3.13 WSOL MC 21.1M",
+      "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-04 03:41:54",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 14.4M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-04 03:44:13",
+      "side": "Buy",
+      "amt": "2.7 WSOL MC 10M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "AI",
+    "chain": "SOL"
+   },
+   "46yuCwy6725NEjuwmWFZvvd6UAW9R7PpSPh8LThxpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:43:25",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 95.5M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-04 03:46:49",
+      "side": "Buy",
+      "amt": "3.42 WSOL MC 22.7M",
+      "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 03:48:00",
+      "side": "Buy",
+      "amt": "1.12 WSOL MC 6.1M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "AI",
+    "chain": "SOL"
+   },
+   "APZXFNx22Tx2iotMRjaQwW9uFidfLh39VqrvQsoCpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:44:00",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 30M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "AI",
     "chain": "SOL"
    }
   }
