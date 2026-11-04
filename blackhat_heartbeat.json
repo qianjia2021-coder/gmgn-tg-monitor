@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:32:52.027924+00:00",
+ "ts": "2026-11-04T06:34:01.510553+00:00",
  "state": {
-  "last_id": 1700760,
+  "last_id": 1700761,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -175,7 +175,8 @@
    "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1,
    "47pFfWYEDUjrLyaTvQwttpgmKJrZihW3apVWnPZpwg3M": 1,
    "GHGuhBEV66DMVCZaUGzxD3NKDSu78zX9edcH9wPEpump": 2,
-   "7HVJLqTso8XDpR76exrzZ62oLhjzxhgeRTCfL4BkEZ77": 2
+   "7HVJLqTso8XDpR76exrzZ62oLhjzxhgeRTCfL4BkEZ77": 2,
+   "8ZSui6xyBJpu8gWny98cTM6JWKYo6jm69SeWWvYbpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3346,6 +3347,18 @@
      }
     ],
     "token": "AI",
+    "chain": "SOL"
+   },
+   "8ZSui6xyBJpu8gWny98cTM6JWKYo6jm69SeWWvYbpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:33:29",
+      "side": "Buy",
+      "amt": "137.04 USDC MC 29.1M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "Fuck",
     "chain": "SOL"
    }
   }
