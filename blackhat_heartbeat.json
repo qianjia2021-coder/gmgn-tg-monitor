@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-04T03:20:34+00:00",
+ "ts": "2026-11-04T03:20:55+00:00",
  "identity": "local",
  "state": {
-  "last_id": 1700518,
+  "last_id": 1700520,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -72,7 +72,9 @@
    "9LLgjQuL5XCEja6dZJzsazEBzECpqwZp6W4bxdRXpump": 1,
    "2atD6jjcjnVbaGGQ5yQmnVxkgudioSpb7tDkVpx8pump": 1,
    "FR1RCwyGp6JAZTZVTQnF9dTbe9i33t4KmUSwWUrQpump": 1,
-   "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 6
+   "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 6,
+   "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp": 1,
+   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -1183,6 +1185,30 @@
      }
     ],
     "token": "BOTTOM",
+    "chain": "SOL"
+   },
+   "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp": {
+    "rows": [
+     {
+      "ts": "11-04 03:20:16",
+      "side": "Buy",
+      "amt": "267.45 USDC MC 0.42687",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "XMR",
+    "chain": "SOL"
+   },
+   "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": {
+    "rows": [
+     {
+      "ts": "11-04 03:20:16",
+      "side": "Buy",
+      "amt": "0.42676 XMR MC 11.5M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "OMBRO",
     "chain": "SOL"
    }
   }
