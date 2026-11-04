@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:27:04.574184+00:00",
+ "ts": "2026-11-04T06:28:09.832633+00:00",
  "state": {
-  "last_id": 1700750,
+  "last_id": 1700751,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -173,7 +173,8 @@
    "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 3,
    "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": 1,
    "F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1,
-   "47pFfWYEDUjrLyaTvQwttpgmKJrZihW3apVWnPZpwg3M": 1
+   "47pFfWYEDUjrLyaTvQwttpgmKJrZihW3apVWnPZpwg3M": 1,
+   "GHGuhBEV66DMVCZaUGzxD3NKDSu78zX9edcH9wPEpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3293,6 +3294,18 @@
       "side": "Buy",
       "amt": "2.2 WSOL MC 13.9M",
       "pusher": "gh0stee"
+     }
+    ],
+    "token": "lasers",
+    "chain": "SOL"
+   },
+   "GHGuhBEV66DMVCZaUGzxD3NKDSu78zX9edcH9wPEpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:28:05",
+      "side": "Buy",
+      "amt": "1.29 SOL MC 16.2M",
+      "pusher": "theonomix"
      }
     ],
     "token": "lasers",
