@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:54:47.356060+00:00",
+ "ts": "2026-11-04T05:56:00.110007+00:00",
  "state": {
-  "last_id": 1700708,
+  "last_id": 1700710,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -144,7 +144,7 @@
    "HWwYCfQ7zffhwyMWjPSsrrDRzLxufBdh9is2v12fpump": 1,
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
-   "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
+   "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 2,
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 38,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
@@ -160,7 +160,8 @@
    "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3,
    "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 3,
    "4zWnqvsqGDcUfyYtojq3CLgFRoCuspsDqyx9SYM8pump": 2,
-   "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1
+   "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1,
+   "BeGY8KqKxboEwRbJd1q9H2K829jS4Rc5dEyNMYXCbV5p": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -2444,6 +2445,12 @@
       "side": "Buy",
       "amt": "2K USDT MC 106K",
       "pusher": "whale_WHETH1"
+     },
+     {
+      "ts": "11-04 05:55:46",
+      "side": "Buy",
+      "amt": "2K USDT MC 106.3K",
+      "pusher": "whale_WHETH1"
      }
     ],
     "token": "ANTFUN",
@@ -2957,6 +2964,18 @@
      }
     ],
     "token": "PIRATE",
+    "chain": "SOL"
+   },
+   "BeGY8KqKxboEwRbJd1q9H2K829jS4Rc5dEyNMYXCbV5p": {
+    "rows": [
+     {
+      "ts": "11-04 05:55:16",
+      "side": "Buy",
+      "amt": "14.76 WSOL MC 88.5K",
+      "pusher": "whale_WHETH1"
+     }
+    ],
+    "token": "NPC",
     "chain": "SOL"
    }
   }
