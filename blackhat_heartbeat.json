@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:06:35.889664+00:00",
+ "ts": "2026-11-04T05:07:49.130603+00:00",
  "state": {
-  "last_id": 1700658,
+  "last_id": 1700659,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -147,7 +147,7 @@
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 12,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
-   "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 1,
+   "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
    "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 1
   },
@@ -2524,6 +2524,12 @@
       "side": "Buy",
       "amt": "359.13 USDC MC 14.4M",
       "pusher": "disc_2ZRu"
+     },
+     {
+      "ts": "11-04 05:06:43",
+      "side": "Buy",
+      "amt": "108 USDC MC 8.8M",
+      "pusher": "TheRealZrool"
      }
     ],
     "token": "RAM",
