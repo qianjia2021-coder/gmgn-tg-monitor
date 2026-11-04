@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T04:08:51.922330+00:00",
+ "ts": "2026-11-04T04:14:39.609719+00:00",
  "state": {
-  "last_id": 1700570,
+  "last_id": 1700576,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -61,7 +61,7 @@
    "5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1,
    "8Yq8nG1iKtkm3DHo4fJF1FBVMpgWL5KA1GH6FZzupump": 3,
    "9hjkfA4TN7gg788DTLcch6zzucfw8hNXm9qiNya2pump": 1,
-   "5UQXX1HTkumx7T4nyHRFz5eqdgimEU9LZT5SqTzh5SKr": 2,
+   "5UQXX1HTkumx7T4nyHRFz5eqdgimEU9LZT5SqTzh5SKr": 3,
    "8ZcfYgUm9SgD74QHQMiY6mAc2BomS8nd3JC1Wzjxpump": 1,
    "ATyFsXB6AzBJWAgoDScxU71HCYfR7cfd14RQdRrTpump": 1,
    "6wBgn57fKe6KWNzZCcQMBpqiS164qJ67xY5WFtcBpump": 1,
@@ -108,8 +108,12 @@
    "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 2,
    "GJZNFoYxcSnPVtF7PGHokqQsMXxzhsUuyUYZg1tHpump": 1,
    "798MiZK7LkCYWvgenauBKmcwBURRfbaumqhNQfpxpump": 1,
-   "4znhqPTuHbjptxemCUTtYVVrTco9MNDWdDSWvSdipump": 2,
-   "CJrdcZNFLJHf48i7nZsmisGtWa3c9ZvgccRHc2ZApump": 2
+   "4znhqPTuHbjptxemCUTtYVVrTco9MNDWdDSWvSdipump": 3,
+   "CJrdcZNFLJHf48i7nZsmisGtWa3c9ZvgccRHc2ZApump": 2,
+   "7ACeALj6v2KkPuh1vTYoNYUowF8XN6HMy3xZ5QjGpump": 1,
+   "9fEcN2Aj79yx1DeNnxSFDTVgJxu7znp3bjTUtMW4pump": 1,
+   "2EyFXKDBt881isZeCxw8HtqLQqnXEQ1kQpj3KRJ8pump": 1,
+   "HJm3HVGQu7ZdWFdc79B5SJodSF9DWgxUHXQ2oBi5pump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -124,7 +128,9 @@
    "9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 3,
    "2FKdTxiW6WXKYSs1dabHeAP396aQGSQ9ZeKBaff6pump": 3,
    "46yuCwy6725NEjuwmWFZvvd6UAW9R7PpSPh8LThxpump": 3,
-   "FBYjDLfPM1FpZPX6Zc6SV7ut2D5veLA4iS4gppzepump": 3
+   "FBYjDLfPM1FpZPX6Zc6SV7ut2D5veLA4iS4gppzepump": 3,
+   "4znhqPTuHbjptxemCUTtYVVrTco9MNDWdDSWvSdipump": 3,
+   "5UQXX1HTkumx7T4nyHRFz5eqdgimEU9LZT5SqTzh5SKr": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -1064,6 +1070,12 @@
       "side": "Buy",
       "amt": "177.58 USDC MC 28.1M",
       "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 04:09:40",
+      "side": "Buy",
+      "amt": "179.75 USDC MC 30.5M",
+      "pusher": "Ramsetx"
      }
     ],
     "token": "Froblin",
@@ -1736,6 +1748,12 @@
       "side": "Buy",
       "amt": "2.93 WSOL MC 28.1M",
       "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-04 04:09:37",
+      "side": "Buy",
+      "amt": "1.72 WSOL MC 12.9M",
+      "pusher": "ohzarke"
      }
     ],
     "token": "LIBBING",
@@ -1757,6 +1775,54 @@
      }
     ],
     "token": "AF",
+    "chain": "SOL"
+   },
+   "7ACeALj6v2KkPuh1vTYoNYUowF8XN6HMy3xZ5QjGpump": {
+    "rows": [
+     {
+      "ts": "11-04 04:09:14",
+      "side": "Buy",
+      "amt": "1.11 WSOL MC 24.4M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "LIBBING",
+    "chain": "SOL"
+   },
+   "9fEcN2Aj79yx1DeNnxSFDTVgJxu7znp3bjTUtMW4pump": {
+    "rows": [
+     {
+      "ts": "11-04 04:11:30",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 31.6M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "LIB",
+    "chain": "SOL"
+   },
+   "2EyFXKDBt881isZeCxw8HtqLQqnXEQ1kQpj3KRJ8pump": {
+    "rows": [
+     {
+      "ts": "11-04 04:14:07",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 39.1M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "purple",
+    "chain": "SOL"
+   },
+   "HJm3HVGQu7ZdWFdc79B5SJodSF9DWgxUHXQ2oBi5pump": {
+    "rows": [
+     {
+      "ts": "11-04 04:14:23",
+      "side": "Buy",
+      "amt": "2.03 SOL MC 59.1M",
+      "pusher": "VeloceSVJ"
+     }
+    ],
+    "token": "CHEST",
     "chain": "SOL"
    }
   }
