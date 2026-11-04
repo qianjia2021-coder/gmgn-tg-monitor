@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T06:13:07.353802+00:00",
+ "ts": "2026-11-04T06:14:20.188715+00:00",
  "state": {
-  "last_id": 1700731,
+  "last_id": 1700733,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -167,10 +167,11 @@
    "3EYkadvMT7BmPZ6Tw36ctLpDYDHspD7oj9qnu3rfLoat": 1,
    "CAQNN57u6t7Vph7BJaCznLhjYTwLePr4wqSuLHfrpump": 1,
    "8wmsBsSjU4ZPyDShAXdCnNk8J1ig848q8WyZ2Ttqpump": 1,
-   "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 1,
+   "MdwuY5jy2PqpFpFSUM6X7MjsbvzdeakecEn1ZZ1pump": 2,
    "Ar6X9sMK3kK6goiEvM7Uem9H83xne3s2jpakQXKvxwPe": 6,
    "5Gs9gdV6UqYRT5mFbv2zN22sfn7PyaNzWGb7XngGpump": 1,
-   "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 2
+   "D4yQgQruhFDKT3nqq84ZtqQKSHduUYJDU1iEK61Fpump": 2,
+   "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -3085,6 +3086,12 @@
       "side": "Buy",
       "amt": "2.44 WSOL MC 34.8M",
       "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-04 06:13:44",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 31.1M",
+      "pusher": "Ramsetx"
      }
     ],
     "token": "MGM",
@@ -3160,6 +3167,18 @@
      }
     ],
     "token": "FSD",
+    "chain": "SOL"
+   },
+   "e6MU2nLnTRT7ds9X8AxpVGJuzCKAWdmcwMu64AGpump": {
+    "rows": [
+     {
+      "ts": "11-04 06:14:02",
+      "side": "Buy",
+      "amt": "227.42 USDC MC 51.8M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "GOYBEAM",
     "chain": "SOL"
    }
   }
