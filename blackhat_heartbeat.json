@@ -1,8 +1,8 @@
 {
  "identity": "local",
- "ts": "2026-11-04T05:15:55.237679+00:00",
+ "ts": "2026-11-04T05:17:02.172463+00:00",
  "state": {
-  "last_id": 1700681,
+  "last_id": 1700683,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 1,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -145,7 +145,7 @@
    "F9tek6UvdhByxAJrmBt8WS55MU8728JBQ4VLU95npump": 1,
    "4AYwuHrsPzugQPc7NmoxYFssSMur8W5WRtTr7Fk9pump": 1,
    "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1,
-   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 27,
+   "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 29,
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
@@ -2600,6 +2600,18 @@
       "ts": "11-04 05:15:46",
       "side": "Buy",
       "amt": "4.96 WSOL MC 362.3K",
+      "pusher": "Cendolnice"
+     },
+     {
+      "ts": "11-04 05:15:55",
+      "side": "Buy",
+      "amt": "1.99 WSOL MC 142.4K",
+      "pusher": "Cendolnice"
+     },
+     {
+      "ts": "11-04 05:16:04",
+      "side": "Buy",
+      "amt": "1.99 WSOL MC 138.6K",
       "pusher": "Cendolnice"
      }
     ],
