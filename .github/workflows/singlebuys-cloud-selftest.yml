@@ -1,0 +1,24 @@
+name: singlebuys-cloud-selftest
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install telethon requests
+      - name: Run cloud singlebuys monitor (forced, no heartbeat gate)
+        env:
+          SB_TG_API_ID: ${{ secrets.SB_TG_API_ID }}
+          SB_TG_API_HASH: ${{ secrets.SB_TG_API_HASH }}
+          SB_TG_STRING_SESSION: ${{ secrets.SB_TG_STRING_SESSION }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: Bearer $GITHUB_TOKEN" -H "User-Agent: gh-runner" "https://api.github.com/repos/${{ github.repository }}/contents/cloud_singlebuys.py" | python3 -c "import sys,json,base64;print(base64.b64decode(json.load(sys.stdin)['content']).decode())" > cloud_singlebuys.py
+          python3 cloud_singlebuys.py
