@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-05T12:41:34+00:00",
+ "ts": "2026-11-05T20:16:47+00:00",
  "identity": "cloud",
  "state": {
-  "last_id": 1702932,
+  "last_id": 1703607,
   "counts": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": 2,
    "DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 2,
@@ -14,7 +14,7 @@
    "EknQaH72GW4JqkBSQwWUKY3jFeZensW3tsR1n4Ztpump": 1,
    "ribmbWE15MZVbr2CzQPxLo1S1jQvbeiSRR3qY9QKzGv": 1,
    "4NfS75GSBHtvFCej5WPUtiMYRienBeRhZjWzmPSGD5uu": 1,
-   "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 15,
+   "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF": 16,
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 5,
    "9nGfUi5yiSAjEofHZCPaGaUAPQ7HGVGpzvsWdHsNpump": 1,
    "8X2EfAm87d4bwyUzdH6F6EQ1ionR4aT3GBeg4MXzpump": 1,
@@ -33,12 +33,12 @@
    "Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": 2,
    "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 4,
    "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij": 6,
-   "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": 3,
+   "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn": 4,
    "9dXJvp4ipAjwbxGH4EyctpN7HN6aJtLEQxis2Urdpump": 1,
    "8Xpq1oY2c6mKq2Je41PC9MGuuJo5pTr6Q7tQPSRapump": 1,
    "9jij8AHifguytfKMAvLrdJ6xnBaGvUaBf2rGt31Spump": 1,
    "CsHquZCWQyrfuUX3irv8avsa8MNrtfqHeL3rgEdNpump": 1,
-   "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 27,
+   "DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 28,
    "FicTXnzYTUSA3ahseJQ5RMroB2Fr2kqZ2WqPnJDnpump": 7,
    "HdC6WeZQ1qD3F268bGBDqF6tNdbxtuUNY65QDRTypump": 1,
    "3XBgK7Y9Frdp4xytn4d5bT4oDye1p1afUSFhWNvPEEUk": 2,
@@ -134,7 +134,7 @@
    "6f7je1r8HUJ6hsBTHRhVhGqZPRguFMxq83Sv84ELpump": 1,
    "6jn6w3CkfQqNhu23cs76xdFjj93RRDxbtThQ14P1pump": 2,
    "o1KpsBuRa5apJtg7Ayapza19k7r68YRPEBc162jpump": 1,
-   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 11,
+   "4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 12,
    "32gAe266hHvS5g76YPTqmBF11n9ptvB4ALGxkDqpLX1q": 2,
    "AsQCfJtCgRcPWLUu1fDvwwvXwmJUBhDXFHK533s5JPJJ": 1,
    "573DefgpFQMGDaVLLmFEVMo295Y7cWtPnYJEPHy1pump": 1,
@@ -149,7 +149,7 @@
    "3CdTbnWxpzDeJ5eXKspRXvDa6kngHa74oLSHTxvfLoat": 1,
    "6yyKcTZF6nPRTtJAWCnTH9LiqXgSirtMwLv3A25ViLix": 2,
    "AGFQyPXe5x3W9kVQHd6FJzbVZ6Wgx2tRqpiZJWERpump": 5,
-   "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 13,
+   "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF": 14,
    "HVexX1K8rBCX2b9iBt6YbsXg2Bxe3poxc2UbHCKypump": 4,
    "6bsdcAsHb9zand6Eas9zdfDsLnD861FTjTbnu9Ymcc9W": 1,
    "F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 6,
@@ -158,9 +158,9 @@
    "F88RqqAz7ANsQ4XMn5VKs37Xvc6xbhSR6RusYuTqpump": 1,
    "5PuXxuezQHvALsbvjcB65MgTNAvCCSwxhjrbkHrHpump": 1,
    "GUCTUhy4cGN3N4ibWmpTjDqgwd9wcWVJUiJaQGkdpump": 3,
-   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 6,
+   "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 7,
    "4zWnqvsqGDcUfyYtojq3CLgFRoCuspsDqyx9SYM8pump": 2,
-   "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 5,
+   "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 6,
    "BeGY8KqKxboEwRbJd1q9H2K829jS4Rc5dEyNMYXCbV5p": 1,
    "6fxue81EmbLBeUFe4dnNYdqPgZQeGY2Q4Bi52m3Upump": 2,
    "GBzLJmDdjpaVnjZdZDq5LKSuraYWcFXZBk7uM2aJpump": 1,
@@ -184,7 +184,7 @@
    "78fWB6aN8RTLBdmpBLApLa8gK2VpGTjagJ7sqJacpump": 1,
    "Ajqo3AC4DevGsLF88qwwaRLsu56m67PYHgaP4ctNYACd": 1,
    "4J7U6bjM1FkFAyD6NsyJKD97FWe6JNM8JsUwydREpump": 1,
-   "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 7,
+   "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS": 9,
    "8ebks9ECo9omHR1EL1Aa2UfD7YnW1tHTPuL4VzcEpump": 2,
    "8eTCjb7V5vb3ZQHjeUKydhH4tFmiBFuhuai9Rvc1pump": 3,
    "8efxkRzjAHCfwahitHmiwENntrbFUddzbNToMxmZpump": 1,
@@ -225,12 +225,12 @@
    "7gZ9ep1ufbfxruCfT348exuWYSyv5GU9L6QzZ2gBYvid": 1,
    "FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump": 1,
    "9CRbVZxQshb9dMkh3yGvyARJRAHMGVuxiQRGhUsppump": 2,
-   "HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 8,
+   "HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 12,
    "5HzUM3Wy96PpeurUp4vv3Lk4cBPmLjDXCdaxK4z8pump": 1,
    "Ev6wwQn4mbLsZ14CR4bpP1YDoZSWj979S9X4yDgoSB7v": 3,
    "7ic6CtJqiUxtyw2Kk4DM8uBg1ajfJAmwGSiLTAC16Jjm": 4,
    "APWThVHgwuJLfaHmXXAhWV2aTsrSwGyJVreGAoyPpump": 1,
-   "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu": 4,
+   "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu": 6,
    "CXERZqqoGzgfDVXWVNVug9puKkrMjbLNHUgFGGezpump": 1,
    "FYV6rXKEecTgoCqGjFnSK52BZZfux5UMabw8qGvbpump": 1,
    "6NwarBvDkXhByqVp2Qkq5i9XbtA2B3Bwe8SWGu9vpump": 1,
@@ -332,7 +332,7 @@
    "Aq7zCuRSukrfqQPMqqQHjunPVjsMA8He6cnUfFixNmty": 1,
    "56KWDTFHVkevjfR9B2MuYeJjdTH3APQRU5rx5RDcpump": 1,
    "3G7g2vNmqFz78LyhBnX9JaSSTgjK6J6u2Qkhc8JMW6KR": 1,
-   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 1,
+   "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 2,
    "7NmbiwocJv7zF9ww6m2JmbhPpxNjVRiUwUkN21pEpump": 1,
    "Any94UXGVmGSVxRMQswECH96YsA22B3eQbW1KHSNpump": 2,
    "EG9sQnqecbACdxkkG3XcGgg2WBwL1gU7DpgMJdKkpump": 1,
@@ -346,7 +346,7 @@
    "3z7cmpBQc3Ksth4wD3g8B75KmnuFqwyqhjHhY3xnpump": 1,
    "JCt2ewimfDfqYccrrt1axhjUPEBHog7RksMj14ktpump": 1,
    "27SkFFCYJ9ZWatNhDYeUGZGsfU7Uhqs8eZotB9fDpump": 2,
-   "82BH9WFmtsJGRCdW147cM24K6X8kAkUx2jSd2NyRLfv6": 8,
+   "82BH9WFmtsJGRCdW147cM24K6X8kAkUx2jSd2NyRLfv6": 9,
    "Ad9ZnhmGqPF2HXsyg86fyHtSp9PUB2EW8bmbYR2qpump": 1,
    "CEFScemYFcNFrsB9vvDrt1K4TQQdzj5YAzjUUt9apump": 1,
    "9QSEgM4QvF4WYiRv8ZCAvWsQiPCQc416qQTptVq4pump": 1,
@@ -530,7 +530,7 @@
    "BkUiKPqX5K1eDY4NaDjp9u3W5GGvuf6njfQqYBv77P4V": 1,
    "6gnJXkb9JRtiybbtDS69PKNJfqPi63kJ1VChcfUNpump": 1,
    "FePdeU1ZyzRsrNrHut3QdgwRdg81DyqtCJrV4HLKpump": 1,
-   "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 2,
+   "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 4,
    "HgmunX4f8XnxHEb5GAshBMwjCmWWkgnaBbetzj9nZozC": 1,
    "7fWU1BwLnr8Q2WKV4kLUaNzfW7GbNqv2LbPtC3Kpump": 2,
    "NRnnKSpSdZEiDRunZAUxTaDsHQy5ptoWAbvKszzhhDq": 1,
@@ -603,7 +603,7 @@
    "8PEF6MZBfwLymH5EyUmNh5N15jKChu3hA7rocA2Npump": 1,
    "31QC3vtSKuq6XibdFrdVTve9x4WTxLBzzkxndXrEayBj": 1,
    "J3fQjLjC1bZaRr5hVmrNavQtf9YYVjRP9gRiBb6gpump": 3,
-   "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 12,
+   "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 15,
    "8oDatNBDRsQPjeNKELDT3QAnt84Go6RevnUDc2Sepump": 3,
    "Ex1PtBSyMcQcegFMwjkrDQi4ogsJKpVo2frxkjgvpump": 10,
    "8dpBg5BDnptYjDWPAftn4q8XebkRZkdNFSxRKJjfpump": 2,
@@ -681,7 +681,7 @@
    "L8E2guGqTN3BKw2BSFK1jkPngqDPTkFqCHosejVponk": 2,
    "3QiRPBzu6zMo5EC31GAqp19kZj7tyffbU2FjNtkfLoat": 3,
    "91QnX7xeBfnHgVPfoYcPmkYBbfAAr2jMjVzBQkZXpump": 1,
-   "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": 2,
+   "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": 4,
    "G7VmsofjCuY3AkZaXDeaBGcnJTyqarSfmB4gtqdApump": 1,
    "9iXpSYsjkBNA1M5bAKJFBKH4QKvKfQLF9SSyBVcNpump": 1,
    "3CLo2gEz6KQstXWcGEGCDeoLwDDdyzEXZGVwx7ippump": 2,
@@ -853,7 +853,7 @@
    "57hbQo76Jia43hiQqE3WuphYGPveNYGtXiub6LQupump": 1,
    "HTRDCfTcUVZoyGXEcd3HncUrLihR1K6vgXdx5sYf3mi7": 1,
    "AdbbsSk7oY5bexXoxGnzLsY8qLy6Q6uAoQYFNZhXpump": 2,
-   "6z3cf9nDuxdA9xyccx8m8SonWdZGH5s9kbqAeaV5gajt": 3,
+   "6z3cf9nDuxdA9xyccx8m8SonWdZGH5s9kbqAeaV5gajt": 4,
    "2872ki7w378TP5rpTkbdQobwRY1YaKoUqqg3vXHwpump": 1,
    "CjTYUYnZtif98ScYBdwd9ziRK3Py5s1BQWy7fHqwpump": 1,
    "AQwPTZ8Gc4TE3jaaYK1xhmddwXHc7FtK4AqiLadHY7Em": 2,
@@ -954,7 +954,7 @@
    "4K3tiR4fLY7K6nXAqPT4jLRicg8UG3axRxVNhfUGpump": 1,
    "nhoRvezezUdLAqEgSh6ceTKxYGgmTWJ55XSVscjqXcD": 1,
    "FGL9hGdu6hbPeu7idf8F2FhQ3HpNiRkeMmCzerbdpump": 1,
-   "EvhNHxVDH16MZzcaFg8BP5pFX4rezTRUTbu2EbtJpump": 3,
+   "EvhNHxVDH16MZzcaFg8BP5pFX4rezTRUTbu2EbtJpump": 4,
    "HGaEEqFCddk1WMwbSKA89y2ZqwzMshETU7ssPPzsz6oE": 1,
    "AFg7izi2fjrggzscB1xKXSj65p3dBV9FTEXUsWojpump": 1,
    "3AU9sxnfp1a6yziQjJxgBi1sXVUry6wkxokDBAHhpump": 1,
@@ -1008,7 +1008,7 @@
    "3o5D9junEWtdTgSGFyNUSnqRqdvPXNs4xgdvZ79Gpump": 1,
    "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump": 2,
    "ANSMJRhvCSXTDEhx8MDAZ4zsRQTULL91V3rr9gbEcKCh": 1,
-   "Bid8i1ocWssjRmKh2kcUfHxD1K6Sk7E5pV2PSVdepump": 1,
+   "Bid8i1ocWssjRmKh2kcUfHxD1K6Sk7E5pV2PSVdepump": 5,
    "9CZWhMmPzj2UdgGhAMvaXETVBJ7yEyLyQ8vQXiuTpump": 1,
    "64twkaWin2QczJYp4M3U18j8P8jeGsnsEXttYVSypump": 1,
    "HiUvDuyTKTmpYvLYKZkZaAWq6CKmETXHiDMrSGvfpump": 1,
@@ -1029,7 +1029,7 @@
    "6GcFgTt2V7bD8JZ5KKDGVD9CbVPtr5TToh9qTT58pump": 1,
    "4RtKQur819pqd5WQXBgdek9kfQ8eEZHW2xDVb5Cmpump": 1,
    "q3JVkduNd3te7xi9ibgD3gahAJvdQBs3aVqCNmGpump": 1,
-   "5Bbes5wMqf1MT1eDJFSzoDYp1yj21obAxeHmzXT2pump": 1,
+   "5Bbes5wMqf1MT1eDJFSzoDYp1yj21obAxeHmzXT2pump": 5,
    "3wCvps5tJCNfW6KRD6pepGY9WAe1qygwYmh2dJnNyCht": 1,
    "FQJNri3fTqFPuGD2MbCjCq4WJnQtrKyWgiUn6NAipump": 1,
    "GTGTsTgWmf9EkQ6QvVUNYkmipiHs1FMHCQ6MVYe9pump": 2,
@@ -1177,7 +1177,7 @@
    "J77zB9QxZMrtciSgMzMny9Mpi8t6mRHJT52tT1fLpump": 1,
    "AZ5CMhtG3Gw47vezpA3Aq8YdrEZ3rznFWot4EzH6QuYs": 1,
    "Ad8jHhxVsAJ1DHecFuZc2usXdKFJCPcgQhdiq2JYpump": 1,
-   "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1,
+   "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 3,
    "8JE8SbNyVeBfF5BYpEyk5zdXxUYkQjxyyh4VuiDYpump": 1,
    "HUhz9H9mjH8SvYqe8xgSabsrP3crns2S2Ed5AQNppump": 1,
    "8zarR3KWgVjRQZrs5QXeCGA5cetousiKagotw4GKtits": 1,
@@ -1209,7 +1209,7 @@
    "27ZNGSrMocPGTGDgfrDsrrCjsoADDMKhthZ8bxtcpump": 1,
    "Fjbc6BUo23Ph51dUMiZtq84phMALKfVpJ1VZpXKJpump": 4,
    "upemvD1VNhN3ChCA1cvMHBEVArAjgM1AJT6Kbgqpump": 1,
-   "6V7c7hEoTu1FCPUeb42VBZjKUbvwBi2i5wQUBgX9pump": 1,
+   "6V7c7hEoTu1FCPUeb42VBZjKUbvwBi2i5wQUBgX9pump": 2,
    "Bent8ZeZNZrYh1YyS3e4uoRxD51AnvDSJ1w1yRnQpump": 1,
    "AqvBZR8gYapfy2VjBtdFxLccGoqiiFAMDF2GwU8xpump": 1,
    "6dxwrYxbQHy33pNB3bsnGkubf3mVSF1FLBdY61Z6Kf3j": 4,
@@ -1235,7 +1235,7 @@
    "3rhDa373S499aMm7BQpbBthepDaUBM3qRj6JDvghQ7E3": 1,
    "9Tch1QcsMYuaj93rcnL7jJ5VRP6JTVPLrHQk18MQpump": 1,
    "4LLEA3vqjXZ7Gq3WuLSVmuzsut6XJZb664zir1Chpump": 1,
-   "GVnrZ8kXcnTp62jGWHdJG2RU7Xz7txobMKyqNnm5pump": 1,
+   "GVnrZ8kXcnTp62jGWHdJG2RU7Xz7txobMKyqNnm5pump": 2,
    "9TRajha3WZUb57zJFY8EgSpFw6pr1KSR8r2Kfnsvpump": 1,
    "5inWYhpReozBsk3UrTFbzyvbKjiRbvaBsarbdmLB8zW6": 1,
    "FThaRZjSonfK2e7xWff8bPNYDN7DJ2FYBQi7qBE17aif": 1,
@@ -1258,12 +1258,380 @@
    "J4rP3zhpvk3r2tFasTAecU4g9gnxDDpaR2xAXnz873fu": 2,
    "CoBq9ELbRwvJ1MFs1M8nYk9rbtYLjcgYasuXS9T9pump": 2,
    "XJQGh8rpUdhfA5R4nXtXTpDjVRh94AzQGVwsMPSpump": 1,
-   "ET3NEorWVuRdeuHbHi9ZUYNPkMnAKvAxGqs5s353Empc": 2,
+   "ET3NEorWVuRdeuHbHi9ZUYNPkMnAKvAxGqs5s353Empc": 3,
    "9xmAuNABfgYqm5NojjFj6nUYdvj4EYXwFwGhz8ov1bx5": 4,
    "BqP49rh1h8b5XSFbP2QxQJf493Q3aeJh453dUCd886kj": 4,
    "zd5UX7pUm4GVGsNkm7Yzg476Z7AJz6EPcraZ6As3Fph": 1,
    "2qYDaKLw1ty8mEhWSdRzo4CtaXCYWBosoBURthHmpump": 1,
-   "4FMrvRRTQSD6ohFfZE4ab947sM8EmPU9vyTom6Bfpump": 1
+   "4FMrvRRTQSD6ohFfZE4ab947sM8EmPU9vyTom6Bfpump": 1,
+   "GKdeviTPYDpCz4FJL9Yx7QR5qRqBats1EQD9FwLpPt9y": 1,
+   "7nLukVng5teXze14rum9v57juXLjUp7JJnCveko1pump": 1,
+   "6u7CWWu2trqBNzySaCqt8kaLb4Dh2LAdStiLciWJpump": 1,
+   "Dm7yy6xwcARWCpkc7kUvmB6uDfCjNbdYx5S77C6gpump": 1,
+   "CPQMNVYoe9gfbBaRBRCaWoSTM2UBm7vxRh2Dtj4Cpump": 1,
+   "8ooasNyMWPwdPQWG3xgBFGaXikBF4vLwjXkjpMQBpump": 1,
+   "9UuBKMwmvB4FWcFF6W1UKwwQjeYN8AzzjN33sQx9pump": 4,
+   "BkTQBoVKCfQB195KCfePWvDm9ESDA8vDPxff53ugC9EF": 1,
+   "GSs2a4HGSVoCNrdgXrvCfRs1fKMch7Q3EzQ4RJBXT8o4": 2,
+   "5FVAqEp94GxU8J5cfieiTomeXPcPbBBZBaLqHV157K44": 1,
+   "5wTojRG6PN4CFNPh7ebFgsuaiMJDo6CacLbH7fY8pump": 1,
+   "HoYZYZFAvEZrGoKKJKSiCNTBAJu1uYGzBMMdVwd4ZPAD": 2,
+   "9V1d7SB1AGRVyUe477aRB7XHanmcCc3FdFmFE9sApump": 1,
+   "7QSTy9eM9tHQ6uAwpcNagnq7ekoWqq65ERsk1vku773T": 1,
+   "HQf2jARrAEr3cZoLTCZgGMY4dUWAraWhsJwaj77FebNJ": 1,
+   "Fo6wD8HTUaWqVcKte3u3u1PufsCkWkbR5iJbn6Lcpump": 2,
+   "5qcYLfdwdBL6GrKbvDZf9tM91wMdfjYyeD93se6x5xVU": 1,
+   "CF4bmjXu7kYcxVbQb4ZBC2kSgaDK1b7JVd4cRE9ppump": 1,
+   "AY4UKADy27CaWVVznycXUF38tVHNm3AofEBXqTdaertU": 2,
+   "HbXn9Lcug7KrXxLr6TrKFe1pymCmqbVb3kbP9N1Kpump": 2,
+   "2SJvMRSKUQgTnf8yYq74FsHtoejmXc2H6M8FfZ1Spump": 1,
+   "5FRuQDcMZvsUQJRMw74KGjVgeL8k8XWTG7HY1gxXpump": 1,
+   "bHiNbtfn1fZLMRc8MZh8qr2YEjZi62e64R2pX7Kpump": 1,
+   "9RaG6BnDcy5MoY16mGCqwjcguaXyV4ifNLUvw1rypump": 1,
+   "Bu3h78FY2fsWVZ1MdyQVpFTvv5XsRotWX6VjszQTpump": 2,
+   "Fg8wAjZLWXp7DdhVa8z2AGvDD6VBbxHuacVz78FHpump": 3,
+   "3MQqSsqU91UpNf95B3qXS6aHpYgRXrA5udL1G3rcpump": 3,
+   "8j9dSeSCmwNJBHdyQGx2VfriSobL8R56gTKWfnyFpump": 2,
+   "77N4uxbENYNTbtD5dStPnczePyxHVHvUSbkCeXXWKcAP": 2,
+   "YsCPnuXHTRzvWFPHrDvhsufzRRQHeDiWmKCyAPrn5aU": 1,
+   "2SJVRdZ3n5J2oU9YRbkpeF7JAVZMMYNwMw2fLnMHpump": 2,
+   "3jujBudoya4RPkPGSAYfgRHCLdKZ1xWc7YfikadrnMaU": 1,
+   "HX6pnETuZySVAsy8hT4a1zRFPYG4nXrfKVd1x66SPJ7c": 4,
+   "7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn": 1,
+   "gFruHwUdkUc9vEduo89DxPD3XxhJ6M6J7UCRoywKGh6": 1,
+   "An3v5tzs8Kxf7tBNk3eEjDhV6vNd5fuVKMNLBdm4pump": 3,
+   "D4BKy8LTwrwCJXVPtBWkg7HQX365HWcN7GG9tmtjpfCf": 1,
+   "2YyHHdFznFP2ufBnxh7pfj4rD1kVfK3iiWxA814qpump": 2,
+   "Ci64qDpwp8Tbg9nb2Q26xNq44V4D7sFxBNq3Np8xpump": 2,
+   "9X8AGinrTXSTrZBPuopZi873jB24sBdDEja2Skszpump": 1,
+   "6hg72SfpArhkyoK55ESuXvbTYuh37TCbFazETGvHpump": 1,
+   "QcpgzQFjDVr4rxWiyx6Fg7giUwvg41Jb9uuEAUNpump": 2,
+   "DBhWAqpAJFNM1A9XY6DDb1SJVkNCv87hRdYCoCoypump": 3,
+   "8hRcZiA2vLCwSa82WUEGUdL9RDKwtwkqMAvEK8e6iCz9": 1,
+   "5KXTAWQHFvk8SF2AWkKNDZVBZoYFDS8q7Pg7uqLYpump": 1,
+   "FcL99CLZeqd5KtDCAq3Px9LhkeowhLnWzxB6fdCjpump": 1,
+   "CMwkwsN9qi9PPWtfW9WgT2mtiMxKgr88e8B4FG6opump": 1,
+   "5SQt9q1pGtUsj788KWk6qCk4gJfgb9JCcTzeXnjdpump": 1,
+   "83M9pB3p7RTQrn4sviZfzk2DBndUHbMqmErEHUSXGMMa": 4,
+   "9XoSWfK7ymz3r4FofpcWgz8gLHyE4ne5WZTcoznipump": 1,
+   "2zYXw7JsxsihZCPF9cv7jizvBv37qYn6eiWEf8Gpakqp": 1,
+   "BfcdnvkUST2wVhAoyHN7aZzk8PrwH32fP2NbemVbpump": 3,
+   "4DFqGaGfya35cuNDw33pa5vBfB8RTasveUZK9zitjWgL": 2,
+   "4nQqYeHziRZaiYLodVt56q9AyubY693oGnSPXYcNpump": 1,
+   "H41JioR7a56Kns5LEJ9RYAnJyLQMfuw88W5RfCXYpump": 1,
+   "9XD1tHPpByPmJi74HrohCMmkXWMs6G9s7BLRiE9Tpump": 1,
+   "8hTgCHr3rq6jdsjHNnpNeuAnMqJwV4nrnnDNve5jFEM5": 1,
+   "6gELivde3yxaRgKRD815sFawoXKXd6WKBnHbbHP3ukkp": 1,
+   "Di5QqeLmx5Q3Azp5LkjVBqQ7S1HfK8FC6fe1bAWtKtpB": 1,
+   "5cTjJcTtt2G2AvKWFpq8Z6BTUia5xMqzQF8M2LNmpump": 1,
+   "4b4sB4Pm6geVLu1UZRsgGbEKFESBadDV1XXoQ2C2DMcm": 1,
+   "7PSJPGKFRc5xm6aa5PzDWjaK8uz5rNoyNmniXfYbRTNe": 2,
+   "7EMtZJoGGcV4Shyz1kp4aPKnFakgBTUz1obcKNZ3pump": 1,
+   "GybhzDB9odChPtuWdVRdys7eUEeivceGzn7EuC7WJ6ea": 2,
+   "BDXUaN4Bx6yaCBKAmCyGfdXd3UkRobiQwbV8mB1Kpump": 2,
+   "74Hymdu9o7evcewx2ZzvdMfunPJJ7QUJbxrMRBggEEFJ": 1,
+   "2h9vE7jHYRwkx6YUeur3bbhqR93H9qxAytRnrAeaLdGq": 2,
+   "HQo5JZdxYnA3jTKSU14zgkfNnfVXBMyQLHdD8vj1pump": 1,
+   "8sQsXu1xQY59YbVNy6sApGhJyn6MGvzRFuz1Rph4pump": 2,
+   "Cgb8s8EPXW5XzQp5HxEZY2nfkUeDcVEeBdr2MWA74Uag": 1,
+   "BqaYdwqUUhuMJWYi8x4uExXFEmYDtAx17SpLj7Popump": 2,
+   "EhxkzrJ1XgvrrqkvJNZv1A3AXKtcTjhP7R7D1Sbxpump": 5,
+   "4SunDrdx6FUNFdoCgErj5X6f2R5ASWNS3dd32vNZt6xe": 1,
+   "GnvShpbpDhUQqz78c8oH4KeX2mhg5YRQSVJKDNGgK5yU": 1,
+   "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 2,
+   "AivVaxcPpruo9wk9JB9sS5Syp6UbRbi74uy2r3Sypump": 1,
+   "CB6m43UnpFgW5weeM9Yz32pygUcJWmS3aYCJivUHpump": 4,
+   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 7,
+   "2Ki5Cr8Q3RKCdeoNwX52oBnejWSP64LXS9FZTWFvD8fK": 5,
+   "CSMi7fMwcrM5EeBoSR1jx2YTr8oBrf4ySbFWav4uS2Et": 1,
+   "5D46YDKx2rCbAmiqoxtPkHJBKPxj4kAM9GG3XbdLeSVC": 1,
+   "2V2WnQzqQ3yNaRPjQTjPqLDD79uMAFphBcMgVFcE5G6d": 1,
+   "9bhUWM8P2hxnSKCz2vMaupbdzemz57WYnQL3vz7Tpump": 3,
+   "4NFR3LEppwnMuWjJncJdJk47dNRSF53JViKgQjuKpump": 3,
+   "8VEKPG1b7H3VxnKK9YxteipFekdFF1KKdVxt7HBb7BQs": 1,
+   "Huxhz4tq2KCxGnSP4z2kvcq3zCUVPbYYd6Q9yZgipump": 1,
+   "AMs9ryHisQBNzhFCjYjJrWNn5fozrzzzjSxMdjN4pump": 1,
+   "3mPo7mhM95K4xEeANdrtc3By2jPzXhZo2VxSXmufLoat": 1,
+   "jFbpZyWeD83o2NxJkVnmkudT8DTMnpMikar7RNjpump": 2,
+   "9boyBbb7nXWvzWNYifqHoans13MRX4KpzSfCkdWPpump": 2,
+   "Dq41or3oupfNTnjFD1tExY6S3ozmzpmcJ5oxfoR8odBB": 1,
+   "FA1VQpkkHbwbWF6N2wsmq6oYejf2DrXWSm2yBM2pjK8D": 1,
+   "G3kf5arvcxn9hSBZ8RLzQdupey3ozEZw3n7eNd8YUHAq": 1,
+   "ALDVtr9JeLjKH91fHFvLxFoyd7C6eLUxi9dUoN2FsWdD": 2,
+   "5NEeVaMMuUruFcjmYFgdXkfcda3FFUqDbPVXHeaDpump": 1,
+   "FgGCwNyjGixWk9VPwGqNbFSyt4imE8HbKjVJTGGM5ccs": 2,
+   "E6KdGcKUW3WAv2VSGTR5CFyyhCWPwarcoWdoH6kxAR6X": 2,
+   "85NnkaeqHzTnJNSqyXzxqbg3x3HbxrcVjNV2BxiDpump": 1,
+   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": 1,
+   "3UsgG3dmEJoDodd4RL7ma94nsTyChgaxYwzFCjiUHiTd": 2,
+   "SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 2,
+   "BzH6KKFFwrJ836yWXRtAbKsN1i5EzhbPQysJBU78pump": 2,
+   "8nX2ChBViVWd6eUQEeWFBH45ptX19qdFUxS8G23vpump": 1,
+   "27AYXq96kjPgsy2qMsLXTPAf47CJHZPHa5P2fQZ38Z77": 2,
+   "8yxCjef6QBoKjQZetwB9gY3j5nC4gT9kTa4cLsbk47xe": 1,
+   "SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1,
+   "Da3pR5MBSUzmBfJMHgS1dsGBer94vgD9CaJUjDVkpump": 1,
+   "H3cm62kFFuj5G5a8XBN6ZNcAuQLp5d6ZXWQujTsqpump": 1,
+   "HAEQWcfMZKJhz7eXpwXT5gTzuy5EUG1onu3FKw6fpump": 1,
+   "7zA9NJJeTHsGMbLHgJv1dKYP7FKrvXLPuArB52BNV9AG": 2,
+   "642eS15go2BehH6evxKeksMHaVdMpv2atAToYfCuwxU7": 1,
+   "4JoZWLNGx88Q6zpAsXiXf9sXenPKJZCJiNSqVJ85pump": 1,
+   "AwMeDBWWqxuxTCvVtF3sdMiLnfuFw4o9HXo9wLcdpump": 1,
+   "4RXreBwjK4zjqrQFZUYswuAY5XctAUjZ77XdQU6g75mz": 2,
+   "CgvTH9N9Rk2yGWZ967npLcEVQnsKXnSVYYaisKb9pump": 1,
+   "HuTYA2G5ToJsjaUhqBcfvDF2VzPiw5FYAybdD2Lbpump": 1,
+   "cats1JDrvuzdgvtNh5AMm2QvqAjhGJo9TF5pSfd6NK8": 2,
+   "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": 1,
+   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": 1,
+   "4UPvLkNYzGKbVKf9KwP2VuQQ5Uk5z2XfJ7tupNFApump": 2,
+   "7hGgx1VtNTj193fFXXuMEkp1MRV6JbWYgMBhHRYxaxu2": 1,
+   "CvWjRQBuwW1KfzifY67omNwNCtNpcfSgbnjfnpA5pump": 2,
+   "GB2egeuZ75H5EBqCS2K45qkwHLsbbngYvJ8vXZ5upump": 1,
+   "BTx1ZauvxvMAHY4p6Qv2CYFwCVL7qbvrpyVx85Qbpump": 2,
+   "9VhhPYW32vC5RJ1ksvmHUc5FkKNYUn2qqm6QXpMrpump": 2,
+   "BXGa7BML9dNkFvsqrWSbDg89sLRxFDHuHEragFhFpump": 1,
+   "FgqPx8fk2kxKtvoCNkJVqt4ZeXXxyR2UzFfNeHabpump": 1,
+   "4Fg4LjiB9LJwPEqAAVX2PjjR7iirDR98Dybn9gZEpump": 1,
+   "9o4xniRpmvMEYrSzkxZcxW6miJZgkxD8r4mVKAqU7Zvf": 1,
+   "GgrXYd7Fz5R2gsBz75YYNYh7CFHXKMWQu4T2SDfUpump": 2,
+   "2crWPAuv6QkqYzmMXQXrQGj2i7mBbGN72JTssBD7pump": 1,
+   "6MCTCuUxgaem4pDNyjeLRZtio1Qk7beNpRSa294Dpump": 1,
+   "DNSJN9CvQnBhNxqaGc9cTvJnoo3fZVky6uqKBMMUZTqA": 1,
+   "942yLuvhkkF1meWAK2cekh1M6QitsRm6ijrr7deYpump": 1,
+   "9pqp25BF7BEqNNjhPHPDQ9yTJ1ZFSEczZ9v5DECPamz2": 2,
+   "4vWZULXs193jr6wf6WkuEaJTE1RnLZJBVRQ2wsDHpump": 1,
+   "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv": 1,
+   "1sB3bdiXwHeazqbcfCg5VLteYNuFGhn6btLQMAjpump": 1,
+   "C5QryaiZGKBDrnkmoEuqWbhe6T6LZBFtZXMPFDPTdd4W": 1,
+   "6eetjSkkgrRJx88n42A7n3nZ9z22YiLBwJwipg4epump": 1,
+   "34iqKf8S9rm9RKhKASufguNYRtPDBtt9oKChSb9gqhD6": 1,
+   "2hvVrGV7dWt8cDBt3jTRphj54LURcoE2JcgeZ92kn3XD": 1,
+   "G9c1gv1BTpVwiJe9D1zTwrmS7gkyWjPWotmfec88pump": 1,
+   "91Z5ec6rhrSow4NvryZ4uskUWPD6LsiW8J3TkVoCpump": 2,
+   "DmiBPKP7yvQLRpQidYBvbT9SUzWJV9cUtKmpLMJepump": 1,
+   "DgZfbGxG8mmpxgxZ5X2nuzdMMxo9pFMMfvkM39nApump": 2,
+   "EJH6kZZbCiZ3QVppp1LgXxYV5mNwgTQPN3aunPmmpump": 1,
+   "Ee39LCn2GgrnbfXPbU1Vo6JkV6mEHQKL3C4c4AgBcsF6": 1,
+   "DgF4KDEREM6DBNYxYuqDQVgVjvXdWjPtZLrabNY9pump": 1,
+   "9cqb7hVJ5Dtq9GhC5YLJuo94bguFut5nrFHD6u4Vpump": 2,
+   "8F6FKcuei4gKhoo8iYXx4ugEz22HAmx7414AsQeFEbtX": 1,
+   "7avTi2cj5M2eKWJVitKHQbhKxQLo4MiMxRGknK8Dpump": 1,
+   "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1,
+   "9GC2aKfnTTUbsD9YgpzZheeUq2iAzb2DzYUdRBSYpump": 1,
+   "7zyHwL9L4TjA9RKx3hJK41Nt1cYLsvWaTTBcgh7Hpump": 1,
+   "6SWnameD9jWoY5TfMsK93dBv6WA4eKSvytWtLn94pump": 1,
+   "FzHHmfhSTActFCzwZyD9AmgMMc2VAWBUyyT4mqWopump": 1,
+   "BwiFYTj54BXRKxX3NikG8WrSVQThnf7RvjyDbjzQpump": 2,
+   "AHTNaa57pJ4GenHhr4b5RxV5pTGGSodWPAG6Vt7Fpump": 1,
+   "GFSjrXA34rpishXPw1QRKgbU87B1xcLDfH4v327qpump": 1,
+   "4aLgjEoXzExKBddYrGx6qNzJpqptuhaNfUk9rLyNpump": 1,
+   "FgcL1C3AHiiZyhy8n14k9ndQwWMh6VRjHUWhN4GV7Ngx": 1,
+   "A2yfWHaurv9HNR9VkV2bksSXzLAPoLDLF2evY1Awpump": 2,
+   "8F3oV5RtUBfYfqqmHLW8YZxKx9JXE1zeyLm8NZfyQUCB": 2,
+   "7T377oTDWpyKH4anHS2fqJLsybG2i19d6Le68ReYpump": 2,
+   "2HKEUy9VxkreU5LgAHC4PyzHCeDsP4uqViEBQnfwHFPF": 1,
+   "8d5GhKxVxexLPBSCJDFTWPkoy8UXwFP7AdDrhUcfNagd": 1,
+   "ASkYiHKWj4Uroti9yxuv67dokmvMZL8KXjGouUWPpump": 2,
+   "Bd9bsackCBHaCmuoA9WHzHMZGTt3C7aZ1PT3UTHCpump": 1,
+   "GgxX2cg3XcNB6NDZ7YgBYGJxCvknTsWZCPNfaVhinHed": 2,
+   "EGsMo77yCH9BVKedGcA3ZForQ2mJdLbvGwMhBA3Zpump": 2,
+   "3UTXcKajE1P1jQwCtjEriCChrBg6agLFQi2DKJbapump": 1,
+   "ArZXy6SN3qLGPZhdvQ5Z1ZJJ32QWmhHNc2N68P1St7bk": 2,
+   "HpcZXMnbmKpG5ahPxm5dtpnKmw2W5Rm2VjPigw47pump": 2,
+   "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump": 1,
+   "954cqZgKoHVGcFuJwsjTDQtNRNfEQu66yPEUXZwX6nj7": 2,
+   "FEFEVFRRU3RzSaRhmgv9txwspMWpxvnx4QKhVxQLpump": 1,
+   "BfDbWrxbbg89kXsofvp8ZHAt1nsnWzaV1KGJM6Wcpump": 2,
+   "Dg77yjPhBcPqVnvu6nWX82nmeKYdhmUrBAr4q8Lqpump": 2,
+   "CYV7NyfJkzUXcfYQPBRcuW7Mz5U9mwB4W6LnwjUGpump": 1,
+   "3KfYWBRYG8rNUMUodzf2FdiQJrkxg6hPGQPv7pXzBAGS": 2,
+   "7zghLj1jF1mxfUebDRnFuargoWgQZxXYsVkGqFeYiwst": 1,
+   "Dt1ELNs82CV8WxX6oGQQShNpSU5vLe2jexvJjfqspump": 1,
+   "FFsDYAd28Vqn4PCku7HrRpgXRZTzFvdiNQ5RPi9Npump": 1,
+   "G9ThjVYH5maiWtCr3aAGKwgjTwA6Kg8NT2jLe6uEmbuy": 1,
+   "ELtScEXTwPghGGphuKU9NQ4QW2AQjgokFVFa7whzpump": 2,
+   "8CnAFa2DwZEgo6xi7QrkWAUpUEJLCVPxvrkzSaT3pump": 1,
+   "HVg4fTkoC3tCqPLU7DtrqxhqDNda2m7G7gMEXUEypump": 2,
+   "DqUBmJWPxdY7Mj6pAN3a41aACa8JSwM3KVEqT8ftpump": 1,
+   "3aGgpvfN3sUbtSd4jyhyCU9FEBusVMvgKVj6Px8YJVCK": 1,
+   "ACiYG6QitgkPn7i8R6Q19bDc6JD6CNsUd1WFmt7fpump": 2,
+   "Hymyb8WYaP8FZvesdwYYxDgcd7jSZ4S464SxkXAfpump": 1,
+   "HfyRrj9HRKQEXApY8s7SFePwm1KPrg6uryNRz7yg6EVL": 1,
+   "PrkyDdnE9A99ghintXqgoynRahwz4oevixigZg3pump": 1,
+   "4K1m7gAMDKzrxQn68yuZAd767w57Fw7Ykw69dG3umeta": 2,
+   "28XyP8xe1BVVyf9iFYvobC6fB6WuEWBgr6V1YPD7CDtR": 1,
+   "8CFZu19HLhSjSrCAepBiPBCso5YXt2Vk1qr9SJ94pump": 1,
+   "9f49oY3ErcQwv3MvNkuPG187vUThFrjs7RMtZKWNpump": 1,
+   "3BdgKCyEZLqWpuUGvsMSdcf6GwpHqFpjwUPv5ekBpump": 1,
+   "9f5w4KKrVRqezeZy2gVytHeknqwYKHBUiH695D4Kpump": 1,
+   "HRoXVgHA1YiVjZCANekAxiWR9Ww5tAEHyLyzRy2bpump": 1,
+   "BCVUU73dbNfHP9XWg8aAxUK9ieB9zynMfuM5XMMDpump": 2,
+   "9TPwqrxbaocRZS55tct9yezNjnyr7JVvW5pnQHJCpump": 2,
+   "985wvYZnxcyVTCSnttucKTwYLaxCoENn7zvDA5FMpump": 1,
+   "6ppHoy5tVKYh9nGHLK58srDc6XyJyRewPEidLyqapump": 1,
+   "5Mkkey9dqZnXEu1sgNyDWkMRXPmkWWMYzg2xVtJXpump": 1,
+   "241uewYxA7LEkDYuuGJEMKZtWdHArM6yTQTKMJ25pump": 1,
+   "Gcn9wNj8kVQQGYTJPTvewFK6zqPCpY9xu691nK4kpump": 1,
+   "6SVsayjVDauFk6P5P8ayfCEWbhiPS7sa6f6MwqAmpump": 1,
+   "CvEJYs4QEVA9nk66G67nHhTagjda5cwcimkvn8AGpump": 1,
+   "GPsivgRtep612FmbycoXy4HczFzXnf4RJVHoWkoePhgm": 1,
+   "7y8h3TqYAJVsvpPcdLPyRVtEQjQMGpvws2TYXf3Fpump": 1,
+   "CHzHZaTBz4RR3eT8v1oVu39eGJZNsdP9GL8rwz3Upump": 1,
+   "9fKTn3cvZbdLNh4s68tre8y6qY3GUehNECaBo91Lpump": 1,
+   "3s89ozuGRgmsoCEyi5oAutEte8swSMNFqNqoQxgNpump": 1,
+   "9xiswjVNhxmwUyDNJSbwDRdSb9PCcaXCh3bDxSb2pump": 1,
+   "9VT21dd7X26ESdwSZbSMdXG7egsxo2fMTbECeRRYpump": 2,
+   "Czrf9mnkgtyRxqaG1Fmzhhn3afYGJwh4xB1G9cBzpump": 2,
+   "ETEgqmekAKVSiuWDwKaDpqDkjihWpDq5mHXV4bZP4Cwh": 2,
+   "EMxLf49CVYE43ELN1S8BnFei3eZER5wUmSyW9HkAbonk": 2,
+   "GU1jfmyuhLxJn9z4HS1tagCGR42EEYxwjhnoMFizF3mX": 1,
+   "BjHBKCrjziCWU6QBsDRtm1TypmV6LzaigkUp9NExpump": 2,
+   "Ch1JbTRFw1uXjeSN9SA7QYEoZvhvq7votCU9p95Aac6v": 1,
+   "26CyDATMVZ7xsv5CgRpKFjz2Md5GTpMbpGD3zawxj9pV": 2,
+   "EXrMr17xHsuz9YwitMjQHy7MskcpVn7QLyKAqacZpump": 1,
+   "D12nYRuHVipRiwvyBms4BdSgJWzGR2FPt9Jph1Gkpump": 2,
+   "EhBuq9M6dJRiYHTo3qTy7TkSspwoCFQpXxEKLubEhYzz": 1,
+   "EKPfC2X1K9Uq1S3gNXdzZjKsmFcqiy1dMKqBwvPMpump": 1,
+   "D9mRyVdKJyjYG3cGi2p7LNzY3zpp17PP5ZWfRBKNpump": 2,
+   "GrWauBL1XJt29tnNixPrE7qrZw1X9Bs9rfimYEtSpump": 1,
+   "3ciDjC4LnMvKqnDSBFPTddX2NbEAgy5NUEXdhQUmpump": 1,
+   "DTmP2zzzakbV99e41nzCKp7BosgzHo63FNpUG88Dpump": 1,
+   "9fgp24EBCq9rfFs4NGzq7vzpqZYGHh1fZpdGBYEDpump": 1,
+   "HYftMKJjhh11VSpp7P9Fo1tpYpsk47n7tjoNXkr9i6ea": 2,
+   "9CKrwmow6D9aCBWUGbnn4p7dLTeEdCo7E5BpyE8gpump": 1,
+   "5VxGkDJBCYdNg61ZQJsTN1QiqcRuaYvibQ7ccxpLpump": 1,
+   "5jeyX4cSHftvRhxAAKUPZ4dSszQKG7mHDSFpz9a4aWmv": 1,
+   "478JcxHAHokbdxighgbB13q8UUAKkcr8TapJtVxgqSq3": 2,
+   "K2U77oaQPJudS8SGTXFoXmZFHRZFoiaqAhtpqS56jX5": 1,
+   "4eS5DEehMsqFW4bxsqHmv8DkLXRRPX4JfakEAkNqbFSc": 1,
+   "2nhLBkFjbgCYjhjAknL2CZ1WUdBXH2dRW3j9SkwbydnA": 2,
+   "8nKgAKi54c1bWkpLoAvun1w3tagsHfqxhp9tRcXfqmd2": 1,
+   "9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T": 2,
+   "AdGZLFNZuLhGhCaatJ6qpvZSUvjnFaBcjDfXSoQEpump": 1,
+   "EAgbEvBR7NyWGK9wwUQx7DinVdFESgfYBLAeJ6BpZ6ea": 1,
+   "3BJQvKyuBXkBMq5se7Ty1YMrMzvDYeHcigDsaTT2pump": 1,
+   "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": 1,
+   "7iMyNDFBsdLcCX3c5kPLXTr22aBRo1dyxZ7x9vsewB5f": 1,
+   "Gy75YN9b5AvQLaKHpzASQyzhJUPPyS522VWhXkhVpump": 2,
+   "9J6pAVNbBFHtDMRVhAbFZ62HZ9gZLmetN94Qb3mgpump": 1,
+   "2yJsGEYnEUedd6HzRtsGWRzZuZLUCVtFzfbt6QY7pump": 2,
+   "FFg9cpP8kCgiHSRRS6n2qjc3d8rqDdCHJTGGNj9opump": 1,
+   "ExugAjXhv9oyGpMZ6QxwifzfuxtBAnxCWJmAsy5nnUVt": 1,
+   "Qt8hATYgdTZc3L5FgUwwxQJCDXMGfW53wz4X1zv8TCx": 1,
+   "AFFy8nkY5L1RaqDq2z6CfHGrFwkoZoUdBzy87nZPf6ea": 1,
+   "9gUEuQpDjw9pguRJdVxfz6LSnqyxLhGgzM4eo1XGpump": 1,
+   "HqyUQh3gJ2TNLvf9dskf71bBFVi5QDZtefREc6JHpump": 1,
+   "Fts4zZTk7udQM4odkHVv9sT9vWhdHb5L67PS4aSHpump": 1,
+   "NZZX2A3jhf4cvGQo6f8a5okJadhoAgHcoHhxQL1Sxo6": 1,
+   "5izkW6J9Kp1Ph9P72J8YxYN9qpybMeZusd4M37hFpump": 2,
+   "73GMKkA6FCdy5eAjMnZt33EN91dbrL6WDSA7irEvpump": 1,
+   "EwrPCwR7XaopkN3oxpaLbdr92aCaEsmp8vFtfs2ipump": 1,
+   "2fsxkzREbP6dJQ64qhSEZfm1iyjmjmEpZ92kFEUqpump": 2,
+   "SvY6H5d7JNo5XRZx18eZwzwwovs2NXxLNTQoLYYpump": 1,
+   "E4VB5eDKdao471QBkA8ZqUbDJVqPh57ip9Ar7pjJpump": 1,
+   "DF5ZVf1H7TAPvRmQyQHFtbpkcobLHVwMbvGCBGFFpump": 1,
+   "4WfirRAQbXzzApCGwqiJKF3khURWv4JLVr9Ko1chpump": 1,
+   "6raAcYbQJP6BCHcsfvDBZWQ5D8EcpR1e6LaoPZPLpump": 1,
+   "B4v7fATuSdtNsJximsbLXZ5wMenSvujfED71xe5ZxrPk": 1,
+   "ET18Jpq17DRVi5zWwW3Sxza2qHTFsAoRHXcksHmwpump": 1,
+   "9mfffKBdVTbsTa3PGSAAP7jNDCJRPDNaJtHeBjA6pump": 2,
+   "EbDPrU2kLMASKihLHmVbNec8svQSVeXvsVzVkmaXpump": 2,
+   "Bmhp8nat7zTFu3Ct8HpQftiHHmB6dnf4B9ivvYYzpump": 2,
+   "9NHMs1E86mkts6uW8c6cNduTjM5aArT3FYwaNhNrUq6x": 2,
+   "DT54tqWqop4Phg2KjD4Nxehe2LuTxxjSmWgGBSK4pump": 1,
+   "4f3Bg4ofAE4eK819vnfjrs3EFqrXBH8tx6Wo6BnYpump": 1,
+   "Ed4TmYyNhskDeuyrXQ554Vg9wBCVc5x1wHJGbuoKpump": 1,
+   "51iAsoUtfkS2LXDG16kt1S6k5o79UzuuoEMnePpWpump": 1,
+   "6NkaU1hq3MqwPapru9uLyKaKGQwAZR1Uf6SHGLHQpump": 2,
+   "CtXvoeGJMP96Sp4fi3u638zF1USZ9rQpKp2MvUk6pump": 1,
+   "CSptmpZhd4zemNQUGgPCwQcxTvtxM3LidWJNQeMQpump": 1,
+   "5jKiQb1xeTq7LzNzFWZRX6bzMy1U4npSWoke6M8tmoon": 1,
+   "6eyAt53txsbaGY19MUG6vzCRJd42PRCpKSABmHt1pump": 1,
+   "AvecKFxn8ihToR7gwgAVjfqV56N1rWhN7hv8joXQpump": 2,
+   "Ch24dNtXQNWVsXEJvWihzbhzfggtMHumwKu9gVLQpump": 2,
+   "4g5F1cRV2G9JjwPYtSs5mCHc88tNWLaWcxrxL314pump": 1,
+   "DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 2,
+   "D71m9SV4dqPFHvkSAnCVAYmcyBpWBoXG1ne32Xv9pump": 2,
+   "BBMRXQpKdKX61Bk1C2nH4gX4AwpVnoc6irDaTnvCfGgq": 2,
+   "GenkAAcnY3BSJ6x2AERQcu7MF1mCuEjz58VBot6Mpump": 2,
+   "3Rm29QtXvbaLC72tcaR2UPyyHt1rm7BFQmup3ycJpump": 2,
+   "FECXUwSDS1wTPcU8PWrSbPpUUsQsnDT7xCFK6sFzCwKk": 2,
+   "Fa93AEKdk5GJovkJseEjQ4geYuadFLimbKgy3BiPwiwS": 2,
+   "9hjhejj72PcwbrkGwkwBNzCbAjevHcra6SDGwYyipump": 1,
+   "FaDXXNCYanyER6erPFVrZr6BgSwFZdfzyQ9GaYGCpump": 1,
+   "C5J337Jivdhvo81R85TmW52xbtRHV9DJYBUPZeNCsXCS": 2,
+   "9hnK1YtQM93EV18qLvsPBhXFLhAGcDKTWxwVDb8xpump": 1,
+   "4KiuDGbjHXAxeoyX655thRvaoPiL8rAgioHdZoPnpump": 1,
+   "3sUyo78HXxBLcjyTYqpGsv8FF3JMbGknh3cmieQfLoat": 2,
+   "tnivzr4FtqkdaRDt7ByEkiAr8QQAo3rBkQ25KcNA1Pg": 1,
+   "2YQXdPXDjsNRVso2NAR94vHXZyhLHYZHDL2vWt3m5tK8": 1,
+   "GMBtnXYfsxrrEMeYxw3NKVfG3cz3DZyiWtmouAad76ea": 1,
+   "DoG5fD2L7pAsoKzmhCfgAswPYZHpK1HB9SqugVfvpump": 1,
+   "Eaj6yAm8L74rqkcBMbj5JJn36wunHqaHdou5rwWLpump": 1,
+   "M5gr5LtdPHNS3SsKx7qeC4cqznxFbJNVqEkUyxqpump": 1,
+   "7Uyod5rBCkTCjzq6aWfENp6X2X1hfkjVx8C9UKnY8HX1": 1,
+   "9i3HU891AcncLid5SM8W2GGLy4Y77HnpuhFwmUnQpump": 2,
+   "GjNh6EfLt1rY9Fnu5ntd3pBNZxFegSFJn7kkKtJjpump": 1,
+   "2ZS4EnYMCTrDk8PWVJ6D2Gfm8mxGFXPuGjLG6ZCUpump": 1,
+   "8vatYqwQrD3i4ZeWT2V4mx2JmkQApWmw3qMiTAqmpump": 1,
+   "6ACFEwgYFfsuuDTttKD2LNHMWnBr4bqWoNvH6mxFWHz6": 1,
+   "CVS8ZTMURaozLQ868AFUV4wphKzYRVJetXrZoMSk34Xa": 1,
+   "91bGPQzw47PZauKLcW2QSQiPPfw4rr39GPpenorVPM5s": 1,
+   "FnN6ZLo2YB6bDF9AqyQ3juyAyLtsuJ62YcFTSbZGpump": 2,
+   "5ay9zTR2eU92hHWi7ZKQPe9BNxvDcvQrmV1L73XFw2Kj": 2,
+   "E6i86cp6PhEWAo6pwuggWw6xhqzgAw3xrn8AZws6pump": 2,
+   "83XTXPkNBh3WHD2i1gZzaWQcyLiUefVryHGN4a7b8Q4G": 1,
+   "4bnRt8Sac9ZcN628HVsP6Phy1nbtW6H53GyMLMJqqdUL": 1,
+   "E7cdaueM9tCakwmaRiZxs5h6QMTMMaC369dVAYfRpump": 1,
+   "BGUc7b8p54HCtr3AhSjvd88dSNwHtCpo57KWY2oWpump": 2,
+   "27aLGAKMrWrCrYtmfDda3AKe3f2eijysN4hsurXSpump": 1,
+   "BWgx3xAYA5WxaJbVEd9DjYCBYDc15asaWaTheGPspump": 1,
+   "EemARLGFbG2sYUeFMvDQcdnLnDHCc6fuXkM5oXATswrm": 1,
+   "9iPgtgGvMRxrfpAXuiBViNkG7aFvNMerdNFEJgCDpump": 2,
+   "DhHaAm1HJjAVfoi5NUBfGjc3sFjgMUzfSTrZ2ShZpump": 1,
+   "6BdeiMqnUWHeDwFQP6njS3urjeC4g5jFAA2dpd7Kpump": 1,
+   "2DvWbpQzyRizY24Nb1ounEeTv9Q5nq94p9cr8b1kFQoa": 2,
+   "8vMGeFfYgKvcNDmn7e3BdCprMe31sNT8GzKu2bL1pump": 2,
+   "DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 2,
+   "CxhV4wNGjAtyDD2WzLUxF3C5Am2shHiU5HESeAaPpump": 1,
+   "D8BNpRy9FSNXjXRMxX2qV5KJcdg9rVsirHj2bfUyPGoq": 1,
+   "E5WZRbidoQxkQU1VTGQRUYW46ZmNLkKhTb3WFd79pump": 1,
+   "HZtpbNmhU3BASmmcLwb9umHKG7XhjWbZBKb8jqSnpump": 2,
+   "DngLFeVxCbpnzZTWwywe6V52dbk34BECbJ4r6fyfpump": 1,
+   "D4CzGsZgusVj2K8R1its5H8WWdo9mazbDwBc6qvsmfun": 2,
+   "BNoyDSASULDEuDynue26j88gSvM4DmJjbBacLdtfb6ea": 1,
+   "o3bfLvCpWkKq7rmkBSdpCcCnu6E2fJbFYLHndkdpump": 1,
+   "H6Ya3AwJZ5D9pRg5Fueuhow1aDdpthvJwtk1xj44pump": 1,
+   "F7Ktz7VABzdbBJhxySCjnc6mwLrfK2tyFgZFUoJXpump": 1,
+   "4gqibU4gmkrgLvr93aSMmd5zfpmb1nayVbMcDcHRW6Z7": 2,
+   "7RbQf56ygYkv29nCCRPJxVNZSqyh8rqdWd24kjhLpump": 1,
+   "54D3mui2p9zD4ySm1FHEF9GXfKF3b4KUc2LL8m72pump": 1,
+   "A1u7A59sHTwapPoheLozuBiF1s7byTAVD22pWcp3pump": 1,
+   "jmVUmVXbh2MuYFSr6z6N8EJKHsSEaN1n3hsRKTLpump": 2,
+   "9NVUiAAW8CP6vkyU7L8jUobXUfEM5JgmiwzjUBbRpump": 1,
+   "63g8xrPvMqoGFSmdv5fAuAzj5Ta9aS4NnfQWcgKcnjtz": 1,
+   "8FQEvHspXpgpNoegMz7uAjeF3MSU4ufufwvrskEBpump": 1,
+   "DS1vofZozbmBtztmV2Ec3Zr3esVhD81gAPbJF67N8XMT": 1,
+   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 2,
+   "Ceq3aDYXfLanbg968irXnpJY6f1humkr5peNjrDopump": 2,
+   "DgnrTkRoLTPB7UToj5Ncf5pMuaotPQQ8GAnkweREpump": 2,
+   "81UjkAZV3WdG1Ptrs8MDtS2yHhxpmUhdg6MawurVpump": 1,
+   "7kcWPZcZj1Xib8DcSW8zSKobGbk9ZEmo1KfvBCeapump": 1,
+   "DJBvW4noqQmcfk5RY3SdpCU2tL63mohVvdLf9uS2aZ4Z": 2,
+   "9rBDC5kiDWB98q9VCx14YrNPn4gd3kKn7ekqeNCepump": 2,
+   "2KZSA9DnRErCrSLVsBJu4K2SZWmTPpRNWVceURf6pump": 1,
+   "FQ7E3XbG66hCK347YAZmkvXB2YVi8rZbfsRet7MTpump": 1,
+   "D22e42QGXtd5R29dRfubMj2cohL9AYsMoF4V21RJpump": 1,
+   "9kYDC8CkddzwchFunMYdAyveic2EhEfKfJnwYRHRk3Zr": 1,
+   "9VgLFkop7ntENVnwHkFytnLDsAz6sshUjEz7CFLspump": 1,
+   "FMvFwLkt2MAU2FcuL6UKUHWWSTgc5K2cMgu8HNgupump": 2,
+   "2yYih9RHdyppwUoxXtLB4FC4mkBNHzGLefQzwf1upump": 2,
+   "2cAHQ1SWGMqSASwLD46p1w5z3S9XV6mpwua1hf5Gpump": 1,
+   "DuYKiYW7wWWvaVcYnTsxe7p9TisKEV2FJ9jHdHiMpump": 1,
+   "FUKyk2ndGusMMpBWBTV3W7QNHMCMDPe4B26W9athpump": 1,
+   "9ioqBKVFDrFhLZxGgu3gunTVCDNjFMPUmCnWp3Qzpump": 2,
+   "AY4QrVf9EhDR1Nx3b2RiUXYhfgtydf5vZXNyK8zrpump": 2,
+   "CZcce2MA7xotXTaZSKMxRMLu1pivdP2wkregYs49pump": 1
   },
   "pushed": {
    "231EPqWpR5XYfD8vykgp3JCBKSSSr628Rg95QwSDSc9r": 3,
@@ -1384,7 +1752,27 @@
    "DwuGMewkYU5WXPQecc7984bQdWxTDVgLTHz2oaH5jBU4": 3,
    "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 3,
    "9xmAuNABfgYqm5NojjFj6nUYdvj4EYXwFwGhz8ov1bx5": 3,
-   "BqP49rh1h8b5XSFbP2QxQJf493Q3aeJh453dUCd886kj": 3
+   "BqP49rh1h8b5XSFbP2QxQJf493Q3aeJh453dUCd886kj": 3,
+   "9UuBKMwmvB4FWcFF6W1UKwwQjeYN8AzzjN33sQx9pump": 3,
+   "Fg8wAjZLWXp7DdhVa8z2AGvDD6VBbxHuacVz78FHpump": 3,
+   "3MQqSsqU91UpNf95B3qXS6aHpYgRXrA5udL1G3rcpump": 3,
+   "HX6pnETuZySVAsy8hT4a1zRFPYG4nXrfKVd1x66SPJ7c": 3,
+   "DBhWAqpAJFNM1A9XY6DDb1SJVkNCv87hRdYCoCoypump": 3,
+   "An3v5tzs8Kxf7tBNk3eEjDhV6vNd5fuVKMNLBdm4pump": 3,
+   "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 3,
+   "83M9pB3p7RTQrn4sviZfzk2DBndUHbMqmErEHUSXGMMa": 3,
+   "BfcdnvkUST2wVhAoyHN7aZzk8PrwH32fP2NbemVbpump": 3,
+   "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 3,
+   "Bid8i1ocWssjRmKh2kcUfHxD1K6Sk7E5pV2PSVdepump": 3,
+   "ET3NEorWVuRdeuHbHi9ZUYNPkMnAKvAxGqs5s353Empc": 3,
+   "5Bbes5wMqf1MT1eDJFSzoDYp1yj21obAxeHmzXT2pump": 3,
+   "EhxkzrJ1XgvrrqkvJNZv1A3AXKtcTjhP7R7D1Sbxpump": 3,
+   "CB6m43UnpFgW5weeM9Yz32pygUcJWmS3aYCJivUHpump": 3,
+   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 3,
+   "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": 3,
+   "2Ki5Cr8Q3RKCdeoNwX52oBnejWSP64LXS9FZTWFvD8fK": 3,
+   "9bhUWM8P2hxnSKCz2vMaupbdzemz57WYnQL3vz7Tpump": 3,
+   "4NFR3LEppwnMuWjJncJdJk47dNRSF53JViKgQjuKpump": 3
   },
   "hist": {
    "6G1zjzzuXTrb2SofoWznAKwzhn6kxtAx27mYZYvipump": {
@@ -1615,6 +2003,12 @@
       "ts": "11-05 10:36:50",
       "side": "Buy",
       "amt": "191.04 USDC MC 41.93",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:26:19",
+      "side": "Buy",
+      "amt": "111.46 USDC MC 26.08",
       "pusher": "Limfork"
      }
     ],
@@ -2072,6 +2466,12 @@
       "side": "Buy",
       "amt": "461.73 USDC MC 107.5K",
       "pusher": "whale_FWOG4"
+     },
+     {
+      "ts": "11-05 13:08:53",
+      "side": "Buy",
+      "amt": "1.52 WSOL MC 34.3K",
+      "pusher": "radiancebrr"
      }
     ],
     "token": "PUMP",
@@ -2288,6 +2688,12 @@
       "side": "Buy",
       "amt": "25.91 WSOL MC 4.8M",
       "pusher": "thejester"
+     },
+     {
+      "ts": "11-05 14:23:28",
+      "side": "Buy",
+      "amt": "1.47 AMD MC 856.5K",
+      "pusher": "whale_HOUSE5"
      }
     ],
     "token": "AMD",
@@ -3500,6 +3906,12 @@
       "side": "Buy",
       "amt": "355.7K PUMP MC 4.8M",
       "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 19:44:58",
+      "side": "Buy",
+      "amt": "7.92 WSOL MC 3.1M",
+      "pusher": "Limfork"
      }
     ],
     "token": "Anakin",
@@ -4076,6 +4488,12 @@
       "side": "Buy",
       "amt": "41.92 DJT MC 2.5M",
       "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:26:26",
+      "side": "Buy",
+      "amt": "26.08 DJT MC 1.9M",
+      "pusher": "Limfork"
      }
     ],
     "token": "VETO",
@@ -4207,6 +4625,12 @@
       "ts": "11-04 05:55:46",
       "side": "Buy",
       "amt": "2K USDT MC 106.3K",
+      "pusher": "whale_WHETH1"
+     },
+     {
+      "ts": "11-05 17:28:27",
+      "side": "Buy",
+      "amt": "2K USDT MC 108.5K",
       "pusher": "whale_WHETH1"
      }
     ],
@@ -4634,6 +5058,12 @@
       "side": "Buy",
       "amt": "955.66 USDC MC 0.48256",
       "pusher": "Loopierr"
+     },
+     {
+      "ts": "11-05 16:54:36",
+      "side": "Buy",
+      "amt": "271.01 USDC MC 0.17332",
+      "pusher": "CookerFlips"
      }
     ],
     "token": "OPENAI",
@@ -4832,6 +5262,12 @@
       "side": "Buy",
       "amt": "2.41 WSOL MC 15.3K",
       "pusher": "luckedhub"
+     },
+     {
+      "ts": "11-05 16:05:45",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 12.3K",
+      "pusher": "notdecu"
      }
     ],
     "token": "BTC",
@@ -4886,6 +5322,12 @@
       "side": "Buy",
       "amt": "20.04 WSOL MC 13.2M",
       "pusher": "Ga__ke"
+     },
+     {
+      "ts": "11-05 14:31:07",
+      "side": "Buy",
+      "amt": "24.75 WSOL MC 15M",
+      "pusher": "Luce46x"
      }
     ],
     "token": "PIRATE",
@@ -5365,6 +5807,18 @@
       "ts": "11-05 11:35:52",
       "side": "Buy",
       "amt": "263.67 USDC MC 0.1999",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:20:03",
+      "side": "Buy",
+      "amt": "1.8K USDC MC 1.46",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:20:07",
+      "side": "Buy",
+      "amt": "862.55 USDC MC 0.69196",
       "pusher": "Limfork"
      }
     ],
@@ -6014,6 +6468,30 @@
       "side": "Buy",
       "amt": "0.1999 ZEC MC 11.4K",
       "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 14:40:55",
+      "side": "Buy",
+      "amt": "14.85 WSOL MC 61.3K",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:20:03",
+      "side": "Buy",
+      "amt": "1.8K USDC MC 101K",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:20:07",
+      "side": "Buy",
+      "amt": "10.33 WSOL MC 52.4K",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:20:07",
+      "side": "Buy",
+      "amt": "0.69196 ZEC MC 47K",
+      "pusher": "Limfork"
      }
     ],
     "token": "MASK",
@@ -6122,6 +6600,18 @@
       "side": "Buy",
       "amt": "652.95 USDC MC 1.03",
       "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 18:21:49",
+      "side": "Buy",
+      "amt": "281.41 USDC MC 0.4647",
+      "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-05 18:32:13",
+      "side": "Buy",
+      "amt": "264.38 USDC MC 0.43654",
+      "pusher": "trunoest"
      }
     ],
     "token": "METAx",
@@ -6890,6 +7380,12 @@
       "side": "Buy",
       "amt": "1.84 WSOL MC 14.6M",
       "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 15:56:58",
+      "side": "Buy",
+      "amt": "1.2 WSOL MC 27M",
+      "pusher": "radiancebrr"
      }
     ],
     "token": "Dumocrats",
@@ -7838,6 +8334,12 @@
       "side": "Buy",
       "amt": "1.98 WSOL MC 51.2K",
       "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:28:34",
+      "side": "Buy",
+      "amt": "9.9 WSOL MC 294.9K",
+      "pusher": "Limfork"
      }
     ],
     "token": "TripleT",
@@ -8089,6 +8591,12 @@
       "ts": "11-04 17:29:02",
       "side": "Buy",
       "amt": "3.54 WSOL MC 5M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:20:40",
+      "side": "Buy",
+      "amt": "1.5 WSOL MC 8.8M",
       "pusher": "radiancebrr"
      }
     ],
@@ -10136,6 +10644,12 @@
       "side": "Buy",
       "amt": "286.68 USDC MC 1.4",
       "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-05 18:28:23",
+      "side": "Buy",
+      "amt": "268.36 USDC MC 1.46",
+      "pusher": "theonomix"
      }
     ],
     "token": "NVDA",
@@ -11150,6 +11664,18 @@
       "side": "Buy",
       "amt": "14.87 WSOL MC 4.7M",
       "pusher": "CookerFlips"
+     },
+     {
+      "ts": "11-05 14:26:38",
+      "side": "Buy",
+      "amt": "2.98 WSOL MC 1.1M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 14:26:38",
+      "side": "Buy",
+      "amt": "3.27 WSOL MC 1.1M",
+      "pusher": "radiancebrr"
      }
     ],
     "token": "george",
@@ -12266,6 +12792,24 @@
       "side": "Buy",
       "amt": "10.35 WSOL MC 10.1M",
       "pusher": "gr3gor14n"
+     },
+     {
+      "ts": "11-05 15:59:53",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 1.1M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:59:54",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 1.1M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:59:56",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 1.1M",
+      "pusher": "whale_URANUS24"
      }
     ],
     "token": "AI",
@@ -13748,6 +14292,18 @@
       "side": "Buy",
       "amt": "930.81 USDC MC 4.44",
       "pusher": "SmokezXBT"
+     },
+     {
+      "ts": "11-05 15:06:14",
+      "side": "Buy",
+      "amt": "275.06 USDC MC 1.3",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:15:02",
+      "side": "Buy",
+      "amt": "146.02 USDC MC 0.68328",
+      "pusher": "Yennii56"
      }
     ],
     "token": "TTWO",
@@ -14030,6 +14586,12 @@
       "side": "Buy",
       "amt": "279.99 USDC MC 2.73",
       "pusher": "jijo_exe"
+     },
+     {
+      "ts": "11-05 20:12:41",
+      "side": "Buy",
+      "amt": "268.59 USDC MC 2.04",
+      "pusher": "theonomix"
      }
     ],
     "token": "RDDT",
@@ -14317,6 +14879,18 @@
       "ts": "11-04 22:53:27",
       "side": "Buy",
       "amt": "4.36 WSOL MC 386.3K",
+      "pusher": "whale_HOUSE5"
+     },
+     {
+      "ts": "11-05 18:49:07",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 579.3K",
+      "pusher": "whale_HOUSE5"
+     },
+     {
+      "ts": "11-05 19:16:41",
+      "side": "Buy",
+      "amt": "1.29 WSOL MC 157.3K",
       "pusher": "whale_HOUSE5"
      }
     ],
@@ -17216,6 +17790,12 @@
       "side": "Buy",
       "amt": "1.8 WSOL MC 2.4M",
       "pusher": "disc_3UNP"
+     },
+     {
+      "ts": "11-05 13:52:50",
+      "side": "Buy",
+      "amt": "3.45 WSOL MC 24.3M",
+      "pusher": "Ramsetx"
      }
     ],
     "token": "SLOP",
@@ -19166,6 +19746,12 @@
       "side": "Buy",
       "amt": "328.54 USDC MC 20.6M",
       "pusher": "disc_3gHr"
+     },
+     {
+      "ts": "11-05 13:56:46",
+      "side": "Buy",
+      "amt": "140.54 USDC MC 31.5M",
+      "pusher": "disc_3gHr"
      }
     ],
     "token": "fsjal",
@@ -19940,6 +20526,30 @@
       "side": "Buy",
       "amt": "4.84 WSOL MC 30.2M",
       "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 13:47:26",
+      "side": "Buy",
+      "amt": "14.85 WSOL MC 11.1M",
+      "pusher": "Luce46x"
+     },
+     {
+      "ts": "11-05 14:43:53",
+      "side": "Buy",
+      "amt": "8.91 WSOL MC 7M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:39:12",
+      "side": "Buy",
+      "amt": "6.93 WSOL MC 8.2M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:55:58",
+      "side": "Buy",
+      "amt": "1.07 WSOL MC 1.1M",
+      "pusher": "disc_312N"
      }
     ],
     "token": "inu",
@@ -20144,6 +20754,12 @@
       "side": "Buy",
       "amt": "1K USDC MC 342.6K",
       "pusher": "gr3gor14n"
+     },
+     {
+      "ts": "11-05 16:50:27",
+      "side": "Buy",
+      "amt": "9.9 WSOL MC 439.8K",
+      "pusher": "gr3gor14n"
      }
     ],
     "token": "CLAUDIA",
@@ -20288,6 +20904,30 @@
       "side": "Buy",
       "amt": "1 WSOL MC 46.2M",
       "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 14:54:52",
+      "side": "Buy",
+      "amt": "1.1 WSOL MC 7.7M",
+      "pusher": "Sunnyikes"
+     },
+     {
+      "ts": "11-05 14:54:52",
+      "side": "Buy",
+      "amt": "1.1 WSOL MC 7.2M",
+      "pusher": "Sunnyikes"
+     },
+     {
+      "ts": "11-05 14:54:52",
+      "side": "Buy",
+      "amt": "1.1 WSOL MC 6.9M",
+      "pusher": "Sunnyikes"
+     },
+     {
+      "ts": "11-05 14:54:53",
+      "side": "Buy",
+      "amt": "1.1 WSOL MC 6.7M",
+      "pusher": "Sunnyikes"
      }
     ],
     "token": "UNI",
@@ -22478,6 +23118,18 @@
       "side": "Buy",
       "amt": "6.22 WSOL MC 7.6M",
       "pusher": "gr3gor14n"
+     },
+     {
+      "ts": "11-05 14:07:29",
+      "side": "Buy",
+      "amt": "1.49 WSOL MC 1.3M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 14:07:29",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 2.6M",
+      "pusher": "whale_URANUS24"
      }
     ],
     "token": "ZELDA",
@@ -23060,6 +23712,12 @@
       "side": "Buy",
       "amt": "5.91 WSOL MC 19.8M",
       "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-05 16:03:29",
+      "side": "Buy",
+      "amt": "1.25 WSOL MC 6.3M",
+      "pusher": "MageArez"
      }
     ],
     "token": "RWQ",
@@ -23504,6 +24162,12 @@
       "side": "Buy",
       "amt": "1.28 WSOL MC 21.5M",
       "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 12:59:19",
+      "side": "Buy",
+      "amt": "1.28 WSOL MC 21.3M",
+      "pusher": "Limfork"
      }
     ],
     "token": "mikedyson",
@@ -23888,6 +24552,12 @@
       "side": "Buy",
       "amt": "2.3 WSOL MC 20.7M",
       "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 14:50:13",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 32.3M",
+      "pusher": "Ramsetx"
      }
     ],
     "token": "UK",
@@ -23987,6 +24657,5982 @@
      }
     ],
     "token": "UK",
+    "chain": "SOL"
+   },
+   "GKdeviTPYDpCz4FJL9Yx7QR5qRqBats1EQD9FwLpPt9y": {
+    "rows": [
+     {
+      "ts": "11-05 12:44:14",
+      "side": "Buy",
+      "amt": "1.24 WSOL MC 11.8M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "fi",
+    "chain": "SOL"
+   },
+   "7nLukVng5teXze14rum9v57juXLjUp7JJnCveko1pump": {
+    "rows": [
+     {
+      "ts": "11-05 12:45:18",
+      "side": "Buy",
+      "amt": "2 WSOL MC 2.9M",
+      "pusher": "disc_3xuN"
+     }
+    ],
+    "token": "Martians",
+    "chain": "SOL"
+   },
+   "6u7CWWu2trqBNzySaCqt8kaLb4Dh2LAdStiLciWJpump": {
+    "rows": [
+     {
+      "ts": "11-05 12:51:00",
+      "side": "Buy",
+      "amt": "1.1 SOL MC 2.9M",
+      "pusher": "Sunnyikes"
+     }
+    ],
+    "token": "F.T",
+    "chain": "SOL"
+   },
+   "Dm7yy6xwcARWCpkc7kUvmB6uDfCjNbdYx5S77C6gpump": {
+    "rows": [
+     {
+      "ts": "11-05 12:53:52",
+      "side": "Buy",
+      "amt": "1.48 SOL MC 10.4M",
+      "pusher": "whale_URANUS24"
+     }
+    ],
+    "token": "Doge-02",
+    "chain": "SOL"
+   },
+   "CPQMNVYoe9gfbBaRBRCaWoSTM2UBm7vxRh2Dtj4Cpump": {
+    "rows": [
+     {
+      "ts": "11-05 12:54:32",
+      "side": "Buy",
+      "amt": "4.03 WSOL MC 32.1M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "PEPE",
+    "chain": "SOL"
+   },
+   "8ooasNyMWPwdPQWG3xgBFGaXikBF4vLwjXkjpMQBpump": {
+    "rows": [
+     {
+      "ts": "11-05 12:56:54",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 46.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "RETAIL",
+    "chain": "SOL"
+   },
+   "9UuBKMwmvB4FWcFF6W1UKwwQjeYN8AzzjN33sQx9pump": {
+    "rows": [
+     {
+      "ts": "11-05 12:59:32",
+      "side": "Buy",
+      "amt": "2.91 WSOL MC 30.5M",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 13:06:09",
+      "side": "Buy",
+      "amt": "2 WSOL MC 5.2M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 13:08:13",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 7.8M",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 13:25:17",
+      "side": "Buy",
+      "amt": "6.93 WSOL MC 17.5M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Pillheads",
+    "chain": "SOL"
+   },
+   "BkTQBoVKCfQB195KCfePWvDm9ESDA8vDPxff53ugC9EF": {
+    "rows": [
+     {
+      "ts": "11-05 13:00:11",
+      "side": "Buy",
+      "amt": "1.45 WSOL MC 33.4M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "Goober",
+    "chain": "SOL"
+   },
+   "GSs2a4HGSVoCNrdgXrvCfRs1fKMch7Q3EzQ4RJBXT8o4": {
+    "rows": [
+     {
+      "ts": "11-05 13:00:18",
+      "side": "Buy",
+      "amt": "1.1 WSOL MC 3.8M",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-05 13:00:31",
+      "side": "Buy",
+      "amt": "1.34 WSOL MC 4.2M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "Pillheads",
+    "chain": "SOL"
+   },
+   "5FVAqEp94GxU8J5cfieiTomeXPcPbBBZBaLqHV157K44": {
+    "rows": [
+     {
+      "ts": "11-05 13:00:57",
+      "side": "Buy",
+      "amt": "1.13 WSOL MC 18M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "tim",
+    "chain": "SOL"
+   },
+   "5wTojRG6PN4CFNPh7ebFgsuaiMJDo6CacLbH7fY8pump": {
+    "rows": [
+     {
+      "ts": "11-05 13:01:13",
+      "side": "Buy",
+      "amt": "65.3K PUMP MC 42.9M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Pumpers",
+    "chain": "SOL"
+   },
+   "HoYZYZFAvEZrGoKKJKSiCNTBAJu1uYGzBMMdVwd4ZPAD": {
+    "rows": [
+     {
+      "ts": "11-05 13:01:14",
+      "side": "Buy",
+      "amt": "1.11 WSOL MC 9.9M",
+      "pusher": "Sunnyikes"
+     },
+     {
+      "ts": "11-05 13:22:48",
+      "side": "Buy",
+      "amt": "4.75 WSOL MC 13.3M",
+      "pusher": "daumenxyz"
+     }
+    ],
+    "token": "ZPAD",
+    "chain": "SOL"
+   },
+   "9V1d7SB1AGRVyUe477aRB7XHanmcCc3FdFmFE9sApump": {
+    "rows": [
+     {
+      "ts": "11-05 13:02:28",
+      "side": "Buy",
+      "amt": "128.07 USDC MC 24.9M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "RAM",
+    "chain": "SOL"
+   },
+   "7QSTy9eM9tHQ6uAwpcNagnq7ekoWqq65ERsk1vku773T": {
+    "rows": [
+     {
+      "ts": "11-05 13:04:19",
+      "side": "Buy",
+      "amt": "1.12 WSOL MC 30.1M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "Paraguay",
+    "chain": "SOL"
+   },
+   "HQf2jARrAEr3cZoLTCZgGMY4dUWAraWhsJwaj77FebNJ": {
+    "rows": [
+     {
+      "ts": "11-05 13:07:03",
+      "side": "Buy",
+      "amt": "1.98 SOL MC 20.2M",
+      "pusher": "whale_URANUS24"
+     }
+    ],
+    "token": "Joe",
+    "chain": "SOL"
+   },
+   "Fo6wD8HTUaWqVcKte3u3u1PufsCkWkbR5iJbn6Lcpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:08:53",
+      "side": "Buy",
+      "amt": "1.52 WSOL MC 30.6M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:14:39",
+      "side": "Buy",
+      "amt": "1.24 WSOL MC 8.2M",
+      "pusher": "daumenxyz"
+     }
+    ],
+    "token": "Bats",
+    "chain": "SOL"
+   },
+   "5qcYLfdwdBL6GrKbvDZf9tM91wMdfjYyeD93se6x5xVU": {
+    "rows": [
+     {
+      "ts": "11-05 13:10:23",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 27.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "tilly",
+    "chain": "SOL"
+   },
+   "CF4bmjXu7kYcxVbQb4ZBC2kSgaDK1b7JVd4cRE9ppump": {
+    "rows": [
+     {
+      "ts": "11-05 13:11:24",
+      "side": "Buy",
+      "amt": "32.7K PUMP MC 30.5M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Pumpers",
+    "chain": "SOL"
+   },
+   "AY4UKADy27CaWVVznycXUF38tVHNm3AofEBXqTdaertU": {
+    "rows": [
+     {
+      "ts": "11-05 13:15:07",
+      "side": "Buy",
+      "amt": "1.5 WSOL MC 30.7M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 13:15:18",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 46.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Sultan",
+    "chain": "SOL"
+   },
+   "HbXn9Lcug7KrXxLr6TrKFe1pymCmqbVb3kbP9N1Kpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:15:40",
+      "side": "Buy",
+      "amt": "6.5 WSOL MC 35M",
+      "pusher": "Luce46x"
+     },
+     {
+      "ts": "11-05 13:15:43",
+      "side": "Buy",
+      "amt": "66.3K PUMP MC 6.2M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "PUMPATAR",
+    "chain": "SOL"
+   },
+   "2SJvMRSKUQgTnf8yYq74FsHtoejmXc2H6M8FfZ1Spump": {
+    "rows": [
+     {
+      "ts": "11-05 13:18:36",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 37M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Doge-02",
+    "chain": "SOL"
+   },
+   "5FRuQDcMZvsUQJRMw74KGjVgeL8k8XWTG7HY1gxXpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:18:37",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 34.2M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "blep",
+    "chain": "SOL"
+   },
+   "bHiNbtfn1fZLMRc8MZh8qr2YEjZi62e64R2pX7Kpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:20:55",
+      "side": "Buy",
+      "amt": "1.48 WSOL MC 12.7M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "Collective",
+    "chain": "SOL"
+   },
+   "9RaG6BnDcy5MoY16mGCqwjcguaXyV4ifNLUvw1rypump": {
+    "rows": [
+     {
+      "ts": "11-05 13:21:28",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 60.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Collective",
+    "chain": "SOL"
+   },
+   "Bu3h78FY2fsWVZ1MdyQVpFTvv5XsRotWX6VjszQTpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:23:46",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 54.9M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 13:24:50",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 34.6M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 17:11:11",
+      "side": "Buy",
+      "amt": "4.94 WSOL MC 15.8M",
+      "pusher": "CookerFlips"
+     }
+    ],
+    "token": "dump",
+    "chain": "SOL"
+   },
+   "Fg8wAjZLWXp7DdhVa8z2AGvDD6VBbxHuacVz78FHpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:24:00",
+      "side": "Buy",
+      "amt": "1.29 WSOL MC 21.3M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 13:26:56",
+      "side": "Buy",
+      "amt": "1.49 WSOL MC 32.9M",
+      "pusher": "disc_3gHr"
+     },
+     {
+      "ts": "11-05 13:27:00",
+      "side": "Buy",
+      "amt": "1.36 WSOL MC 25.5M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "dump",
+    "chain": "SOL"
+   },
+   "3MQqSsqU91UpNf95B3qXS6aHpYgRXrA5udL1G3rcpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:26:45",
+      "side": "Buy",
+      "amt": "1.28 WSOL MC 21.7M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 13:27:00",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 48.3M",
+      "pusher": "s1mple_s1mple"
+     },
+     {
+      "ts": "11-05 13:28:29",
+      "side": "Buy",
+      "amt": "1.28 WSOL MC 23.7M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "TRILLY",
+    "chain": "SOL"
+   },
+   "8j9dSeSCmwNJBHdyQGx2VfriSobL8R56gTKWfnyFpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:33:45",
+      "side": "Buy",
+      "amt": "277.57 USDC MC 40M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 13:33:58",
+      "side": "Buy",
+      "amt": "152.67 USDC MC 14.7M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Samsung",
+    "chain": "SOL"
+   },
+   "77N4uxbENYNTbtD5dStPnczePyxHVHvUSbkCeXXWKcAP": {
+    "rows": [
+     {
+      "ts": "11-05 13:34:15",
+      "side": "Buy",
+      "amt": "130.05 USDC MC 20.6M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:34:56",
+      "side": "Buy",
+      "amt": "130.65 USDC MC 16.6M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Samsung",
+    "chain": "SOL"
+   },
+   "YsCPnuXHTRzvWFPHrDvhsufzRRQHeDiWmKCyAPrn5aU": {
+    "rows": [
+     {
+      "ts": "11-05 13:34:18",
+      "side": "Buy",
+      "amt": "1.02 WSOL MC 10.3M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "dump",
+    "chain": "SOL"
+   },
+   "2SJVRdZ3n5J2oU9YRbkpeF7JAVZMMYNwMw2fLnMHpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:34:55",
+      "side": "Buy",
+      "amt": "277.63 USDC MC 41.2M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 13:35:23",
+      "side": "Buy",
+      "amt": "174.19 USDC MC 17M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Samsung",
+    "chain": "SOL"
+   },
+   "3jujBudoya4RPkPGSAYfgRHCLdKZ1xWc7YfikadrnMaU": {
+    "rows": [
+     {
+      "ts": "11-05 13:37:05",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 65M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "TripleZ",
+    "chain": "SOL"
+   },
+   "HX6pnETuZySVAsy8hT4a1zRFPYG4nXrfKVd1x66SPJ7c": {
+    "rows": [
+     {
+      "ts": "11-05 13:40:03",
+      "side": "Buy",
+      "amt": "151.61 USDC MC 24.1M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 13:41:47",
+      "side": "Buy",
+      "amt": "153.51 USDC MC 12M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:45:48",
+      "side": "Buy",
+      "amt": "298.94 USDC MC 12.7M",
+      "pusher": "gh0stee"
+     },
+     {
+      "ts": "11-05 13:47:00",
+      "side": "Buy",
+      "amt": "218.34 USDC MC 10M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "GNusmas",
+    "chain": "SOL"
+   },
+   "7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn": {
+    "rows": [
+     {
+      "ts": "11-05 13:41:34",
+      "side": "Buy",
+      "amt": "6.91 WSOL MC 22.7M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "HINU",
+    "chain": "SOL"
+   },
+   "gFruHwUdkUc9vEduo89DxPD3XxhJ6M6J7UCRoywKGh6": {
+    "rows": [
+     {
+      "ts": "11-05 13:41:57",
+      "side": "Buy",
+      "amt": "1.2 WSOL MC 6.8M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "dump",
+    "chain": "SOL"
+   },
+   "An3v5tzs8Kxf7tBNk3eEjDhV6vNd5fuVKMNLBdm4pump": {
+    "rows": [
+     {
+      "ts": "11-05 13:45:21",
+      "side": "Buy",
+      "amt": "142.61 USDC MC 13.2M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:58:30",
+      "side": "Buy",
+      "amt": "188.04 USDC MC 10.9M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:58:31",
+      "side": "Buy",
+      "amt": "188.04 USDC MC 10.9M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "galaxycat",
+    "chain": "SOL"
+   },
+   "D4BKy8LTwrwCJXVPtBWkg7HQX365HWcN7GG9tmtjpfCf": {
+    "rows": [
+     {
+      "ts": "11-05 13:46:04",
+      "side": "Buy",
+      "amt": "32.4K PUMP MC 25.9M",
+      "pusher": "disc_3gHr"
+     }
+    ],
+    "token": "GPH",
+    "chain": "SOL"
+   },
+   "2YyHHdFznFP2ufBnxh7pfj4rD1kVfK3iiWxA814qpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:47:54",
+      "side": "Buy",
+      "amt": "152.73 USDC MC 18M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 13:47:55",
+      "side": "Buy",
+      "amt": "152.73 USDC MC 18M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "chihuahua",
+    "chain": "SOL"
+   },
+   "Ci64qDpwp8Tbg9nb2Q26xNq44V4D7sFxBNq3Np8xpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:48:52",
+      "side": "Buy",
+      "amt": "148.37 USDC MC 18.5M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:49:05",
+      "side": "Buy",
+      "amt": "174.78 USDC MC 17.3M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Enrique",
+    "chain": "SOL"
+   },
+   "9X8AGinrTXSTrZBPuopZi873jB24sBdDEja2Skszpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:48:55",
+      "side": "Buy",
+      "amt": "278.13 USDC MC 51.5M",
+      "pusher": "s1mple_s1mple"
+     }
+    ],
+    "token": "Dozer",
+    "chain": "SOL"
+   },
+   "6hg72SfpArhkyoK55ESuXvbTYuh37TCbFazETGvHpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:51:34",
+      "side": "Buy",
+      "amt": "121.22 USDC MC 25.3M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "Dozer",
+    "chain": "SOL"
+   },
+   "QcpgzQFjDVr4rxWiyx6Fg7giUwvg41Jb9uuEAUNpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:51:43",
+      "side": "Buy",
+      "amt": "125.21 USDC MC 18M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 13:52:14",
+      "side": "Buy",
+      "amt": "130.8 USDC MC 13.3M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Enrique",
+    "chain": "SOL"
+   },
+   "DBhWAqpAJFNM1A9XY6DDb1SJVkNCv87hRdYCoCoypump": {
+    "rows": [
+     {
+      "ts": "11-05 13:56:05",
+      "side": "Buy",
+      "amt": "9.99 SOL MC 42.1M",
+      "pusher": "Luce46x"
+     },
+     {
+      "ts": "11-05 13:56:15",
+      "side": "Buy",
+      "amt": "1.4 WSOL MC 2.8M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 13:56:56",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 10.3M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "SOUNDER",
+    "chain": "SOL"
+   },
+   "8hRcZiA2vLCwSa82WUEGUdL9RDKwtwkqMAvEK8e6iCz9": {
+    "rows": [
+     {
+      "ts": "11-05 13:57:42",
+      "side": "Buy",
+      "amt": "1.6 WSOL MC 32.3M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "crypto",
+    "chain": "SOL"
+   },
+   "5KXTAWQHFvk8SF2AWkKNDZVBZoYFDS8q7Pg7uqLYpump": {
+    "rows": [
+     {
+      "ts": "11-05 13:59:09",
+      "side": "Buy",
+      "amt": "1.28 WSOL MC 36.1M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "CI",
+    "chain": "SOL"
+   },
+   "FcL99CLZeqd5KtDCAq3Px9LhkeowhLnWzxB6fdCjpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:00:00",
+      "side": "Buy",
+      "amt": "1.95 WSOL MC 25.5M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "LION",
+    "chain": "SOL"
+   },
+   "CMwkwsN9qi9PPWtfW9WgT2mtiMxKgr88e8B4FG6opump": {
+    "rows": [
+     {
+      "ts": "11-05 14:01:58",
+      "side": "Buy",
+      "amt": "1.61 WSOL MC 18M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "CI",
+    "chain": "SOL"
+   },
+   "5SQt9q1pGtUsj788KWk6qCk4gJfgb9JCcTzeXnjdpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:02:02",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 36M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "Retard",
+    "chain": "SOL"
+   },
+   "83M9pB3p7RTQrn4sviZfzk2DBndUHbMqmErEHUSXGMMa": {
+    "rows": [
+     {
+      "ts": "11-05 14:08:20",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 61.3M",
+      "pusher": "tilcrypto"
+     },
+     {
+      "ts": "11-05 14:08:51",
+      "side": "Buy",
+      "amt": "2.24 WSOL MC 26.5M",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 14:09:07",
+      "side": "Buy",
+      "amt": "1.6 WSOL MC 21.6M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 14:09:50",
+      "side": "Buy",
+      "amt": "1.28 WSOL MC 26.8M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "หมูส",
+    "chain": "SOL"
+   },
+   "9XoSWfK7ymz3r4FofpcWgz8gLHyE4ne5WZTcoznipump": {
+    "rows": [
+     {
+      "ts": "11-05 14:09:01",
+      "side": "Buy",
+      "amt": "134.05 USDC MC 16.5M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "GBuk",
+    "chain": "SOL"
+   },
+   "2zYXw7JsxsihZCPF9cv7jizvBv37qYn6eiWEf8Gpakqp": {
+    "rows": [
+     {
+      "ts": "11-05 14:09:24",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 28.7M",
+      "pusher": "tilcrypto"
+     }
+    ],
+    "token": "MooTun",
+    "chain": "SOL"
+   },
+   "BfcdnvkUST2wVhAoyHN7aZzk8PrwH32fP2NbemVbpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:09:57",
+      "side": "Buy",
+      "amt": "1.24 WSOL MC 4.7M",
+      "pusher": "daumenxyz"
+     },
+     {
+      "ts": "11-05 14:10:30",
+      "side": "Buy",
+      "amt": "3.96 WSOL MC 12.3M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 14:13:50",
+      "side": "Buy",
+      "amt": "81.1K BTC MC 23.7M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "titcoin",
+    "chain": "SOL"
+   },
+   "4DFqGaGfya35cuNDw33pa5vBfB8RTasveUZK9zitjWgL": {
+    "rows": [
+     {
+      "ts": "11-05 14:10:50",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 27.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 14:19:04",
+      "side": "Buy",
+      "amt": "1.49 WSOL MC 23.9M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "Xingxing",
+    "chain": "SOL"
+   },
+   "4nQqYeHziRZaiYLodVt56q9AyubY693oGnSPXYcNpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:15:59",
+      "side": "Buy",
+      "amt": "1.76 WSOL MC 6.2M",
+      "pusher": "SmokezXBT"
+     }
+    ],
+    "token": "LION",
+    "chain": "SOL"
+   },
+   "H41JioR7a56Kns5LEJ9RYAnJyLQMfuw88W5RfCXYpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:18:16",
+      "side": "Buy",
+      "amt": "1.97 WSOL MC 18M",
+      "pusher": "ashtoshii"
+     }
+    ],
+    "token": "Chihuahua",
+    "chain": "SOL"
+   },
+   "9XD1tHPpByPmJi74HrohCMmkXWMs6G9s7BLRiE9Tpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:18:32",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 31.7M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "Su",
+    "chain": "SOL"
+   },
+   "8hTgCHr3rq6jdsjHNnpNeuAnMqJwV4nrnnDNve5jFEM5": {
+    "rows": [
+     {
+      "ts": "11-05 14:22:14",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 47.9M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Intern",
+    "chain": "SOL"
+   },
+   "6gELivde3yxaRgKRD815sFawoXKXd6WKBnHbbHP3ukkp": {
+    "rows": [
+     {
+      "ts": "11-05 14:25:50",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 42M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "blunt",
+    "chain": "SOL"
+   },
+   "Di5QqeLmx5Q3Azp5LkjVBqQ7S1HfK8FC6fe1bAWtKtpB": {
+    "rows": [
+     {
+      "ts": "11-05 14:26:05",
+      "side": "Buy",
+      "amt": "5.94 WSOL MC 25.3M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "GAIA",
+    "chain": "SOL"
+   },
+   "5cTjJcTtt2G2AvKWFpq8Z6BTUia5xMqzQF8M2LNmpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:27:15",
+      "side": "Buy",
+      "amt": "65.5K PUMP MC 50.6M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "bob",
+    "chain": "SOL"
+   },
+   "4b4sB4Pm6geVLu1UZRsgGbEKFESBadDV1XXoQ2C2DMcm": {
+    "rows": [
+     {
+      "ts": "11-05 14:28:54",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 82.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "REBIO",
+    "chain": "SOL"
+   },
+   "7PSJPGKFRc5xm6aa5PzDWjaK8uz5rNoyNmniXfYbRTNe": {
+    "rows": [
+     {
+      "ts": "11-05 14:29:47",
+      "side": "Buy",
+      "amt": "1.04 WSOL MC 1.6M",
+      "pusher": "disc_2AWs"
+     },
+     {
+      "ts": "11-05 14:29:55",
+      "side": "Buy",
+      "amt": "1.25 WSOL MC 2M",
+      "pusher": "disc_2AWs"
+     }
+    ],
+    "token": "Jay",
+    "chain": "SOL"
+   },
+   "7EMtZJoGGcV4Shyz1kp4aPKnFakgBTUz1obcKNZ3pump": {
+    "rows": [
+     {
+      "ts": "11-05 14:30:06",
+      "side": "Buy",
+      "amt": "1.27 WSOL MC 23.2M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "thing",
+    "chain": "SOL"
+   },
+   "GybhzDB9odChPtuWdVRdys7eUEeivceGzn7EuC7WJ6ea": {
+    "rows": [
+     {
+      "ts": "11-05 14:34:31",
+      "side": "Buy",
+      "amt": "5.2 WSOL MC 36M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 14:34:46",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 38.5M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "XAP",
+    "chain": "SOL"
+   },
+   "BDXUaN4Bx6yaCBKAmCyGfdXd3UkRobiQwbV8mB1Kpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:35:07",
+      "side": "Buy",
+      "amt": "449.1 USDC MC 24.1M",
+      "pusher": "thejester"
+     },
+     {
+      "ts": "11-05 14:39:44",
+      "side": "Buy",
+      "amt": "2.95 WSOL MC 11.4M",
+      "pusher": "ashtoshii"
+     }
+    ],
+    "token": "chihuahua",
+    "chain": "SOL"
+   },
+   "74Hymdu9o7evcewx2ZzvdMfunPJJ7QUJbxrMRBggEEFJ": {
+    "rows": [
+     {
+      "ts": "11-05 14:36:33",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 47.8M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "tim",
+    "chain": "SOL"
+   },
+   "2h9vE7jHYRwkx6YUeur3bbhqR93H9qxAytRnrAeaLdGq": {
+    "rows": [
+     {
+      "ts": "11-05 14:37:45",
+      "side": "Buy",
+      "amt": "3.96 WSOL MC 72.9M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 14:37:53",
+      "side": "Buy",
+      "amt": "1.29 WSOL MC 24M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "Hobbes",
+    "chain": "SOL"
+   },
+   "HQo5JZdxYnA3jTKSU14zgkfNnfVXBMyQLHdD8vj1pump": {
+    "rows": [
+     {
+      "ts": "11-05 14:46:11",
+      "side": "Buy",
+      "amt": "50.5K PUMP MC 24.6M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "Hobbes",
+    "chain": "SOL"
+   },
+   "8sQsXu1xQY59YbVNy6sApGhJyn6MGvzRFuz1Rph4pump": {
+    "rows": [
+     {
+      "ts": "11-05 14:46:45",
+      "side": "Buy",
+      "amt": "275.58 USDC MC 36.1M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 14:47:27",
+      "side": "Buy",
+      "amt": "274.63 USDC MC 39.8M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "MicronCat",
+    "chain": "SOL"
+   },
+   "Cgb8s8EPXW5XzQp5HxEZY2nfkUeDcVEeBdr2MWA74Uag": {
+    "rows": [
+     {
+      "ts": "11-05 14:47:32",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 54.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "glungus",
+    "chain": "SOL"
+   },
+   "BqaYdwqUUhuMJWYi8x4uExXFEmYDtAx17SpLj7Popump": {
+    "rows": [
+     {
+      "ts": "11-05 14:53:34",
+      "side": "Buy",
+      "amt": "229.56 USDC MC 29.9M",
+      "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-05 19:53:23",
+      "side": "Buy",
+      "amt": "354.4 USDC MC 21.2M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "BART",
+    "chain": "SOL"
+   },
+   "EhxkzrJ1XgvrrqkvJNZv1A3AXKtcTjhP7R7D1Sbxpump": {
+    "rows": [
+     {
+      "ts": "11-05 14:56:04",
+      "side": "Buy",
+      "amt": "228.11 USDC MC 46.4M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 14:56:15",
+      "side": "Buy",
+      "amt": "364.58 USDC MC 31.7M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 14:58:43",
+      "side": "Buy",
+      "amt": "457.4 USDC MC 29M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 15:32:21",
+      "side": "Buy",
+      "amt": "447.92 USDC MC 13.8M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:32:38",
+      "side": "Buy",
+      "amt": "132.44 USDC MC 3.6M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "MCD",
+    "chain": "SOL"
+   },
+   "4SunDrdx6FUNFdoCgErj5X6f2R5ASWNS3dd32vNZt6xe": {
+    "rows": [
+     {
+      "ts": "11-05 14:58:02",
+      "side": "Buy",
+      "amt": "1.08 WSOL MC 24.7M",
+      "pusher": "Sunnyikes"
+     }
+    ],
+    "token": "MONK",
+    "chain": "SOL"
+   },
+   "GnvShpbpDhUQqz78c8oH4KeX2mhg5YRQSVJKDNGgK5yU": {
+    "rows": [
+     {
+      "ts": "11-05 14:58:09",
+      "side": "Buy",
+      "amt": "273.11 USDC MC 50.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "DODO",
+    "chain": "SOL"
+   },
+   "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": {
+    "rows": [
+     {
+      "ts": "11-05 15:01:17",
+      "side": "Buy",
+      "amt": "182.25 USDC MC 0.62271",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 15:27:35",
+      "side": "Buy",
+      "amt": "145.62 USDC MC 0.4999",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 15:33:37",
+      "side": "Buy",
+      "amt": "152.46 USDC MC 0.52384",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 15:33:39",
+      "side": "Buy",
+      "amt": "509.49 USDC MC 1.78",
+      "pusher": "degenai71x"
+     },
+     {
+      "ts": "11-05 15:36:15",
+      "side": "Buy",
+      "amt": "718.45 USDC MC 2.47",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 16:33:47",
+      "side": "Buy",
+      "amt": "452.53 USDC MC 1.6",
+      "pusher": "whale_FWOG4"
+     },
+     {
+      "ts": "11-05 16:33:55",
+      "side": "Buy",
+      "amt": "428.1 USDC MC 1.51",
+      "pusher": "whale_FWOG4"
+     }
+    ],
+    "token": "MCDx",
+    "chain": "SOL"
+   },
+   "AivVaxcPpruo9wk9JB9sS5Syp6UbRbi74uy2r3Sypump": {
+    "rows": [
+     {
+      "ts": "11-05 15:01:17",
+      "side": "Buy",
+      "amt": "182.25 USDC MC 39M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "MC",
+    "chain": "SOL"
+   },
+   "CB6m43UnpFgW5weeM9Yz32pygUcJWmS3aYCJivUHpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:05:11",
+      "side": "Buy",
+      "amt": "453.56 USDC MC 16M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:05:11",
+      "side": "Buy",
+      "amt": "453.56 USDC MC 14.1M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:05:17",
+      "side": "Buy",
+      "amt": "170.3 USDC MC 5.2M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:05:18",
+      "side": "Buy",
+      "amt": "181.04 USDC MC 4.6M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "Rocco",
+    "chain": "SOL"
+   },
+   "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:05:39",
+      "side": "Buy",
+      "amt": "452.14 USDC MC 10.1M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:05:39",
+      "side": "Buy",
+      "amt": "452.14 USDC MC 9.5M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:06:14",
+      "side": "Buy",
+      "amt": "1.29 TTWO MC 2.4M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:07:57",
+      "side": "Buy",
+      "amt": "2.99 WSOL MC 3.3M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:24:53",
+      "side": "Buy",
+      "amt": "886.87 USDC MC 4.4M",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-05 15:24:56",
+      "side": "Buy",
+      "amt": "887.56 USDC MC 4.6M",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-05 15:26:50",
+      "side": "Buy",
+      "amt": "444.51 USDC MC 2.6M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "Rocco",
+    "chain": "SOL"
+   },
+   "2Ki5Cr8Q3RKCdeoNwX52oBnejWSP64LXS9FZTWFvD8fK": {
+    "rows": [
+     {
+      "ts": "11-05 15:05:55",
+      "side": "Buy",
+      "amt": "122.93 USDC MC 16.3M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:05:55",
+      "side": "Buy",
+      "amt": "123.51 USDC MC 13.1M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:06:56",
+      "side": "Buy",
+      "amt": "114.85 USDC MC 8.4M",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-05 15:07:00",
+      "side": "Buy",
+      "amt": "139.12 USDC MC 6.6M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:07:00",
+      "side": "Buy",
+      "amt": "158.54 USDC MC 7.6M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "USPD",
+    "chain": "SOL"
+   },
+   "CSMi7fMwcrM5EeBoSR1jx2YTr8oBrf4ySbFWav4uS2Et": {
+    "rows": [
+     {
+      "ts": "11-05 15:06:27",
+      "side": "Buy",
+      "amt": "270.69 USDC MC 16.4M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "ROCCO",
+    "chain": "SOL"
+   },
+   "5D46YDKx2rCbAmiqoxtPkHJBKPxj4kAM9GG3XbdLeSVC": {
+    "rows": [
+     {
+      "ts": "11-05 15:06:43",
+      "side": "Buy",
+      "amt": "142.85 USDC MC 20.8M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "USPD",
+    "chain": "SOL"
+   },
+   "2V2WnQzqQ3yNaRPjQTjPqLDD79uMAFphBcMgVFcE5G6d": {
+    "rows": [
+     {
+      "ts": "11-05 15:07:56",
+      "side": "Buy",
+      "amt": "271.22 USDC MC 15.8M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "USPD",
+    "chain": "SOL"
+   },
+   "9bhUWM8P2hxnSKCz2vMaupbdzemz57WYnQL3vz7Tpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:08:07",
+      "side": "Buy",
+      "amt": "451.6 USDC MC 10.4M",
+      "pusher": "tilcrypto"
+     },
+     {
+      "ts": "11-05 15:08:09",
+      "side": "Buy",
+      "amt": "451.65 USDC MC 10.6M",
+      "pusher": "tilcrypto"
+     },
+     {
+      "ts": "11-05 15:08:09",
+      "side": "Buy",
+      "amt": "451.31 USDC MC 10.2M",
+      "pusher": "tilcrypto"
+     }
+    ],
+    "token": "Rocco",
+    "chain": "SOL"
+   },
+   "4NFR3LEppwnMuWjJncJdJk47dNRSF53JViKgQjuKpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:08:18",
+      "side": "Buy",
+      "amt": "133.32 USDC MC 25.4M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:08:18",
+      "side": "Buy",
+      "amt": "146.83 USDC MC 22.9M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:08:22",
+      "side": "Buy",
+      "amt": "270.4 USDC MC 28.5M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "USPD",
+    "chain": "SOL"
+   },
+   "8VEKPG1b7H3VxnKK9YxteipFekdFF1KKdVxt7HBb7BQs": {
+    "rows": [
+     {
+      "ts": "11-05 15:08:38",
+      "side": "Buy",
+      "amt": "180.3 USDC MC 32.1M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "LOKO",
+    "chain": "SOL"
+   },
+   "Huxhz4tq2KCxGnSP4z2kvcq3zCUVPbYYd6Q9yZgipump": {
+    "rows": [
+     {
+      "ts": "11-05 15:08:58",
+      "side": "Buy",
+      "amt": "270.31 USDC MC 8.6M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "A",
+    "chain": "SOL"
+   },
+   "AMs9ryHisQBNzhFCjYjJrWNn5fozrzzzjSxMdjN4pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:09:33",
+      "side": "Buy",
+      "amt": "270.01 USDC MC 44.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Delights",
+    "chain": "SOL"
+   },
+   "3mPo7mhM95K4xEeANdrtc3By2jPzXhZo2VxSXmufLoat": {
+    "rows": [
+     {
+      "ts": "11-05 15:10:51",
+      "side": "Buy",
+      "amt": "153.52 USDC MC 6.3M",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "USPD",
+    "chain": "SOL"
+   },
+   "jFbpZyWeD83o2NxJkVnmkudT8DTMnpMikar7RNjpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:11:12",
+      "side": "Buy",
+      "amt": "447.91 USDC MC 32.2M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 15:12:12",
+      "side": "Buy",
+      "amt": "178.22 USDC MC 28.2M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 15:12:17",
+      "side": "Buy",
+      "amt": "178 USDC MC 18.4M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 15:13:11",
+      "side": "Buy",
+      "amt": "168.16 USDC MC 20M",
+      "pusher": "disc_2p2m"
+     }
+    ],
+    "token": "Dacity",
+    "chain": "SOL"
+   },
+   "9boyBbb7nXWvzWNYifqHoans13MRX4KpzSfCkdWPpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:15:03",
+      "side": "Buy",
+      "amt": "0.67021 TTWO MC 25.7M",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 15:15:03",
+      "side": "Buy",
+      "amt": "0.67021 TTWO MC 25.7M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "Dacity",
+    "chain": "SOL"
+   },
+   "Dq41or3oupfNTnjFD1tExY6S3ozmzpmcJ5oxfoR8odBB": {
+    "rows": [
+     {
+      "ts": "11-05 15:15:22",
+      "side": "Buy",
+      "amt": "268.16 USDC MC 39.1M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "TRUMP",
+    "chain": "SOL"
+   },
+   "FA1VQpkkHbwbWF6N2wsmq6oYejf2DrXWSm2yBM2pjK8D": {
+    "rows": [
+     {
+      "ts": "11-05 15:15:49",
+      "side": "Buy",
+      "amt": "178.75 USDC MC 29.9M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "Roccy",
+    "chain": "SOL"
+   },
+   "G3kf5arvcxn9hSBZ8RLzQdupey3ozEZw3n7eNd8YUHAq": {
+    "rows": [
+     {
+      "ts": "11-05 15:15:55",
+      "side": "Buy",
+      "amt": "268.36 USDC MC 52.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "THURSDAY",
+    "chain": "SOL"
+   },
+   "ALDVtr9JeLjKH91fHFvLxFoyd7C6eLUxi9dUoN2FsWdD": {
+    "rows": [
+     {
+      "ts": "11-05 15:16:17",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 6.2M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:16:17",
+      "side": "Buy",
+      "amt": "538.21 FRONTIER MC 5.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "BUBBLE",
+    "chain": "SOL"
+   },
+   "5NEeVaMMuUruFcjmYFgdXkfcda3FFUqDbPVXHeaDpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:19:57",
+      "side": "Buy",
+      "amt": "450.17 USDC MC 33.3M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "SCITY",
+    "chain": "SOL"
+   },
+   "FgGCwNyjGixWk9VPwGqNbFSyt4imE8HbKjVJTGGM5ccs": {
+    "rows": [
+     {
+      "ts": "11-05 15:22:23",
+      "side": "Buy",
+      "amt": "268.3 USDC MC 33.4M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 15:27:18",
+      "side": "Buy",
+      "amt": "443.53 USDC MC 27M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "SYP",
+    "chain": "SOL"
+   },
+   "E6KdGcKUW3WAv2VSGTR5CFyyhCWPwarcoWdoH6kxAR6X": {
+    "rows": [
+     {
+      "ts": "11-05 15:22:26",
+      "side": "Buy",
+      "amt": "223.66 USDC MC 51.9M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 15:23:26",
+      "side": "Buy",
+      "amt": "133.96 USDC MC 27M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "SOL",
+    "chain": "SOL"
+   },
+   "85NnkaeqHzTnJNSqyXzxqbg3x3HbxrcVjNV2BxiDpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:23:07",
+      "side": "Buy",
+      "amt": "268.1 USDC MC 46M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "GTAVI",
+    "chain": "SOL"
+   },
+   "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:23:16",
+      "side": "Buy",
+      "amt": "446.73 USDC MC 3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "GTA6",
+    "chain": "SOL"
+   },
+   "3UsgG3dmEJoDodd4RL7ma94nsTyChgaxYwzFCjiUHiTd": {
+    "rows": [
+     {
+      "ts": "11-05 15:23:17",
+      "side": "Buy",
+      "amt": "22.76 SQQQ MC 25.5M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:23:27",
+      "side": "Buy",
+      "amt": "2.18 SQQQ MC 1.9M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 16:11:46",
+      "side": "Buy",
+      "amt": "14.56 SQQQ MC 21.6M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "BUBBLE",
+    "chain": "SOL"
+   },
+   "SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": {
+    "rows": [
+     {
+      "ts": "11-05 15:23:28",
+      "side": "Buy",
+      "amt": "103.16 USDC MC 2.18",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:23:32",
+      "side": "Buy",
+      "amt": "1.1K USDC MC 22.77",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:30:07",
+      "side": "Buy",
+      "amt": "125.83 USDC MC 2.61",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:49:49",
+      "side": "Buy",
+      "amt": "446.31 USDC MC 9.18",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 15:57:34",
+      "side": "Buy",
+      "amt": "269.57 USDC MC 5.52",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 16:07:57",
+      "side": "Buy",
+      "amt": "307.4 USDC MC 6.25",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 16:11:46",
+      "side": "Buy",
+      "amt": "713.1 USDC MC 14.57",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 16:19:03",
+      "side": "Buy",
+      "amt": "452.95 USDC MC 9.5",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 16:19:12",
+      "side": "Buy",
+      "amt": "452.89 USDC MC 9.5",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 19:59:52",
+      "side": "Buy",
+      "amt": "125.22 USDC MC 2.58",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 20:02:35",
+      "side": "Buy",
+      "amt": "266.34 USDC MC 5.49",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 20:07:59",
+      "side": "Buy",
+      "amt": "125.12 USDC MC 2.58",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 20:11:55",
+      "side": "Buy",
+      "amt": "265.97 USDC MC 5.42",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "SQQQ",
+    "chain": "SOL"
+   },
+   "BzH6KKFFwrJ836yWXRtAbKsN1i5EzhbPQysJBU78pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:24:03",
+      "side": "Buy",
+      "amt": "93.11 USDC MC 9.4M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:29:44",
+      "side": "Buy",
+      "amt": "4.99 WSOL MC 27.2M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 15:31:17",
+      "side": "Buy",
+      "amt": "2 WSOL MC 8.6M",
+      "pusher": "whale_URANUS24"
+     }
+    ],
+    "token": "GTAVI",
+    "chain": "SOL"
+   },
+   "8nX2ChBViVWd6eUQEeWFBH45ptX19qdFUxS8G23vpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:25:13",
+      "side": "Buy",
+      "amt": "177.73 USDC MC 19.9M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "GTAVI",
+    "chain": "SOL"
+   },
+   "27AYXq96kjPgsy2qMsLXTPAf47CJHZPHa5P2fQZ38Z77": {
+    "rows": [
+     {
+      "ts": "11-05 15:25:13",
+      "side": "Buy",
+      "amt": "3 WSOL MC 5.9M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:25:34",
+      "side": "Buy",
+      "amt": "3 WSOL MC 5.7M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:33:28",
+      "side": "Buy",
+      "amt": "3 WSOL MC 2.3M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:33:30",
+      "side": "Buy",
+      "amt": "3 WSOL MC 2.3M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:33:33",
+      "side": "Buy",
+      "amt": "3 WSOL MC 2.1M",
+      "pusher": "whale_URANUS24"
+     }
+    ],
+    "token": "GTAVI",
+    "chain": "SOL"
+   },
+   "8yxCjef6QBoKjQZetwB9gY3j5nC4gT9kTa4cLsbk47xe": {
+    "rows": [
+     {
+      "ts": "11-05 15:25:20",
+      "side": "Buy",
+      "amt": "2.03 RUSH MC 1.8M",
+      "pusher": "degenai71x"
+     }
+    ],
+    "token": "WHITEWHALE",
+    "chain": "SOL"
+   },
+   "SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": {
+    "rows": [
+     {
+      "ts": "11-05 15:25:20",
+      "side": "Buy",
+      "amt": "1.52 WSOL MC 1.58",
+      "pusher": "degenai71x"
+     }
+    ],
+    "token": "RUSH",
+    "chain": "SOL"
+   },
+   "Da3pR5MBSUzmBfJMHgS1dsGBer94vgD9CaJUjDVkpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:25:50",
+      "side": "Buy",
+      "amt": "1.52 WSOL MC 30.9M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "RI",
+    "chain": "SOL"
+   },
+   "H3cm62kFFuj5G5a8XBN6ZNcAuQLp5d6ZXWQujTsqpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:26:04",
+      "side": "Buy",
+      "amt": "3.39 WSOL MC 26.6M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "RI",
+    "chain": "SOL"
+   },
+   "HAEQWcfMZKJhz7eXpwXT5gTzuy5EUG1onu3FKw6fpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:26:11",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 50.4M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "RI",
+    "chain": "SOL"
+   },
+   "7zA9NJJeTHsGMbLHgJv1dKYP7FKrvXLPuArB52BNV9AG": {
+    "rows": [
+     {
+      "ts": "11-05 15:26:37",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 35.9M",
+      "pusher": "Ramsetx"
+     },
+     {
+      "ts": "11-05 15:26:47",
+      "side": "Buy",
+      "amt": "1.27 WSOL MC 32.8M",
+      "pusher": "Ramsetx"
+     }
+    ],
+    "token": "RI",
+    "chain": "SOL"
+   },
+   "642eS15go2BehH6evxKeksMHaVdMpv2atAToYfCuwxU7": {
+    "rows": [
+     {
+      "ts": "11-05 15:26:53",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 26.6M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "RI",
+    "chain": "SOL"
+   },
+   "4JoZWLNGx88Q6zpAsXiXf9sXenPKJZCJiNSqVJ85pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:27:03",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 42.1M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "RI",
+    "chain": "SOL"
+   },
+   "AwMeDBWWqxuxTCvVtF3sdMiLnfuFw4o9HXo9wLcdpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:27:34",
+      "side": "Buy",
+      "amt": "0.49373 MCDx MC 34.7M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "FRIES",
+    "chain": "SOL"
+   },
+   "4RXreBwjK4zjqrQFZUYswuAY5XctAUjZ77XdQU6g75mz": {
+    "rows": [
+     {
+      "ts": "11-05 15:29:17",
+      "side": "Buy",
+      "amt": "267.53 USDC MC 42.2M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:30:07",
+      "side": "Buy",
+      "amt": "2.58 SQQQ MC 27.5M",
+      "pusher": "Limfork"
+     },
+     {
+      "ts": "11-05 15:49:49",
+      "side": "Buy",
+      "amt": "9.06 SQQQ MC 21.5M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Thursday",
+    "chain": "SOL"
+   },
+   "CgvTH9N9Rk2yGWZ967npLcEVQnsKXnSVYYaisKb9pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:29:52",
+      "side": "Buy",
+      "amt": "149.4 USDC MC 25.4M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "AlBuqqi",
+    "chain": "SOL"
+   },
+   "HuTYA2G5ToJsjaUhqBcfvDF2VzPiw5FYAybdD2Lbpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:30:03",
+      "side": "Buy",
+      "amt": "1.95 WSOL MC 19.1M",
+      "pusher": "Limfork"
+     }
+    ],
+    "token": "LOOT",
+    "chain": "SOL"
+   },
+   "cats1JDrvuzdgvtNh5AMm2QvqAjhGJo9TF5pSfd6NK8": {
+    "rows": [
+     {
+      "ts": "11-05 15:31:04",
+      "side": "Buy",
+      "amt": "1.14 WSOL MC 11M",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-05 15:32:22",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 26.6M",
+      "pusher": "disc_3gHr"
+     }
+    ],
+    "token": "catfish",
+    "chain": "SOL"
+   },
+   "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
+    "rows": [
+     {
+      "ts": "11-05 15:31:56",
+      "side": "Buy",
+      "amt": "360.9 USDC MC 0.47845",
+      "pusher": "memeqinb"
+     }
+    ],
+    "token": "SPYx",
+    "chain": "SOL"
+   },
+   "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx": {
+    "rows": [
+     {
+      "ts": "11-05 15:31:56",
+      "side": "Buy",
+      "amt": "360.9 USDC MC 3.2K",
+      "pusher": "memeqinb"
+     }
+    ],
+    "token": "STONK",
+    "chain": "SOL"
+   },
+   "4UPvLkNYzGKbVKf9KwP2VuQQ5Uk5z2XfJ7tupNFApump": {
+    "rows": [
+     {
+      "ts": "11-05 15:33:37",
+      "side": "Buy",
+      "amt": "0.51737 MCDx MC 30M",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 15:34:01",
+      "side": "Buy",
+      "amt": "268.69 USDC MC 29.2M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "Job",
+    "chain": "SOL"
+   },
+   "7hGgx1VtNTj193fFXXuMEkp1MRV6JbWYgMBhHRYxaxu2": {
+    "rows": [
+     {
+      "ts": "11-05 15:33:38",
+      "side": "Buy",
+      "amt": "1.78 MCDx MC 5M",
+      "pusher": "degenai71x"
+     }
+    ],
+    "token": "FRIES",
+    "chain": "SOL"
+   },
+   "CvWjRQBuwW1KfzifY67omNwNCtNpcfSgbnjfnpA5pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:34:15",
+      "side": "Buy",
+      "amt": "179.21 USDC MC 31.7M",
+      "pusher": "beaverd"
+     },
+     {
+      "ts": "11-05 15:34:54",
+      "side": "Buy",
+      "amt": "179.44 USDC MC 23.4M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 15:35:02",
+      "side": "Buy",
+      "amt": "151.32 USDC MC 14.9M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "JOB",
+    "chain": "SOL"
+   },
+   "GB2egeuZ75H5EBqCS2K45qkwHLsbbngYvJ8vXZ5upump": {
+    "rows": [
+     {
+      "ts": "11-05 15:35:55",
+      "side": "Buy",
+      "amt": "1.62 WSOL MC 35.9M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "Moralfagging",
+    "chain": "SOL"
+   },
+   "BTx1ZauvxvMAHY4p6Qv2CYFwCVL7qbvrpyVx85Qbpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:35:57",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 26.8M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 15:36:15",
+      "side": "Buy",
+      "amt": "1.58 WSOL MC 17.3M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 15:36:20",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 30.5M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 15:37:11",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 25.3M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "JOB",
+    "chain": "SOL"
+   },
+   "9VhhPYW32vC5RJ1ksvmHUc5FkKNYUn2qqm6QXpMrpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:36:15",
+      "side": "Buy",
+      "amt": "2.43 MCDx MC 24.7M",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 15:43:54",
+      "side": "Buy",
+      "amt": "3.49 WSOL MC 11.9M",
+      "pusher": "Loopierr"
+     },
+     {
+      "ts": "11-05 15:43:54",
+      "side": "Buy",
+      "amt": "3.49 WSOL MC 9.5M",
+      "pusher": "Loopierr"
+     },
+     {
+      "ts": "11-05 18:24:43",
+      "side": "Buy",
+      "amt": "439.4 USDC MC 4.7M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 18:24:46",
+      "side": "Buy",
+      "amt": "439.4 USDC MC 4.8M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 18:27:27",
+      "side": "Buy",
+      "amt": "352.03 USDC MC 6.6M",
+      "pusher": "beaverd"
+     }
+    ],
+    "token": "JOB",
+    "chain": "SOL"
+   },
+   "BXGa7BML9dNkFvsqrWSbDg89sLRxFDHuHEragFhFpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:36:20",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 26.9M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "JOB",
+    "chain": "SOL"
+   },
+   "FgqPx8fk2kxKtvoCNkJVqt4ZeXXxyR2UzFfNeHabpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:36:44",
+      "side": "Buy",
+      "amt": "179.07 USDC MC 42.6M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "CHOP",
+    "chain": "SOL"
+   },
+   "4Fg4LjiB9LJwPEqAAVX2PjjR7iirDR98Dybn9gZEpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:37:37",
+      "side": "Buy",
+      "amt": "139.81 USDC MC 26.8M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "JOB",
+    "chain": "SOL"
+   },
+   "9o4xniRpmvMEYrSzkxZcxW6miJZgkxD8r4mVKAqU7Zvf": {
+    "rows": [
+     {
+      "ts": "11-05 15:39:58",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 85.3M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "AIRCOIN",
+    "chain": "SOL"
+   },
+   "GgrXYd7Fz5R2gsBz75YYNYh7CFHXKMWQu4T2SDfUpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:40:53",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 35.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 15:45:40",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 25.7M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "Retail",
+    "chain": "SOL"
+   },
+   "2crWPAuv6QkqYzmMXQXrQGj2i7mBbGN72JTssBD7pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:41:00",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 61.5M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Retail",
+    "chain": "SOL"
+   },
+   "6MCTCuUxgaem4pDNyjeLRZtio1Qk7beNpRSa294Dpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:41:17",
+      "side": "Buy",
+      "amt": "1.38 WSOL MC 22.7M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "Retail",
+    "chain": "SOL"
+   },
+   "DNSJN9CvQnBhNxqaGc9cTvJnoo3fZVky6uqKBMMUZTqA": {
+    "rows": [
+     {
+      "ts": "11-05 15:42:10",
+      "side": "Buy",
+      "amt": "2.48 WSOL MC 16.7M",
+      "pusher": "disc_3xuN"
+     }
+    ],
+    "token": "TREMP",
+    "chain": "SOL"
+   },
+   "942yLuvhkkF1meWAK2cekh1M6QitsRm6ijrr7deYpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:46:24",
+      "side": "Buy",
+      "amt": "3 WSOL MC 68.7M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "McDonald",
+    "chain": "SOL"
+   },
+   "9pqp25BF7BEqNNjhPHPDQ9yTJ1ZFSEczZ9v5DECPamz2": {
+    "rows": [
+     {
+      "ts": "11-05 15:47:20",
+      "side": "Buy",
+      "amt": "3 WSOL MC 11.9M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 15:49:52",
+      "side": "Buy",
+      "amt": "2.98 WSOL MC 20.6M",
+      "pusher": "whale_URANUS24"
+     }
+    ],
+    "token": "GTA",
+    "chain": "SOL"
+   },
+   "4vWZULXs193jr6wf6WkuEaJTE1RnLZJBVRQ2wsDHpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:48:01",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 56.1M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "MCD",
+    "chain": "SOL"
+   },
+   "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv": {
+    "rows": [
+     {
+      "ts": "11-05 15:51:11",
+      "side": "Buy",
+      "amt": "800 USDC MC 121.9K",
+      "pusher": "whale_WHETH1"
+     }
+    ],
+    "token": "PENGU",
+    "chain": "SOL"
+   },
+   "1sB3bdiXwHeazqbcfCg5VLteYNuFGhn6btLQMAjpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:51:17",
+      "side": "Buy",
+      "amt": "177.16 USDC MC 35.9M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "SOL",
+    "chain": "SOL"
+   },
+   "C5QryaiZGKBDrnkmoEuqWbhe6T6LZBFtZXMPFDPTdd4W": {
+    "rows": [
+     {
+      "ts": "11-05 15:51:24",
+      "side": "Buy",
+      "amt": "265.27 USDC MC 34.2M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "W",
+    "chain": "SOL"
+   },
+   "6eetjSkkgrRJx88n42A7n3nZ9z22YiLBwJwipg4epump": {
+    "rows": [
+     {
+      "ts": "11-05 15:53:03",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 27.9M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "SWAN",
+    "chain": "SOL"
+   },
+   "34iqKf8S9rm9RKhKASufguNYRtPDBtt9oKChSb9gqhD6": {
+    "rows": [
+     {
+      "ts": "11-05 15:53:26",
+      "side": "Buy",
+      "amt": "175.51 USDC MC 30.6M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "SWAN",
+    "chain": "SOL"
+   },
+   "2hvVrGV7dWt8cDBt3jTRphj54LURcoE2JcgeZ92kn3XD": {
+    "rows": [
+     {
+      "ts": "11-05 15:54:21",
+      "side": "Buy",
+      "amt": "173.43 USDC MC 22.9M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "Hedge",
+    "chain": "SOL"
+   },
+   "G9c1gv1BTpVwiJe9D1zTwrmS7gkyWjPWotmfec88pump": {
+    "rows": [
+     {
+      "ts": "11-05 15:55:19",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 37.4M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "BC",
+    "chain": "SOL"
+   },
+   "91Z5ec6rhrSow4NvryZ4uskUWPD6LsiW8J3TkVoCpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:55:22",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 31.5M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 15:57:29",
+      "side": "Buy",
+      "amt": "1.6 WSOL MC 18.8M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 15:57:35",
+      "side": "Buy",
+      "amt": "1.61 WSOL MC 15.8M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 16:31:16",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 6.2M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 16:31:21",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 6M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Donkey",
+    "chain": "SOL"
+   },
+   "DmiBPKP7yvQLRpQidYBvbT9SUzWJV9cUtKmpLMJepump": {
+    "rows": [
+     {
+      "ts": "11-05 15:55:59",
+      "side": "Buy",
+      "amt": "265.15 USDC MC 51.4M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "DODO",
+    "chain": "SOL"
+   },
+   "DgZfbGxG8mmpxgxZ5X2nuzdMMxo9pFMMfvkM39nApump": {
+    "rows": [
+     {
+      "ts": "11-05 15:56:56",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 44.4M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 15:57:23",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 37.2M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 15:57:47",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 30.5M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Dumocrat",
+    "chain": "SOL"
+   },
+   "EJH6kZZbCiZ3QVppp1LgXxYV5mNwgTQPN3aunPmmpump": {
+    "rows": [
+     {
+      "ts": "11-05 15:57:34",
+      "side": "Buy",
+      "amt": "5.42 SQQQ MC 50.9M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "POP",
+    "chain": "SOL"
+   },
+   "Ee39LCn2GgrnbfXPbU1Vo6JkV6mEHQKL3C4c4AgBcsF6": {
+    "rows": [
+     {
+      "ts": "11-05 16:00:12",
+      "side": "Buy",
+      "amt": "265.35 USDC MC 44.2M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "BUBBLE",
+    "chain": "SOL"
+   },
+   "DgF4KDEREM6DBNYxYuqDQVgVjvXdWjPtZLrabNY9pump": {
+    "rows": [
+     {
+      "ts": "11-05 16:01:15",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 43.5M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "RURU",
+    "chain": "SOL"
+   },
+   "9cqb7hVJ5Dtq9GhC5YLJuo94bguFut5nrFHD6u4Vpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:01:15",
+      "side": "Buy",
+      "amt": "122.68 USDC MC 9M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 16:01:20",
+      "side": "Buy",
+      "amt": "353.96 USDC MC 22.6M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "RURU",
+    "chain": "SOL"
+   },
+   "8F6FKcuei4gKhoo8iYXx4ugEz22HAmx7414AsQeFEbtX": {
+    "rows": [
+     {
+      "ts": "11-05 16:01:41",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 23.8M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "RURU",
+    "chain": "SOL"
+   },
+   "7avTi2cj5M2eKWJVitKHQbhKxQLo4MiMxRGknK8Dpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:01:50",
+      "side": "Buy",
+      "amt": "1.36 WSOL MC 16.3M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "RURU",
+    "chain": "SOL"
+   },
+   "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": {
+    "rows": [
+     {
+      "ts": "11-05 16:01:50",
+      "side": "Buy",
+      "amt": "34.65 WSOL MC 19.7M",
+      "pusher": "Luce46x"
+     }
+    ],
+    "token": "PODCAT",
+    "chain": "SOL"
+   },
+   "9GC2aKfnTTUbsD9YgpzZheeUq2iAzb2DzYUdRBSYpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:04:00",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 41.2M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "KMS",
+    "chain": "SOL"
+   },
+   "7zyHwL9L4TjA9RKx3hJK41Nt1cYLsvWaTTBcgh7Hpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:05:45",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 35.7M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "elon",
+    "chain": "SOL"
+   },
+   "6SWnameD9jWoY5TfMsK93dBv6WA4eKSvytWtLn94pump": {
+    "rows": [
+     {
+      "ts": "11-05 16:06:24",
+      "side": "Buy",
+      "amt": "265.39 USDC MC 46M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "CAP",
+    "chain": "SOL"
+   },
+   "FzHHmfhSTActFCzwZyD9AmgMMc2VAWBUyyT4mqWopump": {
+    "rows": [
+     {
+      "ts": "11-05 16:06:59",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 58.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "APE",
+    "chain": "SOL"
+   },
+   "BwiFYTj54BXRKxX3NikG8WrSVQThnf7RvjyDbjzQpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:07:53",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 56.9M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 16:08:13",
+      "side": "Buy",
+      "amt": "1.98 SOL MC 13.2M",
+      "pusher": "whale_URANUS24"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "AHTNaa57pJ4GenHhr4b5RxV5pTGGSodWPAG6Vt7Fpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:07:57",
+      "side": "Buy",
+      "amt": "6.13 SQQQ MC 29.9M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "Donkey",
+    "chain": "SOL"
+   },
+   "GFSjrXA34rpishXPw1QRKgbU87B1xcLDfH4v327qpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:08:08",
+      "side": "Buy",
+      "amt": "265.5 USDC MC 38.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "4aLgjEoXzExKBddYrGx6qNzJpqptuhaNfUk9rLyNpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:10:07",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 22.1M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "FgcL1C3AHiiZyhy8n14k9ndQwWMh6VRjHUWhN4GV7Ngx": {
+    "rows": [
+     {
+      "ts": "11-05 16:10:21",
+      "side": "Buy",
+      "amt": "3.39 WSOL MC 32.2M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "A2yfWHaurv9HNR9VkV2bksSXzLAPoLDLF2evY1Awpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:11:17",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 5.5M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 16:11:17",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 5.3M",
+      "pusher": "whale_URANUS24"
+     }
+    ],
+    "token": "equititties",
+    "chain": "SOL"
+   },
+   "8F3oV5RtUBfYfqqmHLW8YZxKx9JXE1zeyLm8NZfyQUCB": {
+    "rows": [
+     {
+      "ts": "11-05 16:12:12",
+      "side": "Buy",
+      "amt": "3 WSOL MC 1.9M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 16:12:12",
+      "side": "Buy",
+      "amt": "3 WSOL MC 1.9M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 16:12:17",
+      "side": "Buy",
+      "amt": "3 WSOL MC 1.9M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 16:12:31",
+      "side": "Buy",
+      "amt": "3 WSOL MC 1.8M",
+      "pusher": "whale_URANUS24"
+     },
+     {
+      "ts": "11-05 16:33:47",
+      "side": "Buy",
+      "amt": "452.53 USDC MC 4.7M",
+      "pusher": "whale_FWOG4"
+     },
+     {
+      "ts": "11-05 16:33:55",
+      "side": "Buy",
+      "amt": "1.48 MCDx MC 4.2M",
+      "pusher": "whale_FWOG4"
+     },
+     {
+      "ts": "11-05 16:35:52",
+      "side": "Buy",
+      "amt": "4.96 WSOL MC 4.9M",
+      "pusher": "whale_FWOG4"
+     },
+     {
+      "ts": "11-05 16:47:50",
+      "side": "Buy",
+      "amt": "1.51 MCDx MC 4.7M",
+      "pusher": "whale_FWOG4"
+     }
+    ],
+    "token": "FRIES",
+    "chain": "SOL"
+   },
+   "7T377oTDWpyKH4anHS2fqJLsybG2i19d6Le68ReYpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:12:17",
+      "side": "Buy",
+      "amt": "3 WSOL MC 61.4M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 16:12:18",
+      "side": "Buy",
+      "amt": "3 WSOL MC 61.4M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "Stanks",
+    "chain": "SOL"
+   },
+   "2HKEUy9VxkreU5LgAHC4PyzHCeDsP4uqViEBQnfwHFPF": {
+    "rows": [
+     {
+      "ts": "11-05 16:13:33",
+      "side": "Buy",
+      "amt": "3 WSOL MC 81.9M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "Stanks",
+    "chain": "SOL"
+   },
+   "8d5GhKxVxexLPBSCJDFTWPkoy8UXwFP7AdDrhUcfNagd": {
+    "rows": [
+     {
+      "ts": "11-05 16:14:49",
+      "side": "Buy",
+      "amt": "222.83 USDC MC 53M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "BURST",
+    "chain": "SOL"
+   },
+   "ASkYiHKWj4Uroti9yxuv67dokmvMZL8KXjGouUWPpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:15:59",
+      "side": "Buy",
+      "amt": "1.07 WSOL MC 21M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 16:18:53",
+      "side": "Buy",
+      "amt": "1.04 WSOL MC 18.2M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "JACKASS",
+    "chain": "SOL"
+   },
+   "Bd9bsackCBHaCmuoA9WHzHMZGTt3C7aZ1PT3UTHCpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:16:01",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 36.3M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "GgxX2cg3XcNB6NDZ7YgBYGJxCvknTsWZCPNfaVhinHed": {
+    "rows": [
+     {
+      "ts": "11-05 16:18:11",
+      "side": "Buy",
+      "amt": "357.98 USDC MC 32.9M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 16:19:11",
+      "side": "Buy",
+      "amt": "9.32 SQQQ MC 46.6M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 16:19:12",
+      "side": "Buy",
+      "amt": "357.74 USDC MC 26.9M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 19:03:35",
+      "side": "Buy",
+      "amt": "119.19 USDC MC 8.8M",
+      "pusher": "TobxG"
+     }
+    ],
+    "token": "Nasdaqistan",
+    "chain": "SOL"
+   },
+   "EGsMo77yCH9BVKedGcA3ZForQ2mJdLbvGwMhBA3Zpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:19:00",
+      "side": "Buy",
+      "amt": "447.27 USDC MC 22.2M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 16:19:03",
+      "side": "Buy",
+      "amt": "9.39 SQQQ MC 17.7M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 17:02:44",
+      "side": "Buy",
+      "amt": "299.4 USDC MC 24.3M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "",
+    "chain": "SOL"
+   },
+   "3UTXcKajE1P1jQwCtjEriCChrBg6agLFQi2DKJbapump": {
+    "rows": [
+     {
+      "ts": "11-05 16:21:31",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 53.9M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "url",
+    "chain": "SOL"
+   },
+   "ArZXy6SN3qLGPZhdvQ5Z1ZJJ32QWmhHNc2N68P1St7bk": {
+    "rows": [
+     {
+      "ts": "11-05 16:23:51",
+      "side": "Buy",
+      "amt": "1.4 WSOL MC 19.5M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 16:24:13",
+      "side": "Buy",
+      "amt": "1.4 WSOL MC 24.5M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "PUMP",
+    "chain": "SOL"
+   },
+   "HpcZXMnbmKpG5ahPxm5dtpnKmw2W5Rm2VjPigw47pump": {
+    "rows": [
+     {
+      "ts": "11-05 16:24:31",
+      "side": "Buy",
+      "amt": "87.6K PUMP MC 49M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 16:24:38",
+      "side": "Buy",
+      "amt": "65.6K PUMP MC 30.3M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 16:25:19",
+      "side": "Buy",
+      "amt": "1.63 WSOL MC 16.9M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "PUMP",
+    "chain": "SOL"
+   },
+   "4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump": {
+    "rows": [
+     {
+      "ts": "11-05 16:25:02",
+      "side": "Buy",
+      "amt": "1.51 WSOL MC 2.9M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "PUMP",
+    "chain": "SOL"
+   },
+   "954cqZgKoHVGcFuJwsjTDQtNRNfEQu66yPEUXZwX6nj7": {
+    "rows": [
+     {
+      "ts": "11-05 16:25:46",
+      "side": "Buy",
+      "amt": "1.86 WSOL MC 11.6M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 16:26:07",
+      "side": "Buy",
+      "amt": "2.94 WSOL MC 29M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 16:26:08",
+      "side": "Buy",
+      "amt": "2.94 WSOL MC 29M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "PUMP",
+    "chain": "SOL"
+   },
+   "FEFEVFRRU3RzSaRhmgv9txwspMWpxvnx4QKhVxQLpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:25:51",
+      "side": "Buy",
+      "amt": "998 USDC MC 21.5M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "CF",
+    "chain": "SOL"
+   },
+   "BfDbWrxbbg89kXsofvp8ZHAt1nsnWzaV1KGJM6Wcpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:26:30",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 29.1M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 16:30:08",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 24.8M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 16:33:21",
+      "side": "Buy",
+      "amt": "1.44 WSOL MC 6.8M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "commotitties",
+    "chain": "SOL"
+   },
+   "Dg77yjPhBcPqVnvu6nWX82nmeKYdhmUrBAr4q8Lqpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:27:30",
+      "side": "Buy",
+      "amt": "1.44 WSOL MC 9.9M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 16:29:04",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 23.7M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "BKG",
+    "chain": "SOL"
+   },
+   "CYV7NyfJkzUXcfYQPBRcuW7Mz5U9mwB4W6LnwjUGpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:27:53",
+      "side": "Buy",
+      "amt": "1.98 WSOL MC 22.4M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "BTC",
+    "chain": "SOL"
+   },
+   "3KfYWBRYG8rNUMUodzf2FdiQJrkxg6hPGQPv7pXzBAGS": {
+    "rows": [
+     {
+      "ts": "11-05 16:31:27",
+      "side": "Buy",
+      "amt": "1.76 WSOL MC 3.9M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 16:31:27",
+      "side": "Buy",
+      "amt": "1.62 WSOL MC 3M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 16:31:29",
+      "side": "Buy",
+      "amt": "1.01 WSOL MC 1.7M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 16:31:49",
+      "side": "Buy",
+      "amt": "1.76 WSOL MC 2.7M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "BAGSPAY",
+    "chain": "SOL"
+   },
+   "7zghLj1jF1mxfUebDRnFuargoWgQZxXYsVkGqFeYiwst": {
+    "rows": [
+     {
+      "ts": "11-05 16:33:07",
+      "side": "Buy",
+      "amt": "223.34 USDC MC 25M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "Nasdaqistan",
+    "chain": "SOL"
+   },
+   "Dt1ELNs82CV8WxX6oGQQShNpSU5vLe2jexvJjfqspump": {
+    "rows": [
+     {
+      "ts": "11-05 16:33:38",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 34.7M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "HellWithAI",
+    "chain": "SOL"
+   },
+   "FFsDYAd28Vqn4PCku7HrRpgXRZTzFvdiNQ5RPi9Npump": {
+    "rows": [
+     {
+      "ts": "11-05 16:34:06",
+      "side": "Buy",
+      "amt": "5 WSOL MC 153.3M",
+      "pusher": "CookerFlips"
+     }
+    ],
+    "token": "Wave",
+    "chain": "SOL"
+   },
+   "G9ThjVYH5maiWtCr3aAGKwgjTwA6Kg8NT2jLe6uEmbuy": {
+    "rows": [
+     {
+      "ts": "11-05 16:36:45",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 55.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "BUY",
+    "chain": "SOL"
+   },
+   "ELtScEXTwPghGGphuKU9NQ4QW2AQjgokFVFa7whzpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:38:29",
+      "side": "Buy",
+      "amt": "267.66 USDC MC 23.4M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 16:57:25",
+      "side": "Buy",
+      "amt": "444.08 USDC MC 19.5M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "GI",
+    "chain": "SOL"
+   },
+   "8CnAFa2DwZEgo6xi7QrkWAUpUEJLCVPxvrkzSaT3pump": {
+    "rows": [
+     {
+      "ts": "11-05 16:43:45",
+      "side": "Buy",
+      "amt": "3 WSOL MC 40.4M",
+      "pusher": "CookerFlips"
+     }
+    ],
+    "token": "Wave",
+    "chain": "SOL"
+   },
+   "HVg4fTkoC3tCqPLU7DtrqxhqDNda2m7G7gMEXUEypump": {
+    "rows": [
+     {
+      "ts": "11-05 16:44:35",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 8.7M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 16:56:26",
+      "side": "Buy",
+      "amt": "9.9 WSOL MC 11.1M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 17:44:01",
+      "side": "Buy",
+      "amt": "24.74 WSOL MC 16M",
+      "pusher": "Yennii56"
+     },
+     {
+      "ts": "11-05 17:44:04",
+      "side": "Buy",
+      "amt": "10.89 WSOL MC 6.4M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "BenBen",
+    "chain": "SOL"
+   },
+   "DqUBmJWPxdY7Mj6pAN3a41aACa8JSwM3KVEqT8ftpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:51:03",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 30.9M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "ChewChan",
+    "chain": "SOL"
+   },
+   "3aGgpvfN3sUbtSd4jyhyCU9FEBusVMvgKVj6Px8YJVCK": {
+    "rows": [
+     {
+      "ts": "11-05 16:54:36",
+      "side": "Buy",
+      "amt": "271.01 USDC MC 17.2M",
+      "pusher": "CookerFlips"
+     }
+    ],
+    "token": "STONKS",
+    "chain": "SOL"
+   },
+   "ACiYG6QitgkPn7i8R6Q19bDc6JD6CNsUd1WFmt7fpump": {
+    "rows": [
+     {
+      "ts": "11-05 16:57:26",
+      "side": "Buy",
+      "amt": "133.84 USDC MC 8.4M",
+      "pusher": "SmokezXBT"
+     },
+     {
+      "ts": "11-05 17:00:53",
+      "side": "Buy",
+      "amt": "478.42 USDC MC 21.7M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "fiat",
+    "chain": "SOL"
+   },
+   "Hymyb8WYaP8FZvesdwYYxDgcd7jSZ4S464SxkXAfpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:00:23",
+      "side": "Buy",
+      "amt": "266.09 USDC MC 66.7M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "MELON",
+    "chain": "SOL"
+   },
+   "HfyRrj9HRKQEXApY8s7SFePwm1KPrg6uryNRz7yg6EVL": {
+    "rows": [
+     {
+      "ts": "11-05 17:01:22",
+      "side": "Buy",
+      "amt": "442.7 USDC MC 26.9M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "CI",
+    "chain": "SOL"
+   },
+   "PrkyDdnE9A99ghintXqgoynRahwz4oevixigZg3pump": {
+    "rows": [
+     {
+      "ts": "11-05 17:02:51",
+      "side": "Buy",
+      "amt": "1.51 WSOL MC 5.4M",
+      "pusher": "disc_3xyQ"
+     }
+    ],
+    "token": "KRYVEX",
+    "chain": "SOL"
+   },
+   "4K1m7gAMDKzrxQn68yuZAd767w57Fw7Ykw69dG3umeta": {
+    "rows": [
+     {
+      "ts": "11-05 17:04:28",
+      "side": "Buy",
+      "amt": "1.8K USDC MC 49.6K",
+      "pusher": "whale_LAUNCHCOIN20"
+     },
+     {
+      "ts": "11-05 17:04:28",
+      "side": "Buy",
+      "amt": "797.45 USDC MC 22.2K",
+      "pusher": "whale_LAUNCHCOIN20"
+     },
+     {
+      "ts": "11-05 17:06:30",
+      "side": "Buy",
+      "amt": "488.21 USDC MC 12.9K",
+      "pusher": "whale_LAUNCHCOIN20"
+     },
+     {
+      "ts": "11-05 17:06:30",
+      "side": "Buy",
+      "amt": "261.04 USDC MC 6.9K",
+      "pusher": "whale_LAUNCHCOIN20"
+     },
+     {
+      "ts": "11-05 17:27:49",
+      "side": "Buy",
+      "amt": "518.08 USDC MC 7.4K",
+      "pusher": "whale_LAUNCHCOIN20"
+     },
+     {
+      "ts": "11-05 17:27:49",
+      "side": "Buy",
+      "amt": "1.2K USDC MC 17.1K",
+      "pusher": "whale_LAUNCHCOIN20"
+     },
+     {
+      "ts": "11-05 17:31:15",
+      "side": "Buy",
+      "amt": "881.38 USDC MC 12.8K",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-05 17:31:18",
+      "side": "Buy",
+      "amt": "880.89 USDC MC 12.5K",
+      "pusher": "Putrickk"
+     },
+     {
+      "ts": "11-05 17:32:20",
+      "side": "Buy",
+      "amt": "881.97 USDC MC 12.9K",
+      "pusher": "Putrickk"
+     }
+    ],
+    "token": "RAWR",
+    "chain": "SOL"
+   },
+   "28XyP8xe1BVVyf9iFYvobC6fB6WuEWBgr6V1YPD7CDtR": {
+    "rows": [
+     {
+      "ts": "11-05 17:05:14",
+      "side": "Buy",
+      "amt": "24.6K PUMP MC 35.3M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "NASDAQISTAN",
+    "chain": "SOL"
+   },
+   "8CFZu19HLhSjSrCAepBiPBCso5YXt2Vk1qr9SJ94pump": {
+    "rows": [
+     {
+      "ts": "11-05 17:06:45",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 77.7M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "HOPE",
+    "chain": "SOL"
+   },
+   "9f49oY3ErcQwv3MvNkuPG187vUThFrjs7RMtZKWNpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:07:00",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 30.5M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Believe",
+    "chain": "SOL"
+   },
+   "3BdgKCyEZLqWpuUGvsMSdcf6GwpHqFpjwUPv5ekBpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:08:07",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 61.9M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Believe",
+    "chain": "SOL"
+   },
+   "9f5w4KKrVRqezeZy2gVytHeknqwYKHBUiH695D4Kpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:09:08",
+      "side": "Buy",
+      "amt": "265.44 USDC MC 34.5M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "Solana",
+    "chain": "SOL"
+   },
+   "HRoXVgHA1YiVjZCANekAxiWR9Ww5tAEHyLyzRy2bpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:09:49",
+      "side": "Buy",
+      "amt": "94.07 USDC MC 14.8M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "TSLA",
+    "chain": "SOL"
+   },
+   "BCVUU73dbNfHP9XWg8aAxUK9ieB9zynMfuM5XMMDpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:10:53",
+      "side": "Buy",
+      "amt": "3.91 WSOL MC 27M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 17:10:57",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 21.4M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:11:10",
+      "side": "Buy",
+      "amt": "1.4 WSOL MC 5.9M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 17:11:24",
+      "side": "Buy",
+      "amt": "3.91 WSOL MC 39.3M",
+      "pusher": "s1mple_s1mple"
+     }
+    ],
+    "token": "nky",
+    "chain": "SOL"
+   },
+   "9TPwqrxbaocRZS55tct9yezNjnyr7JVvW5pnQHJCpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:11:09",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 80.7M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 17:11:16",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 33.7M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:11:19",
+      "side": "Buy",
+      "amt": "3.91 WSOL MC 30.1M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 17:12:57",
+      "side": "Buy",
+      "amt": "1.04 WSOL MC 4.4M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 17:14:15",
+      "side": "Buy",
+      "amt": "4.94 SOL MC 21M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "NEVER",
+    "chain": "SOL"
+   },
+   "985wvYZnxcyVTCSnttucKTwYLaxCoENn7zvDA5FMpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:14:09",
+      "side": "Buy",
+      "amt": "1.1 WSOL MC 24.4M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "MAYHEM",
+    "chain": "SOL"
+   },
+   "6ppHoy5tVKYh9nGHLK58srDc6XyJyRewPEidLyqapump": {
+    "rows": [
+     {
+      "ts": "11-05 17:16:43",
+      "side": "Buy",
+      "amt": "1.17 WSOL MC 19.3M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "MAYHEM",
+    "chain": "SOL"
+   },
+   "5Mkkey9dqZnXEu1sgNyDWkMRXPmkWWMYzg2xVtJXpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:16:48",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 35.5M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "IT",
+    "chain": "SOL"
+   },
+   "241uewYxA7LEkDYuuGJEMKZtWdHArM6yTQTKMJ25pump": {
+    "rows": [
+     {
+      "ts": "11-05 17:17:58",
+      "side": "Buy",
+      "amt": "99.8 USDC MC 33.4M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "SENSITIVE",
+    "chain": "SOL"
+   },
+   "Gcn9wNj8kVQQGYTJPTvewFK6zqPCpY9xu691nK4kpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:18:50",
+      "side": "Buy",
+      "amt": "1.28 WSOL MC 32M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "MAYHEM",
+    "chain": "SOL"
+   },
+   "6SVsayjVDauFk6P5P8ayfCEWbhiPS7sa6f6MwqAmpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:19:07",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 25M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "MAYHEM",
+    "chain": "SOL"
+   },
+   "CvEJYs4QEVA9nk66G67nHhTagjda5cwcimkvn8AGpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:19:50",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 62.4M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "KYC",
+    "chain": "SOL"
+   },
+   "GPsivgRtep612FmbycoXy4HczFzXnf4RJVHoWkoePhgm": {
+    "rows": [
+     {
+      "ts": "11-05 17:20:57",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 51M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "WM",
+    "chain": "SOL"
+   },
+   "7y8h3TqYAJVsvpPcdLPyRVtEQjQMGpvws2TYXf3Fpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:20:58",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 90.6M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "LIFE",
+    "chain": "SOL"
+   },
+   "CHzHZaTBz4RR3eT8v1oVu39eGJZNsdP9GL8rwz3Upump": {
+    "rows": [
+     {
+      "ts": "11-05 17:22:35",
+      "side": "Buy",
+      "amt": "1.21 WSOL MC 26.1M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "CHIBA",
+    "chain": "SOL"
+   },
+   "9fKTn3cvZbdLNh4s68tre8y6qY3GUehNECaBo91Lpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:22:39",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 59.9M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "MAYHEM",
+    "chain": "SOL"
+   },
+   "3s89ozuGRgmsoCEyi5oAutEte8swSMNFqNqoQxgNpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:22:58",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 55.8M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "WIF",
+    "chain": "SOL"
+   },
+   "9xiswjVNhxmwUyDNJSbwDRdSb9PCcaXCh3bDxSb2pump": {
+    "rows": [
+     {
+      "ts": "11-05 17:24:15",
+      "side": "Buy",
+      "amt": "176.43 USDC MC 29.8M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "DUMP",
+    "chain": "SOL"
+   },
+   "9VT21dd7X26ESdwSZbSMdXG7egsxo2fMTbECeRRYpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:24:32",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 33.2M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 17:25:11",
+      "side": "Buy",
+      "amt": "0.99914 WSOL MC 23M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "DUMP",
+    "chain": "SOL"
+   },
+   "Czrf9mnkgtyRxqaG1Fmzhhn3afYGJwh4xB1G9cBzpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:27:24",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 22.2M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:29:56",
+      "side": "Buy",
+      "amt": "3.39 WSOL MC 29.4M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "dumbo",
+    "chain": "SOL"
+   },
+   "ETEgqmekAKVSiuWDwKaDpqDkjihWpDq5mHXV4bZP4Cwh": {
+    "rows": [
+     {
+      "ts": "11-05 17:27:51",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 59.2M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 17:28:17",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 37M",
+      "pusher": "s1mple_s1mple"
+     }
+    ],
+    "token": "crypto",
+    "chain": "SOL"
+   },
+   "EMxLf49CVYE43ELN1S8BnFei3eZER5wUmSyW9HkAbonk": {
+    "rows": [
+     {
+      "ts": "11-05 17:28:51",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 40.4M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 17:28:52",
+      "side": "Buy",
+      "amt": "3 WSOL MC 37.8M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 17:30:03",
+      "side": "Buy",
+      "amt": "1.98 WSOL MC 38M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 17:30:05",
+      "side": "Buy",
+      "amt": "1.98 WSOL MC 38M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Benben",
+    "chain": "SOL"
+   },
+   "GU1jfmyuhLxJn9z4HS1tagCGR42EEYxwjhnoMFizF3mX": {
+    "rows": [
+     {
+      "ts": "11-05 17:29:05",
+      "side": "Buy",
+      "amt": "175.71 USDC MC 32M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Benben",
+    "chain": "SOL"
+   },
+   "BjHBKCrjziCWU6QBsDRtm1TypmV6LzaigkUp9NExpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:30:47",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 37.3M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 17:30:49",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 16.1M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:31:08",
+      "side": "Buy",
+      "amt": "6.84 WSOL MC 20.4M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "Ch1JbTRFw1uXjeSN9SA7QYEoZvhvq7votCU9p95Aac6v": {
+    "rows": [
+     {
+      "ts": "11-05 17:30:48",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 52.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "26CyDATMVZ7xsv5CgRpKFjz2Md5GTpMbpGD3zawxj9pV": {
+    "rows": [
+     {
+      "ts": "11-05 17:31:34",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 25.1M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:32:02",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 14.7M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "EXrMr17xHsuz9YwitMjQHy7MskcpVn7QLyKAqacZpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:32:04",
+      "side": "Buy",
+      "amt": "1.19 WSOL MC 26.9M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "D12nYRuHVipRiwvyBms4BdSgJWzGR2FPt9Jph1Gkpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:32:42",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 53.7M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 17:32:43",
+      "side": "Buy",
+      "amt": "3 WSOL MC 47.9M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "PEPPER",
+    "chain": "SOL"
+   },
+   "EhBuq9M6dJRiYHTo3qTy7TkSspwoCFQpXxEKLubEhYzz": {
+    "rows": [
+     {
+      "ts": "11-05 17:34:30",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 57.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "MI",
+    "chain": "SOL"
+   },
+   "EKPfC2X1K9Uq1S3gNXdzZjKsmFcqiy1dMKqBwvPMpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:35:39",
+      "side": "Buy",
+      "amt": "1.06 WSOL MC 14M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "STOCKS",
+    "chain": "SOL"
+   },
+   "D9mRyVdKJyjYG3cGi2p7LNzY3zpp17PP5ZWfRBKNpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:35:49",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 38.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 17:35:55",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 52.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "GrWauBL1XJt29tnNixPrE7qrZw1X9Bs9rfimYEtSpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:39:09",
+      "side": "Buy",
+      "amt": "1.31 WSOL MC 34.1M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "OUTSIDER",
+    "chain": "SOL"
+   },
+   "3ciDjC4LnMvKqnDSBFPTddX2NbEAgy5NUEXdhQUmpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:40:10",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 29.4M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "HARRIET",
+    "chain": "SOL"
+   },
+   "DTmP2zzzakbV99e41nzCKp7BosgzHo63FNpUG88Dpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:40:28",
+      "side": "Buy",
+      "amt": "1.24 WSOL MC 9.2M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "HARRIET",
+    "chain": "SOL"
+   },
+   "9fgp24EBCq9rfFs4NGzq7vzpqZYGHh1fZpdGBYEDpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:43:34",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 19.8M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "ASI",
+    "chain": "SOL"
+   },
+   "HYftMKJjhh11VSpp7P9Fo1tpYpsk47n7tjoNXkr9i6ea": {
+    "rows": [
+     {
+      "ts": "11-05 17:44:51",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 20.9M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:51:20",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 26.5M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "1",
+    "chain": "SOL"
+   },
+   "9CKrwmow6D9aCBWUGbnn4p7dLTeEdCo7E5BpyE8gpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:45:20",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 30.5M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "MEMESIS",
+    "chain": "SOL"
+   },
+   "5VxGkDJBCYdNg61ZQJsTN1QiqcRuaYvibQ7ccxpLpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:46:59",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 36.1M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "IDC",
+    "chain": "SOL"
+   },
+   "5jeyX4cSHftvRhxAAKUPZ4dSszQKG7mHDSFpz9a4aWmv": {
+    "rows": [
+     {
+      "ts": "11-05 17:50:15",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 44M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "SPY",
+    "chain": "SOL"
+   },
+   "478JcxHAHokbdxighgbB13q8UUAKkcr8TapJtVxgqSq3": {
+    "rows": [
+     {
+      "ts": "11-05 17:50:26",
+      "side": "Buy",
+      "amt": "1.98 WSOL MC 50.9M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:50:37",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 37.6M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "SPY",
+    "chain": "SOL"
+   },
+   "K2U77oaQPJudS8SGTXFoXmZFHRZFoiaqAhtpqS56jX5": {
+    "rows": [
+     {
+      "ts": "11-05 17:50:36",
+      "side": "Buy",
+      "amt": "0.99911 WSOL MC 4.2M",
+      "pusher": "disc_3Sfm"
+     }
+    ],
+    "token": "SPY",
+    "chain": "SOL"
+   },
+   "4eS5DEehMsqFW4bxsqHmv8DkLXRRPX4JfakEAkNqbFSc": {
+    "rows": [
+     {
+      "ts": "11-05 17:52:15",
+      "side": "Buy",
+      "amt": "0.23595 SPY MC 65.3M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "CTO",
+    "chain": "SOL"
+   },
+   "2nhLBkFjbgCYjhjAknL2CZ1WUdBXH2dRW3j9SkwbydnA": {
+    "rows": [
+     {
+      "ts": "11-05 17:53:00",
+      "side": "Buy",
+      "amt": "1.98 WSOL MC 32.4M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:00:39",
+      "side": "Buy",
+      "amt": "10.89 WSOL MC 28.6M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "SP500",
+    "chain": "SOL"
+   },
+   "8nKgAKi54c1bWkpLoAvun1w3tagsHfqxhp9tRcXfqmd2": {
+    "rows": [
+     {
+      "ts": "11-05 17:55:06",
+      "side": "Buy",
+      "amt": "175.47 USDC MC 41.3M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "TIBO",
+    "chain": "SOL"
+   },
+   "9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T": {
+    "rows": [
+     {
+      "ts": "11-05 17:55:24",
+      "side": "Buy",
+      "amt": "7.54 WSOL MC 2.5K",
+      "pusher": "whale_WHETH1"
+     },
+     {
+      "ts": "11-05 17:57:06",
+      "side": "Buy",
+      "amt": "7.56 WSOL MC 2.5K",
+      "pusher": "whale_WHETH1"
+     },
+     {
+      "ts": "11-05 17:58:18",
+      "side": "Buy",
+      "amt": "7.55 WSOL MC 2.6K",
+      "pusher": "whale_WHETH1"
+     }
+    ],
+    "token": "Anon",
+    "chain": "SOL"
+   },
+   "AdGZLFNZuLhGhCaatJ6qpvZSUvjnFaBcjDfXSoQEpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:56:24",
+      "side": "Buy",
+      "amt": "3.9 WSOL MC 22.3M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "HIDEO",
+    "chain": "SOL"
+   },
+   "EAgbEvBR7NyWGK9wwUQx7DinVdFESgfYBLAeJ6BpZ6ea": {
+    "rows": [
+     {
+      "ts": "11-05 17:56:31",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 54.9M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "PVE",
+    "chain": "SOL"
+   },
+   "3BJQvKyuBXkBMq5se7Ty1YMrMzvDYeHcigDsaTT2pump": {
+    "rows": [
+     {
+      "ts": "11-05 17:57:40",
+      "side": "Buy",
+      "amt": "0.94327 NVDAx MC 27.7M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "Digit",
+    "chain": "SOL"
+   },
+   "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
+    "rows": [
+     {
+      "ts": "11-05 17:57:40",
+      "side": "Buy",
+      "amt": "176.15 USDC MC 0.96167",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "NVDAx",
+    "chain": "SOL"
+   },
+   "7iMyNDFBsdLcCX3c5kPLXTr22aBRo1dyxZ7x9vsewB5f": {
+    "rows": [
+     {
+      "ts": "11-05 17:57:51",
+      "side": "Buy",
+      "amt": "1.22 WSOL MC 12.8M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "WEDNESDAY",
+    "chain": "SOL"
+   },
+   "Gy75YN9b5AvQLaKHpzASQyzhJUPPyS522VWhXkhVpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:58:50",
+      "side": "Buy",
+      "amt": "218.82 USDC MC 32.8M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:58:59",
+      "side": "Buy",
+      "amt": "437.64 USDC MC 41.6M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "ZOOM",
+    "chain": "SOL"
+   },
+   "9J6pAVNbBFHtDMRVhAbFZ62HZ9gZLmetN94Qb3mgpump": {
+    "rows": [
+     {
+      "ts": "11-05 17:59:36",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 29.2M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "I",
+    "chain": "SOL"
+   },
+   "2yJsGEYnEUedd6HzRtsGWRzZuZLUCVtFzfbt6QY7pump": {
+    "rows": [
+     {
+      "ts": "11-05 17:59:44",
+      "side": "Buy",
+      "amt": "262.64 USDC MC 35.1M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 17:59:45",
+      "side": "Buy",
+      "amt": "262.64 USDC MC 35.1M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "MCRIB",
+    "chain": "SOL"
+   },
+   "FFg9cpP8kCgiHSRRS6n2qjc3d8rqDdCHJTGGNj9opump": {
+    "rows": [
+     {
+      "ts": "11-05 17:59:56",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 34.2M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "MCRIB",
+    "chain": "SOL"
+   },
+   "ExugAjXhv9oyGpMZ6QxwifzfuxtBAnxCWJmAsy5nnUVt": {
+    "rows": [
+     {
+      "ts": "11-05 18:01:55",
+      "side": "Buy",
+      "amt": "1.42 WSOL MC 11M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "SP500",
+    "chain": "SOL"
+   },
+   "Qt8hATYgdTZc3L5FgUwwxQJCDXMGfW53wz4X1zv8TCx": {
+    "rows": [
+     {
+      "ts": "11-05 18:03:23",
+      "side": "Buy",
+      "amt": "218.35 USDC MC 33.4M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "BI",
+    "chain": "SOL"
+   },
+   "AFFy8nkY5L1RaqDq2z6CfHGrFwkoZoUdBzy87nZPf6ea": {
+    "rows": [
+     {
+      "ts": "11-05 18:04:08",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 69.5M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "BERBS",
+    "chain": "SOL"
+   },
+   "9gUEuQpDjw9pguRJdVxfz6LSnqyxLhGgzM4eo1XGpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:05:05",
+      "side": "Buy",
+      "amt": "174.64 USDC MC 28.5M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "dump",
+    "chain": "SOL"
+   },
+   "HqyUQh3gJ2TNLvf9dskf71bBFVi5QDZtefREc6JHpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:06:37",
+      "side": "Buy",
+      "amt": "101.37 USDC MC 25.8M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "dump",
+    "chain": "SOL"
+   },
+   "Fts4zZTk7udQM4odkHVv9sT9vWhdHb5L67PS4aSHpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:08:32",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 49.2M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "WLFI",
+    "chain": "SOL"
+   },
+   "NZZX2A3jhf4cvGQo6f8a5okJadhoAgHcoHhxQL1Sxo6": {
+    "rows": [
+     {
+      "ts": "11-05 18:12:31",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 35.6M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "McRib",
+    "chain": "SOL"
+   },
+   "5izkW6J9Kp1Ph9P72J8YxYN9qpybMeZusd4M37hFpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:14:10",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 17.9M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 19:19:48",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 14.8M",
+      "pusher": "jijo_exe"
+     },
+     {
+      "ts": "11-05 19:29:04",
+      "side": "Buy",
+      "amt": "1.23 WSOL MC 3.3M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "gatito",
+    "chain": "SOL"
+   },
+   "73GMKkA6FCdy5eAjMnZt33EN91dbrL6WDSA7irEvpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:16:03",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 59.7M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "DONUT",
+    "chain": "SOL"
+   },
+   "EwrPCwR7XaopkN3oxpaLbdr92aCaEsmp8vFtfs2ipump": {
+    "rows": [
+     {
+      "ts": "11-05 18:16:05",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 32.9M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "Hedgecat",
+    "chain": "SOL"
+   },
+   "2fsxkzREbP6dJQ64qhSEZfm1iyjmjmEpZ92kFEUqpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:17:48",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 27.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:27:05",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 7.7M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "SI",
+    "chain": "SOL"
+   },
+   "SvY6H5d7JNo5XRZx18eZwzwwovs2NXxLNTQoLYYpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:21:23",
+      "side": "Buy",
+      "amt": "1.34 WSOL MC 36M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "Vutomi",
+    "chain": "SOL"
+   },
+   "E4VB5eDKdao471QBkA8ZqUbDJVqPh57ip9Ar7pjJpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:21:49",
+      "side": "Buy",
+      "amt": "0.45896 METAx MC 35.1M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "SC",
+    "chain": "SOL"
+   },
+   "DF5ZVf1H7TAPvRmQyQHFtbpkcobLHVwMbvGCBGFFpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:22:53",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 27.1M",
+      "pusher": "disc_2nZd"
+     }
+    ],
+    "token": "ACT",
+    "chain": "SOL"
+   },
+   "4WfirRAQbXzzApCGwqiJKF3khURWv4JLVr9Ko1chpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:26:15",
+      "side": "Buy",
+      "amt": "1.12 WSOL MC 22.1M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "6raAcYbQJP6BCHcsfvDBZWQ5D8EcpR1e6LaoPZPLpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:26:18",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 69.3M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "Red",
+    "chain": "SOL"
+   },
+   "B4v7fATuSdtNsJximsbLXZ5wMenSvujfED71xe5ZxrPk": {
+    "rows": [
+     {
+      "ts": "11-05 18:27:13",
+      "side": "Buy",
+      "amt": "2.95 WSOL MC 14.6M",
+      "pusher": "ashtoshii"
+     }
+    ],
+    "token": "depcat",
+    "chain": "SOL"
+   },
+   "ET18Jpq17DRVi5zWwW3Sxza2qHTFsAoRHXcksHmwpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:27:40",
+      "side": "Buy",
+      "amt": "1.15 WSOL MC 19.4M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "NU7",
+    "chain": "SOL"
+   },
+   "9mfffKBdVTbsTa3PGSAAP7jNDCJRPDNaJtHeBjA6pump": {
+    "rows": [
+     {
+      "ts": "11-05 18:28:23",
+      "side": "Buy",
+      "amt": "268.36 USDC MC 59.6M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 18:28:26",
+      "side": "Buy",
+      "amt": "264.02 USDC MC 30.5M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "NVDA",
+    "chain": "SOL"
+   },
+   "EbDPrU2kLMASKihLHmVbNec8svQSVeXvsVzVkmaXpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:28:33",
+      "side": "Buy",
+      "amt": "115.91 USDC MC 23.2M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-05 18:30:17",
+      "side": "Buy",
+      "amt": "439.69 USDC MC 39.4M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "NVDA",
+    "chain": "SOL"
+   },
+   "Bmhp8nat7zTFu3Ct8HpQftiHHmB6dnf4B9ivvYYzpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:30:40",
+      "side": "Buy",
+      "amt": "4.59 WSOL MC 2.3M",
+      "pusher": "CookerFlips"
+     },
+     {
+      "ts": "11-05 18:30:40",
+      "side": "Buy",
+      "amt": "15.24 WSOL MC 7.2M",
+      "pusher": "CookerFlips"
+     }
+    ],
+    "token": "TIRED",
+    "chain": "SOL"
+   },
+   "9NHMs1E86mkts6uW8c6cNduTjM5aArT3FYwaNhNrUq6x": {
+    "rows": [
+     {
+      "ts": "11-05 18:31:23",
+      "side": "Buy",
+      "amt": "263.64 USDC MC 35.9M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:32:13",
+      "side": "Buy",
+      "amt": "0.43115 METAx MC 35.5M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "DUCC",
+    "chain": "SOL"
+   },
+   "DT54tqWqop4Phg2KjD4Nxehe2LuTxxjSmWgGBSK4pump": {
+    "rows": [
+     {
+      "ts": "11-05 18:32:29",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 54.3M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "CHAWK",
+    "chain": "SOL"
+   },
+   "4f3Bg4ofAE4eK819vnfjrs3EFqrXBH8tx6Wo6BnYpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:34:45",
+      "side": "Buy",
+      "amt": "175.41 USDC MC 39.4M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "GPU",
+    "chain": "SOL"
+   },
+   "Ed4TmYyNhskDeuyrXQ554Vg9wBCVc5x1wHJGbuoKpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:35:23",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 64.6M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "PLOG",
+    "chain": "SOL"
+   },
+   "51iAsoUtfkS2LXDG16kt1S6k5o79UzuuoEMnePpWpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:36:57",
+      "side": "Buy",
+      "amt": "1.47 WSOL MC 34.5M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Trenchers",
+    "chain": "SOL"
+   },
+   "6NkaU1hq3MqwPapru9uLyKaKGQwAZR1Uf6SHGLHQpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:36:57",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 11.5M",
+      "pusher": "beaverd"
+     },
+     {
+      "ts": "11-05 18:49:23",
+      "side": "Buy",
+      "amt": "1.97 WSOL MC 12.3M",
+      "pusher": "beaverd"
+     }
+    ],
+    "token": "Amika",
+    "chain": "SOL"
+   },
+   "CtXvoeGJMP96Sp4fi3u638zF1USZ9rQpKp2MvUk6pump": {
+    "rows": [
+     {
+      "ts": "11-05 18:38:50",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 36.8M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "X",
+    "chain": "SOL"
+   },
+   "CSptmpZhd4zemNQUGgPCwQcxTvtxM3LidWJNQeMQpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:40:09",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 41.6M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "X",
+    "chain": "SOL"
+   },
+   "5jKiQb1xeTq7LzNzFWZRX6bzMy1U4npSWoke6M8tmoon": {
+    "rows": [
+     {
+      "ts": "11-05 18:40:43",
+      "side": "Buy",
+      "amt": "445.58 USDC MC 62.1M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "X",
+    "chain": "SOL"
+   },
+   "6eyAt53txsbaGY19MUG6vzCRJd42PRCpKSABmHt1pump": {
+    "rows": [
+     {
+      "ts": "11-05 18:43:19",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 96.1M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "Muscleman",
+    "chain": "SOL"
+   },
+   "AvecKFxn8ihToR7gwgAVjfqV56N1rWhN7hv8joXQpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:43:22",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 57.8M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 18:43:44",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 45.5M",
+      "pusher": "disc_2ZRu"
+     },
+     {
+      "ts": "11-05 18:43:44",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 39.9M",
+      "pusher": "disc_2ZRu"
+     },
+     {
+      "ts": "11-05 18:58:20",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 14.3M",
+      "pusher": "disc_2ZRu"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "Ch24dNtXQNWVsXEJvWihzbhzfggtMHumwKu9gVLQpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:43:33",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 25.6M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 18:43:36",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 22.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:43:37",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 19.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:43:43",
+      "side": "Buy",
+      "amt": "4.55 WSOL MC 9.5M",
+      "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-05 18:44:12",
+      "side": "Buy",
+      "amt": "2.96 WSOL MC 24.1M",
+      "pusher": "beaverd"
+     },
+     {
+      "ts": "11-05 18:46:48",
+      "side": "Buy",
+      "amt": "4.93 WSOL MC 28.3M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:47:08",
+      "side": "Buy",
+      "amt": "3.94 WSOL MC 15M",
+      "pusher": "beaverd"
+     },
+     {
+      "ts": "11-05 18:59:25",
+      "side": "Buy",
+      "amt": "2.96 WSOL MC 31.5M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "4g5F1cRV2G9JjwPYtSs5mCHc88tNWLaWcxrxL314pump": {
+    "rows": [
+     {
+      "ts": "11-05 18:43:38",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 28.1M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": {
+    "rows": [
+     {
+      "ts": "11-05 18:43:49",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 21.5M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 18:43:52",
+      "side": "Buy",
+      "amt": "1.29 WSOL MC 5.1M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 18:43:56",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 8.8M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 18:44:01",
+      "side": "Buy",
+      "amt": "1.49 WSOL MC 2.2M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 18:44:01",
+      "side": "Buy",
+      "amt": "1.52 WSOL MC 2M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 18:44:17",
+      "side": "Buy",
+      "amt": "2.27 WSOL MC 1.5M",
+      "pusher": "TobxG"
+     },
+     {
+      "ts": "11-05 18:44:18",
+      "side": "Buy",
+      "amt": "2.6 WSOL MC 1.7M",
+      "pusher": "TobxG"
+     },
+     {
+      "ts": "11-05 18:44:19",
+      "side": "Buy",
+      "amt": "2.33 WSOL MC 1.5M",
+      "pusher": "TobxG"
+     },
+     {
+      "ts": "11-05 18:47:21",
+      "side": "Buy",
+      "amt": "5.3 WSOL MC 1.7M",
+      "pusher": "TobxG"
+     },
+     {
+      "ts": "11-05 18:47:23",
+      "side": "Buy",
+      "amt": "5.41 WSOL MC 1.6M",
+      "pusher": "TobxG"
+     },
+     {
+      "ts": "11-05 18:47:27",
+      "side": "Buy",
+      "amt": "4.64 WSOL MC 1.6M",
+      "pusher": "TobxG"
+     },
+     {
+      "ts": "11-05 18:47:29",
+      "side": "Buy",
+      "amt": "4.76 WSOL MC 1.6M",
+      "pusher": "TobxG"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "D71m9SV4dqPFHvkSAnCVAYmcyBpWBoXG1ne32Xv9pump": {
+    "rows": [
+     {
+      "ts": "11-05 18:44:08",
+      "side": "Buy",
+      "amt": "2.34 WSOL MC 4.7M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-05 18:44:25",
+      "side": "Buy",
+      "amt": "4.93 WSOL MC 60.4M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "BBMRXQpKdKX61Bk1C2nH4gX4AwpVnoc6irDaTnvCfGgq": {
+    "rows": [
+     {
+      "ts": "11-05 18:44:19",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 35M",
+      "pusher": "disc_2ZRu"
+     },
+     {
+      "ts": "11-05 18:45:58",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 35M",
+      "pusher": "tilcrypto"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "GenkAAcnY3BSJ6x2AERQcu7MF1mCuEjz58VBot6Mpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:44:38",
+      "side": "Buy",
+      "amt": "142.79 USDC MC 28.9M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 18:44:38",
+      "side": "Buy",
+      "amt": "121.94 USDC MC 15.6M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 18:44:38",
+      "side": "Buy",
+      "amt": "263.7 USDC MC 32M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 18:44:42",
+      "side": "Buy",
+      "amt": "439.7 USDC MC 15.1M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:44:43",
+      "side": "Buy",
+      "amt": "439.7 USDC MC 10.9M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 18:44:56",
+      "side": "Buy",
+      "amt": "152.49 USDC MC 16.2M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "3Rm29QtXvbaLC72tcaR2UPyyHt1rm7BFQmup3ycJpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:45:20",
+      "side": "Buy",
+      "amt": "1.29 WSOL MC 16.8M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-05 18:45:25",
+      "side": "Buy",
+      "amt": "1.05 WSOL MC 11.1M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "FECXUwSDS1wTPcU8PWrSbPpUUsQsnDT7xCFK6sFzCwKk": {
+    "rows": [
+     {
+      "ts": "11-05 18:45:43",
+      "side": "Buy",
+      "amt": "1.33 WSOL MC 13.8M",
+      "pusher": "TobxG"
+     },
+     {
+      "ts": "11-05 18:46:03",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 11.4M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 18:47:22",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 28.6M",
+      "pusher": "disc_2ZRu"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "Fa93AEKdk5GJovkJseEjQ4geYuadFLimbKgy3BiPwiwS": {
+    "rows": [
+     {
+      "ts": "11-05 18:45:49",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 7.7M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 18:47:30",
+      "side": "Buy",
+      "amt": "2.47 WSOL MC 1.9M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-05 18:47:32",
+      "side": "Buy",
+      "amt": "1.34 WSOL MC 946.8K",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-05 18:49:14",
+      "side": "Buy",
+      "amt": "9.9 WSOL MC 12.1M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "9hjhejj72PcwbrkGwkwBNzCbAjevHcra6SDGwYyipump": {
+    "rows": [
+     {
+      "ts": "11-05 18:46:39",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 34.8M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "FaDXXNCYanyER6erPFVrZr6BgSwFZdfzyQ9GaYGCpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:46:44",
+      "side": "Buy",
+      "amt": "1.02 WSOL MC 12.9M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "C5J337Jivdhvo81R85TmW52xbtRHV9DJYBUPZeNCsXCS": {
+    "rows": [
+     {
+      "ts": "11-05 18:47:11",
+      "side": "Buy",
+      "amt": "1.77 WSOL MC 13.3M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 18:52:52",
+      "side": "Buy",
+      "amt": "1.53 WSOL MC 17.5M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "9hnK1YtQM93EV18qLvsPBhXFLhAGcDKTWxwVDb8xpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:48:03",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 28.6M",
+      "pusher": "disc_2ZRu"
+     }
+    ],
+    "token": "",
+    "chain": "SOL"
+   },
+   "4KiuDGbjHXAxeoyX655thRvaoPiL8rAgioHdZoPnpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:49:09",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 30.4M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "3sUyo78HXxBLcjyTYqpGsv8FF3JMbGknh3cmieQfLoat": {
+    "rows": [
+     {
+      "ts": "11-05 18:51:14",
+      "side": "Buy",
+      "amt": "1.65 WSOL MC 5.4M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 18:51:19",
+      "side": "Buy",
+      "amt": "2.57 WSOL MC 6.9M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "tnivzr4FtqkdaRDt7ByEkiAr8QQAo3rBkQ25KcNA1Pg": {
+    "rows": [
+     {
+      "ts": "11-05 18:52:31",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 21.3M",
+      "pusher": "disc_2ZRu"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "2YQXdPXDjsNRVso2NAR94vHXZyhLHYZHDL2vWt3m5tK8": {
+    "rows": [
+     {
+      "ts": "11-05 18:53:16",
+      "side": "Buy",
+      "amt": "2.96 WSOL MC 12.2M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "",
+    "chain": "SOL"
+   },
+   "GMBtnXYfsxrrEMeYxw3NKVfG3cz3DZyiWtmouAad76ea": {
+    "rows": [
+     {
+      "ts": "11-05 18:53:37",
+      "side": "Buy",
+      "amt": "1.13 WSOL MC 22.9M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "DoG5fD2L7pAsoKzmhCfgAswPYZHpK1HB9SqugVfvpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:53:45",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 31.1M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "Eaj6yAm8L74rqkcBMbj5JJn36wunHqaHdou5rwWLpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:54:36",
+      "side": "Buy",
+      "amt": "1.35 WSOL MC 12.2M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "M5gr5LtdPHNS3SsKx7qeC4cqznxFbJNVqEkUyxqpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:56:35",
+      "side": "Buy",
+      "amt": "1.48 WSOL MC 13.7M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "7Uyod5rBCkTCjzq6aWfENp6X2X1hfkjVx8C9UKnY8HX1": {
+    "rows": [
+     {
+      "ts": "11-05 18:58:33",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 31.1M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "ZOH",
+    "chain": "SOL"
+   },
+   "9i3HU891AcncLid5SM8W2GGLy4Y77HnpuhFwmUnQpump": {
+    "rows": [
+     {
+      "ts": "11-05 18:58:41",
+      "side": "Buy",
+      "amt": "1.17 WSOL MC 13.7M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-05 18:59:33",
+      "side": "Buy",
+      "amt": "1.15 WSOL MC 26.9M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "HELIA",
+    "chain": "SOL"
+   },
+   "GjNh6EfLt1rY9Fnu5ntd3pBNZxFegSFJn7kkKtJjpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:00:14",
+      "side": "Buy",
+      "amt": "2.96 SOL MC 67.5M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "2ZS4EnYMCTrDk8PWVJ6D2Gfm8mxGFXPuGjLG6ZCUpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:00:48",
+      "side": "Buy",
+      "amt": "1.33 WSOL MC 25.7M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "wai",
+    "chain": "SOL"
+   },
+   "8vatYqwQrD3i4ZeWT2V4mx2JmkQApWmw3qMiTAqmpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:00:57",
+      "side": "Buy",
+      "amt": "1.97 WSOL MC 60.7M",
+      "pusher": "disc_2ZRu"
+     }
+    ],
+    "token": "Coge",
+    "chain": "SOL"
+   },
+   "6ACFEwgYFfsuuDTttKD2LNHMWnBr4bqWoNvH6mxFWHz6": {
+    "rows": [
+     {
+      "ts": "11-05 19:04:54",
+      "side": "Buy",
+      "amt": "1.5 WSOL MC 43.9M",
+      "pusher": "TobxG"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "CVS8ZTMURaozLQ868AFUV4wphKzYRVJetXrZoMSk34Xa": {
+    "rows": [
+     {
+      "ts": "11-05 19:06:00",
+      "side": "Buy",
+      "amt": "2.56 WSOL MC 11.1M",
+      "pusher": "TobxG"
+     }
+    ],
+    "token": "NTH",
+    "chain": "SOL"
+   },
+   "91bGPQzw47PZauKLcW2QSQiPPfw4rr39GPpenorVPM5s": {
+    "rows": [
+     {
+      "ts": "11-05 19:06:50",
+      "side": "Buy",
+      "amt": "3.96 WSOL MC 16.3M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "KEY",
+    "chain": "SOL"
+   },
+   "FnN6ZLo2YB6bDF9AqyQ3juyAyLtsuJ62YcFTSbZGpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:07:45",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 20.8M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 19:07:51",
+      "side": "Buy",
+      "amt": "2.56 WSOL MC 9.1M",
+      "pusher": "TheRealZrool"
+     },
+     {
+      "ts": "11-05 19:11:05",
+      "side": "Buy",
+      "amt": "4.75 WSOL MC 12.4M",
+      "pusher": "daumenxyz"
+     },
+     {
+      "ts": "11-05 19:11:17",
+      "side": "Buy",
+      "amt": "1.58 WSOL MC 3.8M",
+      "pusher": "daumenxyz"
+     }
+    ],
+    "token": "Envelope",
+    "chain": "SOL"
+   },
+   "5ay9zTR2eU92hHWi7ZKQPe9BNxvDcvQrmV1L73XFw2Kj": {
+    "rows": [
+     {
+      "ts": "11-05 19:09:07",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 18.6M",
+      "pusher": "beaverd"
+     },
+     {
+      "ts": "11-05 19:11:47",
+      "side": "Buy",
+      "amt": "4.89 WSOL MC 18.4M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 19:38:13",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 20.3M",
+      "pusher": "beaverd"
+     }
+    ],
+    "token": "",
+    "chain": "SOL"
+   },
+   "E6i86cp6PhEWAo6pwuggWw6xhqzgAw3xrn8AZws6pump": {
+    "rows": [
+     {
+      "ts": "11-05 19:09:27",
+      "side": "Buy",
+      "amt": "1.22 WSOL MC 16.9M",
+      "pusher": "Zemrics"
+     },
+     {
+      "ts": "11-05 19:10:00",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 33.1M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "token22",
+    "chain": "SOL"
+   },
+   "83XTXPkNBh3WHD2i1gZzaWQcyLiUefVryHGN4a7b8Q4G": {
+    "rows": [
+     {
+      "ts": "11-05 19:11:54",
+      "side": "Buy",
+      "amt": "127.87 USDC MC 38.8M",
+      "pusher": "TobxG"
+     }
+    ],
+    "token": "INJC",
+    "chain": "SOL"
+   },
+   "4bnRt8Sac9ZcN628HVsP6Phy1nbtW6H53GyMLMJqqdUL": {
+    "rows": [
+     {
+      "ts": "11-05 19:13:44",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 30.4M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "E7cdaueM9tCakwmaRiZxs5h6QMTMMaC369dVAYfRpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:14:07",
+      "side": "Buy",
+      "amt": "298.5 USDC MC 23.6M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "Edmond",
+    "chain": "SOL"
+   },
+   "BGUc7b8p54HCtr3AhSjvd88dSNwHtCpo57KWY2oWpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:14:30",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 58.7M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 19:40:51",
+      "side": "Buy",
+      "amt": "3.24 WSOL MC 10M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "ACTII",
+    "chain": "SOL"
+   },
+   "27aLGAKMrWrCrYtmfDda3AKe3f2eijysN4hsurXSpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:15:06",
+      "side": "Buy",
+      "amt": "4.54 WSOL MC 141.1M",
+      "pusher": "deecayz"
+     }
+    ],
+    "token": "THKR",
+    "chain": "SOL"
+   },
+   "BWgx3xAYA5WxaJbVEd9DjYCBYDc15asaWaTheGPspump": {
+    "rows": [
+     {
+      "ts": "11-05 19:16:38",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 34.7M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Inu",
+    "chain": "SOL"
+   },
+   "EemARLGFbG2sYUeFMvDQcdnLnDHCc6fuXkM5oXATswrm": {
+    "rows": [
+     {
+      "ts": "11-05 19:17:40",
+      "side": "Buy",
+      "amt": "1.34 WSOL MC 23.4M",
+      "pusher": "TobxG"
+     }
+    ],
+    "token": "CUM",
+    "chain": "SOL"
+   },
+   "9iPgtgGvMRxrfpAXuiBViNkG7aFvNMerdNFEJgCDpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:19:51",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 27.2M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 19:20:02",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 43.6M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 19:20:07",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 32M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "МЕМESIS",
+    "chain": "SOL"
+   },
+   "DhHaAm1HJjAVfoi5NUBfGjc3sFjgMUzfSTrZ2ShZpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:20:34",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 38.5M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "MAD",
+    "chain": "SOL"
+   },
+   "6BdeiMqnUWHeDwFQP6njS3urjeC4g5jFAA2dpd7Kpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:23:05",
+      "side": "Buy",
+      "amt": "1.96 SOL MC 28.6M",
+      "pusher": "disc_3xuN"
+     }
+    ],
+    "token": "COGE",
+    "chain": "SOL"
+   },
+   "2DvWbpQzyRizY24Nb1ounEeTv9Q5nq94p9cr8b1kFQoa": {
+    "rows": [
+     {
+      "ts": "11-05 19:24:45",
+      "side": "Buy",
+      "amt": "263.5 USDC MC 46.7M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 19:24:51",
+      "side": "Buy",
+      "amt": "112.35 USDC MC 20.4M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "8vMGeFfYgKvcNDmn7e3BdCprMe31sNT8GzKu2bL1pump": {
+    "rows": [
+     {
+      "ts": "11-05 19:26:49",
+      "side": "Buy",
+      "amt": "175.67 USDC MC 13.9M",
+      "pusher": "beaverd"
+     },
+     {
+      "ts": "11-05 19:27:01",
+      "side": "Buy",
+      "amt": "53.26 DNUT MC 19.5M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": {
+    "rows": [
+     {
+      "ts": "11-05 19:27:01",
+      "side": "Buy",
+      "amt": "265.11 USDC MC 53.92",
+      "pusher": "jijo_exe"
+     },
+     {
+      "ts": "11-05 19:46:34",
+      "side": "Buy",
+      "amt": "268.71 USDC MC 54.69",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 19:46:47",
+      "side": "Buy",
+      "amt": "354.52 USDC MC 71.01",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "CxhV4wNGjAtyDD2WzLUxF3C5Am2shHiU5HESeAaPpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:32:19",
+      "side": "Buy",
+      "amt": "2.25 WSOL MC 22M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "PENGUIN",
+    "chain": "SOL"
+   },
+   "D8BNpRy9FSNXjXRMxX2qV5KJcdg9rVsirHj2bfUyPGoq": {
+    "rows": [
+     {
+      "ts": "11-05 19:34:11",
+      "side": "Buy",
+      "amt": "92.53 USDC MC 9.9M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "E5WZRbidoQxkQU1VTGQRUYW46ZmNLkKhTb3WFd79pump": {
+    "rows": [
+     {
+      "ts": "11-05 19:34:30",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 74.5M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "JASON",
+    "chain": "SOL"
+   },
+   "HZtpbNmhU3BASmmcLwb9umHKG7XhjWbZBKb8jqSnpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:35:37",
+      "side": "Buy",
+      "amt": "3.13 WSOL MC 42.7M",
+      "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-05 19:35:48",
+      "side": "Buy",
+      "amt": "1.15 WSOL MC 20.6M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "COINYE",
+    "chain": "SOL"
+   },
+   "DngLFeVxCbpnzZTWwywe6V52dbk34BECbJ4r6fyfpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:38:29",
+      "side": "Buy",
+      "amt": "109.08 USDC MC 15.6M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "D4CzGsZgusVj2K8R1its5H8WWdo9mazbDwBc6qvsmfun": {
+    "rows": [
+     {
+      "ts": "11-05 19:38:55",
+      "side": "Buy",
+      "amt": "2.28 WSOL MC 9.9M",
+      "pusher": "pr6spr"
+     },
+     {
+      "ts": "11-05 19:46:29",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 9M",
+      "pusher": "pr6spr"
+     }
+    ],
+    "token": "LAMPORT",
+    "chain": "SOL"
+   },
+   "BNoyDSASULDEuDynue26j88gSvM4DmJjbBacLdtfb6ea": {
+    "rows": [
+     {
+      "ts": "11-05 19:39:37",
+      "side": "Buy",
+      "amt": "1.26 WSOL MC 20.1M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "ELON",
+    "chain": "SOL"
+   },
+   "o3bfLvCpWkKq7rmkBSdpCcCnu6E2fJbFYLHndkdpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:43:42",
+      "side": "Buy",
+      "amt": "176.85 USDC MC 24.1M",
+      "pusher": "luckedhub"
+     }
+    ],
+    "token": "HOTDOG",
+    "chain": "SOL"
+   },
+   "H6Ya3AwJZ5D9pRg5Fueuhow1aDdpthvJwtk1xj44pump": {
+    "rows": [
+     {
+      "ts": "11-05 19:44:45",
+      "side": "Buy",
+      "amt": "3.39 WSOL MC 21.2M",
+      "pusher": "Yennii56"
+     }
+    ],
+    "token": "HAMMY",
+    "chain": "SOL"
+   },
+   "F7Ktz7VABzdbBJhxySCjnc6mwLrfK2tyFgZFUoJXpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:45:53",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 36.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "PYG",
+    "chain": "SOL"
+   },
+   "4gqibU4gmkrgLvr93aSMmd5zfpmb1nayVbMcDcHRW6Z7": {
+    "rows": [
+     {
+      "ts": "11-05 19:46:34",
+      "side": "Buy",
+      "amt": "268.71 USDC MC 51.9M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 19:46:34",
+      "side": "Buy",
+      "amt": "265.15 USDC MC 29.5M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 19:46:47",
+      "side": "Buy",
+      "amt": "70.13 DNUT MC 17M",
+      "pusher": "jijo_exe"
+     },
+     {
+      "ts": "11-05 19:46:48",
+      "side": "Buy",
+      "amt": "70.13 DNUT MC 17M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "7RbQf56ygYkv29nCCRPJxVNZSqyh8rqdWd24kjhLpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:47:07",
+      "side": "Buy",
+      "amt": "138.38 USDC MC 25.7M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "54D3mui2p9zD4ySm1FHEF9GXfKF3b4KUc2LL8m72pump": {
+    "rows": [
+     {
+      "ts": "11-05 19:48:13",
+      "side": "Buy",
+      "amt": "176.91 USDC MC 42.8M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "A1u7A59sHTwapPoheLozuBiF1s7byTAVD22pWcp3pump": {
+    "rows": [
+     {
+      "ts": "11-05 19:48:34",
+      "side": "Buy",
+      "amt": "177.04 USDC MC 44.6M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "jmVUmVXbh2MuYFSr6z6N8EJKHsSEaN1n3hsRKTLpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:48:45",
+      "side": "Buy",
+      "amt": "177.08 USDC MC 39.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 19:49:00",
+      "side": "Buy",
+      "amt": "177.1 USDC MC 33.7M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "DNUT",
+    "chain": "SOL"
+   },
+   "9NVUiAAW8CP6vkyU7L8jUobXUfEM5JgmiwzjUBbRpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:52:23",
+      "side": "Buy",
+      "amt": "1.37 WSOL MC 26M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "OPOS",
+    "chain": "SOL"
+   },
+   "63g8xrPvMqoGFSmdv5fAuAzj5Ta9aS4NnfQWcgKcnjtz": {
+    "rows": [
+     {
+      "ts": "11-05 19:53:01",
+      "side": "Buy",
+      "amt": "1.02 WSOL MC 8.2M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "OPOS",
+    "chain": "SOL"
+   },
+   "8FQEvHspXpgpNoegMz7uAjeF3MSU4ufufwvrskEBpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:53:50",
+      "side": "Buy",
+      "amt": "1.96 WSOL MC 45.5M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "#metoo",
+    "chain": "SOL"
+   },
+   "DS1vofZozbmBtztmV2Ec3Zr3esVhD81gAPbJF67N8XMT": {
+    "rows": [
+     {
+      "ts": "11-05 19:54:05",
+      "side": "Buy",
+      "amt": "2.44 WSOL MC 57.8M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "METOO",
+    "chain": "SOL"
+   },
+   "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:54:39",
+      "side": "Buy",
+      "amt": "2.67 WSOL MC 48.9K",
+      "pusher": "degenai71x"
+     },
+     {
+      "ts": "11-05 19:54:39",
+      "side": "Buy",
+      "amt": "4.29 WSOL MC 77.5K",
+      "pusher": "degenai71x"
+     }
+    ],
+    "token": "JEANPHIL",
+    "chain": "SOL"
+   },
+   "Ceq3aDYXfLanbg968irXnpJY6f1humkr5peNjrDopump": {
+    "rows": [
+     {
+      "ts": "11-05 19:55:08",
+      "side": "Buy",
+      "amt": "176.94 USDC MC 29.5M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 19:56:12",
+      "side": "Buy",
+      "amt": "176.82 USDC MC 23M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "Glazed",
+    "chain": "SOL"
+   },
+   "DgnrTkRoLTPB7UToj5Ncf5pMuaotPQQ8GAnkweREpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:56:21",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 20.4M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 19:56:25",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 27M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 19:56:36",
+      "side": "Buy",
+      "amt": "2.97 WSOL MC 30M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "FDX",
+    "chain": "SOL"
+   },
+   "81UjkAZV3WdG1Ptrs8MDtS2yHhxpmUhdg6MawurVpump": {
+    "rows": [
+     {
+      "ts": "11-05 19:57:20",
+      "side": "Buy",
+      "amt": "1.29 WSOL MC 23.4M",
+      "pusher": "radiancebrr"
+     }
+    ],
+    "token": "FDX",
+    "chain": "SOL"
+   },
+   "7kcWPZcZj1Xib8DcSW8zSKobGbk9ZEmo1KfvBCeapump": {
+    "rows": [
+     {
+      "ts": "11-05 19:57:42",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 27.6M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "Needle",
+    "chain": "SOL"
+   },
+   "DJBvW4noqQmcfk5RY3SdpCU2tL63mohVvdLf9uS2aZ4Z": {
+    "rows": [
+     {
+      "ts": "11-05 19:58:22",
+      "side": "Buy",
+      "amt": "265.44 USDC MC 30M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 19:59:52",
+      "side": "Buy",
+      "amt": "2.55 SQQQ MC 22.8M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "Needle",
+    "chain": "SOL"
+   },
+   "9rBDC5kiDWB98q9VCx14YrNPn4gd3kKn7ekqeNCepump": {
+    "rows": [
+     {
+      "ts": "11-05 19:59:36",
+      "side": "Buy",
+      "amt": "221.18 USDC MC 55.2M",
+      "pusher": "notdecu"
+     },
+     {
+      "ts": "11-05 19:59:36",
+      "side": "Buy",
+      "amt": "265.41 USDC MC 36M",
+      "pusher": "disc_3JD7"
+     },
+     {
+      "ts": "11-05 19:59:42",
+      "side": "Buy",
+      "amt": "442.46 USDC MC 37.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 20:01:04",
+      "side": "Buy",
+      "amt": "265.12 USDC MC 36.9M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 20:02:35",
+      "side": "Buy",
+      "amt": "5.42 SQQQ MC 27.8M",
+      "pusher": "trunoest"
+     }
+    ],
+    "token": "Bubble",
+    "chain": "SOL"
+   },
+   "2KZSA9DnRErCrSLVsBJu4K2SZWmTPpRNWVceURf6pump": {
+    "rows": [
+     {
+      "ts": "11-05 20:02:36",
+      "side": "Buy",
+      "amt": "1.38 WSOL MC 11.8M",
+      "pusher": "naughtygrimace"
+     }
+    ],
+    "token": "pls",
+    "chain": "SOL"
+   },
+   "FQ7E3XbG66hCK347YAZmkvXB2YVi8rZbfsRet7MTpump": {
+    "rows": [
+     {
+      "ts": "11-05 20:04:27",
+      "side": "Buy",
+      "amt": "265.5 USDC MC 49.5M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "inu",
+    "chain": "SOL"
+   },
+   "D22e42QGXtd5R29dRfubMj2cohL9AYsMoF4V21RJpump": {
+    "rows": [
+     {
+      "ts": "11-05 20:06:19",
+      "side": "Buy",
+      "amt": "264.94 USDC MC 52.8M",
+      "pusher": "disc_3JD7"
+     }
+    ],
+    "token": "11/5",
+    "chain": "SOL"
+   },
+   "9kYDC8CkddzwchFunMYdAyveic2EhEfKfJnwYRHRk3Zr": {
+    "rows": [
+     {
+      "ts": "11-05 20:07:54",
+      "side": "Buy",
+      "amt": "1.24 WSOL MC 17.3M",
+      "pusher": "TheRealZrool"
+     }
+    ],
+    "token": "CAT",
+    "chain": "SOL"
+   },
+   "9VgLFkop7ntENVnwHkFytnLDsAz6sshUjEz7CFLspump": {
+    "rows": [
+     {
+      "ts": "11-05 20:07:59",
+      "side": "Buy",
+      "amt": "2.54 SQQQ MC 20.8M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "11/5",
+    "chain": "SOL"
+   },
+   "FMvFwLkt2MAU2FcuL6UKUHWWSTgc5K2cMgu8HNgupump": {
+    "rows": [
+     {
+      "ts": "11-05 20:08:56",
+      "side": "Buy",
+      "amt": "1.01 WSOL MC 8.3M",
+      "pusher": "naughtygrimace"
+     },
+     {
+      "ts": "11-05 20:11:23",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 29.9M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "PARAGUAY",
+    "chain": "SOL"
+   },
+   "2yYih9RHdyppwUoxXtLB4FC4mkBNHzGLefQzwf1upump": {
+    "rows": [
+     {
+      "ts": "11-05 20:09:40",
+      "side": "Buy",
+      "amt": "1.61 WSOL MC 15.4M",
+      "pusher": "FASHRCrypto"
+     },
+     {
+      "ts": "11-05 20:14:24",
+      "side": "Buy",
+      "amt": "6.9 WSOL MC 25.4M",
+      "pusher": "FASHRCrypto"
+     }
+    ],
+    "token": "WIRELYSS",
+    "chain": "SOL"
+   },
+   "2cAHQ1SWGMqSASwLD46p1w5z3S9XV6mpwua1hf5Gpump": {
+    "rows": [
+     {
+      "ts": "11-05 20:09:46",
+      "side": "Buy",
+      "amt": "1.65 WSOL MC 18.7M",
+      "pusher": "MageArez"
+     }
+    ],
+    "token": "ClaudiaGI",
+    "chain": "SOL"
+   },
+   "DuYKiYW7wWWvaVcYnTsxe7p9TisKEV2FJ9jHdHiMpump": {
+    "rows": [
+     {
+      "ts": "11-05 20:11:55",
+      "side": "Buy",
+      "amt": "5.32 SQQQ MC 27.3M",
+      "pusher": "jijo_exe"
+     }
+    ],
+    "token": "Hedgecat",
+    "chain": "SOL"
+   },
+   "FUKyk2ndGusMMpBWBTV3W7QNHMCMDPe4B26W9athpump": {
+    "rows": [
+     {
+      "ts": "11-05 20:12:41",
+      "side": "Buy",
+      "amt": "268.59 USDC MC 52.7M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "MRMANS",
+    "chain": "SOL"
+   },
+   "9ioqBKVFDrFhLZxGgu3gunTVCDNjFMPUmCnWp3Qzpump": {
+    "rows": [
+     {
+      "ts": "11-05 20:14:29",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 40.5M",
+      "pusher": "trunoest"
+     },
+     {
+      "ts": "11-05 20:14:34",
+      "side": "Buy",
+      "amt": "1.6 WSOL MC 16.9M",
+      "pusher": "radiancebrr"
+     },
+     {
+      "ts": "11-05 20:14:44",
+      "side": "Buy",
+      "amt": "2.93 WSOL MC 22.9M",
+      "pusher": "notdecu"
+     }
+    ],
+    "token": "BIN",
+    "chain": "SOL"
+   },
+   "AY4QrVf9EhDR1Nx3b2RiUXYhfgtydf5vZXNyK8zrpump": {
+    "rows": [
+     {
+      "ts": "11-05 20:14:50",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 4M",
+      "pusher": "theonomix"
+     },
+     {
+      "ts": "11-05 20:14:50",
+      "side": "Buy",
+      "amt": "4.95 WSOL MC 4.1M",
+      "pusher": "theonomix"
+     }
+    ],
+    "token": "WIRELYSS",
+    "chain": "SOL"
+   },
+   "CZcce2MA7xotXTaZSKMxRMLu1pivdP2wkregYs49pump": {
+    "rows": [
+     {
+      "ts": "11-05 20:15:27",
+      "side": "Buy",
+      "amt": "176.43 USDC MC 28.2M",
+      "pusher": "thejester"
+     }
+    ],
+    "token": "Teal",
     "chain": "SOL"
    }
   }
