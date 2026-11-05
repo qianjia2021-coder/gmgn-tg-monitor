@@ -1,6 +1,10 @@
 name: singlebuys-monitor
 on:
   schedule:
+    # 2026-11-05：cron 仍是每5分钟，但 GitHub Actions 定时任务在公共仓库
+    # 会被严重限流 —— 实测配置写的是 */5，实际触发间隔是 3.5~5.6 小时，
+    # 两天内只跑了 4 次。因此云端不能依赖 cron 频率来保证实时性，
+    # 必须靠「宽扫描窗口 + 增量游标」保证不漏单（见 cloud_singlebuys.py）。
     - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
@@ -11,7 +15,9 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    # 2026-11-05：原为 5 分钟。扫描窗口放大到 24 小时后一轮可能跑较久，
+    # 超时会被强杀导致状态没写回（下轮重来，白扫）。放宽到 20 分钟。
+    timeout-minutes: 20
     steps:
       - name: 本机心跳检查
         id: hb
@@ -25,7 +31,13 @@ jobs:
           fi
           AGE=$(( $(date +%s) - $(date -d "$HB" +%s) ))
           echo "本机心跳距今 ${AGE}s"
-          if [ "$AGE" -lt 120 ]; then
+          # 2026-11-05：阈值 120s → 300s。
+          # 原因：本机心跳每 60 秒推一次，但 GitHub commit 有排队延迟，
+          # 实测心跳文件时间比本机时钟慢 40~70 秒。120s 阈值太贴边，
+          # 会造成「本机明明在线，云端误判为离线并抢跑」——
+          # 两者用不同 auth_key 时虽不会吊销会话，但会重复推送同一批合约。
+          # 放宽到 300s 后，只有本机真的停了 5 分钟以上云端才接管。
+          if [ "$AGE" -lt 300 ]; then
             echo "本机在线，云端本轮跳过"
             echo "takeover=false" >> "$GITHUB_OUTPUT"
           else
