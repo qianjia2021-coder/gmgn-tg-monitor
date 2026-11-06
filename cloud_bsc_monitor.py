@@ -201,6 +201,11 @@ async def main():
         if target:
             log("推送目标: {}".format(getattr(target, "title", "?")))
 
+        # 残留-1：target is None 直接中止本轮，不扫描、不推进游标、不写回
+        if target is None:
+            log("!! 目标群解析失败，本轮中止，不写游标不写 seen")
+            return
+
         cutoff = datetime.now(timezone.utc) - timedelta(minutes=SCAN_WINDOW_MIN)
         bj = timezone(timedelta(hours=8))
         pushed = 0
@@ -219,9 +224,6 @@ async def main():
             for addr in extract(m.message or ""):
                 if addr in seen:
                     continue
-                if target is None:
-                    log("!! 目标群不可用，整轮中止")
-                    break
                 now_bj = datetime.now(bj).strftime("%Y-%m-%d %H:%M:%S")
                 src_bj = m.date.astimezone(bj).strftime("%Y-%m-%d %H:%M:%S")
                 text = ("BH BSC SINGLEBUYS 新合约\n"
