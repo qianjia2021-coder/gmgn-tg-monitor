@@ -219,9 +219,9 @@ async def main():
             for addr in extract(m.message or ""):
                 if addr in seen:
                     continue
-                seen.add(addr)  # P0-2 对齐：先推送成功再 add
                 if target is None:
-                    continue
+                    log("!! 目标群不可用，整轮中止")
+                    break
                 now_bj = datetime.now(bj).strftime("%Y-%m-%d %H:%M:%S")
                 src_bj = m.date.astimezone(bj).strftime("%Y-%m-%d %H:%M:%S")
                 text = ("BH BSC SINGLEBUYS 新合约\n"
@@ -231,14 +231,20 @@ async def main():
                         "{}").format(src_bj, now_bj, addr)
                 try:
                     await client.send_message(target, text, parse_mode="html")
+                    seen.add(addr)  # 新-3：推送成功后才 add
                     log("  已推送: {}".format(addr))
                     pushed += 1
                 except FloodWaitError as e:
-                    log("  FloodWait {}s".format(e.seconds))
+                    log("  FloodWait {}s，等待后重试".format(e.seconds))
                     await asyncio.sleep(e.seconds + 1)
+                    try:
+                        await client.send_message(target, text, parse_mode="html")
+                        seen.add(addr)
+                        pushed += 1
+                    except Exception as e2:
+                        log("  重试仍失败 {}: {}".format(addr, e2))
                 except Exception as e:
                     log("  推送失败 {}: {}".format(addr, e))
-                    seen.discard(addr)  # 推送失败不记 seen
                 await asyncio.sleep(1)
 
         log("扫描 {} 条，推送 {} 个，seen 总数 {}".format(scanned, pushed, len(seen)))
