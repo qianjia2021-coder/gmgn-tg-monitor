@@ -1,22 +1,23 @@
 # -*- coding: utf-8 -*-
 """BH BSC SINGLEBUYS 云端兜底监控（独立凭据，不与本机共用 auth_key）。
 
-- 仅当本机心跳过期（>3 分钟）时才推送，避免双端同时推
-- 独立 secrets: BSC_TG_API_ID / BSC_TG_API_HASH / BSC_TG_STRING_SESSION
-- 独立状态文件: bsc_singlebuys_seen.json / bsc_singlebuys_cursor.json
-- 24 小时扫描窗口，覆盖本机关机间隙
+修复记录见 CHANGELOG.md。
 """
-import asyncio, base64, hashlib, json, os, re, sys, time
+import asyncio, base64, json, os, re, sys, time
 import urllib.error, urllib.request
 from datetime import datetime, timezone, timedelta
 
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.tl.functions.messages import CheckChatInviteRequest, ImportChatInviteRequest
+from telethon.errors import FloodWaitError
 
-API_ID = int(os.environ["BSC_TG_API_ID"])
-API_HASH = os.environ["BSC_TG_API_HASH"]
-STRING = os.environ["BSC_TG_STRING_SESSION"]
+API_ID = int(os.environ.get("BSC_TG_API_ID", "0"))
+API_HASH = os.environ.get("BSC_TG_API_HASH", "")
+STRING = os.environ.get("BSC_TG_STRING_SESSION", "")
+
+# P0-10：GITHUB_TOKEN 用 .get()，缺失时明确报错
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 GH_REPO = "qianjia2021-coder/gmgn-tg-monitor"
 GH_API = "https://api.github.com"
@@ -30,7 +31,8 @@ GH_HEARTBEAT_PATH = "bsc_singlebuys_heartbeat.txt"
 
 SCAN_WINDOW_MIN = 24 * 60
 SCAN_LIMIT = 1000
-HEARTBEAT_STALE_SEC = 180   # 本机心跳超过 3 分钟视为离线，云端接管
+# P1-6：心跳阈值 300s（原 180s 太紧，同仓库已验证安全值）
+HEARTBEAT_STALE_SEC = 300
 
 CA_RE = re.compile(r"CA:\s*(0x[a-fA-F0-9]{40})")
 EVM_RE = re.compile(r"\b(0x[a-fA-F0-9]{40})\b")
@@ -40,13 +42,19 @@ def log(msg):
     print("[{}] {}".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S"), msg), flush=True)
 
 
+def norm_addr(a):
+    return a.lower()
+
+
 def extract(text):
     addrs = CA_RE.findall(text or "")
-    return addrs if addrs else EVM_RE.findall(text or "")
+    if addrs:
+        return [norm_addr(a) for a in addrs]
+    return [norm_addr(a) for a in EVM_RE.findall(text or "")]
 
 
 def gh_headers():
-    return {"Authorization": "token " + os.environ["GITHUB_TOKEN"],
+    return {"Authorization": "token " + GITHUB_TOKEN,
             "Accept": "application/vnd.github+json",
             "User-Agent": "bsc-cloud-monitor"}
 
@@ -61,9 +69,10 @@ def gh_read(path):
     except urllib.error.HTTPError as e:
         if e.code == 404:
             return None, None
+        log("读取 {} 失败: HTTP {}".format(path, e.code))
         return None, None
     except Exception as e:
-        log("读取 {} 失败: {}".format(path, e))
+        log("读取 {} 异常: {}".format(path, e))
         return None, None
 
 
@@ -80,7 +89,7 @@ def gh_write(path, content, sha, msg):
             headers={**gh_headers(), "Content-Type": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
-                log("写入 {} OK".format(path))
+                log("写入 {} OK (HTTP {})".format(path, r.status))
                 return True
         except urllib.error.HTTPError as e:
             if e.code == 409 and attempt < 2:
@@ -88,7 +97,10 @@ def gh_write(path, content, sha, msg):
                 body["sha"] = sha
                 time.sleep(2)
                 continue
-            log("写入 {} 失败: HTTP {}".format(path, e.code))
+            if e.code == 403:
+                log("!! 写入 {} 被拒: HTTP 403（workflow permissions 不足）".format(path))
+            else:
+                log("写入 {} 失败: HTTP {}".format(path, e.code))
             return False
         except Exception as e:
             log("写入 {} 异常: {}".format(path, e))
@@ -97,16 +109,14 @@ def gh_write(path, content, sha, msg):
 
 
 def local_is_online():
-    """检查本机心跳是否新鲜。"""
     raw, _ = gh_read(GH_HEARTBEAT_PATH)
     if not raw:
         return False
     try:
-        # 格式: "bsc_singlebuys hb 2026-11-06T12:00:00Z"
         ts = raw.strip().rsplit(" ", 1)[-1]
         hb_time = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
         age = (datetime.now(timezone.utc) - hb_time).total_seconds()
-        log("本机心跳年龄: {:.0f}s".format(age))
+        log("本机心跳年龄: {:.0f}s (阈值 {}s)".format(age, HEARTBEAT_STALE_SEC))
         return age < HEARTBEAT_STALE_SEC
     except Exception as e:
         log("心跳解析失败: {}".format(e))
@@ -154,9 +164,12 @@ async def connect_with_retry():
 
 
 async def main():
-    # 先检查本机是否在线，在线就不接管
+    if not GITHUB_TOKEN:
+        log("FATAL: GITHUB_TOKEN 未注入")
+        sys.exit(1)
+
     if local_is_online():
-        log("本机在线，本轮云端跳过（避免双端重复推送）")
+        log("本机在线，本轮云端跳过")
         return
 
     seen = set()
@@ -196,16 +209,17 @@ async def main():
 
         async for m in client.iter_messages(chat, limit=SCAN_LIMIT):
             scanned += 1
+            # P1-12：遇到已处理的游标直接 break，不 continue
             if m.id <= cursor:
-                continue
+                break
             if m.date is None or m.date < cutoff:
                 break
+            if m.id > max_id:
+                max_id = m.id
             for addr in extract(m.message or ""):
                 if addr in seen:
                     continue
-                seen.add(addr)
-                if m.id > max_id:
-                    max_id = m.id
+                seen.add(addr)  # P0-2 对齐：先推送成功再 add
                 if target is None:
                     continue
                 now_bj = datetime.now(bj).strftime("%Y-%m-%d %H:%M:%S")
@@ -219,8 +233,12 @@ async def main():
                     await client.send_message(target, text, parse_mode="html")
                     log("  已推送: {}".format(addr))
                     pushed += 1
+                except FloodWaitError as e:
+                    log("  FloodWait {}s".format(e.seconds))
+                    await asyncio.sleep(e.seconds + 1)
                 except Exception as e:
                     log("  推送失败 {}: {}".format(addr, e))
+                    seen.discard(addr)  # 推送失败不记 seen
                 await asyncio.sleep(1)
 
         log("扫描 {} 条，推送 {} 个，seen 总数 {}".format(scanned, pushed, len(seen)))
