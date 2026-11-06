@@ -5,6 +5,9 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write   # P0-9：云端需要写回 seen/cursor
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
@@ -20,4 +23,5 @@ jobs:
           BSC_TG_API_ID: ${{ secrets.BSC_TG_API_ID }}
           BSC_TG_API_HASH: ${{ secrets.BSC_TG_API_HASH }}
           BSC_TG_STRING_SESSION: ${{ secrets.BSC_TG_STRING_SESSION }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # P0-10：显式注入
         run: python cloud_bsc_monitor.py
