@@ -443,8 +443,6 @@ def sync_state_up(cfg, state, heartbeat=True):
         "hb": now_iso(),
         "identity": cfg.get("identity", "local"),
         "pushed": state.get("pushed", {}),
-        "candidates": {k: {"found": v.get("found"), "found_block": v.get("found_block")}
-                       for k, v in (state.get("candidates") or {}).items()},
         "target_id": state.get("target_id"),
     }
     gh_put(cfg, token, cfg["github"]["state_path"], payload,
