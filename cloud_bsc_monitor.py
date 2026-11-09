@@ -276,7 +276,7 @@ async def main():
                     seen.add(addr)
                     log("  已推送: {}".format(addr))
                     pushed += 1
-                    dbotx_buy(addr)
+                    await asyncio.to_thread(dbotx_buy, addr)
                 except FloodWaitError as e:
                     log("  FloodWait {}s，等待后重试".format(e.seconds))
                     await asyncio.sleep(e.seconds + 1)
@@ -284,7 +284,7 @@ async def main():
                         await client.send_message(target, text, parse_mode="html")
                         seen.add(addr)
                         pushed += 1
-                        dbotx_buy(addr)
+                        await asyncio.to_thread(dbotx_buy, addr)
                     except Exception as e2:
                         log("  重试仍失败 {}: {}".format(addr, e2))
                 except Exception as e:
