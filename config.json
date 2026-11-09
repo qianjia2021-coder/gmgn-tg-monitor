@@ -8,6 +8,7 @@
  "max_block_gap": 6000,
  "heartbeat_seconds": 180,
  "takeover_after": 600,
+ "watch_tokens": [],
  "rpc": [
   "https://bsc-rpc.publicnode.com",
   "https://1rpc.io/bnb"
