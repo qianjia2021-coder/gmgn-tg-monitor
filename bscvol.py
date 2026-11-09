@@ -481,7 +481,8 @@ def _chunks(seq, n):
 def dex_m5(tokens):
     """一次请求最多 30 个地址，返回 {token: m5_usd}"""
     out = {}
-    for part in _chunks([t for t in tokens][:30], 30):
+    uniq = list({t.lower() for t in tokens})
+    for part in _chunks(uniq, 30):
         try:
             j = http_json(DEX + ",".join(part), timeout=12, tries=2)
         except Exception:
@@ -493,15 +494,29 @@ def dex_m5(tokens):
             m5 = float(vs.get("m5") or 0)
             for side in ("baseToken", "quoteToken"):
                 a = ((p.get(side) or {}).get("address") or "").lower()
-                if a in part or a in [x.lower() for x in part]:
+                if a and a in part:
                     out[a] = out.get(a, 0) + m5
     return {k.lower(): v for k, v in out.items()}
 
 
 # ---------------------------------------------------------------- 本地守护
+def single_instance(name="bscvol_monitor_mutex"):
+    """Windows 命名互斥，防止重复启动两个守护进程"""
+    try:
+        import ctypes
+        k = ctypes.WinDLL("kernel32", use_last_error=True)
+        handle = k.CreateMutexW(None, False, name)
+        return bool(handle) and ctypes.get_last_error() != 183
+    except Exception:
+        return True
+
+
 async def run_local():
     import asyncio
     log = setup_logging()
+    if not single_instance():
+        log.warning("已有实例在运行，本次退出")
+        return
     cfg = load_config()
     state = load_state()
     chain = Chain(cfg)
