@@ -29,6 +29,9 @@ GH_SEEN_PATH = "bsc_singlebuys_seen.json"
 GH_CURSOR_PATH = "bsc_singlebuys_cursor.json"
 GH_HEARTBEAT_PATH = "bsc_singlebuys_heartbeat.txt"
 
+DBOTX_KEY = "fgfz61yx7zv305l9r9q5prjrp521pgj2"
+DBOTX_URL = "https://api-bot-v1.dbotx.com/simulator/sim_swap_order"
+
 SCAN_WINDOW_MIN = 24 * 60
 SCAN_LIMIT = 1000
 # P1-6：心跳阈值 300s（原 180s 太紧，同仓库已验证安全值）
@@ -140,6 +143,43 @@ async def resolve_target(client):
     return None
 
 
+def dbotx_buy(addr):
+    """云端推送后同样在 dbotx 模拟器买入 1 BNB，止盈 50%。"""
+    body = {
+        "chain": "bsc",
+        "pair": addr,
+        "type": "buy",
+        "amountOrPercent": 1.0,
+        "stopEarnPercent": 0.5,
+        "stopLossPercent": None,
+        "gasFeeDelta": 5,
+        "maxFeePerGas": 100,
+        "slippage": 0.1,
+    }
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                DBOTX_URL,
+                data=json.dumps(body).encode(),
+                method="POST",
+                headers={
+                    "x-api-key": DBOTX_KEY,
+                    "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                })
+            with urllib.request.urlopen(req, timeout=30) as r:
+                res = json.loads(r.read().decode())
+            if not res.get("err"):
+                log("  dbotx 买入成功: {} order_id={}".format(addr, res["res"]["id"]))
+                return True
+            log("  dbotx 返回错误 (第{}/3): {}".format(attempt + 1, res))
+        except Exception as e:
+            log("  dbotx 买入失败 (第{}/3) {}: {}".format(attempt + 1, addr, e))
+        time.sleep(3)
+    log("  !! dbotx 三次买入均失败，需手动补单: {}".format(addr))
+    return False
+
+
 async def connect_with_retry():
     last = None
     for attempt in range(4):
@@ -230,12 +270,13 @@ async def main():
                         "出现时间: {}\n"
                         "推送时间: {}\n"
                         "\n"
-                        "{}").format(src_bj, now_bj, addr)
+                        "<code>{}</code>").format(src_bj, now_bj, addr)
                 try:
                     await client.send_message(target, text, parse_mode="html")
-                    seen.add(addr)  # 新-3：推送成功后才 add
+                    seen.add(addr)
                     log("  已推送: {}".format(addr))
                     pushed += 1
+                    dbotx_buy(addr)
                 except FloodWaitError as e:
                     log("  FloodWait {}s，等待后重试".format(e.seconds))
                     await asyncio.sleep(e.seconds + 1)
@@ -243,6 +284,7 @@ async def main():
                         await client.send_message(target, text, parse_mode="html")
                         seen.add(addr)
                         pushed += 1
+                        dbotx_buy(addr)
                     except Exception as e2:
                         log("  重试仍失败 {}: {}".format(addr, e2))
                 except Exception as e:
