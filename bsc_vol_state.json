@@ -1,5 +1,5 @@
 {
- "hb": "2026-11-09T05:49:51+00:00",
+ "hb": "2026-11-09T05:52:57+00:00",
  "identity": "local",
  "pushed": {},
  "candidates": {
@@ -1938,6 +1938,170 @@
   "0x784816bed61666d316453d3ad0b565345d9166d2": {
    "found": 1794203388,
    "found_block": 132531412
+  },
+  "0x23126394b84467bec5c6683a49b2812c5e407777": {
+   "found": 1794203406,
+   "found_block": 132531428
+  },
+  "0x6fdfbe4d910acf6d6d2792e0c8ff911925e87777": {
+   "found": 1794203406,
+   "found_block": 132531430
+  },
+  "0x4ec45f68142ba725bfbe150ddae8994a02267777": {
+   "found": 1794203406,
+   "found_block": 132531438
+  },
+  "0x49df88f12b3a7502e05a99cc8a5501b5ce787777": {
+   "found": 1794203416,
+   "found_block": 132531444
+  },
+  "0xbe7ed2fe9ce0e0619cfcfa1350f58c4b6c227777": {
+   "found": 1794203416,
+   "found_block": 132531448
+  },
+  "0x7e47d092cafaf51eb1648ad42b7e0393f7027777": {
+   "found": 1794203416,
+   "found_block": 132531452
+  },
+  "0xa640fd570d6893ab8943302774e0e01615157777": {
+   "found": 1794203416,
+   "found_block": 132531469
+  },
+  "0xed11a4e982b496f36805a8fda37f156b8af67777": {
+   "found": 1794203416,
+   "found_block": 132531474
+  },
+  "0xc7a8fad2e12b89aa5c71c0dd7711f4b2cca47777": {
+   "found": 1794203416,
+   "found_block": 132531476
+  },
+  "0x26004ff0ff8815fe2f7a7a39ce387dd8ac917777": {
+   "found": 1794203426,
+   "found_block": 132531490
+  },
+  "0x91140fae8a2073c7aa4689a7f91c398e37437777": {
+   "found": 1794203426,
+   "found_block": 132531497
+  },
+  "0x9b806ca73ca403f176138f37a762bc36367e7777": {
+   "found": 1794203438,
+   "found_block": 132531510
+  },
+  "0x04cac2b8b6619777f124a1cdb4f3ec3a69727777": {
+   "found": 1794203438,
+   "found_block": 132531511
+  },
+  "0x6c627945426a8423155164fe9ec5141404f07777": {
+   "found": 1794203451,
+   "found_block": 132531534
+  },
+  "0x38e97dfea6e503941130a7b70fb5d6db1abe7777": {
+   "found": 1794203451,
+   "found_block": 132531549
+  },
+  "0x5780ad1ef1af5cb61fa844baa7e31b5e24747777": {
+   "found": 1794203451,
+   "found_block": 132531554
+  },
+  "0xbfd4582c8d9a87505ab9aa4d773b5c3ebb653af2": {
+   "found": 1794203451,
+   "found_block": 132531558
+  },
+  "0x474e6642f841baf9d5e65ab585ff91e2447b7777": {
+   "found": 1794203465,
+   "found_block": 132531562
+  },
+  "0xff919787f864d0cdbb4bc4daeec733b858f8caac": {
+   "found": 1794203478,
+   "found_block": 132531594
+  },
+  "0x2a35801b1b237135cf055f624c3a50ad6eae9b8e": {
+   "found": 1794203491,
+   "found_block": 132531630
+  },
+  "0x1646cdebbc1d2f944752bc6a889ad440ea617777": {
+   "found": 1794203499,
+   "found_block": 132531653
+  },
+  "0x3cb912c8f174ef111d9d9654e4600029251c7777": {
+   "found": 1794203526,
+   "found_block": 132531698
+  },
+  "0x9c04626139d874b0821420c27e8305ab503b7777": {
+   "found": 1794203526,
+   "found_block": 132531705
+  },
+  "0xef8a8ab2243d0a24a46b0a31ffdd4120f5687777": {
+   "found": 1794203526,
+   "found_block": 132531707
+  },
+  "0x933beac1b52b40fa9c2d37ae6d3dedd580297777": {
+   "found": 1794203526,
+   "found_block": 132531712
+  },
+  "0x406f4987eb370089e4409978081f62de610f7777": {
+   "found": 1794203526,
+   "found_block": 132531719
+  },
+  "0xbdb996f5ee11e6141b56ba24cc9e4b690d557777": {
+   "found": 1794203536,
+   "found_block": 132531721
+  },
+  "0x12fd4a817c37e7595d1b25a3814430cd58327777": {
+   "found": 1794203536,
+   "found_block": 132531740
+  },
+  "0x2fbe61501063430f905110a305386e95e1626e40": {
+   "found": 1794203536,
+   "found_block": 132531742
+  },
+  "0x30bd33a97fbc14c81c43474c10b67111f3187777": {
+   "found": 1794203550,
+   "found_block": 132531760
+  },
+  "0x468a492d54ce17d7b69f3cf29220eff2bbef7777": {
+   "found": 1794203550,
+   "found_block": 132531771
+  },
+  "0x40d3ab06f18c11ad1b49f20094090d4ebe347777": {
+   "found": 1794203561,
+   "found_block": 132531782
+  },
+  "0xa989774024c44068e8bd82aaca4a7093cae67777": {
+   "found": 1794203561,
+   "found_block": 132531786
+  },
+  "0x1bb6f89b84c6db9f3b477ee8624da1f07b727777": {
+   "found": 1794203561,
+   "found_block": 132531790
+  },
+  "0x5c5f3909e493c8976902083d223951713c1e7777": {
+   "found": 1794203561,
+   "found_block": 132531792
+  },
+  "0xdcc40792390bf69c9ea2d84a87691ca8694f7777": {
+   "found": 1794203561,
+   "found_block": 132531796
+  },
+  "0x920bdf10e98c1bedbcadfe20cfbe21bd21d77777": {
+   "found": 1794203574,
+   "found_block": 132531802
+  },
+  "0x1d143ff0209c31b6b2a3d95d1eef12fab53c7777": {
+   "found": 1794203574,
+   "found_block": 132531814
+  },
+  "0xb92d4d97805d2d6f6b4dbba0ca6d13438fa67777": {
+   "found": 1794203574,
+   "found_block": 132531824
+  },
+  "0x3d976f10f4ef5acd859325898699e283545f7777": {
+   "found": 1794203574,
+   "found_block": 132531824
+  },
+  "0x93253943e48176e6d40a2e8628032a5016f37777": {
+   "found": 1794203574,
+   "found_block": 132531827
   }
  },
  "target_id": 5194908956
