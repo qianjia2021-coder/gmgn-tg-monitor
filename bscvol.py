@@ -267,7 +267,7 @@ def parse_iso(ts):
         return None
 
 
-def evaluate_token(token, cfg, now_ts=None, deep_minutes=10):
+def evaluate_token(token, cfg, now_ts=None, deep_minutes=10, ignore_age=False):
     """返回 (hit, info)；hit 为 detect 结果，info 为展示用信息"""
     now_ts = now_ts or int(time.time())
     max_age = cfg["max_age_minutes"] * 60
@@ -279,7 +279,9 @@ def evaluate_token(token, cfg, now_ts=None, deep_minutes=10):
     for p in pools:
         at = p.get("attributes", {})
         created = parse_iso(at.get("pool_created_at"))
-        if created is None or now_ts - created > max_age:
+        if created is None:
+            continue
+        if not ignore_age and now_ts - created > max_age:
             continue
         live.append({
             "id": p["id"], "created": created, "name": at.get("name", ""),
@@ -546,6 +548,11 @@ async def run_local():
 
             now = int(time.time())
             cands = state.setdefault("candidates", {})
+            for t in cfg.get("watch_tokens", []) or []:
+                k = t.lower()
+                if k not in cands:
+                    cands[k] = {"pairs": [], "found": now, "found_block": 0,
+                                "next_check": 0, "manual": True}
             for p in pairs:
                 for tok in pick_token_candidates(p):
                     k = tok.lower()
@@ -554,8 +561,10 @@ async def run_local():
                     else:
                         cands[k] = {"pairs": [p["pair"]], "found": now,
                                     "found_block": p["block"], "next_check": 0}
-            # 清理过老候选
+            # 清理过老候选（手动指定的保留）
             for k in list(cands):
+                if cands[k].get("manual"):
+                    continue
                 if now - int(cands[k].get("found", now)) > cfg["max_age_minutes"] * 60:
                     cands.pop(k, None)
 
@@ -569,7 +578,8 @@ async def run_local():
                         continue
                     log.info("预筛命中 %s m5=%.0f", k, m5.get(k, 0))
                     try:
-                        hit, info = evaluate_token(k, cfg, now)
+                        hit, info = evaluate_token(k, cfg, now,
+                                                   ignore_age=bool(cands[k].get("manual")))
                     except Exception as e:
                         log.warning("评估失败 %s: %s", k, e)
                         continue
@@ -587,7 +597,8 @@ async def run_local():
                         except Exception as e:
                             log.warning("云端同步失败: %s", e)
                     elif info.get("state") in ("all_pools_old", "no_pool"):
-                        if now - int(cands[k].get("found", now)) > 600:
+                        if (not cands[k].get("manual")
+                                and now - int(cands[k].get("found", now)) > 600):
                             cands.pop(k, None)
 
             save_state(state)
