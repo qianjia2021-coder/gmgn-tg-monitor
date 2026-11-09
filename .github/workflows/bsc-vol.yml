@@ -2,7 +2,8 @@ name: bsc-vol-monitor
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    # 错峰：避开整点/整五分（GitHub 调度高峰容易延迟或跳过）
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
   workflow_dispatch:
 
 permissions:
