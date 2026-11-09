@@ -178,17 +178,19 @@ def opener(proxy=None):
     return _opener
 
 
-def http_json(url, headers=None, data=None, timeout=15, tries=3, proxy=None):
+def http_json(url, headers=None, data=None, timeout=15, tries=3, proxy=None, method=None):
     h = {"Accept": "application/json", "User-Agent": UA, "Accept-Encoding": "gzip"}
     if headers:
         h.update(headers)
     body = json.dumps(data).encode() if data is not None else None
     if body is not None:
         h["Content-Type"] = "application/json"
+    if method is None:
+        method = "POST" if body is not None else "GET"
     last = None
     for attempt in range(tries):
         try:
-            req = urllib.request.Request(url, data=body, headers=h)
+            req = urllib.request.Request(url, data=body, headers=h, method=method)
             with opener(proxy).open(req, timeout=timeout) as r:
                 raw = r.read()
                 if r.headers.get("Content-Encoding") == "gzip":
@@ -426,7 +428,7 @@ def gh_put(cfg, token, path, obj, message):
     if sha:
         body["sha"] = sha
     j = http_json(f"{gh_repo(cfg)}/{path}", headers=gh_headers(cfg, token), data=body,
-                  timeout=25, tries=3)
+                  timeout=25, tries=3, method="PUT")
     return j.get("commit", {}).get("sha")
 
 
@@ -556,6 +558,8 @@ async def run_local():
                     except Exception as e:
                         log.warning("评估失败 %s: %s", k, e)
                         continue
+                    log.info("评估 %s -> %s m5=%.0f 分钟数=%d", k, info.get("state"),
+                             info.get("m5") or 0, len(info.get("minutes") or {}))
                     if hit and not is_pushed(state, k):
                         text = build_message(k, hit, info, cfg)
                         await tg_send(client, functions, cfg, state, text)
@@ -578,8 +582,6 @@ async def run_local():
                     sync_state_up(cfg, state, heartbeat=True)
                 except Exception as e:
                     log.warning("心跳同步失败: %s", e)
-            if now >= int(state.setdefault("forced_check", 0)):
-                pass
 
         except Exception as e:
             log.exception("主循环异常: %s", e)
