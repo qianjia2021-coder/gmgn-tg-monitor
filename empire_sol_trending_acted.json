@@ -3444,16 +3444,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn3zrsv01f72o",
+  "symbol": "Aliens",
+  "mc": 202000.0,
+  "price": 0.000204,
+  "ts": "2026-11-19 13:27:57",
+  "note": "模拟买入成功"
  },
  "8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS": {
   "source": "history",
