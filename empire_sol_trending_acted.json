@@ -48,16 +48,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "43Z5f8GboUfc6M6wtaGGtFciEhLXixJEwQKv8wBUpump": {
-  "source": "history",
+  "source": "live",
   "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn25qps01cm32",
   "symbol": "BUNC",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 73600.0,
+  "price": 7.5e-05,
+  "ts": "2026-11-19 12:36:36",
+  "note": "模拟买入成功"
  },
  "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump": {
   "source": "history",
@@ -8817,6 +8817,18 @@
   "mc": 21400.0,
   "price": 2.1e-05,
   "ts": "2026-11-19 12:35:15",
+  "note": "模拟买入成功"
+ },
+ "FhnrgbBCZp8Nkfikd9NeW6JNKPmGqTr44YAayhLWpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn24q7p01cj6q",
+  "symbol": "BUN",
+  "mc": 25200.0,
+  "price": 2.5e-05,
+  "ts": "2026-11-19 12:35:49",
   "note": "模拟买入成功"
  }
 }
