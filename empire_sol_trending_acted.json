@@ -552,16 +552,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": {
-  "source": "history",
-  "occ": 14,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn3anvv01z4x3",
   "symbol": "PEAK",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 170600.0,
+  "price": 0.000175,
+  "ts": "2026-11-19 13:08:25",
+  "note": "模拟买入成功"
  },
  "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": {
   "source": "history",
