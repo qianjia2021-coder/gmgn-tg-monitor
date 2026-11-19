@@ -3988,16 +3988,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump": {
-  "source": "history",
-  "occ": 24,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn7rtbd0252oy",
+  "symbol": "Trader",
+  "mc": 42700.0,
+  "price": 4.5e-05,
+  "age_min": 2880,
+  "age": "2d",
+  "ts": "2026-11-19 15:13:42",
+  "note": "模拟买入成功"
  },
  "99fesx39LYMXP4ZmMTxMibyerPY5WunxtrDg5KRjpump": {
   "source": "history",
@@ -9181,6 +9183,20 @@
   "age_min": 43200,
   "age": "30d",
   "ts": "2026-11-19 15:13:09",
+  "note": "模拟买入成功"
+ },
+ "2L26JxjWAWxa13MjNpHrXpXp8BJ6ykz2qNWHN2zupump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn7rdfq01kv9z",
+  "symbol": "WKTT",
+  "mc": 22700.0,
+  "price": 2.4e-05,
+  "age_min": 1151,
+  "age": "19h 11m",
+  "ts": "2026-11-19 15:13:21",
   "note": "模拟买入成功"
  }
 }
