@@ -1080,16 +1080,16 @@
   "note": "模拟买入成功"
  },
  "5ChyeKeH1Hv47qYd13E8ujg8n5Hn3YYPZtLS9DAUpump": {
-  "source": "history",
-  "occ": 7,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn5i91a01h3iq",
   "symbol": "Tom",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 34900.0,
+  "price": 3.7e-05,
+  "ts": "2026-11-19 14:10:19",
+  "note": "模拟买入成功"
  },
  "DZQbBPFpTeeyGyvCwXxYQDZFGGHad2bY6sWZuviuX8MN": {
   "source": "history",
@@ -9057,6 +9057,18 @@
   "mc": 92200.0,
   "price": 9.2e-05,
   "ts": "2026-11-19 14:02:18",
+  "note": "模拟买入成功"
+ },
+ "AP77Ja9RP2EqTtau8rAzwb8b1yGUonk7cbv4hSv3pump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn5h8or01h2zk",
+  "symbol": "IRL",
+  "mc": 24600.0,
+  "price": 2.5e-05,
+  "ts": "2026-11-19 14:09:32",
   "note": "模拟买入成功"
  }
 }
