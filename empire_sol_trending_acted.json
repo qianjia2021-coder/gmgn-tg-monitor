@@ -9660,5 +9660,19 @@
   "age": "49d",
   "ts": "2026-11-19 18:45:59",
   "note": "模拟买入成功"
+ },
+ "5a6mAmWbL3Na2KhwV1LmmAUSf12Gy1vd3NjqBq24pump": {
+  "source": "live",
+  "occ": 5,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnfvjt901wi1l",
+  "symbol": "Sparrow",
+  "mc": 91100.0,
+  "price": 9.4e-05,
+  "age_min": 81,
+  "age": "1h 21m",
+  "ts": "2026-11-19 19:00:33",
+  "note": "模拟买入成功"
  }
 }
