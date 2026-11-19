@@ -9596,5 +9596,19 @@
   "age": "67d",
   "ts": "2026-11-19 18:20:10",
   "note": "模拟买入成功"
+ },
+ "3ZJYbe14NSiK1G3kwQiCasMNPcq3Zw9qcGahphAUpump": {
+  "source": "live",
+  "occ": 6,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "AUDADUDE",
+  "mc": 23600.0,
+  "price": 2.4e-05,
+  "age_min": 99,
+  "age": "2h 39m",
+  "ts": "2026-11-19 18:24:08",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
