@@ -9258,5 +9258,19 @@
   "age": "10h 9m",
   "ts": "2026-11-19 15:31:49",
   "note": "模拟买入成功"
+ },
+ "4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn8op3w0261vx",
+  "symbol": "BOBO",
+  "mc": 3990000.0,
+  "price": 0.003994,
+  "age_min": 285120,
+  "age": "198d",
+  "ts": "2026-11-19 15:39:16",
+  "note": "模拟买入成功"
  }
 }
