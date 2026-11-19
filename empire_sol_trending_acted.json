@@ -1668,16 +1668,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": {
-  "source": "history",
-  "occ": 27,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn2iqpd01d8fr",
   "symbol": "CHAR",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 124400.0,
+  "price": 0.000127,
+  "ts": "2026-11-19 12:46:43",
+  "note": "模拟买入成功"
  },
  "GerDDv6LzFb3hNprAsRi6Tv81vVTV5hUWu56yVCpump": {
   "source": "live",
