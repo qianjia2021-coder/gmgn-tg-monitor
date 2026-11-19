@@ -9716,5 +9716,19 @@
   "age": "19h 38m",
   "ts": "2026-11-19 19:20:05",
   "note": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "EywjBvp69aahb3MHrb4PBtKqVzcQNEtE3NaGk36S8hCd": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwngub7j02y6ck",
+  "symbol": "Phone",
+  "mc": 21100.0,
+  "price": 2.3e-05,
+  "age_min": 1086,
+  "age": "18h 6m",
+  "ts": "2026-11-19 19:27:35",
+  "note": "模拟买入成功"
  }
 }
