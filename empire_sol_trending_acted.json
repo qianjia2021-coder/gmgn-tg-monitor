@@ -9288,5 +9288,19 @@
   "age": "31d",
   "ts": "2026-11-19 15:44:38",
   "note": "模拟买入成功"
+ },
+ "EHf4wjtcJm9kdiTaFBPVP6v4UfZ2m52uUJPYVZ97pump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn8xgzg01mdd6",
+  "symbol": "DCA",
+  "mc": 44600.0,
+  "price": 4.6e-05,
+  "age_min": 40320,
+  "age": "28d",
+  "ts": "2026-11-19 15:46:06",
+  "note": "模拟买入成功"
  }
 }
