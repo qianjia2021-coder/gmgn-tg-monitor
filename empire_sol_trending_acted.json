@@ -9518,5 +9518,19 @@
   "age": "3d",
   "ts": "2026-11-19 17:51:41",
   "note": "模拟买入成功"
+ },
+ "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwndhdjf02uoz7",
+  "symbol": "HODL",
+  "mc": 1950000.0,
+  "price": 0.001947,
+  "age_min": 401760,
+  "age": "279d",
+  "ts": "2026-11-19 17:53:33",
+  "note": "模拟买入成功"
  }
 }
