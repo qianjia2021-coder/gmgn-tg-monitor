@@ -918,16 +918,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "8SNgP7E88PevFRsoW7gfJg1zwnhWEN8U9RNtACuVpump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
   "bought": false,
   "order_id": "",
   "symbol": "Lucia",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 23400.0,
+  "price": 2.3e-05,
+  "age_min": 1075,
+  "age": "18h 55m",
+  "ts": "2026-11-19 18:10:52",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "GuWTYfqDxzaLU3APRPcm7fHwWYJYPcrUXeZELCUopump": {
   "source": "history",
