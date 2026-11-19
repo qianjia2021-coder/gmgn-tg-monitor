@@ -9070,5 +9070,17 @@
   "price": 2.5e-05,
   "ts": "2026-11-19 14:09:32",
   "note": "模拟买入成功"
+ },
+ "2NffKvfZTcFj2tyoY1Ev84PkqxA7DZnstyv6EwELpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn5zdo501i0p6",
+  "symbol": "Sue",
+  "mc": 30100.0,
+  "price": 3.1e-05,
+  "ts": "2026-11-19 14:23:38",
+  "note": "模拟买入成功"
  }
 }
