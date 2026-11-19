@@ -8986,5 +8986,17 @@
   "price": null,
   "ts": "2026-11-19 13:40:40",
   "note": "模拟买入成功"
+ },
+ "GWNHFW1tEoQTJpF1cen4Y8BcDdJgftocXH89MtAipump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "STICKS",
+  "mc": 22300.0,
+  "price": 2.2e-05,
+  "ts": "2026-11-19 13:54:07",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
