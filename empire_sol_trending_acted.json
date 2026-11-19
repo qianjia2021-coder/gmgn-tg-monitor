@@ -3396,16 +3396,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": {
-  "source": "history",
-  "occ": 24,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn3uplm01zo7w",
+  "symbol": "greg",
+  "mc": 64099.99999999999,
+  "price": 6.8e-05,
+  "ts": "2026-11-19 13:24:01",
+  "note": "模拟买入成功"
  },
  "HxrsBU7EQb6z9X3ifi8EwFF7TDF3tB8iro13ERa8pump": {
   "source": "history",
