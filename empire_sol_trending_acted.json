@@ -2040,16 +2040,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump": {
-  "source": "history",
-  "occ": 8,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn4cnj801ffbj",
   "symbol": "AICoin",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 91800.0,
+  "price": 9.3e-05,
+  "ts": "2026-11-19 13:37:58",
+  "note": "模拟买入成功"
  },
  "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": {
   "source": "history",
