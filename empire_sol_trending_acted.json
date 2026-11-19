@@ -528,16 +528,16 @@
   "note": "模拟买入成功"
  },
  "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": {
-  "source": "history",
-  "occ": 22,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn56c9p01glpy",
   "symbol": "PumpMas",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 121300.0,
+  "price": 0.000141,
+  "ts": "2026-11-19 14:01:03",
+  "note": "模拟买入成功"
  },
  "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": {
   "source": "history",
