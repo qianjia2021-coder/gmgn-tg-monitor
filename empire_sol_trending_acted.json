@@ -4548,16 +4548,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": {
-  "source": "history",
-  "occ": 9,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn5r82j0226id",
+  "symbol": "worth",
+  "mc": 85400.0,
+  "price": 7.7e-05,
+  "ts": "2026-11-19 14:17:18",
+  "note": "模拟买入成功"
  },
  "GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump": {
   "source": "history",
