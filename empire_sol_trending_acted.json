@@ -120,16 +120,18 @@
   "note": "模拟买入成功"
  },
  "8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump": {
-  "source": "history",
-  "occ": 27,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwncu0w501tc5c",
   "symbol": "twert",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 42900.0,
+  "price": 4.5e-05,
+  "age_min": 4320,
+  "age": "3d",
+  "ts": "2026-11-19 17:35:23",
+  "note": "模拟买入成功"
  },
  "6dhKENbCU9M9hsjvsG7GahMmxVXpRKkf3Q7zCXgUpump": {
   "source": "history",
@@ -712,16 +714,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "B2qjRYNwgJzWy9TiHSw37J84cUBDCNcj6RdWcf55pump": {
-  "source": "history",
-  "occ": 8,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwncu1le02tu73",
   "symbol": "Founder",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 35600.0,
+  "price": 3.6e-05,
+  "age_min": 1049,
+  "age": "17h 29m",
+  "ts": "2026-11-19 17:35:24",
+  "note": "模拟买入成功"
  },
  "zK42Ztz6TdFUgd1f7cULoJMduX2B91auZpFK7hvpump": {
   "source": "history",
