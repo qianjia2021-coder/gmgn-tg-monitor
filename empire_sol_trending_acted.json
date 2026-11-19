@@ -9466,5 +9466,19 @@
   "age": "1h 7m",
   "ts": "2026-11-19 17:19:59",
   "note": "模拟买入成功"
+ },
+ "7wmG7YLaQNqbJHxnMbnguQCcdwc11X8gibr7Lg9zETCH": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "SIRIUS",
+  "mc": 25700.0,
+  "price": 2.4e-05,
+  "age_min": 50400,
+  "age": "35d",
+  "ts": "2026-11-19 17:29:22",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
