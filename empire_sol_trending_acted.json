@@ -2096,16 +2096,18 @@
   "note": "模拟买入成功"
  },
  "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": {
-  "source": "history",
-  "occ": 41,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnatvzi01pr9i",
   "symbol": "PAYDAY",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 119000.0,
+  "price": 0.000127,
+  "age_min": 12960,
+  "age": "9d",
+  "ts": "2026-11-19 16:39:17",
+  "note": "模拟买入成功"
  },
  "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": {
   "source": "history",
