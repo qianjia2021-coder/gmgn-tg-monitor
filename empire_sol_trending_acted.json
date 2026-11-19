@@ -9110,5 +9110,19 @@
   "age": "5h 56m",
   "ts": "2026-11-19 14:42:48",
   "note": "模拟买入成功"
+ },
+ "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn6p0zr01jg1g",
+  "symbol": "INVISIBLE",
+  "mc": 23300.0,
+  "price": 2.5e-05,
+  "age_min": 31680,
+  "age": "22d",
+  "ts": "2026-11-19 14:43:35",
+  "note": "模拟买入成功"
  }
 }
