@@ -8842,5 +8842,17 @@
   "price": 0.000111,
   "ts": "2026-11-19 12:37:24",
   "note": "模拟买入成功"
+ },
+ "8yxCjef6QBoKjQZetwB9gY3j5nC4gT9kTa4cLsbk47xe": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "WHITEWHALE",
+  "mc": 61500.0,
+  "price": 8.2e-05,
+  "ts": "2026-11-19 12:57:34",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
