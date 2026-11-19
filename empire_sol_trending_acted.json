@@ -252,16 +252,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": {
-  "source": "history",
+  "source": "live",
   "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn34mop01yxlk",
   "symbol": "MAGACITY",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 58500.0,
+  "price": 6.2e-05,
+  "ts": "2026-11-19 13:03:44",
+  "note": "模拟买入成功"
  },
  "7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": {
   "source": "live",
