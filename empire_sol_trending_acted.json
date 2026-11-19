@@ -9702,5 +9702,19 @@
   "age": "491d",
   "ts": "2026-11-19 19:17:16",
   "note": "模拟买入成功"
+ },
+ "6NhFvM9GkEA5x8tMHb886Ez7MsZTZknATseo3PrcU2sw": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "Macca",
+  "mc": 20900.0,
+  "price": 2.1e-05,
+  "age_min": 1118,
+  "age": "19h 38m",
+  "ts": "2026-11-19 19:20:05",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
