@@ -9204,5 +9204,19 @@
   "age": "19h 11m",
   "ts": "2026-11-19 15:13:21",
   "note": "模拟买入成功"
+ },
+ "7aSRFYVupn5cS5ebNSnNf9PoJY94RbXje3hV6uzppump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn7zsw501l1ty",
+  "symbol": "casino",
+  "mc": 22000.0,
+  "price": 2.2e-05,
+  "age_min": 53280,
+  "age": "37d",
+  "ts": "2026-11-19 15:19:55",
+  "note": "模拟买入成功"
  }
 }
