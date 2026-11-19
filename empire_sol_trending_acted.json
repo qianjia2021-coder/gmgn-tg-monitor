@@ -9504,5 +9504,19 @@
   "age": "306d",
   "ts": "2026-11-19 17:32:52",
   "note": "模拟买入成功"
+ },
+ "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwndezll02ujdx",
+  "symbol": "WIGGLES",
+  "mc": 48100.0,
+  "price": 5e-05,
+  "age_min": 4320,
+  "age": "3d",
+  "ts": "2026-11-19 17:51:41",
+  "note": "模拟买入成功"
  }
 }
