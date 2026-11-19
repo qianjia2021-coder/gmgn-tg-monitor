@@ -9392,5 +9392,19 @@
   "age": "2h 0m",
   "ts": "2026-11-19 17:01:33",
   "note": "模拟买入成功"
+ },
+ "DzKbm41ZuztSpwjddZJ9LnKfPm8fgHEheiqQBxKK2PCn": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnbwd2f01rdwo",
+  "symbol": "",
+  "mc": 21400.0,
+  "price": 2.2e-05,
+  "age_min": 447,
+  "age": "7h 27m",
+  "ts": "2026-11-19 17:09:13",
+  "note": "模拟买入成功"
  }
 }
