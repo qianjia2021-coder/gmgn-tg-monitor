@@ -9482,5 +9482,19 @@
   "age": "35d",
   "ts": "2026-11-19 17:29:22",
   "note": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwncqs8002tf9c",
+  "symbol": "BIRB",
+  "mc": 21400000.0,
+  "price": 0.075069,
+  "age_min": 440640,
+  "age": "306d",
+  "ts": "2026-11-19 17:32:52",
+  "note": "模拟买入成功"
  }
 }
