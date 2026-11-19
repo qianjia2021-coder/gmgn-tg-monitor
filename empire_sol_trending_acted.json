@@ -9124,5 +9124,19 @@
   "age": "22d",
   "ts": "2026-11-19 14:43:35",
   "note": "模拟买入成功"
+ },
+ "DXCoKQ7iLpux398fNHewQn6djfGobzFuPiR5o8hrVHAb": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn7ct3o024ldd",
+  "symbol": "FATALITY",
+  "mc": 33800.0,
+  "price": 0.000345,
+  "age_min": 1399680,
+  "age": "972d",
+  "ts": "2026-11-19 15:02:02",
+  "note": "模拟买入成功"
  }
 }
