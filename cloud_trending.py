@@ -40,6 +40,8 @@ SOURCE_USERNAME = "bhsoljupdatatrending"
 GH_SEEN_PATH = "empire_sol_trending_seen.json"
 GH_CURSOR_PATH = "empire_sol_trending_cursor.json"
 GH_HEARTBEAT_PATH = "empire_sol_trending_heartbeat.txt"
+GH_OCC_PATH = "empire_sol_trending_occurrences.json"
+GH_ACTED_PATH = "empire_sol_trending_acted.json"
 
 # 心跳阈值 300s：本机心跳每 60s 一次，GitHub commit 有 40~70s 排队延迟
 HEARTBEAT_STALE_SEC = 300
@@ -113,6 +115,26 @@ async def main():
         except Exception:
             log("去重集解析失败，按空集处理")
 
+    # 计数与已动作记录仅作镜像：云端只累加计数，绝不写入 acted、不下单、不推送。
+    occurrences = {}
+    raw_o, _ = gh.read(GH_OCC_PATH)
+    if raw_o:
+        try:
+            occurrences = json.loads(raw_o)
+            if not isinstance(occurrences, dict):
+                occurrences = {}
+        except Exception:
+            occurrences = {}
+    acted = {}
+    raw_a, _ = gh.read(GH_ACTED_PATH)
+    if raw_a:
+        try:
+            acted = json.loads(raw_a)
+            if not isinstance(acted, dict):
+                acted = {}
+        except Exception:
+            acted = {}
+
     cursor = 0
     raw_c, _ = gh.read(GH_CURSOR_PATH)
     if raw_c:
@@ -144,12 +166,15 @@ async def main():
             if message.id > max_id:
                 max_id = message.id
             for addr in extract_addrs(message):
-                if addr in seen:
-                    continue
-                seen.add(addr)  # 仅记录去重，不推送、不开浏览器、不交易
-                recorded += 1
+                rec = acted.get(addr)
+                if isinstance(rec, dict) and rec.get("bought"):
+                    continue  # 本机已下单，云端仅镜像，不重复计数触发
+                occurrences[addr] = occurrences.get(addr, 0) + 1
+                if addr not in seen:
+                    seen.add(addr)  # 仅记录去重，不推送、不开浏览器、不交易
+                    recorded += 1
 
-        log(f"扫描 {scanned} 条，新记录 {recorded} 个，去重集总数 {len(seen)}")
+        log(f"扫描 {scanned} 条，新记录 {recorded} 个，去重集总数 {len(seen)}，计数 {len(occurrences)}")
 
         ok_seen = gh.write(
             GH_SEEN_PATH,
@@ -157,6 +182,12 @@ async def main():
             "cloud empire sol trending seen [skip ci]")
         if not ok_seen:
             log("警告: 去重集写入失败")
+        ok_occ = gh.write(
+            GH_OCC_PATH,
+            json.dumps(occurrences, ensure_ascii=False, indent=1),
+            "cloud empire sol trending occurrences [skip ci]")
+        if not ok_occ:
+            log("警告: 计数记录写入失败")
         if max_id > cursor:
             ok_cursor = gh.write(
                 GH_CURSOR_PATH,
