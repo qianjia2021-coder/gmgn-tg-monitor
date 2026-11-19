@@ -642,16 +642,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": {
-  "source": "history",
-  "occ": 12,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwndjnjh02uqb1",
   "symbol": "DCTY",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 54400.0,
+  "price": 5.7e-05,
+  "age_min": 40320,
+  "age": "28d",
+  "ts": "2026-11-19 17:55:19",
+  "note": "模拟买入成功"
  },
  "6dX5M8DY6VTFtVRX5yzWn9RE4MkJTyoAVbAodk6cpump": {
   "source": "history",
