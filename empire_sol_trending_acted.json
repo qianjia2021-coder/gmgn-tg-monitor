@@ -4122,16 +4122,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": {
-  "source": "history",
-  "occ": 4,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn8apio025kc3",
+  "symbol": "GATO",
+  "mc": 2490000.0,
+  "price": 0.002523,
+  "age_min": 122400,
+  "age": "85d",
+  "ts": "2026-11-19 15:28:23",
+  "note": "模拟买入成功"
  },
  "2HVqzNisr463WMDpp6Q45ekuVfcjm8kEaiKd4ra8pump": {
   "source": "history",
