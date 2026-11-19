@@ -9336,5 +9336,19 @@
   "age": "401d",
   "ts": "2026-11-19 16:01:43",
   "note": "模拟买入成功"
+ },
+ "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn9t36502ny2z",
+  "symbol": "simulator",
+  "mc": 168000.0,
+  "price": 0.000168,
+  "age_min": 335520,
+  "age": "233d",
+  "ts": "2026-11-19 16:10:41",
+  "note": "模拟买入成功"
  }
 }
