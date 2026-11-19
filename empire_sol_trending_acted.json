@@ -1450,16 +1450,18 @@
   "note": "模拟买入成功"
  },
  "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": {
-  "source": "history",
-  "occ": 9,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn9ewg301n8jh",
   "symbol": "Huss",
-  "mc": null,
+  "mc": 27200.0,
   "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "age_min": 2880,
+  "age": "2d",
+  "ts": "2026-11-19 15:59:38",
+  "note": "模拟买入成功"
  },
  "45bU6dinrbqJ2y9fBrL8WrNC7avQnFYGU3fiSKfmpump": {
   "source": "history",
