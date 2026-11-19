@@ -9730,5 +9730,19 @@
   "age": "18h 6m",
   "ts": "2026-11-19 19:27:35",
   "note": "模拟买入成功"
+ },
+ "DeXXt9HopHa28msm4iATCvrQBer1FScmkpnt73Dgpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnhnawq01xm6v",
+  "symbol": "GAYTA",
+  "mc": 34700.0,
+  "price": 3.5e-05,
+  "age_min": 106,
+  "age": "2h 46m",
+  "ts": "2026-11-19 19:50:08",
+  "note": "模拟买入成功"
  }
 }
