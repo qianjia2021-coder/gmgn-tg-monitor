@@ -2236,16 +2236,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": {
-  "source": "history",
-  "occ": 17,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwncb7vl02snng",
   "symbol": "rockstar",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 209700.0,
+  "price": 0.00022,
+  "age_min": 4320,
+  "age": "3d",
+  "ts": "2026-11-19 17:20:46",
+  "note": "模拟买入成功"
  },
  "76WApFF6weYWkhCYHrAogDe6YfrGj5uZYvBdi945pump": {
   "source": "history",
@@ -9447,6 +9449,20 @@
   "age_min": 95,
   "age": "2h 35m",
   "ts": "2026-11-19 17:12:20",
+  "note": "模拟买入成功"
+ },
+ "4yFUrpumDKmbDLRv69jZgSVyYvPcYFbegZwv5jjWpump": {
+  "source": "live",
+  "occ": 4,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnc8qgg02shuq",
+  "symbol": "GRS",
+  "mc": 34100.0,
+  "price": 3.6e-05,
+  "age_min": 67,
+  "age": "1h 7m",
+  "ts": "2026-11-19 17:19:59",
   "note": "模拟买入成功"
  }
 }
