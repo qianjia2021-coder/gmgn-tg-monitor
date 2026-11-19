@@ -2882,16 +2882,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwncn1wa01svnw",
+  "symbol": "Lucia",
+  "mc": 102300.0,
+  "price": 0.000103,
+  "age_min": 1380960,
+  "age": "959d",
+  "ts": "2026-11-19 17:29:58",
+  "note": "模拟买入成功"
  },
  "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump": {
   "source": "history",
