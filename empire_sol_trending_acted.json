@@ -8938,5 +8938,17 @@
   "price": 2.3e-05,
   "ts": "2026-11-19 13:30:16",
   "note": "模拟买入成功"
+ },
+ "7aookZpPiQZVJedXViyVv9X7Yd6LSCHpkXqJcDktih2w": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn48o20020adk",
+  "symbol": "BUN",
+  "mc": 21400.0,
+  "price": 2.1e-05,
+  "ts": "2026-11-19 13:34:52",
+  "note": "模拟买入成功"
  }
 }
