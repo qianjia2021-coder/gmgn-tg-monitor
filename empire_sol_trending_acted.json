@@ -1344,16 +1344,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "ERiM8NiCanarGEnWMnURAoxTuTvUXZbtJsPTirnHpump": {
-  "source": "history",
-  "occ": 4,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn35nec01ee3v",
   "symbol": "GTAVI",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 146800.0,
+  "price": 0.00015,
+  "ts": "2026-11-19 13:04:31",
+  "note": "模拟买入成功"
  },
  "A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump": {
   "source": "history",
