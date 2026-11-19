@@ -9674,5 +9674,33 @@
   "age": "1h 21m",
   "ts": "2026-11-19 19:00:33",
   "note": "模拟买入成功"
+ },
+ "7xGY5u1LgEU4d8punYoCajM8H6HpBkMntQ23DH8Gpump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnggfpc01x0ht",
+  "symbol": "Rockstar",
+  "mc": 35900.0,
+  "price": 3.6e-05,
+  "age_min": 68,
+  "age": "1h 8m",
+  "ts": "2026-11-19 19:16:48",
+  "note": "模拟买入成功"
+ },
+ "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwngh12v01x4m5",
+  "symbol": "AI",
+  "mc": 50600.0,
+  "price": 5.1e-05,
+  "age_min": 707040,
+  "age": "491d",
+  "ts": "2026-11-19 19:17:16",
+  "note": "模拟买入成功"
  }
 }
