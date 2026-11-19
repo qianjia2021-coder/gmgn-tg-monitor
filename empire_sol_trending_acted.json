@@ -8854,5 +8854,17 @@
   "price": 8.2e-05,
   "ts": "2026-11-19 12:57:34",
   "note": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "8chKV2p4rng2tffWxFkq1NxNQDGV9uL7L7sdAr4Vd826": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn2ylne01yoma",
+  "symbol": "NINE1NINE",
+  "mc": 56300.0,
+  "price": 5.6e-05,
+  "ts": "2026-11-19 12:59:03",
+  "note": "模拟买入成功"
  }
 }
