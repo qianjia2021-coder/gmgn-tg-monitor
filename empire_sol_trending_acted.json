@@ -2192,16 +2192,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": {
-  "source": "history",
-  "occ": 12,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn80tcl01l2zi",
   "symbol": "bro",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 115800.0,
+  "price": 0.00012,
+  "age_min": 10080,
+  "age": "7d",
+  "ts": "2026-11-19 15:20:42",
+  "note": "模拟买入成功"
  },
  "4tHVcDXdnLksRrKUUuFG13XsZ2nMxo5NbDFBLiC2pump": {
   "source": "history",
