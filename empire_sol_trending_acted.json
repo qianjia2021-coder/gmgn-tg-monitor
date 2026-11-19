@@ -9350,5 +9350,19 @@
   "age": "233d",
   "ts": "2026-11-19 16:10:41",
   "note": "模拟买入成功"
+ },
+ "g8hEazg3metRF9pdLVGWu3mN6nKf27Gg7xCMYArpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwna07jk02o8a6",
+  "symbol": "Chudmas",
+  "mc": 32700.000000000004,
+  "price": 3.3e-05,
+  "age_min": 67680,
+  "age": "47d",
+  "ts": "2026-11-19 16:16:14",
+  "note": "模拟买入成功"
  }
 }
