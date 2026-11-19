@@ -8950,5 +8950,29 @@
   "price": 2.1e-05,
   "ts": "2026-11-19 13:34:52",
   "note": "模拟买入成功"
+ },
+ "CwnbD9FpaFSNou634knczXVCRUjTqmzwCrs3AiQvpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn4964t020bol",
+  "symbol": "RATS",
+  "mc": 141700.0,
+  "price": 0.00015,
+  "ts": "2026-11-19 13:35:15",
+  "note": "模拟买入成功"
+ },
+ "Db2s6iVvenVhJkj96P4UbZWEAYX4nUhgXhSVbQrwpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn4af6a01fdt7",
+  "symbol": "After",
+  "mc": 132500.0,
+  "price": 0.000136,
+  "ts": "2026-11-19 13:36:14",
+  "note": "模拟买入成功"
  }
 }
