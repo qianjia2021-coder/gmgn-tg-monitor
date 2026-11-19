@@ -5632,16 +5632,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "6NX2MWBuJM2Fn63K4hUgMPivLXHV8pwsU1yTdmjKpump": {
-  "source": "history",
-  "occ": 6,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwnb4r3101q3tb",
+  "symbol": "pSOQ",
+  "mc": 120500.0,
+  "price": 0.00024,
+  "age_min": 483840,
+  "age": "336d",
+  "ts": "2026-11-19 16:47:45",
+  "note": "模拟买入成功"
  },
  "Aov3BtQvrGXM5V9oiHu8PKJWeV8a2rFnr24fwWcNpump": {
   "source": "history",
