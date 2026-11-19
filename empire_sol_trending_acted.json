@@ -1120,16 +1120,18 @@
   "note": "模拟买入成功"
  },
  "DZQbBPFpTeeyGyvCwXxYQDZFGGHad2bY6sWZuviuX8MN": {
-  "source": "history",
-  "occ": 7,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnelqki02w4sr",
   "symbol": "Altruists",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 98500.0,
+  "price": 9.9e-05,
+  "age_min": 59040,
+  "age": "41d",
+  "ts": "2026-11-19 18:24:56",
+  "note": "模拟买入成功"
  },
  "pcDL74F9AYQ8ConwemryWMHQX5LWbPHyAEbULGNpump": {
   "source": "history",
