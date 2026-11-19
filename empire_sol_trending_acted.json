@@ -36,16 +36,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump": {
-  "source": "history",
-  "occ": 12,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn2kq4u01xz1x",
   "symbol": "GOODTIME",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 104000.0,
+  "price": 0.000109,
+  "ts": "2026-11-19 12:48:15",
+  "note": "模拟买入成功"
  },
  "43Z5f8GboUfc6M6wtaGGtFciEhLXixJEwQKv8wBUpump": {
   "source": "live",
