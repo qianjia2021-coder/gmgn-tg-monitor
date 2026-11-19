@@ -9096,5 +9096,19 @@
   "price": 2.2e-05,
   "ts": "2026-11-19 14:28:56",
   "note": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "8Hi3wt1PaBYWN63fYWP5Yq8P1xfPPqiqAzmhe7JFpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn6mlqs023u0g",
+  "symbol": "GTAify",
+  "mc": 23500.0,
+  "price": 2.3e-05,
+  "age_min": 296,
+  "age": "5h 56m",
+  "ts": "2026-11-19 14:42:48",
+  "note": "模拟买入成功"
  }
 }
