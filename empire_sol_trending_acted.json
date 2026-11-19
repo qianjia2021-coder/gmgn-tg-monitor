@@ -784,16 +784,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": {
-  "source": "history",
-  "occ": 9,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnch4vx02sxfn",
   "symbol": "BUTTHOLE",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 178300.0,
+  "price": 0.000181,
+  "age_min": 4320,
+  "age": "3d",
+  "ts": "2026-11-19 17:25:22",
+  "note": "模拟买入成功"
  },
  "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": {
   "source": "history",
