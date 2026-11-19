@@ -2522,16 +2522,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "FiVRbrKNxzVotLBc8QMrhEJSK9qtF3uu5QkY3GcHpump": {
-  "source": "history",
-  "occ": 11,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn7hunf024og6",
   "symbol": "RUDOLPH",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 53500.0,
+  "price": 5.6e-05,
+  "age_min": 10080,
+  "age": "7d",
+  "ts": "2026-11-19 15:05:57",
+  "note": "模拟买入成功"
  },
  "HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": {
   "source": "history",
