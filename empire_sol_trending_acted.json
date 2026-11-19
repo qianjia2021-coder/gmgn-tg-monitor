@@ -2402,16 +2402,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": {
-  "source": "history",
-  "occ": 8,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn91knk026xkp",
   "symbol": "PUSSY",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 56800.0,
+  "price": 5.8e-05,
+  "age_min": 14400,
+  "age": "10d",
+  "ts": "2026-11-19 15:49:17",
+  "note": "模拟买入成功"
  },
  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
   "source": "live",
@@ -9301,6 +9303,20 @@
   "age_min": 40320,
   "age": "28d",
   "ts": "2026-11-19 15:46:06",
+  "note": "模拟买入成功"
+ },
+ "CcLd8HTAKLWtQHatqPwBQjtuCA72FNB9E1ckRTEzpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn92kwc01mqzd",
+  "symbol": "ALTSZN",
+  "mc": 1980000.0,
+  "price": 0.001979,
+  "age_min": 309600,
+  "age": "215d",
+  "ts": "2026-11-19 15:50:04",
   "note": "模拟买入成功"
  }
 }
