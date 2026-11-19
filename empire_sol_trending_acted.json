@@ -2050,16 +2050,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "GnY6RSduqXgJ3nas2CKTDkNbrm2FXYExFxP7BXYEpump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwneelfd01v1xb",
   "symbol": "PAUL",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 63700.0,
+  "price": 5.6e-05,
+  "age_min": 25920,
+  "age": "18d",
+  "ts": "2026-11-19 18:19:22",
+  "note": "模拟买入成功"
  },
  "EXnbUHrDf3C9xUc4reCDRCgqk3txn9ttV6PhGQzhpump": {
   "source": "history",
@@ -9563,6 +9565,20 @@
   "age_min": 101,
   "age": "2h 41m",
   "ts": "2026-11-19 18:01:12",
+  "note": "模拟买入成功"
+ },
+ "31HzUsjzTt7FBCGnDy68cBnELayVsnd3zYEBtsXXpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwne485d02vf1i",
+  "symbol": "TrumpWars",
+  "mc": 75200.0,
+  "price": 7.7e-05,
+  "age_min": 24480,
+  "age": "17d",
+  "ts": "2026-11-19 18:11:19",
   "note": "模拟买入成功"
  }
 }
