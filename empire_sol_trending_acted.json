@@ -424,16 +424,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "9GgsHTYtP9b4ZtUg2yNngJLYVrtHAsYJJ16gwLmXpump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnd8rqv01ttqx",
   "symbol": "SICKNOTE",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 28200.0,
+  "price": 3e-05,
+  "age_min": 10080,
+  "age": "7d",
+  "ts": "2026-11-19 17:46:51",
+  "note": "模拟买入成功"
  },
  "Hhcyc5MBHPophkGjsfpJmma4NoztommaQGq7D4RVpump": {
   "source": "history",
@@ -2154,16 +2156,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "6g54CpuarBAqhhq3A3Gdb3KfbyVZsXhnygoSD3qvpump": {
-  "source": "history",
+  "source": "live",
   "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnd9skk01tu77",
   "symbol": "LASTBOOK",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 28200.0,
+  "price": 2.8e-05,
+  "age_min": 1440,
+  "age": "1d",
+  "ts": "2026-11-19 17:47:39",
+  "note": "模拟买入成功"
  },
  "3XiwhhcYJfyZPBT4tbDZ9hom8wwMTEM3d2YJwxLwAwYC": {
   "source": "history",
