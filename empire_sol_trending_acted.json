@@ -156,16 +156,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn2tn1o01duqi",
   "symbol": "DCTC",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 93600.0,
+  "price": 9.8e-05,
+  "ts": "2026-11-19 12:55:11",
+  "note": "模拟买入成功"
  },
  "GZUGmAtuSx9755C3W1CLDVtA7MZQ8QWF1XjhjEbjpump": {
   "source": "history",
@@ -216,16 +216,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
-  "source": "history",
-  "occ": 7,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn2smxl01dsza",
   "symbol": "GLITCH",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 96700.0,
+  "price": 0.000102,
+  "ts": "2026-11-19 12:54:24",
+  "note": "模拟买入成功"
  },
  "EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": {
   "source": "history",
