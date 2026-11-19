@@ -964,16 +964,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "GxTJDfGh9TEDYSK3oRUm2W17NAW8kGuzx2cMP5eApump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn7xs7q01l0z7",
   "symbol": "EDDIE",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 54700.0,
+  "price": 5.7e-05,
+  "age_min": 1184,
+  "age": "20h 44m",
+  "ts": "2026-11-19 15:18:20",
+  "note": "模拟买入成功"
  },
  "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": {
   "source": "history",
@@ -1216,16 +1218,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "i6Aop7z5qLaY47kseaoUt6kGq4Pi2ySg8j7cxRkpump": {
-  "source": "history",
-  "occ": 9,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn7vso802589y",
   "symbol": "VEYRA",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 118100.0,
+  "price": 0.000122,
+  "age_min": 7200,
+  "age": "5d",
+  "ts": "2026-11-19 15:16:47",
+  "note": "模拟买入成功"
  },
  "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": {
   "source": "history",
