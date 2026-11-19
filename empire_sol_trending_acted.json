@@ -8782,5 +8782,17 @@
   "price": null,
   "ts": "",
   "note": "历史已出现≥2次，后续复现不再触发"
+ },
+ "EQVbmJwrSHzDQFcgJagm28d4DFjvCBLjmTHvvKiApump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn1nw3i01wr3k",
+  "symbol": "DACI",
+  "mc": 24100.0,
+  "price": 2.4e-05,
+  "ts": "2026-11-19 12:22:43",
+  "note": "模拟买入成功"
  }
 }
