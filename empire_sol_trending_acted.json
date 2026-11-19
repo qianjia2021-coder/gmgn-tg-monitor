@@ -1246,16 +1246,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": {
-  "source": "history",
-  "occ": 19,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwna4fn202oefu",
   "symbol": "HUNG",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 66400.0,
+  "price": 6.9e-05,
+  "age_min": 14400,
+  "age": "10d",
+  "ts": "2026-11-19 16:19:30",
+  "note": "模拟买入成功"
  },
  "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": {
   "source": "history",
