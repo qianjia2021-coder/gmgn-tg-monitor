@@ -2928,16 +2928,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "5xA4diUxb164wVz5bdASbt344B9uW6jKh7q3Uar8pump": {
-  "source": "history",
-  "occ": 5,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn3wpsk01f6v6",
+  "symbol": "AudaCity",
+  "mc": 25300.0,
+  "price": 2.7e-05,
+  "ts": "2026-11-19 13:25:35",
+  "note": "模拟买入成功"
  },
  "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": {
   "source": "history",
