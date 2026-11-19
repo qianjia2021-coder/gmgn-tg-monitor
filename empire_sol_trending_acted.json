@@ -3822,16 +3822,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "CSUVLjP5oXwThVBn4rgfPhH2bEEzExNS3pHFXoqMpump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn8wlch026eqp",
+  "symbol": "CLAWD",
+  "mc": 45200.0,
+  "price": 5.6e-05,
+  "age_min": 43200,
+  "age": "30d",
+  "ts": "2026-11-19 15:45:24",
+  "note": "模拟买入成功"
  },
  "BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": {
   "source": "history",
@@ -9271,6 +9273,20 @@
   "age_min": 285120,
   "age": "198d",
   "ts": "2026-11-19 15:39:16",
+  "note": "模拟买入成功"
+ },
+ "Ez7eEs53hQiXgCGmcbhdX5i1jgg2gC3F6MoeosuVpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn8vl8q01m9j1",
+  "symbol": "LUKE",
+  "mc": 47500.0,
+  "price": 4.9e-05,
+  "age_min": 44640,
+  "age": "31d",
+  "ts": "2026-11-19 15:44:38",
   "note": "模拟买入成功"
  }
 }
