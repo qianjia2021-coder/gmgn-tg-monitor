@@ -9010,5 +9010,17 @@
   "price": 2.3e-05,
   "ts": "2026-11-19 13:57:59",
   "note": "模拟买入成功"
+ },
+ "CBcjQNdtgb4SHwKDqKFxD3yPSk7pEMpKHQiMmZrgpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn53v0i01g9gv",
+  "symbol": "phubber",
+  "mc": 48300.0,
+  "price": 5e-05,
+  "ts": "2026-11-19 13:59:07",
+  "note": "模拟买入成功"
  }
 }
