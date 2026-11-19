@@ -3000,16 +3000,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "7jo5Ru47Edx3nT3vdcudQXADjWrRemzWF9nA4By1pump": {
-  "source": "history",
-  "occ": 5,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn3xr0n01zwic",
+  "symbol": "DCC",
+  "mc": 34300.0,
+  "price": 3.6e-05,
+  "ts": "2026-11-19 13:26:24",
+  "note": "模拟买入成功"
  },
  "41fZewbrb8x24yE9KeMJExoVXCDggebPMEwRVvX8pump": {
   "source": "history",
@@ -3540,16 +3540,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "8qHpNFu6o6JDx8rmdjik6k3si8QRLBgMuuRmGQ21pump": {
-  "source": "history",
-  "occ": 4,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn3yrfo01zz3u",
+  "symbol": "67coin",
+  "mc": 155300.0,
+  "price": 0.000161,
+  "ts": "2026-11-19 13:27:10",
+  "note": "模拟买入成功"
  },
  "EoC8TA2wiSgFzAXpYvczPQ7fwx8hHCdZwE4arHbupump": {
   "source": "history",
