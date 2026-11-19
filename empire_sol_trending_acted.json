@@ -352,16 +352,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump": {
-  "source": "history",
-  "occ": 12,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnfcqmj01vqsw",
   "symbol": "Brian",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 106800.0,
+  "price": 0.00011,
+  "age_min": 43200,
+  "age": "30d",
+  "ts": "2026-11-19 18:45:55",
+  "note": "模拟买入成功"
  },
  "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": {
   "source": "history",
@@ -4554,16 +4556,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump": {
-  "source": "history",
-  "occ": 14,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwnfcrwp02wkqt",
+  "symbol": "SHIT",
+  "mc": 24800.0,
+  "price": 2.6e-05,
+  "age_min": 48960,
+  "age": "34d",
+  "ts": "2026-11-19 18:45:57",
+  "note": "模拟买入成功"
  },
  "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
   "source": "history",
@@ -9614,5 +9618,47 @@
   "age": "2h 39m",
   "ts": "2026-11-19 18:24:08",
   "note": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "Bd9WHu5qtbxzsCuxH5omFQb6XmSSeEVsPKn8erTCpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnfcr5h02wj7b",
+  "symbol": "PAUL",
+  "mc": 31700.0,
+  "price": 3.3e-05,
+  "age_min": 12960,
+  "age": "9d",
+  "ts": "2026-11-19 18:45:56",
+  "note": "模拟买入成功"
+ },
+ "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": {
+  "source": "live",
+  "occ": 3,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnfcsex01vrq1",
+  "symbol": "george",
+  "mc": 23200.0,
+  "price": 2.4e-05,
+  "age_min": 20160,
+  "age": "14d",
+  "ts": "2026-11-19 18:45:58",
+  "note": "模拟买入成功"
+ },
+ "6zzzG49KX5nksnqfogs31dwoMYSHaJXkropKbv1QZVga": {
+  "source": "live",
+  "occ": 3,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnfct8701vsko",
+  "symbol": "Malfoid",
+  "mc": 98500.0,
+  "price": 0.000145,
+  "age_min": 70560,
+  "age": "49d",
+  "ts": "2026-11-19 18:45:59",
+  "note": "模拟买入成功"
  }
 }
