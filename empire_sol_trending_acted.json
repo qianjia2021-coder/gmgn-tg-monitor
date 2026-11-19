@@ -2328,16 +2328,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "7krcanNAgHuundojTSTLT3bhMuCeptH5TByChuxLpump": {
-  "source": "history",
-  "occ": 4,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn5v77l01htrb",
   "symbol": "BUCKZ",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 34400.0,
+  "price": 3.5e-05,
+  "ts": "2026-11-19 14:20:23",
+  "note": "模拟买入成功"
  },
  "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": {
   "source": "history",
