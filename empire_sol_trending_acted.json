@@ -9082,5 +9082,17 @@
   "price": 3.1e-05,
   "ts": "2026-11-19 14:23:38",
   "note": "模拟买入成功"
+ },
+ "49BaKxy9HRiKdWfrWD399AixL2RN6mcxAWYquzVUpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "Auddy",
+  "mc": 21800.0,
+  "price": 2.2e-05,
+  "ts": "2026-11-19 14:28:56",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
