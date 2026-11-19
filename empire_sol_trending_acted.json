@@ -2064,16 +2064,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "HCNhQCu5nrmWhSE3mo7fRU9eGiGLmi2fnE8omgLpump": {
-  "source": "history",
-  "occ": 8,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn2dsvr01cy7h",
   "symbol": "DCI",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 32600.0,
+  "price": 3.4e-05,
+  "ts": "2026-11-19 12:42:52",
+  "note": "模拟买入成功"
  },
  "uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": {
   "source": "history",
