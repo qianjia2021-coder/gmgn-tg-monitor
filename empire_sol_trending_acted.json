@@ -660,16 +660,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "64Uf4fkAWepSjBF8QKWdftHjtgKb2FG6gZsgmx6Fpump": {
-  "source": "history",
+  "source": "live",
   "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn7urt501kzlw",
   "symbol": "FNDR",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 191700.0,
+  "price": 0.000198,
+  "age_min": 448,
+  "age": "7h 28m",
+  "ts": "2026-11-19 15:16:00",
+  "note": "模拟买入成功"
  },
  "Z2mNryhqfdGLHnkrBLbX57m5LgzobZcwBdxvpm7GTA6": {
   "source": "history",
