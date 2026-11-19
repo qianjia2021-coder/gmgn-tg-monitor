@@ -24,16 +24,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": {
-  "source": "history",
-  "occ": 10,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn5434401gaad",
   "symbol": "Apocrycoin",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 143800.0,
+  "price": 0.000151,
+  "ts": "2026-11-19 13:59:18",
+  "note": "模拟买入成功"
  },
  "Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump": {
   "source": "live",
@@ -9021,6 +9021,18 @@
   "mc": 48300.0,
   "price": 5e-05,
   "ts": "2026-11-19 13:59:07",
+  "note": "模拟买入成功"
+ },
+ "9BBgtL19D3f57SjKQ4UfsABd9TRqgfMV6pPskUiupump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn557i5021etw",
+  "symbol": "AudaCity",
+  "mc": 21500.0,
+  "price": 2.2e-05,
+  "ts": "2026-11-19 14:00:10",
   "note": "模拟买入成功"
  }
 }
