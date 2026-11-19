@@ -9376,5 +9376,19 @@
   "age": "47d",
   "ts": "2026-11-19 16:16:14",
   "note": "模拟买入成功"
+ },
+ "DE4hzhJdpF3ZYWi5U5LFGMwYx9Ud2sdZHwwNzKespump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnbmifq02rb5p",
+  "symbol": "GIGAROO",
+  "mc": 22600.0,
+  "price": 1.7e-05,
+  "age_min": 120,
+  "age": "2h 0m",
+  "ts": "2026-11-19 17:01:33",
+  "note": "模拟买入成功"
  }
 }
