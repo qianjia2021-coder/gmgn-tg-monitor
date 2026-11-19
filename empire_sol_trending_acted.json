@@ -9224,5 +9224,19 @@
   "age": "37d",
   "ts": "2026-11-19 15:19:55",
   "note": "模拟买入成功"
+ },
+ "AdgKxsUpJTq218bbzuSXdXVw5DvgLfM1Q8aNxC7Zpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn886vv025jxr",
+  "symbol": "DUNE3",
+  "mc": 40300.0,
+  "price": 4.2e-05,
+  "age_min": 96480,
+  "age": "67d",
+  "ts": "2026-11-19 15:26:26",
+  "note": "模拟买入成功"
  }
 }
