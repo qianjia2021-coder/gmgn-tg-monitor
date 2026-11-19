@@ -1496,16 +1496,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": {
-  "source": "history",
-  "occ": 21,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn81tbf01l3s6",
   "symbol": "plumber",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 151900.0,
+  "price": 0.000157,
+  "age_min": 8640,
+  "age": "6d",
+  "ts": "2026-11-19 15:21:28",
+  "note": "模拟买入成功"
  },
  "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": {
   "source": "history",
@@ -2410,16 +2412,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": {
-  "source": "history",
-  "occ": 28,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn84so1025ijd",
   "symbol": "bill",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 71100.0,
+  "price": 7.3e-05,
+  "age_min": 5760,
+  "age": "4d",
+  "ts": "2026-11-19 15:23:47",
+  "note": "模拟买入成功"
  },
  "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": {
   "source": "history",
