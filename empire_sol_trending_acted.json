@@ -9580,5 +9580,19 @@
   "age": "17d",
   "ts": "2026-11-19 18:11:19",
   "note": "模拟买入成功"
+ },
+ "DYHLASz36ZcWs6M5kuDp1EGk6wzEjhe5SUmCP87zpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnefllw01v2nq",
+  "symbol": "Dunesday",
+  "mc": 78100.0,
+  "price": 8.2e-05,
+  "age_min": 96480,
+  "age": "67d",
+  "ts": "2026-11-19 18:20:10",
+  "note": "模拟买入成功"
  }
 }
