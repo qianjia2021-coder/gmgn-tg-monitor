@@ -151,6 +151,10 @@ class GitHubContents:
         if not self.token:
             return False
         encoded = base64.b64encode(content.encode()).decode()
+        # 冷启动时缓存为空。若文件已存在而 PUT 未带 sha，GitHub 会返回 422。
+        # 因此首次写入前主动读取一次，取得现有 sha。
+        if path not in self._sha:
+            self.read(path)
         for attempt in range(3):
             body = {"message": message, "content": encoded, "branch": branch}
             cached_sha = self._sha.get(path)
@@ -170,7 +174,8 @@ class GitHubContents:
                         self._sha[path] = new_sha
                     return response.status in (200, 201)
             except urllib.error.HTTPError as error:
-                if error.code == 409 and attempt < 2:
+                # 409 表示 sha 过期，422 表示缺少 sha，两种情况都重新读取后再试。
+                if error.code in (409, 422) and attempt < 2:
                     self.read(path)
                     continue
                 self.log("GitHub 写 {} 失败 HTTP {}".format(path, error.code))
