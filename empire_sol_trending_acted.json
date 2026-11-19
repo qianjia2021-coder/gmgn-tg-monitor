@@ -72,16 +72,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "node3SHFNF7h6N9jbztfVcXrZcvAJdns1xAV8CbYFLG": {
-  "source": "history",
-  "occ": 37,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn32mdo01ecv5",
   "symbol": "LIGMA",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 45700.0,
+  "price": 4.6e-05,
+  "ts": "2026-11-19 13:02:10",
+  "note": "模拟买入成功"
  },
  "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": {
   "source": "history",
@@ -516,16 +516,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "J7Dx5yPbPD5e5BmrSvJyi4n4XRUR2kWqWYaxaSWdpump": {
-  "source": "history",
-  "occ": 4,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn33mif01ywly",
   "symbol": "Billy",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 29100.0,
+  "price": 3e-05,
+  "ts": "2026-11-19 13:02:57",
+  "note": "模拟买入成功"
  },
  "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": {
   "source": "history",
