@@ -9320,5 +9320,19 @@
   "age": "215d",
   "ts": "2026-11-19 15:50:04",
   "note": "模拟买入成功"
+ },
+ "6WUbAGBQd51XFQ3gagp3vJRsaz2Euo4PsE7uYvTLpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn9hklj01nfx0",
+  "symbol": "UNBROKEN",
+  "mc": 25600.0,
+  "price": 2.7e-05,
+  "age_min": 577440,
+  "age": "401d",
+  "ts": "2026-11-19 16:01:43",
+  "note": "模拟买入成功"
  }
 }
