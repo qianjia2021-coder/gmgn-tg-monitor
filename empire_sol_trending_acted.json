@@ -8878,5 +8878,17 @@
   "price": null,
   "ts": "2026-11-19 13:07:38",
   "note": "模拟买入成功"
+ },
+ "4xLL3cQYb75J8R616dLw6Cq7HPsm8Jtq7BLszpMWpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn3bng001z8l8",
+  "symbol": "SkunkApe",
+  "mc": 23800.0,
+  "price": 2.5e-05,
+  "ts": "2026-11-19 13:09:11",
+  "note": "模拟买入成功"
  }
 }
