@@ -992,16 +992,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": {
-  "source": "history",
-  "occ": 12,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnajziw02otlv",
   "symbol": "WASTED",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 1120000.0,
+  "price": 0.001147,
+  "age_min": 27360,
+  "age": "19d",
+  "ts": "2026-11-19 16:31:35",
+  "note": "模拟买入成功"
  },
  "NTRNDMqQSiwEC2jJs3wJiZS6bpGYQJtMNQJgiX3WyV6": {
   "source": "history",
