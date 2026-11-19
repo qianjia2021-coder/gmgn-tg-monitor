@@ -816,16 +816,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "6EHTywfoXpDNhL4JGkeYUhiL6mumpmD7j8ByjQaXpump": {
-  "source": "history",
-  "occ": 18,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn4kj1b01frcm",
   "symbol": "CSI",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 168800.0,
+  "price": 0.000173,
+  "ts": "2026-11-19 13:44:06",
+  "note": "模拟买入成功"
  },
  "8ryYEFySsfXfQskxYmykyyA6pbNKjB4s9CfcffpQpump": {
   "source": "live",
