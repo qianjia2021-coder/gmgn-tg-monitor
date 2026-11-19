@@ -4844,16 +4844,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "B6iGawEjEHDa6BYNuRNbik2LMvDGT69TtuQHL4cjpump": {
-  "source": "history",
+  "source": "live",
   "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
-  "symbol": "",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "bought": true,
+  "order_id": "mwn8gnig01lklv",
+  "symbol": "MINNIE",
+  "mc": 24300.0,
+  "price": 2.6e-05,
+  "age_min": 38880,
+  "age": "27d",
+  "ts": "2026-11-19 15:33:00",
+  "note": "模拟买入成功"
  },
  "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": {
   "source": "history",
