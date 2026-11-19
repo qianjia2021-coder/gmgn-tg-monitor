@@ -276,16 +276,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": {
-  "source": "history",
-  "occ": 8,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn1qunc01c8l1",
   "symbol": "APCY",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 60500.0,
+  "price": 6.5e-05,
+  "ts": "2026-11-19 12:25:01",
+  "note": "模拟买入成功"
  },
  "BM52Wwq9ikCqnmJUdUjMbUohyWsuDaHb1mKhw4yqpump": {
   "source": "history",
