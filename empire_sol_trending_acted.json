@@ -8998,5 +8998,17 @@
   "price": 2.2e-05,
   "ts": "2026-11-19 13:54:07",
   "note": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "HnPpRGoeMj8ew4ubsGWGnNMgVcqyeWytL3iUpFyfpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn52e1f021bv4",
+  "symbol": "CATCOIN",
+  "mc": 23000.0,
+  "price": 2.3e-05,
+  "ts": "2026-11-19 13:57:59",
+  "note": "模拟买入成功"
  }
 }
