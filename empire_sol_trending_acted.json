@@ -1416,16 +1416,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "CWKbSd7jwMXXexP3pbwLAWMzr4HXAXTvt4R9pk2Vyyyc": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn4bmqt01felq",
   "symbol": "AnyPS5",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 81500.0,
+  "price": 8.6e-05,
+  "ts": "2026-11-19 13:37:10",
+  "note": "模拟买入成功"
  },
  "4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": {
   "source": "live",
