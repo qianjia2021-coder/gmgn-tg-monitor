@@ -264,16 +264,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": {
-  "source": "history",
-  "occ": 6,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn22qbu01cfgc",
   "symbol": "NASDUCK",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 139700.0,
+  "price": 0.000146,
+  "ts": "2026-11-19 12:34:16",
+  "note": "模拟买入成功"
  },
  "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": {
   "source": "live",
