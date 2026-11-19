@@ -8866,5 +8866,17 @@
   "price": 5.6e-05,
   "ts": "2026-11-19 12:59:03",
   "note": "模拟买入成功"
+ },
+ "H3HtEdk5kiPahjr3xY35mSS2MCdso5b5k2PEAiUYEstn": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn39n7i01z35r",
+  "symbol": "",
+  "mc": 459900.0,
+  "price": null,
+  "ts": "2026-11-19 13:07:38",
+  "note": "模拟买入成功"
  }
 }
