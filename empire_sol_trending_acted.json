@@ -9406,5 +9406,19 @@
   "age": "7h 27m",
   "ts": "2026-11-19 17:09:13",
   "note": "模拟买入成功"
+ },
+ "VCLUBuKaUbqGogb8Z88mWtFD5w9XK8Z31iPhiLFEkpj": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnbxwck01rg2y",
+  "symbol": "VC",
+  "mc": 29900.0,
+  "price": 3.2e-05,
+  "age_min": 807,
+  "age": "13h 27m",
+  "ts": "2026-11-19 17:10:25",
+  "note": "模拟买入成功"
  }
 }
