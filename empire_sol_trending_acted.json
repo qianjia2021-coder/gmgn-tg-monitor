@@ -9420,5 +9420,33 @@
   "age": "13h 27m",
   "ts": "2026-11-19 17:10:25",
   "note": "模拟买入成功"
+ },
+ "3LwPSFPUjBXaSJuvuydJqHfS42NywBuRfJGAd371pump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnbz7qd01rkon",
+  "symbol": "Dacitytard",
+  "mc": 24400.0,
+  "price": 2.2e-05,
+  "age_min": 103,
+  "age": "2h 43m",
+  "ts": "2026-11-19 17:11:26",
+  "note": "模拟买入成功"
+ },
+ "3B8dDCj4MeTgaK5NFWRvnydRMTSaDRtBErgMGoNMpump": {
+  "source": "live",
+  "occ": 5,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwnc0cv702s3x9",
+  "symbol": "",
+  "mc": 89700.0,
+  "price": 9.2e-05,
+  "age_min": 95,
+  "age": "2h 35m",
+  "ts": "2026-11-19 17:12:20",
+  "note": "模拟买入成功"
  }
 }
