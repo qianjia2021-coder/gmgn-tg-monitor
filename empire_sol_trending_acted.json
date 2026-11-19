@@ -8830,5 +8830,17 @@
   "price": 2.5e-05,
   "ts": "2026-11-19 12:35:49",
   "note": "模拟买入成功"
+ },
+ "AGi2s9zPRPHs3zEDPhPTroumTEXK5ufymYSfEFndCSSW": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn26rsw01x6l4",
+  "symbol": "LEVERCAT",
+  "mc": 109800.0,
+  "price": 0.000111,
+  "ts": "2026-11-19 12:37:24",
+  "note": "模拟买入成功"
  }
 }
