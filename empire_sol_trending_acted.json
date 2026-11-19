@@ -8890,5 +8890,29 @@
   "price": 2.5e-05,
   "ts": "2026-11-19 13:09:11",
   "note": "模拟买入成功"
+ },
+ "CbjEbNZXTbsJYHdZAoRWcng4g1nsc1KMUTaQpaUSpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn3ms8p01zktu",
+  "symbol": "GTAVI",
+  "mc": 24900.0,
+  "price": 2.5e-05,
+  "ts": "2026-11-19 13:17:51",
+  "note": "模拟买入成功"
+ },
+ "79AtKwmb6qDsb3VL2xNRB8jFYWemJ3gsdUmtRioxpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn3np3q01euve",
+  "symbol": "princess",
+  "mc": 20300.0,
+  "price": 1.8e-05,
+  "ts": "2026-11-19 13:18:33",
+  "note": "模拟买入成功"
  }
 }
