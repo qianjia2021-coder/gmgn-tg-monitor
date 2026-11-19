@@ -9534,5 +9534,19 @@
   "age": "279d",
   "ts": "2026-11-19 17:53:33",
   "note": "模拟买入成功"
+ },
+ "Hsjw2z1TS4YGp3ELikbNm1eqFMCoGMF18swmPsr4pump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwndmnde02utxp",
+  "symbol": "smugcat",
+  "mc": 27600.0,
+  "price": 2.7e-05,
+  "age_min": 1331,
+  "age": "22h 11m",
+  "ts": "2026-11-19 17:57:39",
+  "note": "模拟买入成功"
  }
 }
