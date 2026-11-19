@@ -1848,16 +1848,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump": {
-  "source": "history",
-  "occ": 5,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn4zf6f0218mk",
   "symbol": "FTR",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 116400.0,
+  "price": 0.000121,
+  "ts": "2026-11-19 13:55:40",
+  "note": "模拟买入成功"
  },
  "Cv4q9qcHapnz3XFm1KrHkXWmbYNKvbwKQsPaJPMt6FNF": {
   "source": "history",
