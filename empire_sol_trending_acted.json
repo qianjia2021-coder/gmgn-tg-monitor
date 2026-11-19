@@ -882,16 +882,18 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": {
-  "source": "history",
-  "occ": 7,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwnbfmnl02qqaq",
   "symbol": "ber",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 202400.0,
+  "price": 0.00021,
+  "age_min": 36000,
+  "age": "25d",
+  "ts": "2026-11-19 16:56:12",
+  "note": "模拟买入成功"
  },
  "37eQmyt3f1eTUYT6XqUhR8wtKEn7fhcBW7KAJfYMpump": {
   "source": "history",
