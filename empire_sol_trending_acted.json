@@ -9548,5 +9548,19 @@
   "age": "22h 11m",
   "ts": "2026-11-19 17:57:39",
   "note": "模拟买入成功"
+ },
+ "6dy9DhP5wCSb5uf1m9WPaTA1xjzVNR6uskCUVQnEpump": {
+  "source": "live",
+  "occ": 6,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwndr85m01ue64",
+  "symbol": "APOCRYCOIN",
+  "mc": 75000.0,
+  "price": 8e-05,
+  "age_min": 101,
+  "age": "2h 41m",
+  "ts": "2026-11-19 18:01:12",
+  "note": "模拟买入成功"
  }
 }
