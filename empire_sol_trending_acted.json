@@ -936,16 +936,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": {
-  "source": "history",
-  "occ": 7,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn57dsb01gp8p",
   "symbol": "THUG",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 166100.0,
+  "price": 0.000166,
+  "ts": "2026-11-19 14:01:52",
+  "note": "模拟买入成功"
  },
  "5HZvoq6WxD9W1HZsssjYpm3bdDbHHQUdgcyokN1kpump": {
   "source": "history",
@@ -1548,16 +1548,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "AKDjR5f6sisQkJyhYdGHfqPtdXu9upZc4GZuH9GJpump": {
-  "source": "history",
+  "source": "live",
   "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn57vtb021h04",
   "symbol": "WhatUp",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 271200.0,
+  "price": 0.000292,
+  "ts": "2026-11-19 14:02:15",
+  "note": "模拟买入成功"
  },
  "8VpF5FToHRo4WWP6nYvEvJvpg85JGCYwcSAcPVFppump": {
   "source": "history",
@@ -9033,6 +9033,30 @@
   "mc": 21500.0,
   "price": 2.2e-05,
   "ts": "2026-11-19 14:00:10",
+  "note": "模拟买入成功"
+ },
+ "FEaD7gWYkkuZMWtsgThbsjTZqFeNHu3L8W9ze6mNpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn57ndb021gqk",
+  "symbol": "AFTERGTA6",
+  "mc": 20400.0,
+  "price": 2e-05,
+  "ts": "2026-11-19 14:02:04",
+  "note": "模拟买入成功"
+ },
+ "DtgzbnAKZtqgxTy7cFek3aifcNeSyXBsJCJy9ie4jhNa": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn57xm501gqbn",
+  "symbol": "STICKS",
+  "mc": 92200.0,
+  "price": 9.2e-05,
+  "ts": "2026-11-19 14:02:18",
   "note": "模拟买入成功"
  }
 }
