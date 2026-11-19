@@ -108,16 +108,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "BM5wUne5TCtqVn6QTwrQCZ6LAgY7pgVr7KSMzV1Gpump": {
-  "source": "history",
-  "occ": 3,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn5prku01hhmf",
   "symbol": "DCTC",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 65600.0,
+  "price": 6.9e-05,
+  "ts": "2026-11-19 14:16:09",
+  "note": "模拟买入成功"
  },
  "8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump": {
   "source": "history",
@@ -1392,16 +1392,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": {
-  "source": "history",
+  "source": "live",
   "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn5q6p001hirc",
   "symbol": "BIG",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 20600.0,
+  "price": 2.1e-05,
+  "ts": "2026-11-19 14:16:29",
+  "note": "模拟买入成功"
  },
  "HFcyhe28iLYRhac2W5FBdtDGFunWDJesCR7f6EZJpump": {
   "source": "history",
