@@ -8806,5 +8806,17 @@
   "price": 6e-05,
   "ts": "2026-11-19 12:29:15",
   "note": "模拟买入成功"
+ },
+ "689ZZbpm9NGPgCDQfe1bhVXEm5qqGJtKaARCtNVCpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwn2404v01wzb3",
+  "symbol": "GTABOY",
+  "mc": 21400.0,
+  "price": 2.1e-05,
+  "ts": "2026-11-19 12:35:15",
+  "note": "模拟买入成功"
  }
 }
