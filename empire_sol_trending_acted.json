@@ -1116,16 +1116,16 @@
   "note": "历史已出现≥2次，后续复现不再触发"
  },
  "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": {
-  "source": "history",
-  "occ": 7,
+  "source": "live",
+  "occ": 2,
   "pushed": true,
-  "bought": false,
-  "order_id": "",
+  "bought": true,
+  "order_id": "mwn605hi01i2p3",
   "symbol": "DacityCoin",
-  "mc": null,
-  "price": null,
-  "ts": "",
-  "note": "历史已出现≥2次，后续复现不再触发"
+  "mc": 2870000.0,
+  "price": 0.001833,
+  "ts": "2026-11-19 14:24:14",
+  "note": "模拟买入成功"
  },
  "6qnAerbLSGbhS3i6Xyh8AcsLTrutS1Rb7kuHsfwZpump": {
   "source": "history",
