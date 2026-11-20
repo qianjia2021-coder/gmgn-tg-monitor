@@ -875,5 +875,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "5jo52CReMKa15JRHhHvBNVsfJEFLdMeDkhnXmL9Rpump": {
+  "ts": "2026-11-20 16:20:06",
+  "order_id": "mwp6qcj505fi7v",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SEYONG",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
