@@ -908,5 +908,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump": {
+  "ts": "2026-11-20 16:41:17",
+  "order_id": "mwp7hfk705g2jw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "H4CK",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "GL1eYLFg9NWsSEFzjfSoov9Q1iF55tueRC3rMRg2pump": {
+  "ts": "2026-11-20 16:41:53",
+  "order_id": "mwp7id2q063509",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "TIKI",
+  "kol": 5,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
