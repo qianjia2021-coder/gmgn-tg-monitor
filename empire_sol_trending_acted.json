@@ -10276,5 +10276,19 @@
   "age": "2d",
   "ts": "2026-11-20 13:02:24",
   "note": "模拟买入成功"
+ },
+ "HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": {
+  "source": "live",
+  "occ": 4,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwojh9kk03xusg",
+  "symbol": "apocry",
+  "mc": 95100.0,
+  "price": 9.5e-05,
+  "age_min": 65,
+  "age": "1h 5m",
+  "ts": "2026-11-20 13:29:12",
+  "note": "模拟买入成功"
  }
 }
