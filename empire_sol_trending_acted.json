@@ -10402,5 +10402,19 @@
   "age": "2d",
   "ts": "2026-11-20 13:56:48",
   "note": "模拟买入成功"
+ },
+ "fRxGeXTCXLPQyChrq5sanfUWAe2vseLBiGdDE7k4S1M": {
+  "source": "live",
+  "occ": 5,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwokn9k403y46h",
+  "symbol": "SIM",
+  "mc": 95900.0,
+  "price": 0.000101,
+  "age_min": 718,
+  "age": "12h 58m",
+  "ts": "2026-11-20 14:01:52",
+  "note": "模拟买入成功"
  }
 }
