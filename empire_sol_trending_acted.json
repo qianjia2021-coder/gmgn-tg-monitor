@@ -10654,5 +10654,19 @@
   "age": "1h 2m",
   "ts": "2026-11-20 17:23:51",
   "note": "模拟买入成功"
+ },
+ "GtGuiVyFuGGvDJbdS4tYRCqniB6is8tZiTN9Z7fSpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwoswahh04qnct",
+  "symbol": "Snowflake",
+  "mc": 23600.0,
+  "price": 2.5e-05,
+  "age_min": 396,
+  "age": "7h 36m",
+  "ts": "2026-11-20 17:52:51",
+  "note": "模拟买入成功"
  }
 }
