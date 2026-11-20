@@ -787,5 +787,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "DcoWF2vnsVVJj5g8qgPe9AEQ6W9kQ34QUjJWMqxNpump": {
+  "ts": "2026-11-20 15:25:05",
+  "order_id": "mwp4rlt4060l2j",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HOUSE",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
