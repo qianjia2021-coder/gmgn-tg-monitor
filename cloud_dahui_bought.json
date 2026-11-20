@@ -732,5 +732,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "DYHLASz36ZcWs6M5kuDp1EGk6wzEjhe5SUmCP87zpump": {
+  "ts": "2026-11-20 14:55:07",
+  "order_id": "mwp3p1vz05cejk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Dunesday",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
