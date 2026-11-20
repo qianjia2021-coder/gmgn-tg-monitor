@@ -10304,5 +10304,19 @@
   "age": "1h 7m",
   "ts": "2026-11-20 13:30:42",
   "note": "模拟买入成功"
+ },
+ "AUuqP4EADgs2ynEbGNQKf3LXG1GpDzfiLvnRdK1Npump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwojntwm03xwpw",
+  "symbol": "CATEMAS",
+  "mc": 54300.0,
+  "price": 5.6e-05,
+  "age_min": 3060,
+  "age": "2d",
+  "ts": "2026-11-20 13:34:19",
+  "note": "模拟买入成功"
  }
 }
