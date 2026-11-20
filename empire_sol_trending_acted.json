@@ -10430,5 +10430,19 @@
   "age": "4d",
   "ts": "2026-11-20 14:02:57",
   "note": "模拟买入成功"
+ },
+ "828Rg1VfMcfcTKJRxfr83nnrTWzmVjrDS9Rpr1BBeA7U": {
+  "source": "live",
+  "occ": 7,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwoks1f604jnff",
+  "symbol": "JUNIOR",
+  "mc": 102100.0,
+  "price": 9.7e-05,
+  "age_min": 539,
+  "age": "9h 59m",
+  "ts": "2026-11-20 14:05:35",
+  "note": "模拟买入成功"
  }
 }
