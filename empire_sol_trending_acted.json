@@ -10598,5 +10598,19 @@
   "age": "11h 8m",
   "ts": "2026-11-20 17:04:40",
   "note": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "AFWLkaPWJ9AAYyHt9vjurwRF2qBw5vSCQFSZ78TNd6oz": {
+  "source": "live",
+  "occ": 5,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mworhl4304ojfr",
+  "symbol": "",
+  "mc": 175400.0,
+  "price": 0.000179,
+  "age_min": 67,
+  "age": "1h 7m",
+  "ts": "2026-11-20 17:13:25",
+  "note": "模拟买入成功"
  }
 }
