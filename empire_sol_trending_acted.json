@@ -10346,5 +10346,19 @@
   "age": "2d",
   "ts": "2026-11-20 13:37:43",
   "note": "模拟买入成功"
+ },
+ "J5Fqkvmj5rMmhzP8cLHGraESYBpT7BYQaVuRygPMpump": {
+  "source": "live",
+  "occ": 3,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwojszk904jbit",
+  "symbol": "ARTIFICIAL",
+  "mc": 22100.0,
+  "price": 2.3e-05,
+  "age_min": 97,
+  "age": "2h 37m",
+  "ts": "2026-11-20 13:38:19",
+  "note": "模拟买入成功"
  }
 }
