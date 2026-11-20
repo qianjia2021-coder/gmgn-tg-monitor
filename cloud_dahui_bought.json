@@ -655,5 +655,27 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "4vKCXrsv3p4hvX9Y33Fw2eeWEsjb3Vw4waU7X7Qppump": {
+  "ts": "2026-11-20 13:50:06",
+  "order_id": "mwp1dg8d05ylgv",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CAT",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "7ycjv7RnffKDdLifHuRUDRhBbe3oQk9qp7EvViGshcMr": {
+  "ts": "2026-11-20 13:50:09",
+  "order_id": "mwp1dipx05b7qa",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Raja",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
