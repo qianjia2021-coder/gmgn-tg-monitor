@@ -743,5 +743,27 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "Bfo7UDYAQNLH6Qddqr1qdJc8EoaokpuQUbaBSDV3pump": {
+  "ts": "2026-11-20 15:05:06",
+  "order_id": "mwp41w6i05ck82",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "EDR",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "hT9xKkj6dPMz97zcxEEE5T5fFdm6x31P6FodwT8pump": {
+  "ts": "2026-11-20 15:05:10",
+  "order_id": "mwp41z9705zsrk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "TOP",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
