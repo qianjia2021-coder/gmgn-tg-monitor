@@ -798,5 +798,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "4eiNbSrXgtbeuBSvyKLvZjZB1NTz1DsLrUrHXS3Npump": {
+  "ts": "2026-11-20 15:40:06",
+  "order_id": "mwp5awjy05eazh",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "files",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
