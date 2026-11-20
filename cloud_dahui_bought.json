@@ -1513,5 +1513,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "9paKaZD2DFy4RCSsbQ7U7J5P3rtzhixcUDRqfP5T5eM1": {
+  "ts": "2026-11-20 23:35:39",
+  "order_id": "mwpmagh106d10b",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PI",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
