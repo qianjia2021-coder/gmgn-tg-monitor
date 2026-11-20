@@ -1183,5 +1183,16 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP HTTPSConnectionPool(host='api-bot-v1.dbotx.com', port=443): Read timed out. (read timeout=30)"
+ },
+ "9GRCihaCDXqmQDoPVDnHPwEGgjew1XcgZXLgwbrxpump": {
+  "ts": "2026-11-20 20:00:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PUT",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
