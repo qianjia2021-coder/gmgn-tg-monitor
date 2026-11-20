@@ -622,5 +622,16 @@
   "kol": null,
   "ok": true,
   "src": "cloud-takeover-crashed"
+ },
+ "8nq3Jmgd1tpbroiuVMehQyC266ZUZJU2BTad8Nigpump": {
+  "ts": "2026-11-20 13:30:05",
+  "order_id": "mwp0npqu05aeaa",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "STANK",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
