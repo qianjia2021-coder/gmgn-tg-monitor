@@ -996,5 +996,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "4Z4X6t4HXgN37pLKn2xyayicBg2BtWuR6nLLs486pump": {
+  "ts": "2026-11-20 17:50:39",
+  "order_id": "mwp9yrjy067jsm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ANT",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
