@@ -586,5 +586,41 @@
   "symbol": "Dexter",
   "kol": 1,
   "ok": true
+ },
+ "A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump": {
+  "ts": "2026-11-20 19:22:18",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "ok": false,
+  "err": "HTTP 401 Unauthorized"
+ },
+ "5JCM2Vyp6xxEYqc6Jeot6KS2PhicsWLkhK9yDCBwhNcS": {
+  "ts": "2026-11-20 19:56:47",
+  "order_id": "mwoxbp7p04y7n7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DOGEOLO",
+  "kol": 2,
+  "ok": true
+ },
+ "3HYvNoazvS9UnNzRH5RJST574Jj9RawNXSV9M79Gpump": {
+  "ts": "2026-11-20 20:25:34",
+  "order_id": "mwoycpa705n79i",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BFI",
+  "kol": 0,
+  "ok": true
+ },
+ "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": {
+  "ts": "2026-11-20 20:41:07",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HWAN",
+  "kol": null,
+  "ok": true,
+  "src": "cloud-takeover-crashed"
  }
 }
