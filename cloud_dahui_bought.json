@@ -1018,5 +1018,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "2YVYoAs5jL1uBe4vZR7ao9T9FhaKk7auvL7qWaSppump": {
+  "ts": "2026-11-20 18:05:25",
+  "order_id": "mwpahqui05oylo",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTA 6 Coin",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
