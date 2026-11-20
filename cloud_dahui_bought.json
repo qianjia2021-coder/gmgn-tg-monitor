@@ -842,5 +842,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "HnoBiAqZybc11baYiJnSbKranmEzQfqhFssMadyYpump": {
+  "ts": "2026-11-20 16:05:06",
+  "order_id": "mwp6727705f2ir",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Pnut",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
