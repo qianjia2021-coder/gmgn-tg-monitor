@@ -1271,5 +1271,16 @@
   "rug_ratio": null,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "59gDhQeyy2ouKFwE7mQBh1JsFnxiUWFXP1pAuR2Jpump": {
+  "ts": "2026-11-20 20:50:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTA 6 Coin",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
