@@ -10290,5 +10290,19 @@
   "age": "1h 5m",
   "ts": "2026-11-20 13:29:12",
   "note": "模拟买入成功"
+ },
+ "Hj3Y3Gj9uF4dGDGTCdygQRNxG7QySWX4SYPHVv3Ppump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwojj64704j90o",
+  "symbol": "APCY",
+  "mc": 168000.0,
+  "price": 0.000173,
+  "age_min": 67,
+  "age": "1h 7m",
+  "ts": "2026-11-20 13:30:42",
+  "note": "模拟买入成功"
  }
 }
