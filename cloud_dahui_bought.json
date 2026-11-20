@@ -699,5 +699,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "FwxyKr6zy7ZFJTfrmgoLZjA8gbZQLwKwqUJ97Lqnpump": {
+  "ts": "2026-11-20 14:30:05",
+  "order_id": "mwp2svm805c1w6",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
