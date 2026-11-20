@@ -985,5 +985,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "828Rg1VfMcfcTKJRxfr83nnrTWzmVjrDS9Rpr1BBeA7U": {
+  "ts": "2026-11-20 17:20:38",
+  "order_id": "mwp8w6o405o6qx",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JUNIOR",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
