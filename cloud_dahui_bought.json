@@ -897,5 +897,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "5quizdFsXvV3DKu8LgvnSkwDLKn5r8q5QQ3Ynq3hpump": {
+  "ts": "2026-11-20 16:36:10",
+  "order_id": "mwp7b0bn05fwvp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Community",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
