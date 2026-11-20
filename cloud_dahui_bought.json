@@ -1227,5 +1227,27 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP HTTPSConnectionPool(host='api-bot-v1.dbotx.com', port=443): Read timed out. (read timeout=30)"
+ },
+ "BxKJN4PKAT2CFhVbsyKzVyCznu5a2n2oVh8Pb2wdDjam": {
+  "ts": "2026-11-20 20:31:39",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AMBA",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP HTTPSConnectionPool(host='api-bot-v1.dbotx.com', port=443): Read timed out. (read timeout=30)"
+ },
+ "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+  "ts": "2026-11-20 20:31:47",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Singularity",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
