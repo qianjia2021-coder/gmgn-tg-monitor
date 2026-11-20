@@ -181,25 +181,30 @@ async def main():
         name = parse_line(m.message or "", "名称")
         mcap = parse_line(m.message or "", "市值")
         print("new #{}: {} | {} | {}".format(m.id, name, mcap, addr))
-        kol, ok = kol_count(addr)
-        if not ok:
-            kol = 0
-            print("  KOL 查询失败，按 0 记录继续买入")
-        rr, found = rug_ratio(addr)
-        if found and rr >= 1.0:
+        try:
+            kol, ok = kol_count(addr)
+            if not ok:
+                kol = 0
+                print("  KOL 查询失败，按 0 记录继续买入")
+            rr, found = rug_ratio(addr)
+            if found and rr >= 1.0:
+                seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
+                print("  跑路概率={:.0%}，跳过".format(rr))
+                changed = True
+                continue
+            bok, info = api_buy(addr)
+            bought[addr] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                            "order_id": info if bok else "", "sol": BUY_SOL,
+                            "stop_earn": STOP_EARN, "symbol": name, "kol": kol,
+                            "rug_ratio": rr, "ok": bok, "err": "" if bok else str(info)[:200]}
             seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-            print("  跑路概率={:.0%}，跳过".format(rr))
+            rug_txt = "rug=NA" if rr is None else "rug={:.0%}".format(rr)
+            print("  KOL={} {} buy {}: {}".format(kol, rug_txt, "OK" if bok else "FAIL", info))
             changed = True
-            continue
-        bok, info = api_buy(addr)
-        bought[addr] = {"ts": time.strftime("%Y-%m-%d %H:%M:%S"),
-                        "order_id": info if bok else "", "sol": BUY_SOL,
-                        "stop_earn": STOP_EARN, "symbol": name, "kol": kol,
-                        "rug_ratio": rr, "ok": bok, "err": "" if bok else str(info)[:200]}
-        seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-        print("  KOL={} rug={:.0%} buy {}: {}".format(kol, rr, "OK" if bok else "FAIL", info))
-        changed = True
-        await asyncio.sleep(2)
+            await asyncio.sleep(2)
+        except Exception as e:
+            print("  !! 处理异常已跳过: {}: {}".format(type(e).__name__, str(e)[:200]))
+            changed = True
     await client.disconnect()
 
     state["last_id"] = last_id
