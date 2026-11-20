@@ -1469,5 +1469,49 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "GJQmJ1kEMi8Q1GyZiif6qXaYqBdpaafvFVsFyYoCpump": {
+  "ts": "2026-11-20 23:25:37",
+  "order_id": "mwplxk1o06cyr5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SHELF",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "6WcBvG5MaLSmk6BzDEZzEXc1JFrSopcmUdgfo2R4pump": {
+  "ts": "2026-11-20 23:25:44",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "FARM",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "EUerLXMvnNyMp4A7EhueM5DuJkdRzkiHpAjnD6DXpump": {
+  "ts": "2026-11-20 23:26:28",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "EHhpwU1Xu2yMegS9g8NkCCLfXKNXSMFiWs3APvZepump": {
+  "ts": "2026-11-20 23:26:35",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MENTALIST",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
