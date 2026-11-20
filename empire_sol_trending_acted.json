@@ -10388,5 +10388,19 @@
   "age": "1h 21m",
   "ts": "2026-11-20 13:55:00",
   "note": "模拟买入成功"
+ },
+ "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+  "source": "live",
+  "occ": 4,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwokgr9i04jgke",
+  "symbol": "FIONA",
+  "mc": 1700000.0,
+  "price": 0.001678,
+  "age_min": 3480,
+  "age": "2d",
+  "ts": "2026-11-20 13:56:48",
+  "note": "模拟买入成功"
  }
 }
