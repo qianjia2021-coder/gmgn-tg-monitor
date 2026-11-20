@@ -864,5 +864,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "5kDzqvfJGh8wYqwefP7JWWeoT8rq5RR5CBQFc65ipump": {
+  "ts": "2026-11-20 16:15:06",
+  "order_id": "mwp6jx2x05fcb7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Joe",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
