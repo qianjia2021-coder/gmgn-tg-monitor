@@ -10248,5 +10248,19 @@
   "age": "4d",
   "ts": "2026-11-20 12:57:01",
   "note": "模拟买入成功"
+ },
+ "UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwoidz2804ior8",
+  "symbol": "ZOL",
+  "mc": 22900.0,
+  "price": 2.4e-05,
+  "age_min": 66,
+  "age": "1h 6m",
+  "ts": "2026-11-20 12:58:40",
+  "note": "模拟买入成功"
  }
 }
