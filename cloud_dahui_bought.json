@@ -1414,5 +1414,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "58nduYYmSUTAZToz3VCZxEDC5jpd3jTHuSGUQMtUpump": {
+  "ts": "2026-11-20 22:40:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Brenter",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
