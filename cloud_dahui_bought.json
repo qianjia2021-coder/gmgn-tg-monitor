@@ -1040,5 +1040,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "G2jU8VxL2L18GMqu1XbXybQ1VC6Gj5BmEX6bA37Kpump": {
+  "ts": "2026-11-20 18:20:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CAPY",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "Aykavwa4Z1Z2pW3CRuRpXBXrNZAtuhzAskgBFXFgpump": {
+  "ts": "2026-11-20 18:20:17",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BIGFOOT",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
