@@ -24,7 +24,8 @@ GH_API = "https://api.github.com"
 
 CHANNEL = "web3_gxfc"
 TOPIC_ID = 23
-KOL_MIN = 1
+# KOL 仅记录，不再拦截（用户 2026-11-20 要求 KOL=0 也买）
+KOL_MIN = 0
 BUY_SOL = 1.0
 STOP_EARN = 0.5
 SLIPPAGE = 0.5
@@ -182,13 +183,8 @@ async def main():
         print("new #{}: {} | {} | {}".format(m.id, name, mcap, addr))
         kol, ok = kol_count(addr)
         if not ok:
-            print("  info 查询失败，本轮跳过下轮再查")
-            continue
-        if kol < KOL_MIN:
-            seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
-            print("  KOL={}<{} 跳过".format(kol, KOL_MIN))
-            changed = True
-            continue
+            kol = 0
+            print("  KOL 查询失败，按 0 记录继续买入")
         rr, found = rug_ratio(addr)
         if found and rr >= 1.0:
             seen[addr] = time.strftime("%Y-%m-%d %H:%M:%S")
