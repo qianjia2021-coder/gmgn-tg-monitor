@@ -1095,5 +1095,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "FKiK98JR2hgpJVEfiusqyPGpnZN3BdwmLepMebXKpump": {
+  "ts": "2026-11-20 19:06:38",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ber",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP HTTPSConnectionPool(host='api-bot-v1.dbotx.com', port=443): Read timed out. (read timeout=30)"
+ },
+ "G6H8DjYRPomfmG5KrEAMpxoUU2uRLxdeTrkxnSiXpump": {
+  "ts": "2026-11-20 19:06:46",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MIC",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
