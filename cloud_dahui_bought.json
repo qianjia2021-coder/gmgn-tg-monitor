@@ -1161,5 +1161,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "SBFfiiCTiBDdkw6zbFsG7iEe2GJLxkN5h1u55b1mxjY": {
+  "ts": "2026-11-20 19:50:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SBF",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
