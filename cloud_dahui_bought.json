@@ -963,5 +963,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump": {
+  "ts": "2026-11-20 17:15:27",
+  "order_id": "mwp8p39405o3g6",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "xing",
+  "kol": 18,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "BSe1q3SL6KQPLeZHFG9nNw5VFbDL3ZXvBmtjBVpYpump": {
+  "ts": "2026-11-20 17:16:04",
+  "order_id": "mwp8qak206740z",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SMOOVE",
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
