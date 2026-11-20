@@ -10570,5 +10570,19 @@
   "age": "9h 50m",
   "ts": "2026-11-20 16:34:16",
   "note": "模拟买入成功"
+ },
+ "F8DXZJPgZPrMVkSjXn24jzcFS7fZ9QaFUGVwHDsupump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwoqqdse0421df",
+  "symbol": "Gino",
+  "mc": 20900.0,
+  "price": 1.9e-05,
+  "age_min": 119,
+  "age": "2h 59m",
+  "ts": "2026-11-20 16:52:16",
+  "note": "模拟买入成功"
  }
 }
