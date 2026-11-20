@@ -1,0 +1,36 @@
+name: dahui-diag
+
+# 一次性诊断：直接跑一遍 cloud_dahui.py，跑完即可拉日志看报错
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install gmgn-cli
+        run: npm install -g gmgn-cli
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: run cloud_dahui once
+        env:
+          DAHUI_TG_API_ID: ${{ secrets.DAHUI_TG_API_ID }}
+          DAHUI_TG_API_HASH: ${{ secrets.DAHUI_TG_API_HASH }}
+          DAHUI_TG_STRING_SESSION: ${{ secrets.DAHUI_TG_STRING_SESSION }}
+          GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
+          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 -u cloud_dahui.py; echo "exit=$?"
