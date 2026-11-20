@@ -1062,5 +1062,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "BqXxyRnMqf4vVwrbNrVNSVoDRBYQo8vQHeRRT6iapump": {
+  "ts": "2026-11-20 18:30:42",
+  "order_id": "mwpbea3x068258",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "LDS",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
