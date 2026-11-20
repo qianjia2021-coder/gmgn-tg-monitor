@@ -853,5 +853,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "AUuqP4EADgs2ynEbGNQKf3LXG1GpDzfiLvnRdK1Npump": {
+  "ts": "2026-11-20 16:10:06",
+  "order_id": "mwp6dheh05f779",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CATEMAS",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
