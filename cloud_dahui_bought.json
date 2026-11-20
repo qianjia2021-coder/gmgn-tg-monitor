@@ -809,5 +809,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "124Yn3UCD4YBb8JcyW6A2g9jjgG4Ykp8VBp7XQNQpump": {
+  "ts": "2026-11-20 15:45:06",
+  "order_id": "mwp5hc7p05ef8s",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SELLOR",
+  "kol": 19,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
