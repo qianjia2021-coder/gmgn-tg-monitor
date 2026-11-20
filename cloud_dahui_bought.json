@@ -886,5 +886,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "F5FtUS4SVy2o36RvowgEKe3FJnFN5HRPM4u6Egvspump": {
+  "ts": "2026-11-20 16:25:05",
+  "order_id": "mwp6wrcc062rj6",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Santaro",
+  "kol": 6,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
