@@ -1205,5 +1205,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k": {
+  "ts": "2026-11-20 20:11:13",
+  "order_id": "mwpeziwf06994o",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DCTY",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
