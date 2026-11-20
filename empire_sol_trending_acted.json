@@ -10486,5 +10486,19 @@
   "age": "12h 13m",
   "ts": "2026-11-20 14:45:30",
   "note": "模拟买入成功"
+ },
+ "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwomkkaq03yxvx",
+  "symbol": "PATRICK",
+  "mc": 24000.0,
+  "price": 2.4e-05,
+  "age_min": 142,
+  "age": "2h 22m",
+  "ts": "2026-11-20 14:55:45",
+  "note": "模拟买入成功"
  }
 }
