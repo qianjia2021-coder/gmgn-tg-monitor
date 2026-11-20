@@ -10612,5 +10612,33 @@
   "age": "1h 7m",
   "ts": "2026-11-20 17:13:25",
   "note": "模拟买入成功"
+ },
+ "9MZiGiBiFA6vLkqJ8kk7MsniLgrU6VrtiWripZFMmain": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mworqef404p3po",
+  "symbol": "MAIN",
+  "mc": 20800.0,
+  "price": 2.1e-05,
+  "age_min": 68,
+  "age": "1h 8m",
+  "ts": "2026-11-20 17:20:16",
+  "note": "模拟买入成功"
+ },
+ "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump": {
+  "source": "live",
+  "occ": 5,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mworqkq3043gjh",
+  "symbol": "AMC",
+  "mc": 55100.0,
+  "price": 5.8e-05,
+  "age_min": 72,
+  "age": "1h 12m",
+  "ts": "2026-11-20 17:20:24",
+  "note": "模拟买入成功"
  }
 }
