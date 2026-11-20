@@ -1007,5 +1007,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "8XDuQdGjJfrySeTKH6PtueRxc9ysoh4h4dKdG2yupump": {
+  "ts": "2026-11-20 18:00:11",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CLAUDIA",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
