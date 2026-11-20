@@ -1029,5 +1029,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "Hjz8kvdWiiwyMtAC7qxj2VDqB37zeJV6G8D5ni9Bpump": {
+  "ts": "2026-11-20 18:15:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "peebrain",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
