@@ -710,5 +710,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "GdPu5KPUeka8RJje6wjZ3o45wNDpHaSivoe6ydYhpump": {
+  "ts": "2026-11-20 14:35:06",
+  "order_id": "mwp2zbuq05c263",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "YHT",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
