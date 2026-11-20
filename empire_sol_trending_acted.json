@@ -10458,5 +10458,19 @@
   "age": "18h 41m",
   "ts": "2026-11-20 14:07:02",
   "note": "模拟买入成功"
+ },
+ "HtNknYnRZWGjrrbJq1gtPBJt9my9ggi5uJYjpEzfpump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwoli4is04k014",
+  "symbol": "Rockstar",
+  "mc": 33200.0,
+  "price": 3.3e-05,
+  "age_min": 112,
+  "age": "2h 52m",
+  "ts": "2026-11-20 14:25:52",
+  "note": "模拟买入成功"
  }
 }
