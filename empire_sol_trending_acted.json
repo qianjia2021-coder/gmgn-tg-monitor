@@ -10584,5 +10584,19 @@
   "age": "2h 59m",
   "ts": "2026-11-20 16:52:16",
   "note": "模拟买入成功"
+ },
+ "DFxcxzLPs2rXgJq5NToaD4BTPLNUy7cYKn9bt9yupump": {
+  "source": "live",
+  "occ": 3,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "Fritz",
+  "mc": 22400.0,
+  "price": 2.2e-05,
+  "age_min": 668,
+  "age": "11h 8m",
+  "ts": "2026-11-20 17:04:40",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
