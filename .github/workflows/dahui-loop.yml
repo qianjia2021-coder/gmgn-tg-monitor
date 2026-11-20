@@ -1,0 +1,75 @@
+name: dahui-loop
+
+# 自延续链路：一个 job 内部每 5 分钟检查一次本机心跳，
+# 本机离线就跑 cloud_dahui.py 接管；job 结束前自动 dispatch 下一棒，
+# 不依赖 GitHub schedule（schedule 常延迟数十分钟甚至不触发）。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: dahui
+  cancel-in-progress: false
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install gmgn-cli
+        run: npm install -g gmgn-cli
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: 5 分钟一轮，本机离线则接管
+        env:
+          GH_TOKEN: ${{ secrets.GMGN_GH_TOKEN }}
+          DAHUI_TG_API_ID: ${{ secrets.DAHUI_TG_API_ID }}
+          DAHUI_TG_API_HASH: ${{ secrets.DAHUI_TG_API_HASH }}
+          DAHUI_TG_STRING_SESSION: ${{ secrets.DAHUI_TG_STRING_SESSION }}
+          GMGN_API_KEY: ${{ secrets.GMGN_API_KEY }}
+          DBOTX_API_KEY: ${{ secrets.DBOTX_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -u
+          END=$(( $(date +%s) + 19500 ))
+          N=0
+          while [ "$(date +%s)" -lt "$END" ]; do
+            N=$((N+1))
+            echo "=== iteration $N $(date -u +%FT%TZ) ==="
+            HB=$(curl -s -H "Authorization: Bearer $GH_TOKEN" -H "User-Agent: gh-runner" \
+              "https://api.github.com/repos/${{ github.repository }}/commits?path=heartbeat_dahui.txt&per_page=1" \
+              | python3 -c "import sys,json;d=json.load(sys.stdin);print(d[0]['commit']['committer']['date'] if d else '')" 2>/dev/null || echo "")
+            AGE=999999
+            if [ -n "$HB" ]; then
+              AGE=$(( $(date +%s) - $(date -d "$HB" +%s) ))
+            fi
+            echo "heartbeat age=${AGE}s"
+            if [ "$AGE" -lt 120 ]; then
+              echo "本机在线，本轮跳过"
+            else
+              echo "本机已关机/无响应，云端接管"
+              python3 cloud_dahui.py || echo "cloud_dahui 本轮失败，继续"
+            fi
+            SLEEP=$(( 300 - ($(date +%s) % 300) ))
+            [ "$SLEEP" -lt 60 ] && SLEEP=60
+            echo "sleep ${SLEEP}s"
+            sleep "$SLEEP"
+          done
+          echo "=== 链路交接：dispatch 下一棒 ==="
+          curl -s -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "User-Agent: dahui-loop" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/dahui-loop.yml/dispatches" \
+            -d '{"ref":"main"}' -o /dev/null -w "dispatch http=%{http_code}\n"
