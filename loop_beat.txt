@@ -1,1 +1,1 @@
-iter=5 | 2026-11-20 12:41:19Z | hb_age=570s | takeover-failed
+iter=1 | 2026-11-20 12:42:50Z | hb_age=18s | skip-local-online
