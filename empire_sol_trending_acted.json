@@ -10528,5 +10528,19 @@
   "age": "3h 3m",
   "ts": "2026-11-20 15:35:51",
   "note": "模拟买入成功"
+ },
+ "6CTPhzrmvTiwoP8XgVy8Jhy6qLM1XpsL5cnyeuSxpump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwoojj7c04l03o",
+  "symbol": "CATMARIO",
+  "mc": 26100.0,
+  "price": 2.6e-05,
+  "age_min": 441,
+  "age": "7h 21m",
+  "ts": "2026-11-20 15:50:57",
+  "note": "模拟买入成功"
  }
 }
