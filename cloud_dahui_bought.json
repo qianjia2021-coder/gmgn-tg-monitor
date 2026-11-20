@@ -17,115 +17,322 @@
   "mcap": "77.42K",
   "ok": true
  },
- "7dCkdo2stVFNkXeyvkdQ82UhNJatwyaWFNve56kA28hj": {
-  "ts": "2026-10-09 12:53:48",
-  "order_id": "mv0yv9k16eeg3y",
+ "CRvwxL33afPjBvmneJfz9pvLUt293XaZScxyFgzQMH5K": {
+  "ts": "2026-10-09 19:44:58",
+  "order_id": "mv0weqbk68unp5",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "Cl*nker",
-  "kol": 8,
-  "ok": true,
-  "err": ""
+  "mcap": "57.35K",
+  "kol": 2,
+  "ok": true
  },
  "GKeUT73KRsvWVYNfQPdghxdHTKKGUAESf3t8BZmfXvih": {
-  "ts": "2026-10-09 12:55:02",
-  "order_id": "mv0ywugs6a2ch3",
+  "ts": "2026-10-09 19:48:21",
+  "order_id": "mv0wj39c6db4ef",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "GROK",
+  "mcap": "149.27K",
+  "kol": 3,
+  "ok": true
+ },
+ "7dCkdo2stVFNkXeyvkdQ82UhNJatwyaWFNve56kA28hj": {
+  "ts": "2026-10-09 19:55:08",
+  "order_id": "mv0wrtex691n19",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Cl*nker",
+  "mcap": "45.99K",
+  "kol": 6,
+  "ok": true
+ },
+ "4mbPZzDCWXvTCJbscMWeDD7TT1pra9mkZHGaBxc2jupx": {
+  "ts": "2026-10-09 21:33:03",
+  "order_id": "mv109qml6aev6r",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JPAD",
+  "mcap": "119.13K",
   "kol": 1,
-  "ok": true,
-  "err": ""
+  "ok": true
+ },
+ "9vHPLDY6wa9ZkNBNZoWcv2AABdiNj97tpHc3u56npump": {
+  "ts": "2026-10-09 21:52:32",
+  "order_id": "mv10ys746gnt3y",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MEMECHAN",
+  "mcap": "131.61K",
+  "kol": 3,
+  "ok": true
+ },
+ "zmvhp6GmmTgpkpL4v6sobHgAmuJkkZwUFDYLz5S1Bwz": {
+  "ts": "2026-10-09 21:57:23",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QBTC",
+  "kol": 4,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "3myTmnz8aNNuqebrrB5DSJrkYLPGfibGRwnH54Bv4hUC": {
+  "ts": "2026-10-10 06:23:00",
+  "order_id": "mv1j783d6cdovu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PQLN",
+  "kol": 4,
+  "ok": true
+ },
+ "HqkZ8MZFkH16JWKf9f4QosgiyWb8Y16342poJs4Xpump": {
+  "ts": "2026-10-10 06:23:04",
+  "order_id": "mv1j7b226iizip",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AURA",
+  "kol": 7,
+  "ok": true
+ },
+ "DrbQW15RGMMLPxH7CsD5yUhALtqNduhE4m3eG9ntBPLB": {
+  "ts": "2026-10-10 06:23:08",
+  "order_id": "mv1j7e3m6cdpdl",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "lolcat",
+  "kol": 5,
+  "ok": true
+ },
+ "AEPBdj3RViMJKCHM1xiVaM1VNuP7VbZRSN68gu5xpump": {
+  "ts": "2026-10-10 06:23:12",
+  "order_id": "mv1j7h476ij1nq",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PATCH",
+  "kol": 2,
+  "ok": true
+ },
+ "apiANKWvjcSFhavFEXvuE5wX8n312sVFtRpLQpX1api": {
+  "ts": "2026-10-10 06:23:16",
+  "order_id": "mv1j7k4c6ij26f",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "API",
+  "kol": 2,
+  "ok": true
+ },
+ "69okNLgixyKsS6AhWeQTPMMqpAMeCYjgw97fET84McJW": {
+  "ts": "2026-10-10 06:23:20",
+  "order_id": "mv1j7n9o6cdqo3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Eve",
+  "kol": 4,
+  "ok": true
+ },
+ "8F6B9qfAPmygkxzYAdQe57qoCrSjGuCsfgbVHCeRpump": {
+  "ts": "2026-10-10 06:23:27",
+  "order_id": "mv1j7srn6cdru7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Oscar",
+  "kol": 2,
+  "ok": true
+ },
+ "5SWmziw11CUrBHgbRz4SFphhHvx8pqasgeuvhG82Mix": {
+  "ts": "2026-10-10 06:23:31",
+  "order_id": "mv1j7vyy6ij3bk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MIXUP",
+  "kol": 3,
+  "ok": true
+ },
+ "9wcpJweVnKaGWhBd9xYT4ZXrjsyed53iipNiPQi6pump": {
+  "ts": "2026-10-10 06:23:40",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "ERkmk5rs8KKD9u2fxoDZUmwwuVc7rT3sSeowGTrQuBit": {
+  "ts": "2026-10-10 06:23:44",
+  "order_id": "mv1j86106ij7x7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QUBIT",
+  "kol": 1,
+  "ok": true
+ },
+ "HYmt8bu4rxfGjT7c38Qm5HuuDDVUeKgjTMaRJ5wFHQto": {
+  "ts": "2026-10-10 06:23:52",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "CCD4Dqbswi5nu2MQu7PD5pqjqNA8iCgJed5DyBJKC3ap": {
+  "ts": "2026-10-10 06:24:01",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 2,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
+  "ts": "2026-10-10 06:24:05",
+  "order_id": "mv1j8mjl6cduib",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CALI",
+  "kol": 1,
+  "ok": true
+ },
+ "HKRWQKZFeE9GVTUZsM7RUexYfAzRgGHw7h2x5TMMpump": {
+  "ts": "2026-10-10 06:24:09",
+  "order_id": "mv1j8pot6ij8w4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Fi",
+  "kol": 1,
+  "ok": true
+ },
+ "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump": {
+  "ts": "2026-10-10 06:24:13",
+  "order_id": "mv1j8sqy6ij9om",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "UNITS",
+  "kol": 2,
+  "ok": true
+ },
+ "6STei8PHerYMeqMHVMMNNgQ4mxZ2yweXaP74Qrmbpump": {
+  "ts": "2026-10-10 06:24:17",
+  "order_id": "mv1j8vpf6ijakv",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "tekcat",
+  "kol": 2,
+  "ok": true
+ },
+ "2QHXWq5TK64JbMptwMBP1BsfhrxZRRv9JsLa17X7pump": {
+  "ts": "2026-10-10 06:24:21",
+  "order_id": "mv1j8you6ijb8r",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SAW",
+  "kol": 1,
+  "ok": true
+ },
+ "Bi5h8p2hpcGFEq6CFsjrUFjXhVJHwAjcw3hVfprW9TeK": {
+  "ts": "2026-10-10 06:24:25",
+  "order_id": "mv1j91oi6cdxen",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QUANTEK",
+  "kol": 3,
+  "ok": true
+ },
+ "ripsRNKEFLPkf7E8pLYcbxWcxDdgtNBDQgqKkEDCvnG": {
+  "ts": "2026-10-10 06:24:29",
+  "order_id": "mv1j94s66cdypw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "RIPS",
+  "kol": 2,
+  "ok": true
  },
  "EcZndAERfzNhLirHwfsy44dAyPSZazjDU83pa6RApump": {
-  "ts": "2026-10-09 17:10:27",
-  "order_id": "mv181br46bmaxp",
+  "ts": "2026-10-10 06:24:33",
+  "order_id": "mv1j97tl6ijcr6",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "Circuit",
   "kol": 4,
-  "ok": true,
-  "err": ""
+  "ok": true
  },
  "7veuJcgGJGbhSK1e1HwKtK6LotLqKJTAGH2E74fepump": {
-  "ts": "2026-10-09 17:10:30",
-  "order_id": "mv181dnl6hpu36",
+  "ts": "2026-10-10 06:24:37",
+  "order_id": "mv1j9arj6cdzox",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "Spiralism",
-  "kol": 2,
-  "ok": true,
-  "err": ""
+  "kol": 5,
+  "ok": true
  },
  "2x3kudsxqCWdWeZA1vSNr9uKkHUBQG81m5mBGRAPpump": {
-  "ts": "2026-10-09 17:10:32",
-  "order_id": "mv181fgi6hpvo8",
+  "ts": "2026-10-10 06:24:41",
+  "order_id": "mv1j9dsr6ce1uh",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "PAWS",
-  "kol": 8,
-  "ok": true,
-  "err": ""
+  "kol": 11,
+  "ok": true
  },
  "9wk8xngMCkvraqg3nrPWrxxGKF33XMRz89MAV75epump": {
-  "ts": "2026-10-09 17:10:34",
-  "order_id": "mv181heh6hpw56",
+  "ts": "2026-10-10 06:24:45",
+  "order_id": "mv1j9guf6ce2ld",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "HYBRID",
   "kol": 4,
-  "ok": true,
-  "err": ""
+  "ok": true
  },
  "GMU9zu9jdgCWYet7uuwAyPyT5RyabXy2fPKUgGyJvmjg": {
-  "ts": "2026-10-09 17:10:37",
-  "order_id": "mv181jd86bmb8x",
+  "ts": "2026-10-10 06:24:49",
+  "order_id": "mv1j9jxs6ce3wd",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "MEMECOIN",
-  "kol": 5,
-  "ok": true,
-  "err": ""
+  "kol": 3,
+  "ok": true
+ },
+ "6AXUCrDxTndTYXFpQfqEbw3jZmnDKkkYY2iVtBjKKiqe": {
+  "ts": "2026-10-10 06:24:53",
+  "order_id": "mv1j9n176ijd5r",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Tony",
+  "kol": 3,
+  "ok": true
  },
  "CPN8PxvymFkL9kxVHuCPTzMuFaCmANPD2rPRKE3v482x": {
-  "ts": "2026-10-09 17:11:15",
-  "order_id": "mv182cyj6bmc5s",
+  "ts": "2026-10-10 06:24:56",
+  "order_id": "mv1j9q1x6ce5k9",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "Sludge",
-  "kol": 1,
-  "ok": true,
-  "err": ""
- },
- "9vHPLDY6wa9ZkNBNZoWcv2AABdiNj97tpHc3u56npump": {
-  "ts": "2026-10-09 17:11:18",
-  "order_id": "mv182eqy6bmd96",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "MEMECHAN",
-  "kol": 3,
-  "ok": true,
-  "err": ""
+  "kol": 2,
+  "ok": true
  },
  "JCsKWhELRJ8MhEZjUDdCL49mntw8fx27bKAgCMgSGhcQ": {
-  "ts": "2026-10-09 17:11:20",
-  "order_id": "mv182gkd6bme4c",
+  "ts": "2026-10-10 06:25:00",
+  "order_id": "mv1j9t0o6ijej5",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "SAM",
-  "kol": 1,
-  "ok": true,
-  "err": ""
+  "kol": 2,
+  "ok": true
  },
  "6GH8KgotzU3Waqkw2FPoDw8R3qt7SVYwB71Wc6DchUXx": {
-  "ts": "2026-10-09 17:11:58",
-  "order_id": "mv183a5v6bmhuz",
+  "ts": "2026-10-10 06:25:07",
+  "order_id": "mv1j9yiy6ijfqh",
   "sol": 1.0,
   "stop_earn": 0.5,
   "symbol": "QSB",
   "kol": 2,
-  "ok": true,
-  "err": ""
+  "ok": true
+ },
+ "8rQzYC7N1wpkxY37na1yK6mLAg7CTY1SXFdAqaYxkC6S": {
+  "ts": "2026-10-10 06:25:19",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
  "DiHNMd2GCsjc73jMphP7V5RPUBcW3sYJbCvoGhiD5Pm5": {
   "ts": "2026-10-09 17:12:01",
@@ -137,144 +344,247 @@
   "ok": true,
   "err": ""
  },
- "8rQzYC7N1wpkxY37na1yK6mLAg7CTY1SXFdAqaYxkC6S": {
-  "ts": "2026-10-09 17:12:08",
+ "C9we3rjEXAtGGx1aAjzw2QX26Ejv3gWEnDUcti7UpXW3": {
+  "ts": "2026-10-10 06:45:13",
   "order_id": "",
   "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "QPC",
   "kol": 3,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "CH96B7rRQrcGduNZAHoBoaN2heKPwPnVuJMJ5oUkDESK": {
+  "ts": "2026-10-10 06:55:20",
+  "order_id": "mv1kct2q6iks3g",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "QDESK",
+  "kol": 3,
+  "ok": true
+ },
+ "D96brLPj4GqjZfaqjBRXEVUWTCCpmzLu51asPC1dpump": {
+  "ts": "2026-10-10 06:59:33",
+  "order_id": "mv1ki8ba6ikxp3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ALL22",
+  "kol": 3,
+  "ok": true
+ },
+ "8hbxJVhsDXsQwVm5u5UwvVseHZiUsQLwYqd6R2YTpump": {
+  "ts": "2026-10-10 07:20:29",
+  "order_id": "mv1l95c96intp4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PROOF",
+  "kol": 7,
+  "ok": true
+ },
+ "hy55PGKUaaWbt6AQS3mWUCrGLbBuL5dhder15Hbpump": {
+  "ts": "2026-10-10 08:23:16",
+  "order_id": "mv1nhvma6ir3bq",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Mouse",
+  "kol": 7,
+  "ok": true
+ },
+ "2HtfecWgG4kJ1aULVUtimknVDf9vpRab2VdvPmkvSTNK": {
+  "ts": "2026-10-10 08:26:44",
+  "order_id": "mv1nmcdh6irb7e",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "baccoon",
+  "kol": 3,
+  "ok": true
+ },
+ "3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": {
+  "ts": "2026-10-10 09:39:13",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "489jhyzn5SejxSFGungp3dmLntfUDCdvLKnxyzNDpump": {
+  "ts": "2026-10-10 09:45:47",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "7TKRV4SneC6xLRaAt21a6d1kheAzXHGKP9WDzri9aD2e": {
+  "ts": "2026-10-10 10:10:50",
+  "order_id": "mv1rc7t96j6q50",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SHINJUKU",
+  "kol": 7,
+  "ok": true
+ },
+ "FRvW3ZTX56znsDcyVitAAEHnX7JVT675JX7JvESppump": {
+  "ts": "2026-10-10 11:28:02",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "J9aWw8RAGn67w6ASKU5Zp1S1X6diBxTk4MiPc93g3a9P": {
+  "ts": "2026-10-10 12:25:51",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 1,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  },
- "zmvhp6GmmTgpkpL4v6sobHgAmuJkkZwUFDYLz5S1Bwz": {
-  "ts": "2026-10-09 17:12:46",
-  "order_id": "",
+ "BkSgxN7RUsUzpAwyHZ7TDNQ8meYQeyUr7HHtn75m6Amm": {
+  "ts": "2026-10-10 12:30:22",
+  "order_id": "mv1wbn9a6l3nww",
   "sol": 1.0,
   "stop_earn": 0.5,
-  "symbol": "QBTC",
-  "kol": 2,
-  "ok": false,
-  "err": "{'err': True, 'res': 'Serv Error'}"
- },
- "69okNLgixyKsS6AhWeQTPMMqpAMeCYjgw97fET84McJW": {
-  "ts": "2026-10-09 21:39:48",
-  "order_id": "mv1hnpam6caubx",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "Eve",
-  "kol": 4,
-  "ok": true,
-  "err": ""
- },
- "8F6B9qfAPmygkxzYAdQe57qoCrSjGuCsfgbVHCeRpump": {
-  "ts": "2026-10-09 21:40:26",
-  "order_id": "mv1hoiyi6iffe6",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "Oscar",
-  "kol": 4,
-  "ok": true,
-  "err": ""
- },
- "5SWmziw11CUrBHgbRz4SFphhHvx8pqasgeuvhG82Mix": {
-  "ts": "2026-10-09 21:40:28",
-  "order_id": "mv1hokss6cavbz",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "MIXUP",
-  "kol": 4,
-  "ok": true,
-  "err": ""
- },
- "HYmt8bu4rxfGjT7c38Qm5HuuDDVUeKgjTMaRJ5wFHQto": {
-  "ts": "2026-10-09 21:41:47",
-  "order_id": "",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "BUTT",
-  "kol": 2,
-  "ok": false,
-  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
- },
- "CCD4Dqbswi5nu2MQu7PD5pqjqNA8iCgJed5DyBJKC3ap": {
-  "ts": "2026-10-09 21:41:50",
-  "order_id": "",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "Butt",
-  "kol": 2,
-  "ok": false,
-  "err": "{'err': True, 'res': 'Serv Error'}"
- },
- "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
-  "ts": "2026-10-09 21:41:52",
-  "order_id": "mv1hqd8p6caw8d",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "CALI",
+  "symbol": "PERSUASION",
   "kol": 1,
-  "ok": true,
-  "err": ""
+  "ok": true
  },
- "HKRWQKZFeE9GVTUZsM7RUexYfAzRgGHw7h2x5TMMpump": {
-  "ts": "2026-10-09 21:41:54",
-  "order_id": "mv1hqf196ifj8l",
+ "2Lv8nbNVEf18oLK1TwNtZrH3BGspUNrUKR21kBHopump": {
+  "ts": "2026-10-10 12:56:23",
+  "order_id": "mv1x94cd6gf9xu",
   "sol": 1.0,
   "stop_earn": 0.5,
-  "symbol": "Fi",
+  "symbol": "Brooks",
   "kol": 2,
-  "ok": true,
-  "err": ""
+  "ok": true
  },
- "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump": {
-  "ts": "2026-10-09 21:41:57",
-  "order_id": "mv1hqgsd6caxad",
+ "8vYJgiQPkpDtbWkDy1wyYDcUq3D9fUXVJUtt6aNEpump": {
+  "ts": "2026-10-10 13:10:49",
+  "order_id": "mv1xrofz6gfz6x",
   "sol": 1.0,
   "stop_earn": 0.5,
-  "symbol": "UNITS",
+  "symbol": "SWITCHED",
   "kol": 2,
-  "ok": true,
-  "err": ""
+  "ok": true
  },
- "6STei8PHerYMeqMHVMMNNgQ4mxZ2yweXaP74Qrmbpump": {
-  "ts": "2026-10-09 21:41:59",
-  "order_id": "mv1hqijn6ifkcl",
+ "564TGXSRPH2a7vJvdp1uSaZ4M1qDmeKgoMZyfBvYpump": {
+  "ts": "2026-10-11 09:45:13",
+  "order_id": "mv35v5nt6sqhgd",
   "sol": 1.0,
   "stop_earn": 0.5,
-  "symbol": "tekcat",
-  "kol": 2,
-  "ok": true,
-  "err": ""
- },
- "2QHXWq5TK64JbMptwMBP1BsfhrxZRRv9JsLa17X7pump": {
-  "ts": "2026-10-09 21:42:01",
-  "order_id": "mv1hqkb56cay5x",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "SAW",
-  "kol": 1,
-  "ok": true,
-  "err": ""
- },
- "Bi5h8p2hpcGFEq6CFsjrUFjXhVJHwAjcw3hVfprW9TeK": {
-  "ts": "2026-10-09 21:42:03",
-  "order_id": "mv1hqm2z6iflbl",
-  "sol": 1.0,
-  "stop_earn": 0.5,
-  "symbol": "QUANTEK",
+  "symbol": "Ollie",
   "kol": 3,
-  "ok": true,
-  "err": ""
+  "ok": true
  },
- "ripsRNKEFLPkf7E8pLYcbxWcxDdgtNBDQgqKkEDCvnG": {
-  "ts": "2026-10-09 21:42:06",
-  "order_id": "mv1hqnt46cazu7",
+ "9f6AJaqGSdwKNE8qUqNxLuhdwfn1Gp4oEvYihZk1pump": {
+  "ts": "2026-10-11 10:09:01",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "2Fad8taWxbaso6u1Cb91oV14p6m4PR52Gwc7TJRPpump": {
+  "ts": "2026-10-11 10:55:12",
+  "order_id": "mv38d5mn6u3cgb",
   "sol": 1.0,
   "stop_earn": 0.5,
-  "symbol": "RIPS",
+  "symbol": "STRKT",
+  "kol": 1,
+  "ok": true
+ },
+ "2Dx7XJQp2LGdq14nP98swmtUhfhHz8FVs98bt11Mpump": {
+  "ts": "2026-10-11 11:33:54",
+  "order_id": "mv39qxgz7111us",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ALOIS",
+  "kol": 5,
+  "ok": true
+ },
+ "HZL2ga4kXjZp8377B5TcWBuqvBTtxqK2KZb6mjcnpump": {
+  "ts": "2026-10-11 11:42:03",
+  "order_id": "mv3a1f0b6vrxil",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Tesselai",
+  "kol": 7,
+  "ok": true
+ },
+ "Eh3Ar7jzB372p17zjExzFjvGWjqKRwVZMqDEQUHiTjZX": {
+  "ts": "2026-10-11 13:42:06",
+  "order_id": "mv3ebsru72hevq",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BUSINESS",
+  "kol": 3,
+  "ok": true
+ },
+ "BBZ3sgY66QVsxcXXBVpuQfDzH2b5Ub8qmfKNQJjBpump": {
+  "ts": "2026-10-11 13:48:08",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 3,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "Fy6R7i9gfCSmtz3tCdmv4mVKLxPAp8qJFvLNvi5Apump": {
+  "ts": "2026-10-11 14:02:58",
+  "order_id": "mv3f2m7g72kfkz",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "FISH",
+  "kol": 3,
+  "ok": true
+ },
+ "6PfoeDb1wH4Wt2bbiqaDpuzULPQ3oU9wjbNNzh3dcxG7": {
+  "ts": "2026-10-11 14:03:03",
+  "order_id": "",
+  "sol": 1.0,
+  "kol": 4,
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "4aRwxCWGcpiyHJSSwAiV4kUL512vdRxS7emJEdgapump": {
+  "ts": "2026-10-11 14:08:09",
+  "order_id": "",
+  "sol": 1.0,
   "kol": 2,
-  "ok": true,
-  "err": ""
+  "ok": false,
+  "err": "HTTP 500 {\"err\":true,\"res\":\"Serv Error\"}"
+ },
+ "FsjS5gGTv8XfAeUyDhEto6nL2Q6saK6AYV5nk41Cpump": {
+  "ts": "2026-10-11 14:23:57",
+  "order_id": "mv3ftm2w72msdt",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "69420",
+  "kol": 5,
+  "ok": true
+ },
+ "HJ6iNrnZtJJu7BH7r78ojtEZGdyKjZENNXXhAEqgpump": {
+  "ts": "2026-10-11 15:30:48",
+  "order_id": "mv3i7kl172t94j",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "INTENTS",
+  "kol": 2,
+  "ok": true
+ },
+ "Fr28jEWz2msSCKLaHzus2nCKrwqbpTx2EyDYtsVVpump": {
+  "ts": "2026-10-11 16:05:47",
+  "order_id": "mv3jgkd272w3bl",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "100xbroker",
+  "kol": 4,
+  "ok": true
+ },
+ "7yk7SEvkUjCzFL5ne28rG542sHcFNrMUtxFv7ZHHpump": {
+  "ts": "2026-10-11 16:45:45",
+  "order_id": "mv3kvygz6xzqj4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Dexter",
+  "kol": 1,
+  "ok": true
  }
 }
