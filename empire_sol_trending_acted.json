@@ -10262,5 +10262,19 @@
   "age": "1h 6m",
   "ts": "2026-11-20 12:58:40",
   "note": "模拟买入成功"
+ },
+ "8VvT87FRAZY9m2VsvpvVA5zhHSZGXd5eC2SrPDHbpump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwoiirzn04isqr",
+  "symbol": "ANTCAP",
+  "mc": 102500.0,
+  "price": 0.00011,
+  "age_min": 2640,
+  "age": "2d",
+  "ts": "2026-11-20 13:02:24",
+  "note": "模拟买入成功"
  }
 }
