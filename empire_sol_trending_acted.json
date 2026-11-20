@@ -10472,5 +10472,19 @@
   "age": "2h 52m",
   "ts": "2026-11-20 14:25:52",
   "note": "模拟买入成功"
+ },
+ "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwom7dfn03yr6e",
+  "symbol": "",
+  "mc": 584700.0,
+  "price": 0.000585,
+  "age_min": 733,
+  "age": "12h 13m",
+  "ts": "2026-11-20 14:45:30",
+  "note": "模拟买入成功"
  }
 }
