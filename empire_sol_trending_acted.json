@@ -10318,5 +10318,19 @@
   "age": "2d",
   "ts": "2026-11-20 13:34:19",
   "note": "模拟买入成功"
+ },
+ "212XWaQQvEWWpbybdhtWMPmQWsMka9DgE2B6cqq9pump": {
+  "source": "live",
+  "occ": 2,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwojpmi103xyxr",
+  "symbol": "Neon",
+  "mc": 24100.0,
+  "price": 2.4e-05,
+  "age_min": 124,
+  "age": "2h 4m",
+  "ts": "2026-11-20 13:35:42",
+  "note": "模拟买入成功"
  }
 }
