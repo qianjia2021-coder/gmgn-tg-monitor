@@ -1304,5 +1304,27 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "CTVXGDLioK1hnAkFbFmUEgJTXWpD3C9tNjtSg6WTpump": {
+  "ts": "2026-11-20 21:05:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Toly",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "5RXkTanxqi7WpwFehxJn6zs8uteuPDk3QiGPtnrSpump": {
+  "ts": "2026-11-20 21:06:29",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
