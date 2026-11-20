@@ -10416,5 +10416,19 @@
   "age": "12h 58m",
   "ts": "2026-11-20 14:01:52",
   "note": "模拟买入成功"
+ },
+ "A6tuVRQaWWkXoPzE7SQry3YK995tJVt4NdgduQuBpump": {
+  "source": "live",
+  "occ": 4,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwokonno03y5is",
+  "symbol": "SANTA",
+  "mc": 58400.0,
+  "price": 6e-05,
+  "age_min": 5220,
+  "age": "4d",
+  "ts": "2026-11-20 14:02:57",
+  "note": "模拟买入成功"
  }
 }
