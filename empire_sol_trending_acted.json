@@ -10668,5 +10668,19 @@
   "age": "7h 36m",
   "ts": "2026-11-20 17:52:51",
   "note": "模拟买入成功"
+ },
+ "DbxnCTr3d9e2i7pt4H3eY4Kb6ov9VrzNpy5PpkLApump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwou8atl04hfev",
+  "symbol": "AIBO",
+  "mc": 20800.0,
+  "price": 2.1e-05,
+  "age_min": 82,
+  "age": "1h 22m",
+  "ts": "2026-11-20 18:30:10",
+  "note": "模拟买入成功"
  }
 }
