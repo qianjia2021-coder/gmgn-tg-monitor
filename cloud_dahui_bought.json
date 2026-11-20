@@ -1073,5 +1073,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "Ft99SFHTrgCPfME444QSFCft7AJyCUzH61pf2uqNpump": {
+  "ts": "2026-11-20 18:35:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "STBL",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
