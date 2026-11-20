@@ -1381,5 +1381,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M": {
+  "ts": "2026-11-20 22:10:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MONKE",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "9EQSeWY7pDB7MYoSFr8QJ19onGS1ehDmLbSGT2b3pump": {
+  "ts": "2026-11-20 22:12:58",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "monke",
+  "kol": 36,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP HTTPSConnectionPool(host='api-bot-v1.dbotx.com', port=443): Read timed out. (read timeout=30)"
  }
 }
