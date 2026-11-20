@@ -721,5 +721,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "424VQjqPqziugdoPjoreMk8d1owJ7T1WFrRNhNn3pump": {
+  "ts": "2026-11-20 14:45:05",
+  "order_id": "mwp3c5zg05z882",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "FIONA",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
