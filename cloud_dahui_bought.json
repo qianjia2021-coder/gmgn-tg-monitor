@@ -677,5 +677,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "8Y2vjFnBQi9U7YyDHFe1y6PS23csxcEynZbkmbutpump": {
+  "ts": "2026-11-20 14:10:06",
+  "order_id": "mwp2363v05brdr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "tapcat",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
