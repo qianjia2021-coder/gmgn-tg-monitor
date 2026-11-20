@@ -688,5 +688,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "9h26c1hb6VhZqnUnCKC7N8eysNXKAwNw8TF3GdN5pump": {
+  "ts": "2026-11-20 14:15:05",
+  "order_id": "mwp29l6g05bves",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "TWEET",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
