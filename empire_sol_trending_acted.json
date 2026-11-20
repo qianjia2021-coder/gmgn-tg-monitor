@@ -10332,5 +10332,19 @@
   "age": "2h 4m",
   "ts": "2026-11-20 13:35:42",
   "note": "模拟买入成功"
+ },
+ "6nrwSpemiDSFZ3wxTzbTc5mFvrmvNPVShYE9TmMupump": {
+  "source": "live",
+  "occ": 1,
+  "pushed": true,
+  "bought": true,
+  "order_id": "mwojs75l03xzlz",
+  "symbol": "BUNDA",
+  "mc": 20600.0,
+  "price": 2.1e-05,
+  "age_min": 3120,
+  "age": "2d",
+  "ts": "2026-11-20 13:37:43",
+  "note": "模拟买入成功"
  }
 }
