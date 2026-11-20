@@ -820,5 +820,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "JA1QWKi667PhbJoqUWB1GkQHK4h51CRsFS2UEyT7pump": {
+  "ts": "2026-11-20 15:50:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DOOM",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
