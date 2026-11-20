@@ -10500,5 +10500,19 @@
   "age": "2h 22m",
   "ts": "2026-11-20 14:55:45",
   "note": "模拟买入成功"
+ },
+ "6pRwreRTz3ffZyYZsgu7eNo3cS19rgLjYgz5hqRwpump": {
+  "source": "live",
+  "occ": 4,
+  "pushed": true,
+  "bought": false,
+  "order_id": "",
+  "symbol": "CLAUDE",
+  "mc": 30300.0,
+  "price": 3.2e-05,
+  "age_min": 861,
+  "age": "14h 21m",
+  "ts": "2026-11-20 15:19:12",
+  "note": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
