@@ -2118,5 +2118,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": {
+  "ts": "2026-11-21 15:25:07",
+  "order_id": "mwqk7hg502inl7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "NOHR",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
