@@ -1612,5 +1612,27 @@
   "rug_ratio": null,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "FhGHZixq2fGzd3XZjf8rvM3bjKmezZK38mcaDkvgwuay": {
+  "ts": "2026-11-21 02:35:06",
+  "order_id": "mwpsp8vn06woyd",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MERT",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "JE8zmsKRivXggZsJxXHBdCkako85YawNtU5hqS4upump": {
+  "ts": "2026-11-21 02:35:10",
+  "order_id": "mwpspbtt06wphm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PAX",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
