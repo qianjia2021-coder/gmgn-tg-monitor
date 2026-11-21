@@ -1,1 +1,1 @@
-iter=22 | 2026-11-21 12:05:00Z | hb_age=11s | skip-local-online
+iter=23 | 2026-11-21 12:10:01Z | hb_age=6s | skip-local-online
