@@ -1953,5 +1953,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "FUd2jMbBFxA1HCF96Yr7rMFvByjkTNxDu1bG9iw3pump": {
+  "ts": "2026-11-21 13:55:06",
+  "order_id": "mwqgzq8o01i419",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Bigfoot",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
