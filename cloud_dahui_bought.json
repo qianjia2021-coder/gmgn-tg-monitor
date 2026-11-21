@@ -2316,5 +2316,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "51TUkCJcBPi5fj9gZgjnXh6Ny5RSiEbrxUBoikDLpump": {
+  "ts": "2026-11-21 19:40:05",
+  "order_id": "mwqtbdu003h7d6",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ILY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "EhYZ1zUAYNX9cWDRPxUPCExQAjged26Mb7Kvywu5pump": {
+  "ts": "2026-11-21 19:40:08",
+  "order_id": "mwqtbgb702otvm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CLAWDIA",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
