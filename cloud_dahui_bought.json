@@ -2107,5 +2107,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "AZBexhUGS7MNcxcXyjMHuZ6xgqdKQ1rqPvbFf67epump": {
+  "ts": "2026-11-21 15:20:05",
+  "order_id": "mwqk10ug03aenr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Clarus",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
