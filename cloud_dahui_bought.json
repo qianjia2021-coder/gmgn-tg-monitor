@@ -2547,5 +2547,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": {
+  "ts": "2026-11-21 21:35:04",
+  "order_id": "mwqxf8xq02rxyr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SIDOOR",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "CRbJ2tHURNS13izU1ubitigQJsj82A3ZnHe31qyUpump": {
+  "ts": "2026-11-21 21:35:43",
+  "order_id": "mwqxg2z902rzcz",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PUTIN",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
