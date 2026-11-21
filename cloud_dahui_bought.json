@@ -1689,5 +1689,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "F7KHs31oDJJYmmGjLcmFkeTwoTds4J3FkKPV64Lepump": {
+  "ts": "2026-11-21 03:10:11",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
