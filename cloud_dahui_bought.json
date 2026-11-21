@@ -2349,5 +2349,38 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "8crRRo8zpxJaUhnV81hzyqh4JU5RpuvVaP7iCfV2aXVV": {
+  "ts": "2026-11-21 20:00:41",
+  "order_id": "mwqu1vq102p6fy",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MINTED",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "qvZgdGfEVEseJxbe5e72KHDjETwW2Luc6PoStbApump": {
+  "ts": "2026-11-21 20:01:20",
+  "order_id": "mwqu2pwg02p8wq",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AI",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "JD7ZPyfru7QbthacQF3Db3Xiw4pNbqV3duZVXXWypump": {
+  "ts": "2026-11-21 20:01:24",
+  "order_id": "mwqu2sd903hhbr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTAVI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
