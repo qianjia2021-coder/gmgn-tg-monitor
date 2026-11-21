@@ -2448,5 +2448,38 @@
   "rug_ratio": null,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "BFgdzMkTPdKKJeTipv2njtDEwhKxkgFueJQfJGt1jups": {
+  "ts": "2026-11-21 20:45:41",
+  "order_id": "mwqvnqpc02qamm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "URANUS",
+  "kol": 67,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "31nQQSUfBJ7cGG7xTBZEiSUQje6QfzebyLcmgN4xpump": {
+  "ts": "2026-11-21 20:45:45",
+  "order_id": "mwqvntlp02qcx8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Uranus",
+  "kol": 10,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump": {
+  "ts": "2026-11-21 20:45:48",
+  "order_id": "mwqvnvxj02qdjd",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "URANUS",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
