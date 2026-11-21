@@ -1931,5 +1931,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": {
+  "ts": "2026-11-21 13:30:41",
+  "order_id": "mwqg4c4m01hhwg",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HIGH",
+  "kol": 8,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
