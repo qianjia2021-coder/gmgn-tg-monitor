@@ -2712,5 +2712,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "FVukokndj8oEWUttqNwk2SoDGntMn4KKCFgiT1ffpump": {
+  "ts": "2026-11-21 23:35:42",
+  "order_id": "mwr1qdm404apko",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BACK",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
