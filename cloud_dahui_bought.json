@@ -1711,5 +1711,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "2W2ZnH5pg5yPuCTw5MyQ6L4kRU1geogXGNA9qtXXpump": {
+  "ts": "2026-11-21 03:25:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTAVI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
