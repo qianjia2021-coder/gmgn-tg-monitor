@@ -1832,5 +1832,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "A9jbSQDkbdQrA37fYAPf4TSK2GBCuBcGikEmZaRGpump": {
+  "ts": "2026-11-21 07:50:05",
+  "order_id": "mwq3ybfi023sgb",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTAVI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
