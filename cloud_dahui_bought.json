@@ -2745,5 +2745,27 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "3U5AfwN8LNJKGB1qJynW1khSgbQAnrUk4VbYmknipump": {
+  "ts": "2026-11-21 23:45:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Minelius",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "EMjVCbyVHVZ88zvmQPVZffB6Nk2eksS6aCACGVGnpump": {
+  "ts": "2026-11-21 23:45:13",
+  "order_id": "mwr22m9h04au0w",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BIGFOOT",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
