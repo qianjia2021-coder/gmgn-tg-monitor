@@ -1535,5 +1535,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": {
+  "ts": "2026-11-21 00:05:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JENSEN",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
