@@ -2338,5 +2338,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "4Kfos2jUqUxwbDqNAJL16B4C99tdtaMSWZS5XmuSZr6Z": {
+  "ts": "2026-11-21 19:50:05",
+  "order_id": "mwqto8og03hbcg",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HOUSE",
+  "kol": 4,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
