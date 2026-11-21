@@ -2173,5 +2173,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "92j5cWKjdVKDC7skBw1HjvYtrTU8nMM1zKjC4dqmpump": {
+  "ts": "2026-11-21 16:05:06",
+  "order_id": "mwqlmwyl03ccsm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SUPERBOWL",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
