@@ -1700,5 +1700,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "CBcawsxAULptwogQth3N4R4pqhcaG5btDaqnBewc8cug": {
+  "ts": "2026-11-21 03:20:06",
+  "order_id": "mwpub46a000ush",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "RCAT",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
