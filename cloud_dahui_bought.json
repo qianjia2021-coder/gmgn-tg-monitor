@@ -2195,5 +2195,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "27oigFPt9uXqDYkMETm1KBwwMrAvrk4XtsbKJgT9pump": {
+  "ts": "2026-11-21 16:20:05",
+  "order_id": "mwqm66qv02ku1q",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "stickman",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
