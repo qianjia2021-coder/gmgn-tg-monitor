@@ -2184,5 +2184,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "QSMebKR3JLa2MPkYKeJ6SgtUA1sYKszv581D3cYpump": {
+  "ts": "2026-11-21 16:15:05",
+  "order_id": "mwqlzrdp02kli7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Anthropic",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
