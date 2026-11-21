@@ -1579,5 +1579,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "Eckg2J7GZdYcK1q4QpztYeGdeSCPobHUuDdnXmgbXezX": {
+  "ts": "2026-11-21 02:15:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ONE",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
