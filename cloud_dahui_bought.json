@@ -2305,5 +2305,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "BganZwsMszyogAEDsncgHgjt12qXjKD1NV9iZzvVpump": {
+  "ts": "2026-11-21 19:35:41",
+  "order_id": "mwqt5pxz03h412",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CashGoat",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
