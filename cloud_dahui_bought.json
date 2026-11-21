@@ -1667,5 +1667,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "5vKP6rHWMA24AJ9zkDWsnifdkPMSZ1iqSg6KSRY7pump": {
+  "ts": "2026-11-21 03:05:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "d**",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "12bTtDLSegj1rw2oxXWYm63Rxw5QxkVSXDHCEvRShaDe": {
+  "ts": "2026-11-21 03:05:14",
+  "order_id": "mwpts0500009i1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SHADE",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
