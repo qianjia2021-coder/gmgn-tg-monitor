@@ -1854,5 +1854,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "DRRgyTnGDGf4Dvu9C4WYrJ1T7dMkrAZRzHE5KoHzpump": {
+  "ts": "2026-11-21 08:35:05",
+  "order_id": "mwq5k6uz024sev",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ANT",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
