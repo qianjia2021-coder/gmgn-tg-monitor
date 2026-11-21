@@ -2272,5 +2272,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "7gqk4Ap5iYjnWHtkwygYp8bcAVFSiMo8aMJ1cGvPpump": {
+  "ts": "2026-11-21 19:20:05",
+  "order_id": "mwqslntu02ocsm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "OBAMA",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
