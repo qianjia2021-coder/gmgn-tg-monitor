@@ -1843,5 +1843,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "C9sdZ4U5J4Rz7R8d67zsTx9cZfUALsmSxArN9esfpump": {
+  "ts": "2026-11-21 08:20:06",
+  "order_id": "mwq50wws024ok2",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
