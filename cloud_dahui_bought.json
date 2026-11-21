@@ -2404,5 +2404,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "Ce9BaJ2f9qsyHbz3BtBzhKuKFjBCVLSRQmwXgMUpGRvf": {
+  "ts": "2026-11-21 20:20:41",
+  "order_id": "mwqurllp02ps3q",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BUTTHOLE",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
