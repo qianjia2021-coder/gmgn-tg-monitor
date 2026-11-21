@@ -1744,5 +1744,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": {
+  "ts": "2026-11-21 05:10:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "VAREXON",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "jtYN1uzKAY8Mo81E66oWAbHbr5AncsosYL9Aqq78TUa": {
+  "ts": "2026-11-21 05:10:19",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SBS",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
