@@ -1964,5 +1964,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "2Axvd4o5wdEB2oSGDhzZiCVZb4v26c9rEpsP8UMWpump": {
+  "ts": "2026-11-21 14:00:41",
+  "order_id": "mwqh6wxk02bug1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump": {
+  "ts": "2026-11-21 14:00:44",
+  "order_id": "mwqh6zc001i6kv",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Bigfoot",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
