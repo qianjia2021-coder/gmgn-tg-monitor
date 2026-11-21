@@ -2063,5 +2063,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3S856mBeC7tEULvNjHnyL2rWbC3wQmC3MvM2HFi3pump": {
+  "ts": "2026-11-21 14:55:05",
+  "order_id": "mwqj4v32038ucr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Bananaut",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
