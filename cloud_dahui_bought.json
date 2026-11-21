@@ -2074,5 +2074,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3xV8wTxRo2BX2oRj1d2nV2jn1T96LFGHXenpmmoZpump": {
+  "ts": "2026-11-21 15:05:42",
+  "order_id": "mwqjiiig02h8vt",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DCTY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "HLaoQpp3AmrdPpDMh4fB25KVej5aE6ZyNX3ueE5jpump": {
+  "ts": "2026-11-21 15:06:20",
+  "order_id": "mwqjjchy02hb5s",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SM",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
