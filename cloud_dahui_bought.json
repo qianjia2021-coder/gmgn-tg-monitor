@@ -1656,5 +1656,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "29hCPsqJNs1BWEHrGgW1HXcCudgw1iRnJVWD33omerta": {
+  "ts": "2026-11-21 03:00:06",
+  "order_id": "mwptle8r0007x1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "OMERTA",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
