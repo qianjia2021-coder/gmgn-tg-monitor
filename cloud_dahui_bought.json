@@ -2437,5 +2437,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "AYiSYFeJB29EiDYUUuaAFTAkSH8xpHDKNQ6FgvnDGtMH": {
+  "ts": "2026-11-21 20:40:46",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "VCAT",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
