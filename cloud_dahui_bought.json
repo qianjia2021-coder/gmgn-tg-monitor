@@ -2382,5 +2382,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "Dtx414D8jurspmB1jqJWsYU66pemoXRjQeXx7TC1pump": {
+  "ts": "2026-11-21 20:05:04",
+  "order_id": "mwqu7ist02padv",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": ":)",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
