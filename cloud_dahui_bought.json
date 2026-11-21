@@ -2283,5 +2283,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "8xegBRcvNUMYTtxno5DnPLMMHRXQg9RrUVnQwEVppump": {
+  "ts": "2026-11-21 19:25:05",
+  "order_id": "mwqss3k203gx9e",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "chego",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
