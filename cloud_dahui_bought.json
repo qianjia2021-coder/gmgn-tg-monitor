@@ -1557,5 +1557,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "3yrPGBFyWAey1tFKBKJtwBsxXjfyhZmZ3nkW9xggpump": {
+  "ts": "2026-11-21 01:50:11",
+  "order_id": "mwpr3d5606kflr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "cheatcode",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
