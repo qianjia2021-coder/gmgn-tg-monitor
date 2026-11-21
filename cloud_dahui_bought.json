@@ -2096,5 +2096,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "48Ex2eDRkUgaxaEFUCQhivf2ekLzuK63yyj6EA2uFfMo": {
+  "ts": "2026-11-21 15:10:06",
+  "order_id": "mwqjo6fm02hqze",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DOME",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
