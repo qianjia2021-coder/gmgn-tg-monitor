@@ -2140,5 +2140,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "E3rsQyKo464r9rc3PnNk3k8aXippfQHzxY1DgK3jpump": {
+  "ts": "2026-11-21 15:40:06",
+  "order_id": "mwqkqr7x03b2ju",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HEIST",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
