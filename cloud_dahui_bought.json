@@ -2481,5 +2481,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3WH7zg7a14ER4rq3nzXahYpqGym9knkWT41WHVxSpump": {
+  "ts": "2026-11-21 20:50:06",
+  "order_id": "mwqvtf4a02qkmm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "UrAnus",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
