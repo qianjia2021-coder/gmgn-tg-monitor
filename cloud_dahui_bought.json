@@ -2415,5 +2415,27 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "9V3mur79oTgHLbfchUULh5cb3ivqwx5rd22txzZGHenx": {
+  "ts": "2026-11-21 20:25:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PI",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "GM8DK56XEFdsbHZ5tEndMf9ypfVbUVfothW7RPsupump": {
+  "ts": "2026-11-21 20:25:49",
+  "order_id": "mwquy785046p8x",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BUTTHOLE",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
