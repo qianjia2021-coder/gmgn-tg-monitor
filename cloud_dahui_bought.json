@@ -1524,5 +1524,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "6Ys82v4P9wA7FWj2kQgdWE1rdwBiEJoeyRqeJ8nWpump": {
+  "ts": "2026-11-21 00:00:11",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "WEZID",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
