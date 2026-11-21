@@ -2250,5 +2250,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "SPHFHU7sz2EZQYqyxMrZjgFdiYSCXJxRBE4giAjpump": {
+  "ts": "2026-11-21 19:00:05",
+  "order_id": "mwqrvxtq02o145",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "shep",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
