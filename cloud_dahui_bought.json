@@ -2613,5 +2613,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "9tX1UpBGeNqMb1VqqzVumwzW71ybsNZFyWKYiL8Ppump": {
+  "ts": "2026-11-21 22:10:04",
+  "order_id": "mwqyo9qn02smcz",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Mfer",
+  "kol": 4,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
