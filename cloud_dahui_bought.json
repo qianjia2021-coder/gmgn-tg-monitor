@@ -2701,5 +2701,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "2XCgMtw3Va2ujA8h7Ei6JoQqoUHYfJAY7XMfcSsdpump": {
+  "ts": "2026-11-21 23:25:05",
+  "order_id": "mwr1cqrt04a8ie",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "TEPE",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
