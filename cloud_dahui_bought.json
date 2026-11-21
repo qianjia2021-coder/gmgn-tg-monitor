@@ -2668,5 +2668,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "5KDGLvBvzodhyEDSEuubegkSxXhsyaLXGeSLDTkV9DYF": {
+  "ts": "2026-11-21 23:15:05",
+  "order_id": "mwr0zvl9049yyt",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MANEKI",
+  "kol": 4,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "3V5gXZtsDb45VDMFCLzWj2BkHfLvnmcy1HkND2XQpump": {
+  "ts": "2026-11-21 23:15:08",
+  "order_id": "mwr0zxxj049zot",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "LSI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
