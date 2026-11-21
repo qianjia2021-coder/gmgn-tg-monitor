@@ -1909,5 +1909,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "GsKXTWqJvZtUekcNGTQoWGPSU2fgsdrCNDBoeV9Npump": {
+  "ts": "2026-11-21 13:25:41",
+  "order_id": "mwqfxw8h01h9sq",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "drill",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "4RYJYwtK1ZMsZ4iBQ9qLHCB4rQqd6Rwjy33FWG5upump": {
+  "ts": "2026-11-21 13:25:44",
+  "order_id": "mwqfxyik02as7d",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ANT",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
