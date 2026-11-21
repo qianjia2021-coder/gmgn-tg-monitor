@@ -2206,5 +2206,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "DfRRzS9bh1acd6M8hvFp2aZ7q3vzYsXiTvGsd9xUpump": {
+  "ts": "2026-11-21 16:25:05",
+  "order_id": "mwqmcm3i03d83c",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CAPY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
