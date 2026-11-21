@@ -1942,5 +1942,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "8uMusuxzM8zefxWDMa4SrbXgCVp3HK4CN7HwUFuFpump": {
+  "ts": "2026-11-21 13:40:05",
+  "order_id": "mwqggfa001hpx7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PEGCOIN",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
