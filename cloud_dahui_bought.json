@@ -1568,5 +1568,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "5eSAuugtvermtS5W4nB28fJ9coj2mjjj1o8VaqYWUUMo": {
+  "ts": "2026-11-21 02:05:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "RCAT",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
