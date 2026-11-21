@@ -2151,5 +2151,27 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "8AiATNTPBoApZu4y5QqVzMJK6CmtoMLEEbGBZAaqpump": {
+  "ts": "2026-11-21 16:00:05",
+  "order_id": "mwqlggkt03btm0",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "billy",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "Cvb1vV5yp6Z3cZCXXHeCWkhimQEAaBWgaFgR47EMpump": {
+  "ts": "2026-11-21 16:00:09",
+  "order_id": "mwqlgjl903bu4q",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
