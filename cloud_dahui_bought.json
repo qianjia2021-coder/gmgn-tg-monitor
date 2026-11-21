@@ -2228,5 +2228,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "AinbHumkGCvwxCmnWZVdrYTxwa8U8fG8yQtgzffhpump": {
+  "ts": "2026-11-21 18:40:06",
+  "order_id": "mwqr68fe03fw42",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "123456",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
