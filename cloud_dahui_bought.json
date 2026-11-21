@@ -2492,5 +2492,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "E4hhx47JDLCafStVnHtnUkQYt9PCzdBdE7Ys8GJypump": {
+  "ts": "2026-11-21 21:05:41",
+  "order_id": "mwqwdgcm047ql3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JOB",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
