@@ -2239,5 +2239,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "72mQThogLxX1hGCrQAhf4ckxt6YeHFA7E9Kcitrpump": {
+  "ts": "2026-11-21 18:45:41",
+  "order_id": "mwqrdf9n03g33q",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Vulnpocalypse",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
