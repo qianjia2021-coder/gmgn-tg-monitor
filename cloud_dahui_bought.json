@@ -1986,5 +1986,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "6qmVTdMG9CtogD7AJx3UJhnoCVEjNCf5aRsEGi6mpump": {
+  "ts": "2026-11-21 14:05:05",
+  "order_id": "mwqhckrt02chlu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PUMPAPI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
