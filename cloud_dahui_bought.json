@@ -2008,5 +2008,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "8Wj18dstju6wghWDEsRdRzRmPTz8fD5Z5QwyfHjzpump": {
+  "ts": "2026-11-21 14:20:06",
+  "order_id": "mwqhvvk602dfky",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Share",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
