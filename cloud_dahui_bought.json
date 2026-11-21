@@ -1997,5 +1997,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "DmrUPQKm5ifGaneG1bTkUD9sjSF2Th7qiwV7GwUYpump": {
+  "ts": "2026-11-21 14:15:05",
+  "order_id": "mwqhpfjt02d6gj",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JUMP",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
