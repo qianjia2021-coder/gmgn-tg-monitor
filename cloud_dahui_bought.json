@@ -1865,5 +1865,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "DKA4FnRka6zPzvwUJCbnchGfjnT4x4WkfoKCFSawpump": {
+  "ts": "2026-11-21 09:10:05",
+  "order_id": "mwq6t7cf0256tm",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DCTY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
