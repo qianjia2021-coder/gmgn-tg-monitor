@@ -2261,5 +2261,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "C8ELvJqaSpfcEAUU1kExrJbD28y8PjwTVooj8gnVpump": {
+  "ts": "2026-11-21 19:10:40",
+  "order_id": "mwqs9k5f03go6q",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
