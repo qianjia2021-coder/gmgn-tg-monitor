@@ -2723,5 +2723,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "EguHqxwk8URCPDPY79CbcRqmjCjCf5GZWw9hMRhfLoat": {
+  "ts": "2026-11-21 23:40:40",
+  "order_id": "mwr1wrot04asus",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "reply",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "14coJKKEShg6ZaSKggQjubtKsCjWUZBWRa2v3E5ypump": {
+  "ts": "2026-11-21 23:41:19",
+  "order_id": "mwr1xlpb02u5l5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HODL",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
