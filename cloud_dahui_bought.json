@@ -2690,5 +2690,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "6VQ7wgwSrtZ7qBPtgJebtDFaUtTt6MMjuazqjjYpump": {
+  "ts": "2026-11-21 23:20:04",
+  "order_id": "mwr16a2y04a45z",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "lens",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
