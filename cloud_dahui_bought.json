@@ -1799,5 +1799,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "CBhuYzoXmaFHiRxLWjiJCVTCVHBrQGmCfAfrY5ELpump": {
+  "ts": "2026-11-21 07:40:04",
+  "order_id": "mwq3lg38023e19",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "LeBrain",
+  "kol": 10,
+  "rug_ratio": 0.06,
+  "ok": true,
+  "err": ""
  }
 }
