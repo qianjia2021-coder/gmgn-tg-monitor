@@ -1777,5 +1777,16 @@
   "rug_ratio": null,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "J9hxDzVkZzFFeNz1gimP275LbWzr2QFdaQU8N3gLXywF": {
+  "ts": "2026-11-21 06:55:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "win",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
