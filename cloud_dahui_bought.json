@@ -2602,5 +2602,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "2eikdsdbe9BHXBXoG6o7scAA1amSQS5wtiG7HGH5pump": {
+  "ts": "2026-11-21 22:05:04",
+  "order_id": "mwqyhtul02sjra",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "T/opt",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
