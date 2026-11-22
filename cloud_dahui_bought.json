@@ -2800,5 +2800,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump": {
+  "ts": "2026-11-22 00:25:41",
+  "order_id": "mwr3inni02vaq7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Grokia",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
