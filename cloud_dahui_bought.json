@@ -3460,5 +3460,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "4WtWLfKMMexVN5RkDAh88bs5rUx89GXuoDGnb7QVStar": {
+  "ts": "2026-11-22 20:40:06",
+  "order_id": "mwsawerm04wk3l",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "COMPUTE",
+  "kol": 10,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
