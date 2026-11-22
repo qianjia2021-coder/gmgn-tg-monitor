@@ -2822,5 +2822,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "8PiG7rKmYeNDWayMHLNeuzyy5bs9QUoVX2wsmcBpump": {
+  "ts": "2026-11-22 00:40:40",
+  "order_id": "mwr41y0m04bpyo",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BAOBAO",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
