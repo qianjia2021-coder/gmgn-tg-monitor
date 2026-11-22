@@ -3295,5 +3295,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "C5eGEXJZYvXEbKdyvPtasksjGNV4xvMowpKM92bVv47f": {
+  "ts": "2026-11-22 17:50:40",
+  "order_id": "mws4uj9l05vjd8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MACCA",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
