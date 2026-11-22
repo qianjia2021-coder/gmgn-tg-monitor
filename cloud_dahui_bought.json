@@ -3438,5 +3438,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "FRubSMFD8Dr9SJnB6XJfkvr4BhCkrKCmWUALVLYbiUVF": {
+  "ts": "2026-11-22 20:15:41",
+  "order_id": "mwsa10mg068jkg",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AMAZON",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
