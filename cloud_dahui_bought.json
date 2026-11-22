@@ -3009,5 +3009,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "ox1KRrtxNHGk9dXtzsb1yuWbZoAYJbSPye7Hfdepump": {
+  "ts": "2026-11-22 07:25:06",
+  "order_id": "mwrii1fz035h0a",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AMAZON",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
