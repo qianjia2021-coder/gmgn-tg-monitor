@@ -3229,5 +3229,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "baQxEuzMJ69RExbkCGLSrdSueWXCfp4tbi4nKZQpvoy": {
+  "ts": "2026-11-22 16:10:41",
+  "order_id": "mws19xzu04fms3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "VOYNICH",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
