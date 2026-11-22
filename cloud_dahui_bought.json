@@ -2844,5 +2844,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "6ZbWPYxFf8XyQ6dncrPAef1yz4W9nRF6rX3CYuE7pump": {
+  "ts": "2026-11-22 01:10:41",
+  "order_id": "mwr54j3f02w0sy",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "攀豹豹",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
