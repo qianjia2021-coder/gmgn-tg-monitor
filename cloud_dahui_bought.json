@@ -3625,5 +3625,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": {
+  "ts": "2026-11-22 22:50:05",
+  "order_id": "mwsfjkh106dawk",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ZOL",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
