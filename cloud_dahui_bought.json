@@ -3405,5 +3405,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "Dor8iRexwiNfrD9MT3NobDQvwz97qwDV2ZKwPJDmpump": {
+  "ts": "2026-11-22 19:55:41",
+  "order_id": "mws9banp04uvrc",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GROKIA",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK": {
+  "ts": "2026-11-22 19:55:45",
+  "order_id": "mws9bdkm067wze",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Cope",
+  "kol": 39,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
