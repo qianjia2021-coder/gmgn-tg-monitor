@@ -1,1 +1,1 @@
-iter=43 | 2026-11-22 06:05:00Z | hb_age=14s | skip-local-online
+iter=44 | 2026-11-22 06:10:07Z | hb_age=248s | takeover
