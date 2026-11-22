@@ -2943,5 +2943,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump": {
+  "ts": "2026-11-22 04:40:06",
+  "order_id": "mwrclulz031o8u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "snowball",
+  "kol": 34,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
