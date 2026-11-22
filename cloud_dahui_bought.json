@@ -3075,5 +3075,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "9Hz7XwZDJN6BS8So8nLH86nXdyz9VL1UBukgBnTQpump": {
+  "ts": "2026-11-22 08:15:06",
+  "order_id": "mwrkabyh04p5m9",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DCTY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
