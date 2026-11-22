@@ -3482,5 +3482,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "G71iRHbh9FYPqVF5zDy3Zb4HRZkJV31Sg2MHpm3tpump": {
+  "ts": "2026-11-22 21:20:05",
+  "order_id": "mwscbue904xl07",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "obema",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
