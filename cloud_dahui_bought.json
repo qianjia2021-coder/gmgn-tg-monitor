@@ -3262,5 +3262,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "6EiCk8WmoLai1ziCHa8D2aujGdB7rYr3xGs3x2avpump": {
+  "ts": "2026-11-22 17:40:04",
+  "order_id": "mws4gwcd04jfae",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "casual",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
