@@ -2932,5 +2932,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "83XmTBM8F2HV77cWyd7r6q9mqHeCmGRCRS8S8Pb6pump": {
+  "ts": "2026-11-22 04:25:06",
+  "order_id": "mwrc2jvz04hxz9",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
