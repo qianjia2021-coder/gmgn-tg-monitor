@@ -3350,5 +3350,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "HHXH6PCP6raTucs2zYFkpTHErntN7qJU9r97ECu6pump": {
+  "ts": "2026-11-22 19:10:04",
+  "order_id": "mws7on6z06161s",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JEANPHIL",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
