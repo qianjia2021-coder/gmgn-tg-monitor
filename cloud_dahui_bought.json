@@ -3174,5 +3174,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump": {
+  "ts": "2026-11-22 15:00:41",
+  "order_id": "mwryrx6t047ys6",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MIKEDYSON",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
