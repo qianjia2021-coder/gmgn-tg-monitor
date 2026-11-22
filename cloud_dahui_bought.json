@@ -3669,5 +3669,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "6aiyJ9uwGYRE3tM6rk7oeqLwpdDcdtVgU7aW2mFFpump": {
+  "ts": "2026-11-22 23:20:05",
+  "order_id": "mwsgm5ob050x2l",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "cCAT",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
