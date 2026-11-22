@@ -3383,5 +3383,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "CH3WtieJabaXvVyAQqMgd1kNQL14WKJLmbXqiX4qpump": {
+  "ts": "2026-11-22 19:45:05",
+  "order_id": "mws8xnkt067a5w",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Monkey",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
