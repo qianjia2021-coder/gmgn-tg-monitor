@@ -3251,5 +3251,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "UqykpkcS7GHaJzw1pXfGy5t65KjS68tZtLeWpSHpump": {
+  "ts": "2026-11-22 16:40:41",
+  "order_id": "mws2cjaa04gq9v",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AIBOSS",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
