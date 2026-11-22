@@ -3372,5 +3372,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "DJcHva2UJnRUPxzVfczcYyqxRtpwDTPcok6irtNmpump": {
+  "ts": "2026-11-22 19:20:05",
+  "order_id": "mws81ipu04qfp9",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SINGULARTY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
