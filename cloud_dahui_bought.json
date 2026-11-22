@@ -2888,5 +2888,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP": {
+  "ts": "2026-11-22 03:20:06",
+  "order_id": "mwr9qz6804fn5i",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "WiSP",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
