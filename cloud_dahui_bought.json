@@ -2954,5 +2954,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "8T3ztDSKxYK15SUBseqLeviqQwfcG9wUeDGP1wjBpump": {
+  "ts": "2026-11-22 04:45:05",
+  "order_id": "mwrcs97a031pqp",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "LEONIDA",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
