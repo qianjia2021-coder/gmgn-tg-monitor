@@ -3471,5 +3471,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "CsD8B3hQyhuh9NdFHUKpEYEv6RbLsQuBLAC5ASKfpump": {
+  "ts": "2026-11-22 21:05:05",
+  "order_id": "mwsbsjiq04x7ij",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PARROT",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
