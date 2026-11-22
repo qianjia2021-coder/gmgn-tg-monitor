@@ -2778,5 +2778,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "5Rvrj7GHe2kDmsxDiHATYAQWfjssRFAnRYHz9G3rpump": {
+  "ts": "2026-11-22 00:10:40",
+  "order_id": "mwr2zct602uh1g",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "AudaCity",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
