@@ -3108,5 +3108,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "ELqUw4epG5SazhEhHP5ZEq3M8k5m75DyxySrFM5Spump": {
+  "ts": "2026-11-22 13:55:40",
+  "order_id": "mwrwgbn0044q2u",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DCTY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
