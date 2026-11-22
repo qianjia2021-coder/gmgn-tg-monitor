@@ -3548,5 +3548,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "5eiLc9r79PkJquiFvYWdXJYtGNRjTpzot8MR7Z4Ppump": {
+  "ts": "2026-11-22 21:50:05",
+  "order_id": "mwsdef2g04ynhc",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Wojak",
+  "kol": 4,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
