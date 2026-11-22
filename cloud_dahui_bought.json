@@ -3504,5 +3504,38 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "CjaiYHC2BCrNHfE9r1XLTDWQNbPQioky1DijUAWrpump": {
+  "ts": "2026-11-22 21:35:41",
+  "order_id": "mwscvwd604y8hy",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rings",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "zShePAovhZXZ2pkYCgVBeHaVUDMvpsx5SL2watjzero": {
+  "ts": "2026-11-22 21:36:21",
+  "order_id": "mwscwr7f06b5ba",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ZERO",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "BRTirLwCv9gwp2xgV4ggYKRRKQu7Wr5qiyVCM1W1BAGS": {
+  "ts": "2026-11-22 21:37:00",
+  "order_id": "mwscxlax04yaz4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PFP",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
