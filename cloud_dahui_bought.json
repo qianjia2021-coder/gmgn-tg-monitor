@@ -3086,5 +3086,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3am9ckbMBjCUxZT3W6TQK6SEETaKtBALadm1nBEZpump": {
+  "ts": "2026-11-22 09:25:05",
+  "order_id": "mwrmsc2p04sx0s",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTA6",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
