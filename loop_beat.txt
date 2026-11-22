@@ -1,1 +1,1 @@
-iter=1 | 2026-11-22 13:25:27Z | hb_age=196s | takeover
+iter=2 | 2026-11-22 13:30:06Z | hb_age=477s | takeover
