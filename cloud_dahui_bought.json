@@ -3537,5 +3537,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "34As1e1Kop9zBvu5e84kjg452Uigq8krcoGEJiWRpump": {
+  "ts": "2026-11-22 21:45:41",
+  "order_id": "mwsd8r6304yj6r",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "UHI",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
