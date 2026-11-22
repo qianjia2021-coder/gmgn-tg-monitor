@@ -2767,5 +2767,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "9kaQR3dorDz4vwim3iGaoRa9amoLcUHPp6wuLHpEpump": {
+  "ts": "2026-11-22 00:00:04",
+  "order_id": "mwr2lqdm04ayiu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "KAREN",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
