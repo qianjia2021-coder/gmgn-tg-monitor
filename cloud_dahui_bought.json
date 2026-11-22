@@ -3031,5 +3031,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "CcNZwFkwCFxnfiaGtspvahF7i1ihiMPAuwwXeuEcK3F8": {
+  "ts": "2026-11-22 07:45:06",
+  "order_id": "mwrj7r2j036hk3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Claude",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
