@@ -3394,5 +3394,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3iJZ32vAhK8jqKwuRpio5sBqzJ3nL4yCZgudduyspump": {
+  "ts": "2026-11-22 19:50:05",
+  "order_id": "mws9434v067oza",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "COPIUM",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
