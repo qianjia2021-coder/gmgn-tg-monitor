@@ -3614,5 +3614,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "39cvo6MwTDXyFBJGaw1iaZaKxUL3LGo9Q4AtWat9pump": {
+  "ts": "2026-11-22 22:45:05",
+  "order_id": "mwsfd5dx06d1at",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
