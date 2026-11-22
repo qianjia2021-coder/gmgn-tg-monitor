@@ -3603,5 +3603,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "3kFnvwHQcdxsiDHJi5fen5Z67gv3qny8LVCmZVXJpump": {
+  "ts": "2026-11-22 22:35:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ZOL",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
