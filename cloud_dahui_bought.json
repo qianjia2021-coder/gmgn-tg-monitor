@@ -3427,5 +3427,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "9WB75GUzmTT1P3bvX9WYCHaGdKdZrKiWz7LDBujLpump": {
+  "ts": "2026-11-22 20:05:05",
+  "order_id": "mws9ndy7068622",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SI",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
