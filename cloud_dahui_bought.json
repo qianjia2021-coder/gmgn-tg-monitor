@@ -2811,5 +2811,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "G74SSWk4qF4BeWfyR53fVZYqdNWo9wH7UR55jF4uuxds": {
+  "ts": "2026-11-22 00:30:40",
+  "order_id": "mwr3p2yz04bgi5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MANEKI",
+  "kol": 2,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
