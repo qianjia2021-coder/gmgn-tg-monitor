@@ -3636,5 +3636,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "Cogito6Ss5vhwAqjkrB5jVRr3GXwtmseJqZm9CyUy4di": {
+  "ts": "2026-11-22 23:05:06",
+  "order_id": "mwsg2vvk050jv4",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "COGITO",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "HyosVh6551qwA8xUqcaMHysUCNdR7gTsL1i9XZnCpump": {
+  "ts": "2026-11-22 23:05:45",
+  "order_id": "mwsg3qcq050m8x",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "100K",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
