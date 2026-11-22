@@ -3064,5 +3064,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "3X2xbBx6ShSVkhP2RoHGZbrQWZpxx5mdjG2PaAXzpump": {
+  "ts": "2026-11-22 07:55:06",
+  "order_id": "mwrjkm36036w4p",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JEFF",
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
