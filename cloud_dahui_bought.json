@@ -3592,5 +3592,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "BwgcBr42Zw5GsYQTiepwTng1pU2FRDK9oMvgj3tipump": {
+  "ts": "2026-11-22 22:20:05",
+  "order_id": "mwsegzru04z8k7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "murph",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
