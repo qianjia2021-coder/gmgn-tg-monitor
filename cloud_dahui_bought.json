@@ -3119,5 +3119,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3P7FLAbXeu7Mjc8SnyfLet8vwNCuk8HaXbjdxHgMpump": {
+  "ts": "2026-11-22 14:20:41",
+  "order_id": "mwrxchmm05dko5",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "FSDV15",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
