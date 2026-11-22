@@ -3185,5 +3185,38 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3FEvMfxW3zx9V6cCnQ1UmWHKTozbxAVN2LeeTY4tpump": {
+  "ts": "2026-11-22 15:45:41",
+  "order_id": "mws0dsg705nnrn",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MEW",
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": {
+  "ts": "2026-11-22 15:45:44",
+  "order_id": "mws0dupm05nosg",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MCAT",
+  "kol": 4,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
+ },
+ "476MWyHnzcUc2jAnBxdqVBFZpArT3VGGwPsUHjnjA3GC": {
+  "ts": "2026-11-22 15:46:22",
+  "order_id": "mws0eomz05nrfy",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "LMEOW",
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
