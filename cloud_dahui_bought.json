@@ -2833,5 +2833,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "BQcV4Ryfu9bZK8egAF89AhkojdJqAaDt4xTFwUQ2pump": {
+  "ts": "2026-11-22 00:50:06",
+  "order_id": "mwr4e27b04bvu3",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "RIZZMAS3",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
