@@ -3240,5 +3240,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "AmkjLviyPepGRtrFEcuBQBm84W9F64bfcwZPHEhipump": {
+  "ts": "2026-11-22 16:30:05",
+  "order_id": "mws1ywdo04giy8",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Tribe",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
