@@ -3042,5 +3042,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": {
+  "ts": "2026-11-22 07:50:06",
+  "order_id": "mwrje6tb036p01",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MOMO",
+  "kol": 18,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "2dZn4npTgAexBYquT3UqQXGiBdZf4F9tDTw419jEoS6B": {
+  "ts": "2026-11-22 07:50:10",
+  "order_id": "mwrje9m8036qgu",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ZOOAGENCY",
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
