@@ -3581,5 +3581,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "2ShQzrbeaBXzdCiLiuNnM4dK8j8HsLbFVjZgxT9zpump": {
+  "ts": "2026-11-22 22:15:06",
+  "order_id": "mwseal1q06c6gw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "1B",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
