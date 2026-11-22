@@ -2976,5 +2976,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump": {
+  "ts": "2026-11-22 06:50:06",
+  "order_id": "mwrh918a04ljgt",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CORONA",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
