@@ -3493,5 +3493,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "e8q4yhJxZ5gX9hYsfJH6srC9vgJEyxejZtJuwKwpump": {
+  "ts": "2026-11-22 21:30:05",
+  "order_id": "mwscoot304xvhr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
