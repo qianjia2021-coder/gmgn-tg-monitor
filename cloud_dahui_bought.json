@@ -2899,5 +2899,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "9GQhJ7t7Gy8DyeMVxjJZuTsHvmoZro5sVDxzNxsFpump": {
+  "ts": "2026-11-22 03:45:05",
+  "order_id": "mwran3k102zork",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MASCOIN",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
