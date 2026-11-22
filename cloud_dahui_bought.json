@@ -3317,5 +3317,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "D7iafdwzzpB7tisqQqT5T9aRrYPtHLqzwxhnLoWJgoat": {
+  "ts": "2026-11-22 18:00:41",
+  "order_id": "mws57edk04jwol",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GOAT",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
