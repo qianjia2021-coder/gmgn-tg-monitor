@@ -3306,5 +3306,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": {
+  "ts": "2026-11-22 17:55:41",
+  "order_id": "mws50zb304jthf",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "OpenIndex",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
