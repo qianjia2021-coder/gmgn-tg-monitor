@@ -3328,5 +3328,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "EBM6Qa4yJzpyS7xfJueYfMgELRJGWUeaqomWe47Jpump": {
+  "ts": "2026-11-22 18:15:40",
+  "order_id": "mws5qoeq04k8if",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "OPTIMUS",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
