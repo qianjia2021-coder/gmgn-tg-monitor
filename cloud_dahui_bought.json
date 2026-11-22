@@ -2877,5 +2877,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "EXbtecXqXP17x159RfuMrSCsWShKyeUjJzQw5vwypump": {
+  "ts": "2026-11-22 03:10:06",
+  "order_id": "mwr9e3n204fbb7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "DCTY",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
