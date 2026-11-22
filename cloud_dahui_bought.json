@@ -2789,5 +2789,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "3XiwhhcYJfyZPBT4tbDZ9hom8wwMTEM3d2YJwxLwAwYC": {
+  "ts": "2026-11-22 00:15:41",
+  "order_id": "mwr35swm04b47l",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "MEOWL",
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
