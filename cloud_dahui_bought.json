@@ -3449,5 +3449,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "FACRB1v1Bqrv13UnxkVdvobB6AXNsMoxfYFMwQfDpump": {
+  "ts": "2026-11-22 20:25:40",
+  "order_id": "mwsadv2u04w35c",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
