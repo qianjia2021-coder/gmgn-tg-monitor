@@ -3097,5 +3097,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "HkH1QyELAWDNMdeWXgS78A3huseCu5rYZ8rz2YATpump": {
+  "ts": "2026-11-22 13:25:23",
+  "order_id": "mwrvdd8705c5ci",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTAVI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
