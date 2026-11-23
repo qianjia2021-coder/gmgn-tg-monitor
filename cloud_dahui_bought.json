@@ -3713,5 +3713,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "ARMYxiiNbzToMCrhH6dNE5rb5oq2v8iGZUx6uHfcopQh": {
+  "ts": "2026-11-23 02:25:05",
+  "order_id": "mwsn82g906j9wr",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ARMY",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "F7dfaNT2bSnA3H4GH4yZxTVQNqU2eM8LE3uQJGaWpump": {
+  "ts": "2026-11-23 02:25:09",
+  "order_id": "mwsn85f3055ky1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
