@@ -3757,5 +3757,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump": {
+  "ts": "2026-11-23 03:00:05",
+  "order_id": "mwsoh2zm06l0t1",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "PEACH",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
