@@ -3933,5 +3933,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "4ZWaqSWxsTqcP2EstWHp8YybiprKP5ii3uethAM1pxLB": {
+  "ts": "2026-11-23 15:05:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "FROGE",
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "EsuZh9rs3af1ksqh2sPwwRFaKPxm1ZHBTG8LffyBpump": {
+  "ts": "2026-11-23 15:06:29",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SLEAZESEN",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
