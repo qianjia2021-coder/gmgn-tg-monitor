@@ -3768,5 +3768,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
+  "ts": "2026-11-23 03:10:05",
+  "order_id": "mwsoty1j057d8t",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Fly",
+  "kol": 4,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
