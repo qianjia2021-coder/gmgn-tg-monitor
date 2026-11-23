@@ -4615,5 +4615,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "7oLWGMuGbBm9uwDmffSdxLE98YChFAH1UdY5XpKYLff8": {
+  "ts": "2026-11-23 22:00:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "WOJAK",
+  "kol": 67,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
