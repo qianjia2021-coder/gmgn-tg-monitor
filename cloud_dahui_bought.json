@@ -4659,5 +4659,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "FyRXnHLBSeHHoigrgHR1hvcXiPbPCa5bxhVhEDampump": {
+  "ts": "2026-11-23 22:55:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "BLOOM",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "AQcV2M5MRS7WccGxocDnVFQM5jBcFR5vL5HXErTPpump": {
+  "ts": "2026-11-23 22:55:52",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SUIII",
+  "kol": 4,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
