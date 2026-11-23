@@ -4021,5 +4021,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "HqzgEmkz4KDZxPbfp8ceQEZcoA5FzdX5FxdTkqAApump": {
+  "ts": "2026-11-23 15:45:11",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JENSEN",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
