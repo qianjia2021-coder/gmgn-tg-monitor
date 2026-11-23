@@ -3812,5 +3812,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "CvXyWJRq3ZxqifMzAuyUomDvJ8PF8NitXx8HxRLGpump": {
+  "ts": "2026-11-23 04:50:06",
+  "order_id": "mwssek7k05cf95",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "WYNN",
+  "kol": 4,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
  }
 }
