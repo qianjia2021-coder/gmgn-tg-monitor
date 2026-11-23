@@ -4032,5 +4032,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "CVgbypEuPML6sYYjqeo8YpJdSDg2KHFM3zQhzUNCpump": {
+  "ts": "2026-11-23 15:50:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Lazer",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
