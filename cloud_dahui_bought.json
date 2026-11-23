@@ -3735,5 +3735,27 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "2G8kPmwMhvqnEnigXh5hoZp1utZiQovcFDq1cADRJoBM": {
+  "ts": "2026-11-23 02:35:05",
+  "order_id": "mwsnkxmy06jwol",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HELIE",
+  "kol": 3,
+  "rug_ratio": null,
+  "ok": true,
+  "err": ""
+ },
+ "F2vDH49MsyitBDaPT2kSi7W8JWXxEB5Xj7qgjVxmpump": {
+  "ts": "2026-11-23 02:35:09",
+  "order_id": "mwsnl0jp055ye7",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "HYPE",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
