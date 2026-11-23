@@ -3823,5 +3823,16 @@
   "rug_ratio": null,
   "ok": true,
   "err": ""
+ },
+ "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": {
+  "ts": "2026-11-23 13:05:47",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "2027",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
