@@ -3779,5 +3779,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "FqE4G5shp9ZQ94jtff3je4H3tTL7oFSxbRymb35epump": {
+  "ts": "2026-11-23 03:35:06",
+  "order_id": "mwspq3uc058bxw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rings",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
