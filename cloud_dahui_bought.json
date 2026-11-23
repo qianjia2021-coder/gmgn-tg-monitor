@@ -4626,5 +4626,16 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "BEwJsxthAWuXDKgfBpQnL4GqTZXBeZnpvPVwapVkpump": {
+  "ts": "2026-11-23 22:10:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "RWAINU",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
