@@ -4472,5 +4472,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "DHxG1eeTsgWEnLNQvLhhtojjfYnc1TGBnTdPfj7Kpump": {
+  "ts": "2026-11-23 20:25:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "TIMOTHY",
+  "kol": 1,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
