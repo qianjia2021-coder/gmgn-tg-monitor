@@ -3999,5 +3999,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "42uiGgChB5gn1817XmAytoo6hR96WsSXCA3MipCipump": {
+  "ts": "2026-11-23 15:35:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "sexcoin",
+  "kol": 7,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "hSbRaEo3Q9RtUaA55xJ2K757uE8kAnssiXuwprHpump": {
+  "ts": "2026-11-23 15:35:53",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "NVIDIA",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
