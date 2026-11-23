@@ -4087,5 +4087,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "5EBsafq3gSutzc9BBieAe5F6YWxstTNgbsJa1iZ737Zx": {
+  "ts": "2026-11-23 16:30:30",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "TOGI",
+  "kol": 5,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
