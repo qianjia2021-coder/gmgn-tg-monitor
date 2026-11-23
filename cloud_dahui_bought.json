@@ -3856,5 +3856,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "CuNLbjjFcmumcKF1AnUkPU4dcjykJR73M8hzJB5Cpump": {
+  "ts": "2026-11-23 13:45:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "TREMP",
+  "kol": 3,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
