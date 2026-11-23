@@ -4549,5 +4549,38 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "BTz2pNeHz28qq9EaffrdyPnGvefHyd3j46Wtuamnpump": {
+  "ts": "2026-11-23 21:15:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Rockstar",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "F9jestUaiUFPT4UPfuT9JN8pZVdbMR2LQcHgZwoJpump": {
+  "ts": "2026-11-23 21:15:17",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ELON",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "9hzdfesrcybQxTSVmNJy4LNRDPuzaKfXhtwEbmnqpump": {
+  "ts": "2026-11-23 21:15:25",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JESEN",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
