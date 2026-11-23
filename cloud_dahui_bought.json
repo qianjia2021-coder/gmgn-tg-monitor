@@ -4681,5 +4681,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "BECqBzwZmkzM7A3tWimc2qvm7ookzYi8XACHMZgipump": {
+  "ts": "2026-11-23 23:00:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "THANKS",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "Nwx5jwd9VFLNHBi2fs8hsH3vc4yHXW7dEVxfDDMpump": {
+  "ts": "2026-11-23 23:00:17",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "SGI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
