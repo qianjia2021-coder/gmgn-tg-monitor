@@ -3801,5 +3801,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": {
+  "ts": "2026-11-23 03:55:05",
+  "order_id": "mwsqfswd06mn08",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "hCAT",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
