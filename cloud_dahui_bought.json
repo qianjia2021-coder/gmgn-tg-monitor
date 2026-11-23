@@ -3702,5 +3702,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "{'err': True, 'res': 'pair not found', 'code': None}"
+ },
+ "5KzT4p9dfHsnLWgXNXgAHEam2ZLrbAMRGqHDStQjpump": {
+  "ts": "2026-11-23 02:10:05",
+  "order_id": "mwsmosd30552iw",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Trumpless",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
