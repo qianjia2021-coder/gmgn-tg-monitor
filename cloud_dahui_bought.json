@@ -3790,5 +3790,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "E2VqbQW3RHGXqfPVZxQGaUfqfipMoQuzWavz6jNfpump": {
+  "ts": "2026-11-23 03:40:05",
+  "order_id": "mwspwir706m7tj",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTA 6 Coin",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
