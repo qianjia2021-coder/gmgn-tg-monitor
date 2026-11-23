@@ -3691,5 +3691,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "FhggJa6dCqehdFtEkvjJXkeVhFUBLpnghaZEddF6pump": {
+  "ts": "2026-11-23 02:05:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "REDACTED",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "{'err': True, 'res': 'pair not found', 'code': None}"
  }
 }
