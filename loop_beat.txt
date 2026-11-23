@@ -1,1 +1,1 @@
-iter=41 | 2026-11-23 09:00:01Z | hb_age=20s | skip-local-online
+iter=42 | 2026-11-23 09:05:00Z | hb_age=3s | skip-local-online
