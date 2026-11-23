@@ -4285,5 +4285,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "DqXTrWoBec32YxvV1XrHXBantktZe1RFAiNHBozbpump": {
+  "ts": "2026-11-23 18:10:11",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CORAL",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
