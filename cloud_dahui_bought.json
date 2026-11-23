@@ -3680,5 +3680,16 @@
   "rug_ratio": 0.0,
   "ok": true,
   "err": ""
+ },
+ "HspzxmNPfiH1yUAf5vBkeoLBwUyoAncqsU5NWKhEpump": {
+  "ts": "2026-11-23 01:30:05",
+  "order_id": "mwsl9cj406hg7a",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Nana",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": true,
+  "err": ""
  }
 }
