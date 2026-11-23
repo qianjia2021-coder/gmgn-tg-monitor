@@ -4076,5 +4076,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "8ZL62tu3n6yknAAF24WCxmt5Zm19ouxkSgk5xeR2pump": {
+  "ts": "2026-11-23 16:15:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Zmolly",
+  "kol": 1,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
