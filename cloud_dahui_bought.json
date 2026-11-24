@@ -4912,5 +4912,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "5JDz2G6ov3VwTAwD6SK3onPmghDGxVULgw44P39Qpump": {
+  "ts": "2026-11-24 01:05:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "VP≠VNP",
+  "kol": 2,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
