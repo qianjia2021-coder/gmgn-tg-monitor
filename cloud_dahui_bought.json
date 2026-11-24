@@ -4813,5 +4813,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "7BPUVc14bPExLHrME1G9T8cb8KDT1Vt2Nf1exK3xpump": {
+  "ts": "2026-11-24 00:15:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTAVI",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "FmfZ7x2KmfFe8n2nErk2ajJBbMF6HmfTTwE3Hyzpump": {
+  "ts": "2026-11-24 00:15:16",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "Christmas",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
