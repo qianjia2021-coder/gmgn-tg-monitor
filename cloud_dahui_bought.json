@@ -5198,5 +5198,16 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "Fgmy6MpdrH8jjJ9i8RY53PVVdFdKLz6JX34tHJvcpump": {
+  "ts": "2026-11-24 09:00:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ANSEM",
+  "kol": 5,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
