@@ -5011,5 +5011,27 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "2XN8FiFnqQjHdvtDwZNT5W3x1PxPQCNcnMCzBTnfpump": {
+  "ts": "2026-11-24 05:00:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GTA 6 Coin",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "G7mX3Yrg9NgfDPaHsFRLyffWHGwU4bjFig6qwXv6pump": {
+  "ts": "2026-11-24 05:00:53",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "JENSEN",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
