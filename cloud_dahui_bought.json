@@ -5209,5 +5209,16 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "4pf9HEnkdN3ihjVbfZg2NwbZkCJyUk4na44oysuWpump": {
+  "ts": "2026-11-24 09:05:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "scamsem",
+  "kol": 6,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
