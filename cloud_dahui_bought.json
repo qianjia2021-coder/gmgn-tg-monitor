@@ -4923,5 +4923,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "BiLAn35QaVqQC8f8BGrE92r2n5dcDEJmqJcx1v9Apump": {
+  "ts": "2026-11-24 01:15:45",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "ATX",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
