@@ -4835,5 +4835,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "5St93zSNQvWxK22Cj5mJBXcjUNNB452h5uNmrttSpump": {
+  "ts": "2026-11-24 00:20:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "CLAUDIO",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
