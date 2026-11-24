@@ -5187,5 +5187,16 @@
   "rug_ratio": null,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "Gfcr8eAkCEvqPfTLqG6HTumNZtBzHNB9dKTwhrFpook": {
+  "ts": "2026-11-24 08:55:10",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "POOK",
+  "kol": 0,
+  "rug_ratio": null,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
