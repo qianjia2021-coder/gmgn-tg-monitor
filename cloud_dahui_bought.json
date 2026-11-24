@@ -4857,5 +4857,16 @@
   "rug_ratio": 0.0,
   "ok": false,
   "err": "HTTP Expecting value: line 1 column 1 (char 0)"
+ },
+ "94Q2tbgVcbiP1WkPuzWUjtdsDgd5VDwon6ncnfbmpump": {
+  "ts": "2026-11-24 00:35:09",
+  "order_id": "",
+  "sol": 1.0,
+  "stop_earn": 0.5,
+  "symbol": "GOLDSOL",
+  "kol": 0,
+  "rug_ratio": 0.0,
+  "ok": false,
+  "err": "HTTP Expecting value: line 1 column 1 (char 0)"
  }
 }
