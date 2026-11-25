@@ -1,9 +1,13 @@
 name: picks-cloud
 
 on:
-  # v2 触发重注册
   schedule:
     - cron: '*/5 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'picks_cloud_hb.txt'
+      - 'picks_heartbeat.txt'
   workflow_dispatch:
     inputs:
       force:
@@ -83,6 +87,6 @@ jobs:
           PICKS_TG_API_HASH: ${{ secrets.PICKS_TG_API_HASH }}
           PICKS_TG_STRING_SESSION: ${{ secrets.PICKS_TG_STRING_SESSION }}
           PICKS_CHAT_ID: '-5589667040'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PICKS_GH_PAT }}
           PICKS_SELFTEST: ${{ inputs.selftest == 'true' && '1' || '0' }}
         run: python3 cloud_picks.py
