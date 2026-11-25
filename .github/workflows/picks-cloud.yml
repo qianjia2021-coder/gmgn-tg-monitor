@@ -1,6 +1,7 @@
 name: picks-cloud
 
 on:
+  # v2 触发重注册
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
