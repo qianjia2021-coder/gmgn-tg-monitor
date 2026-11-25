@@ -255,6 +255,22 @@ async def run():
         log("缺少 PICKS_TG_* 会话配置，本轮只记录不推送")
         return 0
 
+    if os.environ.get("PICKS_SELFTEST") == "1":
+        from telethon import TelegramClient
+        from telethon.sessions import StringSession
+        client = TelegramClient(StringSession(TG_SESSION), int(TG_API_ID), TG_API_HASH, timeout=30)
+        await client.connect()
+        try:
+            auth = await client.is_user_authorized()
+            me = await client.get_me() if auth else None
+            log("SELFTEST 授权=%s user=%s uid=%s" % (
+                auth, getattr(me, "username", None), getattr(me, "id", None)))
+            ent = await client.get_entity(CHAT_ID)
+            log("SELFTEST 群可读：%s" % getattr(ent, "title", ""))
+        finally:
+            await client.disconnect()
+        return 0
+
     local_seen = load_pushed(SEEN_LOCAL)
     cloud_seen = load_pushed(SEEN_CLOUD)
     done = local_seen | cloud_seen
