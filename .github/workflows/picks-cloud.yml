@@ -1,0 +1,65 @@
+name: picks-cloud
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: picks-cloud
+  cancel-in-progress: false
+
+jobs:
+  picks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 本机心跳检查（本机在线则让路，离线才接管）
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          HB=$(curl -s -H "Authorization: Bearer $GH_TOKEN" -H "User-Agent: picks-cloud" \
+            "https://api.github.com/repos/${{ github.repository }}/commits?path=picks_heartbeat.txt&per_page=1" \
+            | python3 -c "import sys,json;d=json.load(sys.stdin);print(d[0]['commit']['committer']['date'] if d else '')" 2>/dev/null || echo "")
+          if [ -z "$HB" ]; then
+            echo "无本机心跳 → 云端接管"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          AGE=$(( $(date +%s) - $(date -d "$HB" +%s) ))
+          echo "本机心跳距今 ${AGE}s"
+          if [ "$AGE" -lt 420 ]; then
+            echo "本机在线，云端本轮让路"
+            echo "takeover=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "本机已离线，云端接管"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 安装 Python
+        if: steps.gate.outputs.takeover == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        if: steps.gate.outputs.takeover == 'true'
+        run: pip install --quiet telethon==1.45.0
+
+      - name: 运行精选云端兜底（只推送，不模拟买入）
+        if: steps.gate.outputs.takeover == 'true'
+        env:
+          PICKS_TG_API_ID: ${{ secrets.PICKS_TG_API_ID }}
+          PICKS_TG_API_HASH: ${{ secrets.PICKS_TG_API_HASH }}
+          PICKS_TG_STRING_SESSION: ${{ secrets.PICKS_TG_STRING_SESSION }}
+          PICKS_CHAT_ID: '-5589667040'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 cloud_picks.py
