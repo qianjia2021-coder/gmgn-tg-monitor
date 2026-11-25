@@ -9,6 +9,10 @@ on:
         description: '强制接管（忽略本机心跳，用于测试）'
         required: false
         default: 'false'
+      selftest:
+        description: '只做会话自检，不抓榜不推送'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -31,7 +35,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE: ${{ inputs.force }}
+          SELFTEST: ${{ inputs.selftest }}
         run: |
+          if [ "$SELFTEST" = "true" ]; then
+            echo "会话自检模式"
+            echo "takeover=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           if [ "$FORCE" = "true" ]; then
             echo "手动强制接管（测试）"
             echo "takeover=true" >> "$GITHUB_OUTPUT"
@@ -73,4 +83,5 @@ jobs:
           PICKS_TG_STRING_SESSION: ${{ secrets.PICKS_TG_STRING_SESSION }}
           PICKS_CHAT_ID: '-5589667040'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PICKS_SELFTEST: ${{ inputs.selftest == 'true' && '1' || '0' }}
         run: python3 cloud_picks.py
