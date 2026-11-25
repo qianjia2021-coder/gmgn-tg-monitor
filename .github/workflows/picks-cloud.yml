@@ -75,17 +75,21 @@ jobs:
           GH_TOKEN: ${{ secrets.PICKS_GH_PAT }}
         run: |
           sleep 275
-          TS=$(date +%s)
-          B64=$(printf '{"ts":%s,"rows":0,"new":0,"idle":1}' "$TS" | base64 -w0)
           API="https://api.github.com/repos/${{ github.repository }}/contents/picks_cloud_hb.txt"
-          SHA=$(curl -s -H "Authorization: Bearer $GH_TOKEN" -H "User-Agent: picks-cloud" "$API?ref=main" \
-            | python3 -c "import sys,json;print(json.load(sys.stdin).get('sha',''))" 2>/dev/null || echo "")
-          if [ -n "$SHA" ]; then S=",\"sha\":\"$SHA\""; else S=""; fi
-          CODE=$(curl -s -o /dev/null -w "%{http_code}" -X PUT \
-            -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
-            -H "User-Agent: picks-cloud" -H "Content-Type: application/json" \
-            "$API" -d "{\"message\":\"picks cloud hb (idle)\",\"content\":\"$B64\",\"branch\":\"main\"$S}")
-          echo "云端心跳链续写 HTTP $CODE"
+          for i in 1 2 3; do
+            TS=$(date +%s)
+            B64=$(printf '{"ts":%s,"rows":0,"new":0,"idle":1}' "$TS" | base64 -w0)
+            SHA=$(curl -s -H "Authorization: Bearer $GH_TOKEN" -H "User-Agent: picks-cloud" "$API?ref=main" \
+              | python3 -c "import sys,json;print(json.load(sys.stdin).get('sha',''))" 2>/dev/null || echo "")
+            if [ -n "$SHA" ]; then S=",\"sha\":\"$SHA\""; else S=""; fi
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" -X PUT \
+              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              -H "User-Agent: picks-cloud" -H "Content-Type: application/json" \
+              "$API" -d "{\"message\":\"picks cloud hb (idle)\",\"content\":\"$B64\",\"branch\":\"main\"$S}")
+            echo "云端心跳链续写第 $i 次 HTTP $CODE"
+            [ "$CODE" = "200" ] && break
+            sleep 6
+          done
 
       - name: 安装 Python
         if: steps.gate.outputs.takeover == 'true'
