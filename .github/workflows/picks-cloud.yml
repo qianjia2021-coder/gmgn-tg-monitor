@@ -70,7 +70,9 @@ jobs:
           fi
 
       - name: 维持云端心跳链（本机在线让路时也续链，保证关机后仍能自触发）
-        if: steps.gate.outputs.takeover != 'true' && inputs.selftest != 'true'
+        # schedule 触发的让路轮不续链：否则 schedule 与 push 两条链叠加，
+        # 每轮 275 秒的处理能力会被双倍触发拖成排队
+        if: steps.gate.outputs.takeover != 'true' && inputs.selftest != 'true' && github.event_name != 'schedule'
         env:
           GH_TOKEN: ${{ secrets.PICKS_GH_PAT }}
         run: |
