@@ -52,6 +52,7 @@ RRS_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36")
 RRS_TIMEOUT = 12
 FETCH_TRIES = 3
+PACE_SECONDS = 285   # 自持链节流：本轮补齐到约 5 分钟再写心跳，由心跳 push 触发下一轮
 
 CHAIN_LABEL = {
     "sol": "SOL", "bsc": "BSC", "eth": "ETH", "base": "BASE",
@@ -66,6 +67,16 @@ CHAIN_SEG = {
 
 def log(msg):
     print("[%s] %s" % (time.strftime("%Y-%m-%d %H:%M:%S"), msg), flush=True)
+
+
+def _pace(t0):
+    """写完云端心跳就会触发下一轮，因此先补齐节奏，保证约 5 分钟一轮。"""
+    if os.environ.get("PICKS_SELFTEST") == "1":
+        return
+    gap = PACE_SECONDS - (time.time() - t0)
+    if gap > 0:
+        log("节流等待 %ds（补齐到约 %ds 一轮）" % (int(gap), PACE_SECONDS))
+        time.sleep(gap)
 
 
 # ---------------------------------------------------------------- GitHub 读写
@@ -248,6 +259,7 @@ def render(row, rank):
 
 # ---------------------------------------------------------------- 主流程
 async def run():
+    t0 = time.time()
     if not GH_TOKEN:
         log("缺少 GITHUB_TOKEN，无法读写状态")
         return 2
@@ -279,6 +291,9 @@ async def run():
     rows = fetch_rows()
     if rows is None:
         log("连续 %d 次抓取失败，本轮放弃" % FETCH_TRIES)
+        _pace(t0)
+        gh_put(HB_CLOUD, json.dumps({"ts": int(time.time()), "rows": 0, "new": 0, "err": "fetch"}),
+               "picks cloud hb (fetch fail)")
         return 1
     log("榜单 %d 条，前三：%s" % (
         len(rows), " / ".join("%s(%s)" % (r["symbol"], r["chain"]) for r in rows[:TOP_N])))
@@ -287,6 +302,7 @@ async def run():
     new_rows = [r for r in top if "%s:%s" % (r["chain"], r["address"]) not in done]
     if not new_rows:
         log("前三名都推过，本轮无推送")
+        _pace(t0)
         gh_put(HB_CLOUD, json.dumps({"ts": int(time.time()), "rows": len(rows), "new": 0}), "picks cloud hb")
         return 0
 
@@ -298,6 +314,9 @@ async def run():
     try:
         if not await client.is_user_authorized():
             log("云端会话未授权（可能已失效），本轮只记录不推送")
+            _pace(t0)
+            gh_put(HB_CLOUD, json.dumps({"ts": int(time.time()), "rows": len(rows), "new": 0,
+                                         "err": "unauthorized"}), "picks cloud hb (unauth)")
             return 3
         for r in new_rows:
             key = "%s:%s" % (r["chain"], r["address"])
@@ -323,6 +342,7 @@ async def run():
         cloud_seen |= set(pushed_now)
         gh_put(SEEN_CLOUD, json.dumps({"pushed": sorted(cloud_seen), "updated": int(time.time())},
                                       ensure_ascii=False), "picks cloud seen +%d" % len(pushed_now))
+    _pace(t0)
     gh_put(HB_CLOUD, json.dumps({"ts": int(time.time()), "rows": len(rows), "new": len(pushed_now)},
                                 ensure_ascii=False), "picks cloud hb")
     return 0
